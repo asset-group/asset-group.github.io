@@ -30,6 +30,11 @@ role-tables:
         {% for post in site.posts limit: site.front_page_news %}
             {% include news-item.html item=post %}
         {% endfor %}
+			<b>July 2018:</b> We have proposed <b><i>oo7</i></b> - a low-overhead (below 2%) 
+			defense against <a href="https://arxiv.org/pdf/1801.01203.pdf">Spectre attacks</a> 
+			based on binary analysis. Our proposed approach is now available in 
+			<a href="https://arxiv.org/abs/1807.05843">arxiv.1807.05843</a>. To try <b><i>oo7</i></b>, 
+			send a request <a href="https://oo7.comp.nus.edu.sg/">here</a>.	
     </ul>
     {% assign numposts = site.posts | size %}
     {% if numposts >= 1 %}

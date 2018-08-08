@@ -1,8 +1,8 @@
 ---
-title: Securing Embedded Systems against Information Leakage
+title: Verification and Validation of Side-channel Freedom
 
 description: |
-  Secure Embedded Systems
+  Protecting systems against side-channel attacks.
 
 people:
   - mehak
@@ -12,4 +12,4 @@ layout: project
 last-updated: 2015-05-05
 ---
 
-Secure Embedded Systems and cool things
+Securing systems against side-channel attacks.
