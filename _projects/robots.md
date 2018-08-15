@@ -12,7 +12,7 @@ people:
   - rishabh
 
 layout: project
-last-updated: 2015-05-05
+last-updated: 2018-08-14
 ---
 
 Robot project description

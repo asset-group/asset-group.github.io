@@ -10,7 +10,7 @@ michele:
     display_name: "Michele Lora"
     role: postdoc
     webpage: "https://www.linkedin.com/in/michele-lora-0a235417/"
-    bio: "Post Doc"
+    bio: "Post Doc (PhD, University of Verona, Italy)"
     image: /img/people/Michele_Lora.jpg
 
 chundong:
@@ -18,77 +18,115 @@ chundong:
     webpage: "https://sites.google.com/view/wangc"
     role: postdoc
     image: /img/people/Chundong_Wang.jpg
-    bio: "Post Doc"
+    bio: "Post Doc (PhD, NUS, Singapore)"
 
 unni:
     display_name: "Unnikrishnan Cheramangalath"
     webpage: "https://www.linkedin.com/in/unnikrishnan-cheramangalath-52282715/"
     role: postdoc
     image: /img/people/Unnikrishnan_Cheramangalath.jpg
-    bio: "Post Doc"
+    bio: "Post Doc (PhD, Indian Institute of Science, India)"
 
 xingbin:
     display_name: "Xingbin Jiang"
     webpage: "https://www.linkedin.com/in/xingbin-jiang-4b2685140/"
-    role: postdoc
+    role: postdoc 
     image: /img/people/Jiang_Xingbin.jpg
-    bio: "Research Assistant"
+    bio: "Research Assistant (ME, Chinese Academy of Sciences)"
 
 adrian:
     display_name: "Adrian Horga"
     webpage: "https://www.ida.liu.se/~adrho74/"
     role: visitor
     image: /img/people/Adrian_Horga.jpg
+    bio: "PhD Student (Linkoeping University, Sweden)"
 
 yeeching:
     display_name: "Tok Yee Ching"
     webpage: "https://poppopretn.com"
     role: grad
     image: /img/people/Tok_Yee_Ching.jpg
+    bio: "PhD Student, SUTD"
 
 sakshi:
     display_name: "Sakshi Udeshi"
     webpage: "http://sakshiudeshi.github.io"
     role: grad
     image: /img/people/Sakshi_Udeshi.jpg
+    bio: "PhD Student, SUTD"
 
 rishabh:
     display_name: "Rishabh Singhal"
-    role: visitor
+    role: alum
     bio: "Research Intern"
     image: /img/people/Rishabh_Singhal.jpg
+    bio: "Undergraduate Student, IIT Patna"
+
+kartik:
+    display_name: "Kartik Aggarwal"
+    role: alum
+    bio: "Research Intern"
+    bio: "Undergraduate Student, BITS Pilani, India"
+
+arian:
+    display_name: "Arian Maghazeh"
+    role: alum
+    bio: "Research Intern"
+    bio: "PhD Student, Linkoeping University, Sweden"
 
 mehak:
     display_name: "Mehak Aggarwal"
-    role: visitor
+    role: alum
     bio: "Research Intern"
     image: /img/people/Mehak_Aggarwal.jpeg
+    bio: "Undergraduate Student, IIT Delhi"
+
+amit:
+    display_name: "Amit Behal"
+    role: visitor
+    bio: "Research Intern"
+    bio: "PhD Student, IIT Ropar"
+
+jingxuan:
+    display_name: "Jingxuan Jiang"
+    role: visitor
+    bio: "Research Intern"
+    bio: "Masters Student, Shandong University, China"
+
+gunavaran:
+    display_name: "Gunavaran Brihadiswarn"
+    role: visitor
+    bio: "Research Intern"
+    bio: "Undergraduate Student, University of Moratuwa, Srilanka"
 
 rohini:
     display_name: "Rohini Poolat"
     role: postdoc
-    bio: "Research Assistant"
+    bio: "Research Assistant (ME, NTU, Singapore)"
     image: /img/people/Rohini_Poolat.jpg
 
 baqer:
     display_name: "Muhammad Baqer Mollah"
     role: postdoc
-    bio: "Research Assistant"
+    bio: "Research Assistant (MS, Jahangirnagar University, Bangladesh)"
     image: /img/people/Muhammad_Baqer.jpg
 
 eyasu:
     display_name: "Eyasu Getahun Chekole"
     webpage: "http://people.sutd.edu.sg/~eyasugetahun/"
     role: grad
+    bio: "PhD Student, SUTD"
     image: /img/people/Eyasu_Chekole.jpeg
 
 pryanshu:
     display_name: "Pryanshu Arora"
     role: alum
+    bio: "Undergraduate Student, BITS Pilani, India"
 
 tanya:
     display_name: "Tanya Srivastava"
     role: alum
+    bio: "Undergraduate Student, BITS Pilani, India"
 
 
 # alum-b:
