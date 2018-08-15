@@ -2,17 +2,31 @@
 title: Security and Performance Validation of Robots
 
 description: |
-  Robots and other cool things
+  Robotics Safety and Security
 
 people:
   - chundong
   - rohini
   - yeeching
   - michele
-  - rishabh
+  - amit
 
 layout: project
 last-updated: 2018-08-14
 ---
 
-Robot project description
+<p style="text-align:justify">
+
+In this project, we investigate the security and safety of robotics 
+systems. The objective is to obtain safety and security by design. 
+To this end, we are designing effective and efficient fuzzing techniques 
+to discover security flaws in robots, using light-weight solutions 
+to meet both the security and performance goals, designing efficient 
+verification algorithms to check various robotics-related safety 
+properties and using domain-specific languages to synthesize 
+robot controller code that satisfies correctness by construction. 
+See our preliminary study here: 
+
+<a href="https://sudiptac.bitbucket.io/papers/robotics-verification.pdf">CODES-WiP-2018</a>. 
+ 
+</p>
