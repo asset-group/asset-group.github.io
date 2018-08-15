@@ -7,8 +7,7 @@ description: |
 people:
   - chundong
   - sakshi
-  - pryanshu
-  - tanya
+  - jingxuan
 
 layout: project
 last-updated: 2018-08-13

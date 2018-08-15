@@ -6,6 +6,13 @@ sudipta:
     image: /img/people/sudipta.jpg
     bio: "Assistant Professor"
 
+ahmed:
+    display_name: "Ahmed Rezine"
+    webpage: "http://www.ahmedrezine.com/"
+    role: faculty
+    image: /img/people/ahmed.jpg
+    bio: "Collaborator, Associate Professor (Linköping University, Sweden)"
+
 michele:
     display_name: "Michele Lora"
     role: postdoc
@@ -39,7 +46,7 @@ adrian:
     webpage: "https://www.ida.liu.se/~adrho74/"
     role: visitor
     image: /img/people/Adrian_Horga.jpg
-    bio: "PhD Student (Linkoeping University, Sweden)"
+    bio: "PhD Student (Linköping University, Sweden)"
 
 yeeching:
     display_name: "Tok Yee Ching"
@@ -72,7 +79,7 @@ arian:
     display_name: "Arian Maghazeh"
     role: alum
     bio: "Research Intern"
-    bio: "PhD Student, Linkoeping University, Sweden"
+    bio: "PhD Student, Linköping University, Sweden"
 
 mehak:
     display_name: "Mehak Aggarwal"
@@ -102,7 +109,7 @@ gunavaran:
 rohini:
     display_name: "Rohini Poolat"
     role: postdoc
-    bio: "Research Assistant (ME, NTU, Singapore)"
+    bio: "Research Assistant (MTech, NUS, Singapore)"
     image: /img/people/Rohini_Poolat.jpg
 
 baqer:

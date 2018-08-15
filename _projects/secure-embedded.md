@@ -2,11 +2,14 @@
 title: Verification and Validation of Side-channel Freedom
 
 description: |
-  Securing systems against side-channel attacks.
-
+ <p style="text-align:justify">
+  Securing systems against side-channel attacks. <font color="red">
+  <b> We have two post-doc positions open in this project 
+  starting Jan, 2019</b></font>.
+ </p>
 people:
-  - mehak
   - chundong
+  - ahmed
 
 layout: project
 last-updated: 2018-08-15
