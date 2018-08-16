@@ -24,3 +24,9 @@ Micro-architectural timing channels are one of the best-known side channels expl
 			<a href="https://sudiptac.bitbucket.io/papers/sbst_side_channel.pdf">ICSTW-2017</a>, 
 			<a href="https://sudiptac.bitbucket.io/papers/sparta.pdf">ASPDAC-2016</a>.
 </p>
+
+<p style="text-align:justify">
+<b>Acknowledgement:</b> We are grateful to SUTD and 
+Singapore <a href="https://www.moe.gov.sg/">Ministry of Education (MOE)</a> 
+for generously supporting this project. 
+</p>

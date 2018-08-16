@@ -30,3 +30,11 @@ See our preliminary study here:
 <a href="https://sudiptac.bitbucket.io/papers/robotics-verification.pdf">CODES-WiP-2018</a>. 
  
 </p>
+
+
+<p style="text-align:justify">
+<b>Acknowledgement:</b> We are grateful to the 
+<a href="https://www.a-star.edu.sg/Research/Research-Focus/Engineering">National Robotics Programme (NRP)</a> 
+for generously supporting this project. 
+</p>
+
