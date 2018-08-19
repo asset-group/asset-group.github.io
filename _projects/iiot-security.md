@@ -25,3 +25,9 @@ discover possible security breaches in IIoT devices?
 security (specifically, for DoS attacks and malware)?
 
 </p>  
+
+<p style="text-align:justify">
+<b>Acknowledgement:</b> We are grateful to 
+<a href="https://www.keysight.com/us/en/home.html">Keysight Technologies</a> 
+for generously supporting this project. 
+</p>
