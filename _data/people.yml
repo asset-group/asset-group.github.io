@@ -9,9 +9,9 @@ sudipta:
 ahmed:
     display_name: "Ahmed Rezine"
     webpage: "http://www.ahmedrezine.com/"
-    role: faculty
+    role: collab
     image: /img/people/ahmed.jpg
-    bio: "Project collaborator, Associate Professor (Linköping University, Sweden)"
+    bio: "Assistant Professor (Linköping University, Sweden)"
 
 michele:
     display_name: "Michele Lora"
@@ -116,7 +116,7 @@ baqer:
     display_name: "Muhammad Baqer Mollah"
     webpage: "https://sites.google.com/site/baqerweb/"
     role: postdoc
-    bio: "Research Assistant (MS, Jahangirnagar University, Bangladesh)"
+    bio: "Research Assistant (MS, Jahangirnagar University)"
     image: /img/people/Muhammad_Baqer.jpg
 
 eyasu:
