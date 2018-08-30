@@ -47,7 +47,8 @@ timing-channel Freedom.
 Applicants should possess a Ph.D. degree in Computer Science or
 equivalent. A successful candidate should have a strong research
 experience in some of the following fields: program analysis, symbolic
-execution, formal verification, model checking, testing, security. 
+execution, computer architecture, formal verification, model checking, 
+testing, security. 
 A Post-Doctoral position is time-limited for a year and extendable 
 to two years upon satisfactory evaluation by the investigators. 
  
@@ -57,17 +58,18 @@ to two years upon satisfactory evaluation by the investigators.
 <b>Application for Postdoc Positions:</b><br>
 </font>
 
-Applications should include a two page research statement describing 
-your research interests and experience and how they relate to the 
-project, a detailed CV and the contact information of two reference
-persons. Prospective candidates are expected to join from <b>February 
+Applications should include a two-page research statement describing 
+his/her research interests and experience and how they relate to the 
+project, a detailed CV and the contact information of two referees. 
+Prospective candidates are expected to join from <b>February 
 2019</b> or soon after.
 
-You are welcome to submit your application no later than 
-<b>31st October, 2018</b>. 
+We will look for applications until the positions are filled. However, 
+prospective applicants are highly encouraged to submit their 
+applications by <b>31st October, 2018</b>. 
 
-For submitting your application, combine all the documents in a single 
-PDF and send to <b>Sudipta Chattopadhyay (email: sudipta_chattopadhyay@sutd.edu.sg)</b>
+For submitting the application, combine all the required documents in a single 
+PDF document and send to <b>Sudipta Chattopadhyay (email: sudipta_chattopadhyay@sutd.edu.sg)</b>
 and <b>Ahmed Rezine (email: ahmed.rezine@liu.se)</b> — the investigators of the project. 
 All research activities will be carried out in SUTD, Singapore. 
 
