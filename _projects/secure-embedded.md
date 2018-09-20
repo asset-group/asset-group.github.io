@@ -5,7 +5,7 @@ description: |
  <p style="text-align:justify">
   Securing systems against side-channel attacks. <font color="red">
   <b> We have two post-doc positions open in this project 
-  starting Jan, 2019</b></font>.
+  starting Feb, 2019</b></font>.
  </p>
 people:
   - chundong
@@ -29,4 +29,61 @@ Micro-architectural timing channels are one of the best-known side channels expl
 <b>Acknowledgement:</b> We are grateful to SUTD and 
 Singapore <a href="https://www.moe.gov.sg/">Ministry of Education (MOE)</a> 
 for generously supporting this project. 
+</p>
+
+<p style="text-align:justify">
+<font color="red">
+<b>Open Positions for Postdocs:</b><br>
+</font>
+
+We are looking for <b>two (2) Post-Doctoral candidates</b> to work on 
+techniques for analysing, validating and shielding micro-architectural timing 
+channels. The positions are funded by a recent highly competitive 
+three-years grant from the Singapore Ministry of Education (MOE) on 
+automating the analysis and validation of Micro-architectural 
+timing-channel Freedom. 
+
+
+Applicants should possess a Ph.D. degree in Computer Science or
+equivalent. A successful candidate should have a strong research
+experience in some of the following fields: program analysis, symbolic
+execution, computer architecture, formal verification, model checking, 
+testing, security. 
+A Post-Doctoral position is time-limited for a year and extendable 
+to two years upon satisfactory evaluation by the investigators. 
+ 
+  
+<p style="text-align:justify">
+<font color="red">
+<b>Application for Postdoc Positions:</b><br>
+</font>
+
+Applications should include a two-page research statement describing 
+his/her research interests and experience and how they relate to the 
+project, a detailed CV and the contact information of two referees. 
+Prospective candidates are expected to join from <b>February 
+2019</b> or soon after.
+
+We will look for applications until the positions are filled. However, 
+prospective applicants are highly encouraged to submit their 
+applications by <b>31st October, 2018</b>. 
+
+For submitting the application, combine all the required documents in a single 
+PDF document and send to <b>Sudipta Chattopadhyay (email: sudipta_chattopadhyay@sutd.edu.sg)</b>
+and <b>Ahmed Rezine (email: ahmed.rezine@liu.se)</b> — the investigators of the project. 
+All research activities will be carried out in SUTD, Singapore. 
+
+</p>
+
+<p style="text-align:justify">
+<font color="red">
+<b>Open Positions for Student Researchers:</b><br>
+</font>
+
+If you are a student (undergraduate or masters) in SUTD or in Singapore, there 
+exists multiple opportunities to participate in the scientific activities within 
+the project (e.g. via UROP). If you are interested to contribute in the project, 
+then simply drop the project investigator Sudipta an email 
+(<b>email: sudipta_chattopadhyay@sutd.edu.sg</b>) to set up a meeting.  
+
 </p>
