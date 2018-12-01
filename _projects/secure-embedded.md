@@ -1,5 +1,5 @@
 ---
-title: Verification and Validation of Side-channel Freedom
+title: Side-channel Freedom
 
 description: |
  <p style="text-align:justify">

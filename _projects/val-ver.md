@@ -1,5 +1,5 @@
 ---
-title: Validation, Verification and Optimization of Software Non-functional Properties
+title: Systems and Software Engineering for Performance
 
 description: |
   Validation, Verification and Optimization of Non-functional Software Properties (e.g. performance).
