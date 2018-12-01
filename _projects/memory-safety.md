@@ -27,10 +27,8 @@ enforced by typical CPS. Secondly, the state-of-the-art
 memory-safety attack mitigation is to abort the system when 
 a memory-safety attack is identified. Such a solution is also 
 not applicable for CPS, as the availability of a CPS is 
-equally important as security. To know more about our work 
-here check the following publication: 
+equally important as security. 
 
-<a href="https://doi.org/10.1007/978-3-319-94496-8_2">ESSoS2018</a>. 
 
 
 For IIoT, we aim to answer the following research 
@@ -41,6 +39,11 @@ device?
 discover possible security breaches in IIoT devices? 
 3) How do we design IIoT devices robust in terms of 
 security (specifically, for DoS attacks and malware)?
+
+To know more about our work here check the following publication: 
+
+<a href="https://doi.org/10.1007/978-3-319-94496-8_2">ESSoS2018</a>. 
+
 </p>
 
 <p style="text-align:justify">
