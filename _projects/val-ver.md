@@ -2,7 +2,7 @@
 title: Fast Software and Systems 
 
 description: |
-  Validation, Verification and Optimization of Non-functional Software Properties (e.g. performance).
+  Validation, Verification and Optimization of Software and Systems Performance.
 
 people:
   - chundong
@@ -17,6 +17,7 @@ last-updated: 2015-05-05
 			by taking into account its non-functional properties. To know more about the topic, please take 
 			a look at our following publications: 
 
+			 <a href="https://sudiptac.bitbucket.io/papers/ktile.pdf">DATE-2019</a>,
 			 <a href="https://sudiptac.bitbucket.io/papers/lawn.pdf">DAC-2018</a>,
 			 <a href="https://sudiptac.bitbucket.io/papers/grab.pdf">JSA-2016</a>,
 			 <a href="https://sudiptac.bitbucket.io/papers/mess_spin2015.pdf">SPIN-2015</a>,
