@@ -1,5 +1,5 @@
 ---
-title: Validation and Optimization of Autonomous Systems
+title: AI Safety and Security 
 
 description: |
   Validation and Verification of AI/ML-based Systems.
