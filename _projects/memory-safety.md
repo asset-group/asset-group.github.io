@@ -2,7 +2,9 @@
 title: CPS/IoT Security
 
 description: |
+<p style="text-align:justify">
   Memory Safety of Cyber-physical Systems, IIoT Security Testing and Countermeasures.
+</p>
 
 people:
   - eyasu
