@@ -1,5 +1,5 @@
 ---
-title: Safety and Security of Robots
+title: Trustworthy Robots
 
 description: |
   Verification and validation of Robotics Safety and Security.
