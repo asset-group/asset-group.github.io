@@ -1,8 +1,8 @@
 ---
-title: Security and Performance Validation of Robots
+title: Trustworthy Robots
 
 description: |
-  Robotics Safety and Security
+  Verification and validation of Robotics Safety and Security.
 
 people:
   - chundong
