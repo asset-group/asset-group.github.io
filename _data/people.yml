@@ -1,3 +1,4 @@
+#Faculty
 sudipta:
     display_name: "Sudipta Chattopadhyay"
     webpage: "https://sudiptac.bitbucket.io"
@@ -6,6 +7,7 @@ sudipta:
     image: /img/people/sudipta.jpg
     bio: "Assistant Professor"
 
+#Collaborators
 ahmed:
     display_name: "Ahmed Rezine"
     webpage: "http://www.ahmedrezine.com/"
@@ -13,6 +15,7 @@ ahmed:
     image: /img/people/ahmed.jpg
     bio: "Associate Professor (Linköping University, Sweden)"
 
+#Post Docs/Researchers
 michele:
     display_name: "Michele Lora"
     role: postdoc
@@ -41,71 +44,6 @@ xingbin:
     image: /img/people/Jiang_Xingbin.jpg
     bio: "Research Assistant (ME, Chinese Academy of Sciences)"
 
-adrian:
-    display_name: "Adrian Horga"
-    webpage: "https://www.ida.liu.se/~adrho74/"
-    role: visitor
-    image: /img/people/Adrian_Horga.jpg
-    bio: "PhD Student (Linköping University, Sweden)"
-
-yeeching:
-    display_name: "Tok Yee Ching"
-    webpage: "https://poppopretn.com"
-    role: grad
-    image: /img/people/Tok_Yee_Ching.jpg
-    bio: "PhD Student, SUTD"
-
-sakshi:
-    display_name: "Sakshi Udeshi"
-    webpage: "http://sakshiudeshi.github.io"
-    role: grad
-    image: /img/people/Sakshi_Udeshi.jpg
-    bio: "PhD Student, SUTD"
-
-rishabh:
-    display_name: "Rishabh Singhal"
-    role: alum
-    bio: "Research Intern"
-    image: /img/people/Rishabh_Singhal.jpg
-    bio: "Undergraduate Student, IIT Patna"
-
-kartik:
-    display_name: "Kartik Aggarwal"
-    role: alum
-    bio: "Research Intern"
-    bio: "Undergraduate Student, BITS Pilani, India"
-
-arian:
-    display_name: "Arian Maghazeh"
-    role: alum
-    bio: "Research Intern"
-    bio: "PhD Student, Linköping University, Sweden"
-
-mehak:
-    display_name: "Mehak Aggarwal"
-    role: alum
-    bio: "Research Intern"
-    image: /img/people/Mehak_Aggarwal.jpeg
-    bio: "Undergraduate Student, IIT Delhi"
-
-amit:
-    display_name: "Amit Behal"
-    role: visitor
-    bio: "Research Intern"
-    bio: "PhD Student, IIT Ropar"
-
-jingxuan:
-    display_name: "Jingxuan Jiang"
-    role: visitor
-    bio: "Research Intern"
-    bio: "Masters Student, Shandong University, China"
-
-gunavaran:
-    display_name: "Gunavaran Brihadiswarn"
-    role: visitor
-    bio: "Research Intern"
-    bio: "Undergraduate Student, University of Moratuwa, Srilanka"
-
 rohini:
     display_name: "Rohini Poolat"
     role: postdoc
@@ -119,101 +57,89 @@ baqer:
     bio: "Research Assistant (MS, Jahangirnagar University)"
     image: /img/people/Muhammad_Baqer.jpg
 
+#Visitors
+adrian:
+    display_name: "Adrian Horga"
+    webpage: "https://www.ida.liu.se/~adrho74/"
+    role: visitor
+    image: /img/people/Adrian_Horga.jpg
+    bio: "PhD Student (Linköping University, Sweden)"
+
+amit:
+    display_name: "Amit Behal"
+    role: visitor
+    bio: "Research Intern"
+    bio: "PhD Student (IIT Ropar)"
+
+jingxuan:
+    display_name: "Jingxuan Jiang"
+    role: visitor
+    bio: "Research Intern"
+    bio: "Masters Student (Shandong University, China)"
+
+#Grad Students
+yeeching:
+    display_name: "Tok Yee Ching"
+    webpage: "https://poppopretn.com"
+    role: grad
+    image: /img/people/Tok_Yee_Ching.jpg
+    bio: "PhD Student (SUTD)"
+
+sakshi:
+    display_name: "Sakshi Udeshi"
+    webpage: "http://sakshiudeshi.github.io"
+    role: grad
+    image: /img/people/Sakshi_Udeshi.jpg
+    bio: "PhD Student (SUTD)"
+
 eyasu:
     display_name: "Eyasu Getahun Chekole"
     webpage: "http://people.sutd.edu.sg/~eyasugetahun/"
     role: grad
-    bio: "PhD Student, SUTD"
+    bio: "PhD Student (SUTD)"
     image: /img/people/Eyasu_Chekole.jpeg
+
+#Alumni
+arian:
+    display_name: "Arian Maghazeh"
+    role: alum
+    bio: "Research Intern"
+    bio: "PhD Student (Linköping University, Sweden)"
+
+rishabh:
+    display_name: "Rishabh Singhal"
+    role: alum
+    bio: "Research Intern"
+    image: /img/people/Rishabh_Singhal.jpg
+    bio: "Undergraduate Student (IIT Patna)"
+
+kartik:
+    display_name: "Kartik Aggarwal"
+    role: alum
+    bio: "Research Intern"
+    bio: "Undergraduate Student (BITS Pilani, India)"
+
+mehak:
+    display_name: "Mehak Aggarwal"
+    role: alum
+    bio: "Research Intern"
+    image: /img/people/Mehak_Aggarwal.jpeg
+    bio: "Undergraduate Student (IIT Delhi)"
+
+gunavaran:
+    display_name: "Gunavaran Brihadiswarn"
+    role: alum
+    bio: "Research Intern"
+    bio: "Undergraduate Student (University of Moratuwa, Sri Lanka)"
 
 pryanshu:
     display_name: "Pryanshu Arora"
     role: alum
-    bio: "Undergraduate Student, BITS Pilani, India"
+    bio: "Undergraduate Student (BITS Pilani, India)"
 
 tanya:
     display_name: "Tanya Srivastava"
     role: alum
-    bio: "Undergraduate Student, BITS Pilani, India"
+    bio: "Undergraduate Student (BITS Pilani, India)"
 
 
-# alum-b:
-#     display_name: "Alum B With Way Longer Name"
-#     role: alum
-
-# alum-c:
-#     display_name: "Alum C"
-#     role: alum
-#     webpage: "https://www.google.com"
-
-# alum-d:
-#     display_name: "Alum D"
-#     role: alum
-
-# alum-e:
-#     display_name: "Alum E"
-#     role: alum
-
-# alum-f:
-#     display_name: "Alum F"
-#     role: alum
-
-# alum-g:
-#     display_name: "Alum G"
-#     role: alum
-
-# alum-h:
-#     display_name: "Alum H"
-#     role: alum
-
-# alum-i:
-#     display_name: "Alum I"
-#     role: alum
-
-# collab-a:
-#     display_name: "Collaborator A"
-#     role: collab
-
-# collab-b:
-#     display_name: "Collaborator B With Long Name"
-#     role: collab
-
-# collab-c:
-#     display_name: "Collaborator C"
-#     role: collab
-
-# collab-d:
-#     display_name: "Collaborator D"
-#     role: collab
-
-# collab-e:
-#     display_name: "Collaborator E"
-#     role: collab
-
-# ugrad-a:
-#     display_name: "Ugrad A"
-#     role: ugrad
-
-# ugrad-b:
-#     display_name: "Ugrad Student B With Long Name"
-#     role: ugrad
-
-# ugrad-c:
-#     display_name: "Ugrad C"
-#     role: ugrad
-
-# ugrad-d:
-#     display_name: "Ugrad D"
-#     role: ugrad
-
-# ugrad-e:
-#     display_name: "Ugrad E"
-#     role: ugrad
-
-# ugrad-alum-a:
-#     display_name: "Past Ugrad A"
-#     role: ugrad-alum
-
-# ugrad-alum-b:
-#     display_name: "Past Ugrad Student B With Long Name"
-#     role: ugrad-alum
