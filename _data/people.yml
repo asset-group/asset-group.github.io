@@ -50,27 +50,13 @@ rohini:
     bio: "Research Assistant (MTech, NUS, Singapore)"
     image: /img/people/Rohini_Poolat.jpg
 
-baqer:
-    display_name: "Muhammad Baqer Mollah"
-    webpage: "https://sites.google.com/site/baqerweb/"
+matheus:
+    display_name: "Matheus Eduardo"
     role: postdoc
-    bio: "Research Assistant (MS, Jahangirnagar University)"
-    image: /img/people/Muhammad_Baqer.jpg
+    bio: "Research Assistant (Pontifical Catholic University of Paraná)"
+    image: /img/people/Matheus_Eduardo.jpg
 
 #Visitors
-adrian:
-    display_name: "Adrian Horga"
-    webpage: "https://www.ida.liu.se/~adrho74/"
-    role: visitor
-    image: /img/people/Adrian_Horga.jpg
-    bio: "PhD Student (Linköping University, Sweden)"
-
-amit:
-    display_name: "Amit Behal"
-    role: visitor
-    bio: "Research Intern"
-    bio: "PhD Student (IIT Ropar)"
-
 jingxuan:
     display_name: "Jingxuan Jiang"
     role: visitor
@@ -100,6 +86,26 @@ eyasu:
     image: /img/people/Eyasu_Chekole.jpeg
 
 #Alumni
+baqer:
+    display_name: "Muhammad Baqer Mollah"
+    webpage: "https://sites.google.com/site/baqerweb/"
+    role: alum
+    bio: "Research Assistant (MS, Jahangirnagar University)"
+    image: /img/people/Muhammad_Baqer.jpg
+
+adrian:
+    display_name: "Adrian Horga"
+    webpage: "https://www.ida.liu.se/~adrho74/"
+    role: alum
+    image: /img/people/Adrian_Horga.jpg
+    bio: "PhD Student (Linköping University, Sweden)"
+
+amit:
+    display_name: "Amit Behal"
+    role: alum
+    bio: "Research Intern"
+    bio: "PhD Student (IIT Ropar)"
+
 arian:
     display_name: "Arian Maghazeh"
     role: alum
