@@ -6,10 +6,8 @@ description: |
 
 people:
   - chundong
-  - rohini
   - yeeching
   - michele
-  - amit
 
 layout: project
 last-updated: 2018-08-14

@@ -5,10 +5,8 @@ description: |
   Memory Safety of Cyber-physical Systems, IIoT Security Testing and Countermeasures.
 
 people:
-  - eyasu
   - unni
   - xingbin
-  - baqer
   - michele
 
 layout: project
