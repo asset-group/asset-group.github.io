@@ -46,7 +46,7 @@ xingbin:
 
 rohini:
     display_name: "Rohini Poolat"
-    role: postdoc
+    role: alum
     bio: "Research Assistant (MTech, NUS, Singapore)"
     image: /img/people/Rohini_Poolat.jpg
 
@@ -81,7 +81,7 @@ sakshi:
 eyasu:
     display_name: "Eyasu Getahun Chekole"
     webpage: "http://people.sutd.edu.sg/~eyasugetahun/"
-    role: grad
+    role: alum
     bio: "PhD Student (SUTD)"
     image: /img/people/Eyasu_Chekole.jpeg
 
