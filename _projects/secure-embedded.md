@@ -10,6 +10,7 @@ description: |
 people:
   - chundong
   - ahmed
+  - eric
 
 layout: project
 last-updated: 2018-08-15

@@ -9,6 +9,7 @@ people:
   - michele
   - teckping
   - yeeching
+  - eric
 
 layout: project
 last-updated: 2015-05-05
