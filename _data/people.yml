@@ -30,13 +30,6 @@ chundong:
     image: /img/people/Chundong_Wang.jpg
     bio: "Post Doc (PhD, NUS, Singapore)"
 
-unni:
-    display_name: "Unnikrishnan Cheramangalath"
-    webpage: "https://www.linkedin.com/in/unnikrishnan-cheramangalath-52282715/"
-    role: postdoc
-    image: /img/people/Unnikrishnan_Cheramangalath.jpg
-    bio: "Post Doc (PhD, Indian Institute of Science, India)"
-
 xingbin:
     display_name: "Xingbin Jiang"
     webpage: "https://www.linkedin.com/in/xingbin-jiang-4b2685140/"
@@ -56,12 +49,6 @@ matheus:
     bio: "Research Assistant (Pontifical Catholic University of Paraná)"
     image: /img/people/Matheus_Eduardo.jpg
 
-#Visitors
-jingxuan:
-    display_name: "Jingxuan Jiang"
-    role: visitor
-    bio: "Research Intern"
-    bio: "Masters Student (Shandong University, China)"
 
 #Grad Students
 yeeching:
@@ -77,6 +64,13 @@ sakshi:
     role: grad
     image: /img/people/Sakshi_Udeshi.jpg
     bio: "PhD Student (SUTD)"
+
+teckping:
+    display_name: "Khoo Teck Ping"
+    webpage: "https://istd.sutd.edu.sg/people/phd-students/khoo-teck-ping"
+    role: grad
+    image: /img/people/Khoo_Teck_Ping.jpg
+    bio: "PhD Student (SUTD and TUV SUD)"
 
 eyasu:
     display_name: "Eyasu Getahun Chekole"
@@ -148,4 +142,16 @@ tanya:
     role: alum
     bio: "Undergraduate Student (BITS Pilani, India)"
 
+#Visitors
+jingxuan:
+    display_name: "Jingxuan Jiang"
+    role: alum
+    bio: "Research Intern"
+    bio: "Masters Student (Shandong University, China)"
 
+unni:
+    display_name: "Unnikrishnan Cheramangalath"
+    webpage: "https://www.linkedin.com/in/unnikrishnan-cheramangalath-52282715/"
+    role: alum
+    image: /img/people/Unnikrishnan_Cheramangalath.jpg
+    bio: "Post Doc (PhD, Indian Institute of Science, India)"

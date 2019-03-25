@@ -10,6 +10,8 @@ description: |
 people:
   - chundong
   - ahmed
+  - teckping
+  - yeeching
 
 layout: project
 last-updated: 2018-08-15

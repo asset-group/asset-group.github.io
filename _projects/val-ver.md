@@ -6,7 +6,6 @@ description: |
 
 people:
   - chundong
-  - adrian
 
 layout: project
 last-updated: 2015-05-05

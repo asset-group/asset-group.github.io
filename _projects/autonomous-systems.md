@@ -7,7 +7,6 @@ description: |
 people:
   - chundong
   - sakshi
-  - jingxuan
 
 layout: project
 last-updated: 2018-08-13
