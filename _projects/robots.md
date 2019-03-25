@@ -6,7 +6,6 @@ description: |
 
 people:
   - chundong
-  - yeeching
   - michele
 
 layout: project

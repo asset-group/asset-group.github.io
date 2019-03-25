@@ -7,6 +7,8 @@ description: |
 people:
   - xingbin
   - michele
+  - teckping
+  - yeeching
 
 layout: project
 last-updated: 2015-05-05
