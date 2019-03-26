@@ -50,7 +50,7 @@ matheus:
     image: /img/people/Matheus_Eduardo.jpg
 
 
-#Grad Students Eric Gerard Rothstein Morris
+#Grad Students 
 yeeching:
     display_name: "Tok Yee Ching"
     webpage: "https://poppopretn.com"
@@ -70,6 +70,13 @@ teckping:
     webpage: "https://istd.sutd.edu.sg/people/phd-students/khoo-teck-ping"
     role: grad
     image: /img/people/Khoo_Teck_Ping.jpg
+    bio: "PhD Student (SUTD and TUV SUD)"
+
+yifan:
+    display_name: "Jia Yifan"
+    webpage: "https://www.linkedin.com/in/jia-yifan-a704403b/"
+    role: grad
+    image: /img/people/Jia_Yifan.jpg
     bio: "PhD Student (SUTD and TUV SUD)"
 
 eric:
