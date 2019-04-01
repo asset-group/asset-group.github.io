@@ -49,6 +49,27 @@ matheus:
     bio: "Research Assistant (Pontifical Catholic University of Paraná)"
     image: /img/people/Matheus_Eduardo.jpg
 
+#Urop
+gerald:
+    display_name: "Gerald Woo"
+    role: urop
+    bio: "ISTD (SUTD)"
+
+shanshan:
+    display_name: "Peng Shanshan"
+    role: urop
+    bio: "ISTD (SUTD)"
+
+lionell:
+    display_name: "Lionell Loh"
+    role: urop
+    bio: "ISTD (SUTD)"
+
+louth:
+    display_name: "Louth Bin Rawshan"
+    role: urop
+    bio: "EPD (SUTD)"
+
 
 #Grad Students 
 yeeching:
