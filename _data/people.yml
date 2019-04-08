@@ -52,18 +52,24 @@ matheus:
 #Urop
 gerald:
     display_name: "Gerald Woo"
-    role: urop
+    webpage: "https://www.linkedin.com/in/gerald-woo/"
+    image: /img/people/Gerald_Woo.jpg
     bio: "ISTD (SUTD)"
+    role: urop
 
 shanshan:
     display_name: "Peng Shanshan"
     role: urop
     bio: "ISTD (SUTD)"
+    webpage: "https://www.linkedin.com/in/shanshan-peng-a9b674146/"
+    image: /img/people/Peng_Shanshan.png
 
 lionell:
     display_name: "Lionell Loh"
     role: urop
     bio: "ISTD (SUTD)"
+    webpage: "https://www.linkedin.com/in/lionellloh/"
+    image: /img/people/Lionell_Loh.jpg
 
 louth:
     display_name: "Louth Bin Rawshan"
