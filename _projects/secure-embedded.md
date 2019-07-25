@@ -4,8 +4,8 @@ title: Side-channel Freedom
 description: |
  <p style="text-align:justify">
   Securing systems against side-channel attacks. <font color="red">
-  <b> We have two post-doc positions open in this project 
-  starting Feb, 2019</b></font>.
+  <b> One post-doc position open in this project 
+  starting Feb, 2020</b></font>.
  </p>
 people:
   - chundong
@@ -38,9 +38,11 @@ for generously supporting this project.
 <b>Open Positions for Postdocs:</b><br>
 </font>
 
+<p style="text-align:justify">
 <font color="blue">
 <b>Update: One position filled up. One position is still open, contact Sudipta directly with your CV.</b><br>
 </font>
+</p>
 
 We are looking for <b>two (2) Post-Doctoral candidates</b> to work on 
 techniques for analysing, validating and shielding micro-architectural timing 
