@@ -38,6 +38,10 @@ for generously supporting this project.
 <b>Open Positions for Postdocs:</b><br>
 </font>
 
+<font color="blue">
+<b>Update: One position filled up. One position is still open, contact Sudipta directly with your CV.</b><br>
+</font>
+
 We are looking for <b>two (2) Post-Doctoral candidates</b> to work on 
 techniques for analysing, validating and shielding micro-architectural timing 
 channels. The positions are funded by a recent highly competitive 
