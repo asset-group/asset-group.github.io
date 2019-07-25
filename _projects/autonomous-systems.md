@@ -16,13 +16,19 @@ last-updated: 2018-08-13
 
 The aim of this project is to employ rigorous software 
 engineering principles for designing robust decision 
-making systems. To this end, we focus on various desirable 
-properties of decision making systems, including but not 
-limited to fairness (i.e. removing social discrimination) 
-and robustness. To know more about the topic, take a look 
-at the following publications: 
+making systems (e.g. robust and secure artificial intelligent 
+and machine-learning systems). To this end, we focus on 
+various desirable properties of decision making systems, 
+including but not limited to security (e.g. resilience against 
+adversarial and backdoor attacks), robustness and fairness 
+(i.e. removing social discrimination). Another focus of 
+the project is the systematic usage of artificial 
+intelligent (AI) systems to detect cyber attacks and explain 
+their cause. To know more about the topic, take a look at the 
+following publications: 
 
 <a href="https://sudiptac.bitbucket.io/papers/aequitas.pdf">ASE-2018</a>, 
+<a href="https://arxiv.org/pdf/1902.10027">Arxiv-2019</a>, 
 <a href="https://sudiptac.bitbucket.io/papers/raids.pdf">EMSOFT-WiP-2018</a>. 
 
 </p>
