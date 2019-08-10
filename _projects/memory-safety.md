@@ -3,8 +3,7 @@ title: IoT Wireless Security
 
 description: |
  <p style="text-align:justify">
-  IIoT Wireless Security Testing and Countermeasures.
-  <font color="red"> 
+  IIoT Wireless Security Testing and Countermeasures.<font color="red"> 
 		<b> One post-doc position open in this project starting as 
     soon as possible.</b></font>
  </p>
