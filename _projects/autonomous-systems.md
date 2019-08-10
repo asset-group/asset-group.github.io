@@ -2,11 +2,11 @@
 title: AI Safety and Security 
 
 description: |
-  Validation and Verification of AI/ML-based Systems. 
-	<font color="red">
+ <p style="text-align:justify">
+  Validation and Verification of AI/ML-based Systems.<font color="red">
   <b> Three (3) post-doc positions open in this project 
   starting immediately.</b></font>
-
+ </p>
 people:
   - chundong
   - sakshi
