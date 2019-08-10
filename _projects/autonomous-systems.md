@@ -2,7 +2,9 @@
 title: AI Safety and Security 
 
 description: |
-  Validation and Verification of AI/ML-based Systems.
+  Validation and Verification of AI/ML-based Systems. <font color="red">
+  <b> Three (3) post-doc positions open in this project 
+  starting immediately </b></font>.
 
 people:
   - chundong
@@ -28,7 +30,8 @@ their cause. To know more about the topic, take a look at the
 following publications: 
 
 <a href="https://sudiptac.bitbucket.io/papers/aequitas.pdf">ASE-2018</a>, 
-<a href="https://arxiv.org/pdf/1902.10027">Arxiv-2019</a>, 
+<a href="https://arxiv.org/pdf/1902.10027">Arxiv-2019-OGMA</a>, 
+<a href="https://arxiv.org/pdf/1908.02203">Arxiv-2019-NEO</a>, 
 <a href="https://sudiptac.bitbucket.io/papers/raids.pdf">EMSOFT-WiP-2018</a>. 
 
 </p>
