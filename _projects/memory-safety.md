@@ -7,14 +7,13 @@ description: |
 		<b> One post-doc position open in this project starting as 
     soon as possible.</b></font>
  </p>
-
 people:
   - xingbin
   - yeeching
   - matheus
 
 layout: project
-last-updated: 2015-05-05
+last-updated: 2019-08-10
 ---
 <p style="text-align:justify">
 
