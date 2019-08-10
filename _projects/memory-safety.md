@@ -1,48 +1,42 @@
 ---
-title: CPS/IoT Security
+title: IoT Wireless Security
 
 description: |
-  Memory Safety of Cyber-physical Systems, IIoT Security Testing and Countermeasures.
+  IIoT Wireless Security Testing and Countermeasures.
 
 people:
   - xingbin
-  - michele
-  - teckping
   - yeeching
-  - eric
+  - matheus
 
 layout: project
 last-updated: 2015-05-05
 ---
 <p style="text-align:justify">
 
-In this project, we investigate detection and mitigation of 
-memory-safety attacks (e.g. buffer overflow) for cyber-physical 
-systems. Current security solutions for memory-safety attacks 
-are not directly applicable for cyber-physical systems (CPS) for 
-several reasons. Firstly, most CPS enforce real-time constraints 
-and it needs to be investigated whether security solutions 
-for memory-safety attacks can meet the real-time constraints 
-enforced by typical CPS. Secondly, the state-of-the-art 
-memory-safety attack mitigation is to abort the system when 
-a memory-safety attack is identified. Such a solution is also 
-not applicable for CPS, as the availability of a CPS is 
-equally important as security. 
+In this project, we investigate systematic and automated testing 
+of (IIoT) Wireless Protocols. Our initial work on over-the-air 
+fuzzing has uncovered critical security vulnerabilities in popular 
+wireless devices (currently undisclosed for confidentiality). Three 
+CVEs has been assigned so far for the discovered vulnerabilities: 
+<a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-12586" target="_blank">CVE-2019-12586</a>, 
+<a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-12587" target="_blank">CVE-2019-12587</a> and 
+<a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-12588" target="_blank">CVE-2019-12588 </a>. 
+We have also been assigned a bug bounty of 2.2K USD for finding 
+a vulnerability that allow hijacking IoT devices to connect to 
+enterprise network. Finally, our work has been succesfully deployed 
+and tested on a real car (Toyota Altis 2016 version) to discover 
+security vulnerabilities. We are massively expanding our work to 
+provide a holistic and systematic framework for arbitrary wireless 
+IoT device validation and testing. Our current work will soon be 
+available in public as a technical report and tool. This work is 
+also related to cyber-physical systems that support wireless access. 
 
+Previously, we worked on memory-safety for cyber-physical systems 
+that can be found in the following publications: 
 
-
-For IIoT, we aim to answer the following research 
-questions: 1) What are the different attack vectors to 
-compromise the security of a given Industrial IoT (IIoT) 
-device? 
-2) Given a set of attacker models, how to automatically 
-discover possible security breaches in IIoT devices? 
-3) How do we design IIoT devices robust in terms of 
-security (specifically, for DoS attacks and malware)?
-
-To know more about our work here check the following publication: 
-
-<a href="https://doi.org/10.1007/978-3-319-94496-8_2">ESSoS2018</a>. 
+<a href="https://doi.org/10.1007/978-3-319-94496-8_2">ESSoS2018</a>,  
+<a href="https://arxiv.org/pdf/1809.07477">Arxiv2018-CIMA</a>. 
 
 </p>
 
