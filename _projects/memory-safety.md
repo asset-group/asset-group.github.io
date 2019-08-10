@@ -10,7 +10,6 @@ description: |
 people:
   - xingbin
   - yeeching
-  - matheus
 
 layout: project
 last-updated: 2019-08-10
