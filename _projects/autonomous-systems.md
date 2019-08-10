@@ -36,3 +36,9 @@ following publications:
 <a href="https://sudiptac.bitbucket.io/papers/raids.pdf">EMSOFT-WiP-2018</a>. 
 
 </p>
+
+<p style="text-align:justify">
+<b>Acknowledgement:</b> We are grateful to 
+<a href="https://www.nrf.gov.sg/">National Research Foundations, Singapore</a> 
+for generously supporting this project. 
+</p>
