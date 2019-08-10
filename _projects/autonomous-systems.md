@@ -5,7 +5,7 @@ description: |
  <p style="text-align:justify">
   Validation and Verification of AI/ML-based Systems.<font color="red">
   <b> Three (3) post-doc positions open in this project 
-  starting immediately.</b></font>
+  starting as soon as possible.</b></font>
  </p>
 people:
   - chundong
