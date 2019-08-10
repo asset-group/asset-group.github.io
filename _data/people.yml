@@ -92,13 +92,6 @@ sakshi:
     image: /img/people/Sakshi_Udeshi.jpg
     bio: "PhD Student (SUTD)"
 
-teckping:
-    display_name: "Khoo Teck Ping"
-    webpage: "https://istd.sutd.edu.sg/people/phd-students/khoo-teck-ping"
-    role: grad
-    image: /img/people/Khoo_Teck_Ping.jpg
-    bio: "PhD Student (SUTD and TUV SUD)"
-
 yifan:
     display_name: "Jia Yifan"
     webpage: "https://www.linkedin.com/in/jia-yifan-a704403b/"

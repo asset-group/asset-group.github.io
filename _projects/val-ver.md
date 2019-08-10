@@ -6,6 +6,7 @@ description: |
 
 people:
   - chundong
+  - michele
 
 layout: project
 last-updated: 2015-05-05
