@@ -5,7 +5,7 @@ description: |
  <p style="text-align:justify">
   Securing systems against side-channel attacks. <font color="red">
   <b> One post-doc position open in this project 
-  starting Feb, 2020</b></font>.
+  starting Oct, 2019</b></font>.
  </p>
 people:
   - chundong
