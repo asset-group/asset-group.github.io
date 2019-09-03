@@ -43,11 +43,6 @@ rohini:
     bio: "Research Assistant (MTech, NUS, Singapore)"
     image: /img/people/Rohini_Poolat.jpg
 
-matheus:
-    display_name: "Matheus Eduardo"
-    role: postdoc
-    bio: "Research Assistant (Pontifical Catholic University of Paraná)"
-    image: /img/people/Matheus_Eduardo.jpg
 
 #Urop
 gerald:
@@ -105,6 +100,13 @@ eric:
     role: grad
     image: /img/people/Eric_Roth.png
     bio: "PhD Student (SUTD)"
+
+matheus:
+    display_name: "Matheus Eduardo"
+    webpage: "https://matheus-garbelini.github.io/home/"
+    role: grad
+    bio: "PhD student (SUTD and SINGA Scholar)"
+    image: /img/people/Matheus_Eduardo.jpg
 
 eyasu:
     display_name: "Eyasu Getahun Chekole"
