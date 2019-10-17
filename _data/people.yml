@@ -15,6 +15,15 @@ ahmed:
     image: /img/people/ahmed.jpg
     bio: "Associate Professor (Linköping University, Sweden)"
 
+#Collaborators
+ezekiel:
+    display_name: "Olamide Ezekiel Soremekun"
+    webpage: "https://scholar.google.com.sg/citations?user=r8T1-yoAAAAJ&hl=th"
+    role: collab
+    image: /img/people/ezekiel.jpg
+    bio: "Visiting PhD Candidate (Saarland University, Germany)"
+
+
 #Post Docs/Researchers
 michele:
     display_name: "Michele Lora"
@@ -50,25 +59,25 @@ gerald:
     webpage: "https://www.linkedin.com/in/gerald-woo/"
     image: /img/people/Gerald_Woo.jpg
     bio: "ISTD (SUTD)"
-    role: urop
+    role: alum
 
 shanshan:
     display_name: "Peng Shanshan"
-    role: urop
+    role: alum
     bio: "ISTD (SUTD)"
     webpage: "https://www.linkedin.com/in/shanshan-peng-a9b674146/"
     image: /img/people/Peng_Shanshan.png
 
 lionell:
     display_name: "Lionell Loh"
-    role: urop
+    role: alum
     bio: "ISTD (SUTD)"
     webpage: "https://www.linkedin.com/in/lionellloh/"
     image: /img/people/Lionell_Loh.jpg
 
 louth:
     display_name: "Louth Bin Rawshan"
-    role: urop
+    role: alum
     bio: "EPD (SUTD)"
 
 
@@ -108,12 +117,6 @@ matheus:
     bio: "PhD student (SUTD and SINGA Scholar)"
     image: /img/people/Matheus_Eduardo.jpg
 
-eyasu:
-    display_name: "Eyasu Getahun Chekole"
-    webpage: "http://people.sutd.edu.sg/~eyasugetahun/"
-    role: alum
-    bio: "PhD Student (SUTD)"
-    image: /img/people/Eyasu_Chekole.jpeg
 
 #Alumni
 baqer:
@@ -122,6 +125,12 @@ baqer:
     role: alum
     bio: "Research Assistant (MS, Jahangirnagar University)"
     image: /img/people/Muhammad_Baqer.jpg
+
+eyasu:
+    display_name: "Eyasu Getahun Chekole"
+    role: alum
+    bio: "PhD Student (SUTD)"
+    image: /img/people/Eyasu_Chekole.jpeg
 
 adrian:
     display_name: "Adrian Horga"
