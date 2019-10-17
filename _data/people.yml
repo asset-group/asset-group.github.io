@@ -17,7 +17,7 @@ ahmed:
 
 #Collaborators
 ezekiel:
-    display_name: "Olamide Ezekiel Soremekun"
+    display_name: "Ezekiel Olamide Soremekun"
     webpage: "https://scholar.google.com.sg/citations?user=r8T1-yoAAAAJ&hl=th"
     role: collab
     image: /img/people/ezekiel.jpg
@@ -59,25 +59,25 @@ gerald:
     webpage: "https://www.linkedin.com/in/gerald-woo/"
     image: /img/people/Gerald_Woo.jpg
     bio: "ISTD (SUTD)"
-    role: alum
+    role: urop
 
 shanshan:
     display_name: "Peng Shanshan"
-    role: alum
+    role: urop
     bio: "ISTD (SUTD)"
     webpage: "https://www.linkedin.com/in/shanshan-peng-a9b674146/"
     image: /img/people/Peng_Shanshan.png
 
 lionell:
     display_name: "Lionell Loh"
-    role: alum
+    role: urop
     bio: "ISTD (SUTD)"
     webpage: "https://www.linkedin.com/in/lionellloh/"
     image: /img/people/Lionell_Loh.jpg
 
 louth:
     display_name: "Louth Bin Rawshan"
-    role: alum
+    role: urop
     bio: "EPD (SUTD)"
 
 
