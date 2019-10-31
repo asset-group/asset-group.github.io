@@ -52,3 +52,5 @@ navigation:
     link: /code.html
   - title: CVEs
     link: /cves.html
+  - title: Service
+    link: /service.html
