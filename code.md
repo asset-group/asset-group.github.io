@@ -2,6 +2,12 @@
 layout: default
 title: Code
 ---
+
+
+#### ESP8266/ESP32 Wi-Fi Attacks: 
+
+[This repository](https://github.com/Matheus-Garbelini/esp32_esp8266_attacks) contains the proof-of-concept code for three Wi-Fi attacks ([CVE-2019-12586](https://nvd.nist.gov/vuln/detail/CVE-2019-12586), [CVE-2019-12587](https://nvd.nist.gov/vuln/detail/CVE-2019-12587), [CVE-2019-12588](https://nvd.nist.gov/vuln/detail/CVE-2019-12588)) against the popular ESP32/8266 IoT devices. 
+
 #### Aequitas 
 [Aequitas](https://github.com/sakshiudeshi/Aequitas) is a directed fairness testing framework for machine learning models. See the paper [Automated Directed Fairness Testing](https://arxiv.org/abs/1807.00468) for more details.
 
