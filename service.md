@@ -17,7 +17,7 @@ I feel that the person is more expert than myself for the topic targeted in the 
 There is one catch. In recent times, I have received invitations from several 
 (well known) journals that request me to 
 complete review within seven (7) days (No!!! these are not journal revisions and 
-they are not short papers). I decline all invitations that request me 
+these are not short papers). I decline all invitations that request me 
 submit reviews in <b>less than two weeks</b> (YES!!!, I do suggest alternate 
 reviewers). Exceptions exist, such as letters (which are short) and journal 
 revisions (especially, minor revisions).   
