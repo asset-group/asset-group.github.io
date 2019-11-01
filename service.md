@@ -4,9 +4,9 @@ title: Service
 ---
 
 <p style="text-align:justify">
-<font color="red"><b>NOTE:</b></font>
 Currently, this list contains only the service of the faculty lead (Sudipta). 
 <br>
+<font color="red"><b>NOTE:</b></font>
 I am open to review papers for conferences and journals that incorporate 
 topics in (embedded) systems, real-time/cyber-physical systems, software 
 engineering and software security. I review all papers myself, i.e., I read 
