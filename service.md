@@ -17,8 +17,8 @@ I feel that the person is more expert than myself for the topic targeted in the 
 There is one catch. In recent times, I have received invitations from several 
 (well known) journals that request me to 
 complete review within seven (7) days (No!!! these are not journal revisions and 
-these are not short papers). I decline all invitations that request me 
-submit reviews in <b>less than two weeks</b> (YES!!!, I do suggest alternate 
+these are not short papers). I decline all invitations that request me to submit 
+reviews in <b>less than two weeks</b> (YES!!!, I do suggest alternate 
 reviewers). Exceptions exist, such as letters (which are short) and journal 
 revisions (especially, minor revisions).   
 </p>
@@ -30,19 +30,19 @@ Review board of IEEE Transactions on Software Engineering (TSE)
 #### 2019
 
 <p style="text-align:justify">
-RTSS 2019, RTAS 2020, DATE 2020, RTCSA 2019, SETTA 2019, ACNS 2020, MEMOCODE 2019, ISEC 2020, ASP-DAC 2020, ASP-DAC-SRF 2020. 
+Technical Program Committee (TPC): RTSS 2019, RTAS 2020, DATE 2020, RTCSA 2019, SETTA 2019, ACNS 2020, MEMOCODE 2019, ISEC 2020, ASP-DAC 2020, ASP-DAC-SRF 2020. 
 </p> 
 
 #### 2018
 
 <p style="text-align:justify">
-CPSS 2018, RTSS 2018, RTAS 2019, ASP-DAC 2019, ASP-DAC-SRF 2019, ISEC 2019, DISSECT 2019, WFCS 2019.
+Technical Program Committee (TPC): CPSS 2018, RTSS 2018, RTAS 2019, ASP-DAC 2019, ASP-DAC-SRF 2019, ISEC 2019, DISSECT 2019, WFCS 2019.
 </p>
 
 #### 2017
 
 <p style="text-align:justify">
-DATE 2018, RTSS 2017, EMSOFT 2017, MEMOCODE 2017.
+Technical Program Committee (TPC): DATE 2018, RTSS 2017, EMSOFT 2017, MEMOCODE 2017.
 </p>
 
 
