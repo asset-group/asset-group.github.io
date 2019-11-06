@@ -31,7 +31,7 @@ their cause. To know more about the topic, take a look at the
 following publications: 
 
 <a href="https://sudiptac.bitbucket.io/papers/aequitas.pdf">ASE-2018</a>, 
-<a href="https://arxiv.org/pdf/1902.10027">Arxiv-2019-OGMA</a>, 
+<a href="https://arxiv.org/pdf/1902.10027">TSE-2019-OGMA</a>, 
 <a href="https://arxiv.org/pdf/1908.02203">Arxiv-2019-NEO</a>, 
 <a href="https://sudiptac.bitbucket.io/papers/raids.pdf">EMSOFT-WiP-2018</a>,  
 <a href="https://arxiv.org/pdf/1908.00732">Arxiv-2019-RAIDS</a>. 
