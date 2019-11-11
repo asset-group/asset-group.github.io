@@ -16,6 +16,6 @@ Seven new CVEs assigned (<a href="https://cve.mitre.org/cgi-bin/cvekey.cgi?keywo
 <a href="https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=CVE-2019-17520">CVE-2019-17520</a>) and more waiting 
 to show how to cause havoc in wireless systems (currently undisclosed for confidentiality). If you are in 
 a "smart" nation, then you are almost certainly at risk (drive slow and do not get sick). Watch this space 
-in a month when we disclose the exploits and the details.
+on <font color="red"><b>9th February, 2020</b></font> when we disclose the exploits and the details.
 
 </p> 
