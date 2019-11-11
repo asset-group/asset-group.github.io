@@ -3,7 +3,7 @@ title: ASSET Research CVEs
 layout: post
 shortnews: true
 icon: newspaper-o
-date: 2019-10-17
+date: 2020-02-09
 ---
 <p style="text-align:justify">
 <font color="red"><b>NEW:</b></font>
