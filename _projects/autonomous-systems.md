@@ -3,7 +3,8 @@ title: AI Safety and Security
 
 description: |
  <p style="text-align:justify">
-  Validation and Verification of AI/ML-based Systems.
+  Validation and Verification of AI/ML-based Systems to make 
+  them safe and secure. 
  </p>
 people:
   - chundong
