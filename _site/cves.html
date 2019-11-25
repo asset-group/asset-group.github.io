@@ -142,26 +142,25 @@
                 <h1>CVEs</h1>
             
 
-            <h3 id="2019">2019</h3>
-<p><a href="https://nvd.nist.gov/vuln/detail/CVE-2019-12586">CVE-2019-12586</a></p>
+            <!---
+Insert here more iframes when needed.
+The iframe should automatically ajust its size after 100ms
+-->
 
-<p><a href="https://nvd.nist.gov/vuln/detail/CVE-2019-12587">CVE-2019-12587</a></p>
+<iframe src="disclosures/disclosures.html" style="width: 100%;height: 0px" onload="setDocHeight(this);" scrolling="no" frameborder="0"></iframe>
 
-<p><a href="https://nvd.nist.gov/vuln/detail/CVE-2019-12588">CVE-2019-12588</a></p>
+<script>
+	function setDocHeight(ctx) {   
+	    setTimeout(()=>{
+	    	 doc = ctx.contentDocument || document;
+	    	var body = doc.body, html = doc.documentElement;
+	    	var height = Math.max( body.scrollHeight, body.offsetHeight, 
+	        html.clientHeight, html.scrollHeight, html.offsetHeight );
+	    	ctx.style.height = height + 'px';
+	    },100);
+}
+</script>
 
-<p><a href="https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=CVE-2019-16336">CVE-2019-16336</a></p>
-
-<p><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-17060">CVE-2019-17060</a></p>
-
-<p><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-17061">CVE-2019-17061</a></p>
-
-<p><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-17517">CVE-2019-17517</a></p>
-
-<p><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-17518">CVE-2019-17518</a></p>
-
-<p><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-17519">CVE-2019-17519</a></p>
-
-<p><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-17520">CVE-2019-17520</a></p>
 
 
             <div class="footer">

@@ -2,33 +2,24 @@
 layout: default
 title: CVEs
 ---
-### 2019
-[CVE-2019-12586](https://nvd.nist.gov/vuln/detail/CVE-2019-12586)
 
-[CVE-2019-12587](https://nvd.nist.gov/vuln/detail/CVE-2019-12587)
+<!---
+Insert here more iframes when needed.
+The iframe should automatically ajust its size after 100ms
+-->
 
-[CVE-2019-12588](https://nvd.nist.gov/vuln/detail/CVE-2019-12588)
+<iframe src="disclosures/disclosures.html" style="width: 100%;height: 0px" onload="setDocHeight(this);" scrolling="no" frameBorder="0"></iframe>
 
-[CVE-2019-16336](https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=CVE-2019-16336)
 
-[CVE-2019-17060](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-17060)
 
-[CVE-2019-17061](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-17061)
-
-[CVE-2019-17517](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-17517)
-
-[CVE-2019-17518](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-17518)
-
-[CVE-2019-17519](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-17519)
-
-[CVE-2019-17520](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-17520) 
-
-[CVE-2019-19192](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-19192)
-
-[CVE-2019-19193](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-19193)
-
-[CVE-2019-19194](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-19194)
-
-[CVE-2019-19195](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-19195)
-
-[CVE-2019-19196](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-19196)
+<script>
+	function setDocHeight(ctx) {   
+	    setTimeout(()=>{
+	    	 doc = ctx.contentDocument || document;
+	    	var body = doc.body, html = doc.documentElement;
+	    	var height = Math.max( body.scrollHeight, body.offsetHeight, 
+	        html.clientHeight, html.scrollHeight, html.offsetHeight );
+	    	ctx.style.height = height + 'px';
+	    },100);
+}
+</script>
