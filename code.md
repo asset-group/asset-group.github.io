@@ -26,4 +26,4 @@ verification of robotic software. It is able to encode models as either Satisfia
 Checking problems.
 
 #### RAIDS
-[RAIDS](https://github.com/cd-wang/RAIDS) is an intrusion detection system for autonomous cars. It extracts and analyzes sensory information (e.g., camera images and distance sensor values) to validate frames transmitted on the in-vehicle network (e.g., CAN bus).
+[RAIDS](https://github.com/cd-wang/RAIDS) is an intrusion detection system for autonomous cars. It extracts and analyzes sensory information (e.g., camera images and distance sensor values) to validate frames transmitted on the in-vehicle network (e.g., CAN bus). See the paper [Road Context-aware Intrusion Detection System for Autonomous Cars](https://asset-group.github.io/papers/ICICS19-RAIDS.pdf) for more details. 
