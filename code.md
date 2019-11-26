@@ -24,3 +24,6 @@ title: Code
 [AGRID](https://gitlab.com/asset-sutd/public/agrid) aims at encoding discrete models of robotic systems to support 
 verification of robotic software. It is able to encode models as either Satisfiability Modulo Theory or Bounded Model 
 Checking problems.
+
+#### RAIDS
+[RAIDS](https://github.com/cd-wang/RAIDS) is an intrusion detection system for autonomous cars. It extracts and analyzes sensory information (e.g., camera images and distance sensor values) to validate frames transmitted on the in-vehicle network (e.g., CAN bus).
