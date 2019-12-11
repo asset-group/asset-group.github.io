@@ -32,4 +32,4 @@ verification of robotic software. It is able to encode models as either Satisfia
 Checking problems.
 
 #### Callisto 
-[Callisto](https://github.com/sakshiudeshi/Callisto/) is a novel test generation and data quality assessment framework. Callisto a blackbox framework that leverage the uncertainty in the prediction and systematically generate new test cases and evaluate data quality for Machine Learning classifiers.
+[Callisto](https://github.com/sakshiudeshi/Callisto/) is a novel test generation and data quality assessment framework. Callisto  leverages the uncertainty in the prediction to systematically generate new test cases and evaluate data quality for Machine Learning classifiers.
