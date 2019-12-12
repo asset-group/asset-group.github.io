@@ -117,6 +117,13 @@ matheus:
     bio: "PhD student (SUTD and SINGA Scholar)"
     image: /img/people/Matheus_Eduardo.jpg
 
+juan:
+    display_name: "Juan David Guarnizo Hernandez"
+    webpage: "https://istd.sutd.edu.sg/people/phd-students/juan-david-guarnizo-hernandez"
+    role: grad
+    image: /img/people/juan-hernandez.jpg
+    bio: "PhD Student (SUTD)"
+
 
 #Alumni
 baqer:
