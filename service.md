@@ -27,6 +27,10 @@ revisions (especially, minor revisions).
 
 Review board of IEEE Transactions on Software Engineering (TSE)
 
+#### 2020
+
+Publication Chair: RTCSA 2020
+
 #### 2019
 
 <p style="text-align:justify">
