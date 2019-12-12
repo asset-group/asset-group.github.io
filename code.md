@@ -33,8 +33,7 @@ title: Code
 [GDivAn](https://bitbucket.org/AdrianHorga/gdivan/src/master/) is a measurement based execution time and side-channel analysis tool using a systematic combination of symbolic execution(SE) and genetic algorithm (GA). The inputs to GDivAn are GPU programs (CUDA). See the paper [Genetic Algorithm Based Estimation of Non-Functional Properties for GPGPU Programs](https://asset-group.github.io/papers/GDivan_JSA.pdf) for more details. 
 
 #### Fuzzing Cache Side Channel
-[This repository](https://github.com/tiyashbasu/Cache_Side_Channel_Tester) is a search-based software testing tools to discover cache side-channel leakage. It covers both timing and access-based cache attacks and is effective both in a controlled environment and real hardware (PC and Raspberry Pi). See the paper [An Exploration of Effective Fuzzing for Side-channel Cache Leakage](https://asset-group.github.io/papers/STVR-cache-side-channel-fuzz.pdf) for more details.  
-
+[This repository](https://github.com/tiyashbasu/Cache_Side_Channel_Tester) contains our search-based software testing tool to discover cache side-channel leakage. It covers both timing and access-based cache attacks and is effective both in a controlled environment and real hardware (PC and Raspberry Pi). See the paper [An Exploration of Effective Fuzzing for Side-channel Cache Leakage](https://asset-group.github.io/papers/STVR-cache-side-channel-fuzz.pdf) for more details.  
 
 #### AGRID
 [AGRID](https://gitlab.com/asset-sutd/public/agrid) aims at encoding discrete models of robotic systems to support 
