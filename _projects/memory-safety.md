@@ -38,7 +38,7 @@ Check the media coverage of the publicly disclosed version of the work:
 <a href="https://hub.packtpub.com/espressif-iot-devices-susceptible-to-wifi-vulnerabilities-can-allow-hijackers-to-crash-devices-connected-to-enterprise-networks/">Packt</a>, 
 <a href="https://news.ycombinator.com/item?id=20867758">Hacker News</a>, 
 <a href="https://hackaday.com/2019/09/05/esp8266-and-esp32-wifi-hacked/">HackaDay</a>, 
-<a href="https://medium.com/supplyframe-hardware/framing-it-9-10-19-b7801da8d12f">medium</a>). 
+<a href="https://medium.com/supplyframe-hardware/framing-it-9-10-19-b7801da8d12f">medium</a>. 
 
 
 </p>
