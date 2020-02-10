@@ -64,6 +64,9 @@
     font-size: 2rem;
 }
 
+.sectionHead {
+    text-align: left;
+}
 
 #q-app {
     text-align: justify;
