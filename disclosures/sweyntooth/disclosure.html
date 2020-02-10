@@ -1321,7 +1321,7 @@ class="small-caps">h</span></span>.
      </p><!--l. 444--><p class="noindent" >
      </p>
          <h3 class="sectionHead" style="font-size: 2rem;"><span class="titlemark">5    </span> <a 
- id="x1-80005"></a>Why we named <span 
+ id="x1-80005"></a>Why <span 
 class="ptmrc8t-">S<span 
 class="small-caps">w</span><span 
 class="small-caps">e</span><span 
@@ -1849,7 +1849,28 @@ peripheral accepts the <span
 class="ptmri8t-">LL Encryption procedure </span>to occur
 before the pairing procedure even starts, albeit failing at later
 stage.
-</p><!--l. 295--><p class="indent" >  By combining the two mentioned problems it is possible to
+</p>
+  <div style="margin-top:30px;margin-bottom:30px;" class="row items-start justify-center"><div class="figure" 
+>
+                                                
+                                                                                                
+                                                                                                
+<a 
+ id="x1-18001r11"></a>
+                                                
+                                                                                                
+                                                                                                
+<!--l. 295--><p class="noindent" > <img 
+src="Figures/anomaly_6.pdf.svg" alt="PIC"  
+width="420" height="auto"  />
+<br /> </p><div class="caption" 
+><span class="id">Figure&#x00A0;11: </span><span  
+class="content">Key Size Overflow</span></div><!--tex4ht:label?: x1-18001r11 -->
+                                                
+                                                                                                
+                                                                                                
+  </div></div>
+<!--l. 303--><p class="indent" >  By combining the two mentioned problems it is possible to
 force the peripheral into allocating the over sized key buffer
 length which was negotiated during the <span 
 class="ptmri8t-">pairing request</span>. Depicted
@@ -1862,7 +1883,7 @@ class="ptmri8t-">encryption request</span>.
 The request is accepted and a buffer overflow occurs in
 peripheral&#8217;s memory as its firmware tries to allocate the
 oversized key.
-</p><!--l. 303--><p class="noindent" ><span 
+</p><!--l. 311--><p class="noindent" ><span 
 class="ptmb8t-"><q-chip style="width: 100px" square color="deep-orange" text-color="white" icon="warning">Impact</q-chip> </span>This vulnerability allows an attacker in radio to
 perform buffer overflow and crash Telink SoCs products
 with pairing support enabled, which is a common practice
@@ -1875,30 +1896,10 @@ possible to overwrite buffers that store encryption nonce
 would allow the attacker to bypass encryption and leak user
 information.
 </p>
-  <div style="margin-top:30px;margin-bottom:30px;" class="row items-start justify-center"><div class="figure" 
->
-                                                
-                                                                                                
-                                                                                                
-<a 
- id="x1-18001r11"></a>
-                                                
-                                                                                                
-                                                                                                
-<!--l. 311--><p class="noindent" > <img 
-src="Figures/anomaly_6.pdf.svg" alt="PIC"  
-width="420" height="auto"  />
-<br /> </p><div class="caption" 
-><span class="id">Figure&#x00A0;11: </span><span  
-class="content">Key Size Overflow</span></div><!--tex4ht:label?: x1-18001r11 -->
-                                                
-                                                                                                
-                                                                                                
-  </div></div>
   <h4 class="subsectionHead" style="font-size: 1rem;font-weight:bold;line-height: 1.5rem;"><span class="titlemark">6.10    </span> <a 
  id="x1-190006.10"></a>Zero LTK Installation<br 
 class="newline" />(CVE-2019-19194)</h4>
-<!--l. 320--><p class="noindent" >This critical vulnerability is a variation of one of the Key
+<!--l. 322--><p class="noindent" >This critical vulnerability is a variation of one of the Key
 Size Overflow. It affects all products using Telink SMP
 implementation with support for secure connection enabled. It
 was verified that when the Telink peripheral accepts an out of
@@ -1918,7 +1919,7 @@ exchange.
                                                 
                                                                                                 
                                                                                                 
-<!--l. 325--><p class="noindent" > <img 
+<!--l. 327--><p class="noindent" > <img 
 src="Figures/anomaly_7.pdf.svg" alt="PIC"  
 width="360" height="auto"  />
 <br /> </p><div class="caption" 
@@ -1928,7 +1929,7 @@ class="content">Zero LTK Installation</span></div><!--tex4ht:label?: x1-19001r12
                                                                                                 
                                                                                                 
   </div></div>
-<!--l. 332--><p class="indent" >  Following Figure <a 
+<!--l. 334--><p class="indent" >  Following Figure <a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-17001r10">10<!--tex4ht:ref: fig:anomaly9 --></a>, the rogue central sends a <span 
 class="ptmri8t-">pairing</span>
 <span 
@@ -1967,8 +1968,8 @@ class="equation"><tr><td><a
 <img 
 src="disclosure0x.svg" alt="SK = AESECB(Key= LTK,Plaintext = SKD )
 " class="math-display"  /></center></td><td class="equation-label">(1)</td></tr></table>
-<!--l. 337--><p class="nopar" >
-</p><!--l. 339--><p class="indent" >  The Session Key Diversifier (<span 
+<!--l. 339--><p class="nopar" >
+</p><!--l. 341--><p class="indent" >  The Session Key Diversifier (<span 
 class="zptmcmrm-">SKD</span>) is a random 16 byte
 number obtained via the <span 
 class="ptmri8t-">encryption request/response </span>exchange,
@@ -1979,7 +1980,7 @@ class="zptmcmrm-">SK</span>. As an
 aggravating factor, the <span 
 class="ptmri8t-">Keys distribution procedure </span>is completely
 bypassed after the attack is performed.
-</p><!--l. 341--><p class="noindent" ><span 
+</p><!--l. 343--><p class="noindent" ><span 
 class="ptmb8t-"><q-chip style="width: 100px" square color="deep-orange" text-color="white" icon="warning">Impact</q-chip> </span>An attacker in Radio range can abuse this vulnerability
 to completely bypass security in a BLE products which rely in
 secure connections pairing to protect user privacy. Furthermore,
@@ -1987,7 +1988,7 @@ device&#8217;s functionalities which were only allowed to be accessed
 by an authorized user, can be trivially bypassed. In short, this
 vulnerability allows an attacker full communication control over
 a protected BLE application.
-</p><!--l. 345--><p class="indent" >  As a side note, this vulnerability only affects Telink devices
+</p><!--l. 347--><p class="indent" >  As a side note, this vulnerability only affects Telink devices
 that allows secure connection pairing. In reality, affected
 products that disable secure connections pairing (the currently
 secure BLE pairing mode) and enable only the insecure
@@ -1999,7 +2000,7 @@ vulnerability.                                           </p>
 href="https://www.keysight.com/sg/en/home.html" >Keysight Technologies</a>.
      We also want to thank all the involved vendors for their fast
      responses and support during the coordination process.
-     </p><!--l. 466--><p class="noindent" >
+     </p><!--l. 1--><p class="noindent" >
      </p>
      <h3 class="likesectionHead"><a 
  id="x1-210006.10"></a>References</h3>
