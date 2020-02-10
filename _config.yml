@@ -2,6 +2,10 @@ name: ASSET Research Group
 title: ASSET Research Group
 url: https://asset-group.github.io
 
+
+analytics_enable: true
+analytics_id: UA-157947360-1
+
 exclude: [bibble, README.md, Makefile, screenshot.png]
 
 # colorize code snippets with the pygments module
@@ -32,6 +36,7 @@ front_page_news: 5
 
 # Base pathname for links.
 base: ''
+
 
 # make pages for the _projects folder
 collections:
