@@ -973,7 +973,10 @@ class="small-caps">o</span><span
 class="small-caps">t</span><span 
 class="small-caps">h</span></span>. The declaration ID references each product on the
 Bluetooth Listing Search&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbluetooth-listing">14</a>]</span>.</span></div><!--tex4ht:label?: x1-5002r4 -->
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbluetooth-listing">14</a>]</span>. *Syqe Medical Ltd. has clarified that they did buy a BLE license for their product <span 
+class="ptmri8t-">Syqe Inhaler</span>
+<span 
+class="ptmri8t-">v01</span>, but they are not using the BLE technology.</span></div><!--tex4ht:label?: x1-5002r4 -->
  <img 
 width="80%" class="resize_table table_image" src="Tables/prods_affected.png" alt="PIC"  
  />
@@ -994,13 +997,10 @@ class="small-caps">t</span><span
 class="small-caps">h </span> </span>are the medical products. VivaCheck
 Laboratories, which manufacture Blood Glucose Meters, has
 many products listed to use DA14580. Hence all these products
-are potentially vulnerable to the Truncated L2CAP attack.
-Even worse, Syqe Medical Ltd. and their programmable
-drug delivery inhalation platform (<span 
-class="ptmb8t-">Syqe Inhaler v01</span>) is
-affected alongside the latest pacemaker related products from
-Medtronic Inc. While our team did not verify the extent to which
-<span 
+are potentially vulnerable to the Truncated L2CAP attack. Even
+worse, the latest pacemaker related products from Medtronic Inc.
+are potentially affected. While our team did not verify the extent
+to which <span 
 class="ptmrc8t-">S<span 
 class="small-caps">w</span><span 
 class="small-caps">e</span><span 
@@ -1009,8 +1009,8 @@ class="small-caps">n</span>T<span
 class="small-caps">o</span><span 
 class="small-caps">o</span><span 
 class="small-caps">t</span><span 
-class="small-caps">h </span> </span>affects such devices (e.g. the impact of remotely
-restarting such devices or remote code execution in the
+class="small-caps">h </span> </span>affects such devices (e.g. the impact of
+remotely restarting such devices or remote code execution in the
 worst case), it is highly recommended that such companies
 update their firmware. This is to avoid any situation that
 could pose life threatening risks to the patients using the
@@ -1022,7 +1022,7 @@ DA14580 and will release it for general public in the next
 SDK release. More details about patches are mentioned in
 Section&#x00A0;<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-60003">3<!--tex4ht:ref: sec:patches --></a>.
-</p><!--l. 338--><p class="indent" >  Another complication arises for the IN180-13 from Swipbox
+</p><!--l. 337--><p class="indent" >  Another complication arises for the IN180-13 from Swipbox
 International. This product uses the vulnerable KW41Z SoC
 from the vendor NXP semiconductor. According to the company
 page&#x00A0;<span class="cite">&#x00A0;[<a 
@@ -1040,7 +1040,7 @@ affecting KW41Z. Other potentially vulnerable popular
 products include vendors such as August Home, Eve Systems,
 Samsung and Anhui Huami Information Technology, among
 others.
-</p><!--l. 351--><p class="indent" >  <span 
+</p><!--l. 350--><p class="indent" >  <span 
 class="ptmri8t-">It is worthwhile to note that the list in Table</span><span 
 class="ptmri8t-">&#x00A0;</span><a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-5002r4"><span 
@@ -1057,17 +1057,17 @@ class="ptmri8t-">patch.</span>
 </p>
   <h3 class="sectionHead" style="font-size: 2rem;"><span class="titlemark">3    </span> <a 
  id="x1-60003"></a><a id="patches">Security Patches</a></h3>
-<!--l. 360--><p class="noindent" >Most of the affected vendors have released patches for their
+<!--l. 359--><p class="noindent" >Most of the affected vendors have released patches for their
 respective SoCs. One can get the latest patches by downloading
 the newest SDK of each vendor referenced in Table&#x00A0;<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-6001r5">5<!--tex4ht:ref: tab:patches --></a>. Product
 vendors (who use the affected SoCs), on the other hand, are
 being independently contacted by each SoC vendor to inform
-about the security patches. However, we note that some SoCs did not receive a patch from their vendor yet. This is the case for
-  Dialog, Microchip and STMicroelectroncs. We will be updating
-  this section once vendors release the security patches for the
+about the security patches. However, we note that some SoCs did
+not receive a patch from their vendor yet. This is the case for
+Dialog, Microchip and STMicroelectroncs. We will be updating  this section once vendors release the security patches for the
   affected SoCs.
-  </p><!--l. 369--><p class="indent" >  We urge action from vendors due to the reliance of the BLE
+  </p><!--l. 368--><p class="indent" >  We urge action from vendors due to the reliance of the BLE
   IoT market on such unpatched SoCs. For example, <span 
 class="ptmb8t-">August</span>
   <span 
@@ -1077,7 +1077,7 @@ class="ptmb8t-">Eve Systems </span>products rely almost entirely on
 class="ptmb8t-">DA14680</span>, which is still <span 
 class="ptmri8t-">unpatched </span>even after a responsive
   disclosure period of more than 90 days.
-  </p><!--l. 374--><p class="indent" >  During our contact with Dialog, they have confirmed that a
+  </p><!--l. 373--><p class="indent" >  During our contact with Dialog, they have confirmed that a
   patch is planned in the next SDK release for the affected SoCs.
   We were also informed that the reason of such delay is due to the
   affected code being stored in the read-only-memory (ROM) of
@@ -1219,7 +1219,7 @@ class="td11">                  </td></tr></table>                               
   </div>
   <h3 class="sectionHead" style="font-size: 2rem;"><span class="titlemark">4    </span> <a 
  id="x1-70004"></a>Non-compliance in the wild!</h3>
-<!--l. 386--><p class="noindent" >In recent years, Bluetooth design has been under scrutiny due to
+<!--l. 385--><p class="noindent" >In recent years, Bluetooth design has been under scrutiny due to
 several security flaws such as KNOB&#x00A0;<span class="cite">&#x00A0;[<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xantonioli2019knob">1</a>]</span>, BlueBorne&#x00A0;<span class="cite">&#x00A0;[<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xseri2017blueborne">10</a>]</span> and
@@ -1231,7 +1231,7 @@ the implementation tests to the Bluetooth certification process.
 This is with the mindset that once the design is sound, hardly
 anything can break in the implementation of the Bluetooth
 stack.
-</p><!--l. 394--><p class="indent" >  Our findings expose some fundamental attack vectors against
+</p><!--l. 393--><p class="indent" >  Our findings expose some fundamental attack vectors against
 certified and recertified BLE Stacks which are supposed to be
 &#8220;safe" against such flaws. We carefully investigated the reasons
 that might explain the presence of <span 
@@ -1256,7 +1256,7 @@ complex to send arbitrary Link Layer messages during other
 protocol message exchanges. Such added complexity is likely
 the reason for inadequate security testing of BLE stack
 implementation.
-</p><!--l. 406--><p class="indent" >  We carefully read and investigated relevant parts of the
+</p><!--l. 405--><p class="indent" >  We carefully read and investigated relevant parts of the
 Controller and Host volume of the Core Specification, which
 allow us to understand the main interaction of two devices (c.f.,
 Figure&#x00A0;<a 
@@ -1277,7 +1277,7 @@ implementation details, which are explicitly imposed by the Core
 Specification&#x00A0;<span class="cite">&#x00A0;[<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbluetooth2019bluetooth">13</a>]</span>, are also not followed by SoC vendors in
 reality.
-</p><!--l. 419--><p class="indent" >  It is worthwhile to mention that every SoC BLE SDK goes
+</p><!--l. 418--><p class="indent" >  It is worthwhile to mention that every SoC BLE SDK goes
 through the certification process before going into market. Thus,
 our findings expose that improvements should be made on the
 certification process to avoid at least <span 
@@ -1304,7 +1304,7 @@ class="ptmb8t-">[Vol 1] Part E, Section 2.7 </span>(Responding to
      malformed behaviour). This part of the specification provides
      directives and few examples to handle invalid or malformed
      packets.
-     </p><!--l. 434--><p class="indent" >    In conclusion, we strongly believe that the Bluetooth SIG
+     </p><!--l. 433--><p class="indent" >    In conclusion, we strongly believe that the Bluetooth SIG
      should improve and significantly expand Section&#x00A0;2.7 (the section
      is less than one page!!!) and add more basic tests to the Bluetooth
      certification to avoid zero-day vulnerabilities such as the ones
@@ -1318,7 +1318,7 @@ class="small-caps">o</span><span
 class="small-caps">o</span><span 
 class="small-caps">t</span><span 
 class="small-caps">h</span></span>.
-     </p><!--l. 444--><p class="noindent" >
+     </p><!--l. 443--><p class="noindent" >
      </p>
          <h3 class="sectionHead" style="font-size: 2rem;"><span class="titlemark">5    </span> <a 
  id="x1-80005"></a>Why <span 
@@ -1331,7 +1331,7 @@ class="small-caps">o</span><span
 class="small-caps">o</span><span 
 class="small-caps">t</span><span 
 class="small-caps">h </span></span>?</h3>
-     <!--l. 446--><p class="noindent" >The insight behind the name SweynTooth arrives from Sweyn
+     <!--l. 445--><p class="noindent" >The insight behind the name SweynTooth arrives from Sweyn
      Forkbeard, the son of King Harald Bluetooth (after whom the
      Bluetooth Technology was originally named). Sweyn revolted
      against Harald Bluetooth and this forced King Harald to his
@@ -1340,7 +1340,7 @@ class="small-caps">h </span></span>?</h3>
      appropriately handled by BLE vendors, then the technology can
      become a breeding ground for attackers. This may, in turn, lead
      the Bluetooth technology to be obsolete.
-     </p><!--l. 448--><p class="indent" >    The SweynTooth logo captures a variation of the original
+     </p><!--l. 447--><p class="indent" >    The SweynTooth logo captures a variation of the original
      Bluetooth logo written in the Runic alphabet. From the Runic
      alphabet, the "S" of Sweyn and "B" of Bluetooth are combined to
      design the logo. Moreover, the "S" in the SweynTooth logo
@@ -1996,16 +1996,16 @@ legacy pairing mode, are in fact more secure due to this
 vulnerability.                                           </p>
          <h3 class="likesectionHead"><a 
  id="x1-200006.10"></a>Contact</h3>
-     <!--l. 455--><p class="noindent" >Feel free to reach us by email: <a 
+     <!--l. 454--><p class="noindent" >Feel free to reach us by email: <a 
 target="_blank" href="mailto:sweyntooth@gmail.com" >sweyntooth@gmail.com</a>
      </p>
          <h3 class="likesectionHead"><a 
  id="x1-210006.10"></a>Acknowledgements</h3>
-     <!--l. 459--><p class="noindent" >This research was partially supported by <a 
+     <!--l. 458--><p class="noindent" >This research was partially supported by <a 
 target="_blank" href="https://www.keysight.com/sg/en/home.html" >Keysight Technologies</a>.
      We also want to thank all the involved vendors for their support
      during the coordination process and <a 
-target="_blank" href="https://scholar.google.com.sg/citations?user=r8T1-yoAAAAJ&hl=th" >Ezekiel O. Soremekun</a> for
+target="_blank" href="https://scholar.google.com.sg/citations?user=r8T1-yoAAAAJ&hl=eng" >Ezekiel O. Soremekun</a> for
      coining the term <span 
 class="ptmrc8t-">S<span 
 class="small-caps">w</span><span 
