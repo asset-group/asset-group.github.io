@@ -7,14 +7,14 @@
 .ptmri8t-x-x-120{font-style: italic;}
 .zptmcmr-x-x-90{font-size:90%; font-style: italic;}
 .pcrr8tn-{font-family: monospace;}
-.ptmb8t-{  font-weight: bold;}
-.ptmb8t-{  font-weight: bold;}
-.ptmri8t-{font-style: italic;}
-.ptmri8t-{font-style: italic;}
-.zpzccmry-{ font-weight: bold; font-style: italic;}
 .zptmcmr-{ font-style: italic;}
 .zptmcmrm-x-x-74{font-size:74%;}
+.zpzccmry-{ font-weight: bold; font-style: italic;}
 .ptmri7t-{font-style: italic;}
+.ptmb8t-{  font-weight: bold;}
+.ptmb8t-{  font-weight: bold;}
+.ptmri8t-{font-style: italic;}
+.ptmri8t-{font-style: italic;}
 .ptmbi8t-{ font-weight: bold;   font-style: italic;}
 .small-caps{font-variant: small-caps; }
 p.noindent { text-indent: 0em }
@@ -159,6 +159,7 @@ span#textcolor1{color:#CB0000}
 span#textcolor2{color:#CB0000}
 span#textcolor3{color:#CB0000}
 span#textcolor4{color:#CB0000}
+span#textcolor5{color:#CB0000}
 #TBL-2 colgroup{border-left: 1px solid black;border-right:1px solid black;}
 #TBL-2{border-collapse:collapse;}
 #TBL-2 colgroup{border-left: 1px solid black;border-right:1px solid black;}
@@ -169,16 +170,16 @@ span#textcolor4{color:#CB0000}
 #TBL-2{border-collapse:collapse;}
 #TBL-2 colgroup{border-left: 1px solid black;border-right:1px solid black;}
 #TBL-2{border-collapse:collapse;}
-span#textcolor5{color:#FF0000}
+span#textcolor6{color:#FF0000}
  #TBL-3-1-{ background-color:}
  #TBL-4-1-{ background-color:}
-span#textcolor6{color:#CB0000}
 span#textcolor7{color:#CB0000}
 span#textcolor8{color:#CB0000}
 span#textcolor9{color:#CB0000}
 span#textcolor10{color:#CB0000}
 span#textcolor11{color:#CB0000}
 span#textcolor12{color:#CB0000}
+span#textcolor13{color:#CB0000}
  #TBL-5-1-{ background-color:}
 /* end css.sty */
 
