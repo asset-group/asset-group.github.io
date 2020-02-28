@@ -1,7 +1,7 @@
 ---
 layout: default_disclosure
 title: SweynTooth
-img: sweintooth_logo.svg
+img: sweintooth_logo.jpg
 img_size: 100px
 comments: true
 tags: [disclosure]
