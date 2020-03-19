@@ -40,3 +40,7 @@ title: Code
 verification of robotic software. It is able to encode models as either Satisfiability Modulo Theory or Bounded Model 
 Checking problems.
 
+#### Stitcher
+[Stitcher](https://github.com/poppopretn/Stitcher) is a tool designed to classify and correlate evidence from IoT devices. See the paper 
+[“STITCHER: Correlating Digital Forensic Evidence on Internet-of-Things Devices”](https://arxiv.org/abs/2003.07242) for details.
+
