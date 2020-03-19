@@ -30,10 +30,11 @@ intelligent (AI) systems to detect cyber attacks and explain
 their cause. To know more about the topic, take a look at the 
 following publications: 
 
-<a href="https://sudiptac.bitbucket.io/papers/aequitas.pdf">ASE-2018</a>, 
-<a href="https://arxiv.org/pdf/1902.10027">TSE-2019-OGMA</a>, 
-<a href="https://arxiv.org/pdf/1908.02203">Arxiv-2019-NEO</a>,
+<a href="http://arxiv.org/abs/2003.00865">Arxiv-2020-Backdoor</a>,
 <a href="https://arxiv.org/abs/1912.08920">ICST-2020-Callisto</a>,
+<a href="https://arxiv.org/pdf/1902.10027">TSE-2019-OGMA</a>, 
+<a href="https://sudiptac.bitbucket.io/papers/aequitas.pdf">ASE-2018</a>, 
+<a href="https://arxiv.org/pdf/1908.02203">Arxiv-2019-NEO</a>,
 <a href="https://asset-group.github.io/papers/ICICS19-RAIDS.pdf">ICICS-2019-RAIDS</a>, 
 <a href="https://sudiptac.bitbucket.io/papers/raids.pdf">EMSOFT-WiP-2018</a>.
 
