@@ -36,7 +36,7 @@ Energy</title>
                    @click="document.getElementById('technical-description').scrollIntoView();"></q-btn>
             <q-btn outline label="Proof of Concept" color="secondary"
                    @click="window.open('https://github.com/Matheus-Garbelini/sweyntooth_bluetooth_low_energy_attacks');">
-                   <img src="sweyntooth_icon.svg" style="width:15px; margin-left:8px"></img>
+                   <img src="sweyntooth_icon.png" style="width:15px; margin-left:8px"></img>
                    </q-btn>
         </q-btn-group>
     </div 
@@ -71,7 +71,20 @@ class="small-caps">o</span><span
 class="small-caps">o</span><span 
 class="small-caps">t</span><span 
 class="small-caps">h </span></span></h3>
-<!--l. 58--><p class="noindent" >The Bluetooth Low Energy (BLE) is a wireless communication
+    <!--l. 57--><p class="noindent"><span class="likeparagraphHead"><a
+        id="x1-1000"></a>Logo Update:</span>
+    <span id="textcolor1">On request from Bluetooth SIG (<a
+            target="_blank" href="https://www.bluetooth.com/" target="_blank" class="url">https://www.bluetooth.com/</a>),
+we are transitioning to a new logo design for SweynTooth.
+Our previous logo was a combination of Runic letter "B"
+and "S", which according to Bluetooth SIG, is likely to
+dilute the distinctive value of the SIG&#8217;s trademarks. As
+this is certainly not our intention, our new logo captures a
+combination of Runic letter "S" and "T". We request all
+others to use the new SweynTooth logo for any reporting
+purposes.</span>
+</p>
+<!--l. 59--><p class="noindent" >The Bluetooth Low Energy (BLE) is a wireless communication
 technology specially designed to prolong battery life of devices
 with different power consumption and usage capabilities. BLE
 consists of a set of many standardised protocols that provide
@@ -80,7 +93,7 @@ remote connectivity and security between a simple device
 smartphone or a notebook. The relevant interaction between both
 devices is presented in Figure&#x00A0;<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-1001r1">1<!--tex4ht:ref: fig:blesequence --></a>.
-</p><!--l. 65--><p class="indent" >  <span 
+</p><!--l. 66--><p class="indent" >  <span 
 class="ptmrc8t-">S<span 
 class="small-caps">w</span><span 
 class="small-caps">e</span><span 
@@ -112,7 +125,7 @@ class="ptmb8t-">security</span></span> depending on the circumstances.
                                                 
                                                                                                 
                                                                                                 
-<!--l. 77--><p class="noindent" > <img 
+<!--l. 78--><p class="noindent" > <img 
 src="Figures/ble_sequence.pdf.svg" alt="PIC"  
 width="360" height="auto"  />
 <br /> </p><div class="caption" 
@@ -122,7 +135,7 @@ class="content">BLE messages exchange diagram</span></div><!--tex4ht:label?: x1-
                                                                                                 
                                                                                                 
   </div></div>
-<!--l. 83--><p class="indent" >  <span 
+<!--l. 84--><p class="indent" >  <span 
 class="ptmrc8t-">S<span 
 class="small-caps">w</span><span 
 class="small-caps">e</span><span 
@@ -135,7 +148,7 @@ class="small-caps">h </span> </span>potentially affects IoT products in applianc
 such as smart-homes, wearables and environmental tracking or
 sensing. We have also identified several medical and logistics
 products that could be affected.
-</p><!--l. 87--><p class="indent" >  As of today, <span 
+</p><!--l. 88--><p class="indent" >  As of today, <span 
 class="ptmrc8t-">S<span 
 class="small-caps">w</span><span 
 class="small-caps">e</span><span 
@@ -177,7 +190,7 @@ the affected SoCs for BLE connectivity will still need to
 independently receive patches from their respective vendors, as
 long as a firmware update mechanism is supported by the
 vendor.
-</p><!--l. 97--><p class="indent" >  <span 
+</p><!--l. 98--><p class="indent" >  <span 
 class="ptmrc8t-">S<span 
 class="small-caps">w</span><span 
 class="small-caps">e</span><span 
@@ -201,12 +214,12 @@ class="small-caps">h </span> </span>style security
 flaws. We also urge SoC vendors and IoT product manufacturers
 to be aware of such security issues and to initiate focused effort
 in security testing.
-</p><!--l. 103--><p class="indent" >  A proper classification of the vulnerability set is presented in
+</p><!--l. 104--><p class="indent" >  A proper classification of the vulnerability set is presented in
 the next section.
 </p>
   <h4 class="subsectionHead" style="font-size: 1rem;font-weight:bold;line-height: 1.5rem;"><span class="titlemark">1.1    </span> <a 
  id="x1-20001.1"></a>Types of vulnerabilities</h4>
-<!--l. 107--><p class="noindent" >We have classified the <span 
+<!--l. 108--><p class="noindent" >We have classified the <span 
 class="ptmrc8t-">S<span 
 class="small-caps">w</span><span 
 class="small-caps">e</span><span 
@@ -250,13 +263,13 @@ class="ptmb8t-">Security Bypass</span>: This vulnerability is the most critical
              radio range to bypass the latest secure pairing mode of
              BLE, i.e., the <span 
 class="ptmri8t-">Secure Connections </span>pairing mode&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbluetooth2016bluetooth">12</a>]</span>.
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbluetooth2016bluetooth">13</a>]</span>.
              In summary, after the bypass is completed, an attacker
              in the radio range has arbitrary read or write access to
              device&#8217;s  functions.  These  functions,  in  turn,  are  only
              meant to be accessed by authorised users.
              </li></ul>
-     <!--l. 136--><p class="indent" >    The summary of our findings and the affected vendors is
+     <!--l. 137--><p class="indent" >    The summary of our findings and the affected vendors is
      depicted in Table <a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-2001r1">1<!--tex4ht:ref: tab:v_types --></a>.
      </p>
@@ -427,13 +440,13 @@ class="td11">                </td></tr></table>                                 
   </div>
   <h3 class="sectionHead" style="font-size: 2rem;"><span class="titlemark">2    </span> <a 
  id="x1-30002"></a><a id="affected-devices">Vulnerable BLE chips</a></h3>
-<!--l. 155--><p class="noindent" >Table&#x00A0;<a 
+<!--l. 156--><p class="noindent" >Table&#x00A0;<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-3001r2">2<!--tex4ht:ref: tab:affected_socs --></a> lists the affected SoCs and the respective SDK versions
 where the vulnerabilities were found. The qualification ID of
 each SoC, attributed to vendors after their SDK is certified,
 allows to search for products using the SoC connected to such ID
 on the Bluetooth Listing Search site&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbluetooth-listing">14</a>]</span>. A basic search
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbluetooth-listing">15</a>]</span>. A basic search
 on this site yields about <span id="textcolor5"><span 
 class="ptmb8t-">480 products listings using the</span>
 <span 
@@ -744,7 +757,7 @@ class="td11">                     </td></tr></table>                            
                                                                                                 
   </div>
   </div>
-<!--l. 180--><p class="indent" >  The exploitation of the vulnerabilities translates to dangerous
+<!--l. 181--><p class="indent" >  The exploitation of the vulnerabilities translates to dangerous
 attack vectors against many IoT products released in 2018-2019.
 At first glance, most of the vulnerabilities affect product&#8217;s
 availability by allowing them to be remotely restarted, deadlocked
@@ -767,7 +780,7 @@ onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" hre
                                                 
                                                                                                 
                                                                                                 
-<!--l. 208--><p class="noindent" > <img 
+<!--l. 209--><p class="noindent" > <img 
 src="Figures/all_products.pdf.svg" alt="PIC"  
 width="360" height="auto"  />
 <br /> </p><div class="caption" 
@@ -790,7 +803,7 @@ class="ptmri8t-">LLID Deadlock</span>. To verify what happens
     sent malicious packets to the Fitbit Inspire smartwatch
     (Figure&#x00A0;<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-4002r2">2<!--tex4ht:ref: fig:affected_products_a --></a>a) through the BLE communication channel.
-    <!--l. 227--><p class="noindent" >Once  the  malicious  packets  are  sent  to  the  device,
+    <!--l. 228--><p class="noindent" >Once  the  malicious  packets  are  sent  to  the  device,
     it   is   possible   to   trigger   either   a   buffer   overflow
     in  device&#8217;s  memory  or  deadlock  its  bluetooth  stack
     temporarily. The former attack (exploiting <span 
@@ -801,7 +814,7 @@ class="ptmri8t-">Overflow</span>)   immediately   restarts   the   device   wher
 class="ptmri8t-">LLID   Deadlock</span>)   disables   its
     bluetooth advertisement for about 27 seconds before the
     smartwatch is automatically restarted by the firmware.
-    </p><!--l. 234--><p class="noindent" >In     summary,     the     vulnerabilities     only     seem
+    </p><!--l. 235--><p class="noindent" >In     summary,     the     vulnerabilities     only     seem
     to temporarily block the availability of Fitbit. However,
     the <span 
 class="ptmri8t-">Link Layer Length Overflow </span>is a serious threat by
@@ -837,7 +850,7 @@ onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" hre
     simple attack to cause real damage to some equipment
     connected  to  the  plug  by  intermittently  cutting  its
     power.
-    <!--l. 257--><p class="noindent" ><span 
+    <!--l. 258--><p class="noindent" ><span 
 class="ptmb8t-">August Smart Lock </span>- We have verified that the <span 
 class="ptmri8t-">Silent</span>
     <span 
@@ -896,7 +909,7 @@ class="ptmri8t-">power on </span>button
              restore functionalities back to normal.</li></ul> <br></br><iframe class="table_image resize_table" width="560" height="315" src="https://www.youtube.com/embed/Iw8sIBLWE_w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <br></br> <iframe class="table_image resize_table" width="560" height="315" src="https://www.youtube.com/embed/rge1XeJVpag" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
          <h4 class="subsectionHead" style="font-size: 1rem;font-weight:bold;line-height: 1.5rem;"><span class="titlemark">2.2    </span> <a 
  id="x1-50002.2"></a>Other potentially vulnerable products</h4>
-     <!--l. 294--><p class="noindent" >As mentioned in Section&#x00A0;<a 
+     <!--l. 295--><p class="noindent" >As mentioned in Section&#x00A0;<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-30002">2<!--tex4ht:ref: sec:vulnerable_socs --></a>, the vulnerabilities discovered by our
      team are likely to affect a substantial number of products that
      rely on the affected SoCs. While it is difficult to confirm the
@@ -913,7 +926,7 @@ class="small-caps">o</span><span
 class="small-caps">t</span><span 
 class="small-caps">h </span> </span>using the Bluetooth Listing
      Search site&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbluetooth-listing">14</a>]</span>. Figure&#x00A0;<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbluetooth-listing">15</a>]</span>. Figure&#x00A0;<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-5001r3">3<!--tex4ht:ref: fig:listings --></a> captures the total number of
      products listings using the affected SoCs as of 8th February,
      2020.
@@ -927,7 +940,7 @@ onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" hre
                                                 
                                                                                                 
                                                                                                 
-<!--l. 304--><p class="noindent" > <img 
+<!--l. 305--><p class="noindent" > <img 
 src="Figures/affected_products.pdf.svg" alt="PIC"  
 width="420" height="auto"  />
 <br /> </p><div class="caption" 
@@ -938,7 +951,7 @@ as of February 8, 2020.</span></div><!--tex4ht:label?: x1-5001r3 -->
                                                                                                 
                                                                                                 
   </div></div>
-<!--l. 312--><p class="indent" >  While the majority of products are listed under CC2540, we
+<!--l. 313--><p class="indent" >  While the majority of products are listed under CC2540, we
 note several critical BLE products using the other affected SoC
 vendors. These products are applied to <span id="textcolor12"><span 
 class="ptmb8t-">logistics, medical,</span>
@@ -948,7 +961,7 @@ Although it is impractical for our team to verify such a large
 number of products using the affected SoCs, we outline some of
 the most notorious or popular products found on Bluetooth
 Listing website&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbluetooth-listing">14</a>]</span>. These critical products are shown in
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbluetooth-listing">15</a>]</span>. These critical products are shown in
 Table&#x00A0;<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-5002r4">4<!--tex4ht:ref: tab:prods --></a>.
                                                 
@@ -973,7 +986,7 @@ class="small-caps">o</span><span
 class="small-caps">t</span><span 
 class="small-caps">h</span></span>. The declaration ID references each product on the
 Bluetooth Listing Search&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbluetooth-listing">14</a>]</span>. *Syqe Medical Ltd. has clarified that they did buy a BLE license for their product <span 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbluetooth-listing">15</a>]</span>. *Syqe Medical Ltd. has clarified that they did buy a BLE license for their product <span 
 class="ptmri8t-">Syqe Inhaler</span>
 <span 
 class="ptmri8t-">v01</span>, but they are not using the BLE technology.</span></div><!--tex4ht:label?: x1-5002r4 -->
@@ -984,7 +997,7 @@ width="80%" class="resize_table table_image" src="Tables/prods_affected.png" alt
                                                                                                 
                                                                                                 
   </div>
-<!--l. 323--><p class="indent" >  The most critical devices that could be severely impacted
+<!--l. 324--><p class="indent" >  The most critical devices that could be severely impacted
 by <span 
 class="ptmrc8t-">S<span 
 class="small-caps">w</span><span 
@@ -1022,11 +1035,11 @@ DA14580 and will release it for general public in the next
 SDK release. More details about patches are mentioned in
 Section&#x00A0;<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-60003">3<!--tex4ht:ref: sec:patches --></a>.
-</p><!--l. 337--><p class="indent" >  Another complication arises for the IN180-13 from Swipbox
+</p><!--l. 338--><p class="indent" >  Another complication arises for the IN180-13 from Swipbox
 International. This product uses the vulnerable KW41Z SoC
 from the vendor NXP semiconductor. According to the company
 page&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xswipbox">15</a>]</span>, the battery operated product is an automatic parcel
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xswipbox">18</a>]</span>, the battery operated product is an automatic parcel
 locker and has no display. Instead, it relies entirely on a
 smartphone application communicating via BLE to unlock the
 parcel sent to the recipient. Similarly to what happens to
@@ -1040,7 +1053,7 @@ affecting KW41Z. Other potentially vulnerable popular
 products include vendors such as August Home, Eve Systems,
 Samsung and Anhui Huami Information Technology, among
 others.
-</p><!--l. 350--><p class="indent" >  <span 
+</p><!--l. 351--><p class="indent" >  <span 
 class="ptmri8t-">It is worthwhile to note that the list in Table</span><span 
 class="ptmri8t-">&#x00A0;</span><a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-5002r4"><span 
@@ -1057,17 +1070,61 @@ class="ptmri8t-">patch.</span>
 </p>
   <h3 class="sectionHead" style="font-size: 2rem;"><span class="titlemark">3    </span> <a 
  id="x1-60003"></a><a id="patches">Security Patches</a></h3>
-<!--l. 359--><p class="noindent" >Most of the affected vendors have released patches for their
-respective SoCs. One can get the latest patches by downloading
-the newest SDK of each vendor referenced in Table&#x00A0;<a 
+<!--l. 360--><p class="noindent" ><span id="textcolor13"><span 
+class="ptmb8t-">Update 24/04/2020</span></span><span 
+class="ptmb8t-">: STMicroelectronics has updated their</span>
+<span 
+class="ptmb8t-">latest WB55 and BlueNRG-1/2 SDKs</span><span class="cite"><span 
+class="ptmb8t-">&#x00A0;[</span><a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xstmsw"><span 
+class="ptmb8t-">16</span></a><span 
+class="ptmb8t-">,</span><span 
+class="ptmb8t-">&#x00A0;</span><a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbluenrg"><span 
+class="ptmb8t-">17</span></a><span 
+class="ptmb8t-">]</span></span><span 
+class="ptmb8t-">.</span>
+</p><!--l. 363--><p class="noindent" ><span id="textcolor14"><span 
+class="ptmb8t-">Update 17/03/2020</span></span><span 
+class="ptmb8t-">: Table</span><span 
+class="ptmb8t-">&#x00A0;</span><a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-6001r5"><span 
+class="ptmb8t-">5</span><!--tex4ht:ref: tab:patches --></a> <span 
+class="ptmb8t-">has been updated. Dialog</span>
+<span 
+class="ptmb8t-">Semiconductors has released hotfixes for DA14680/1/2/3 and</span>
+<span 
+class="ptmb8t-">DA14585/6 SoCs. Patches for DA14580/1/3 are planned for</span>
+<span 
+class="ptmb8t-">the end of March. You can read more information in their</span>
+<span 
+class="ptmb8t-">advisory page </span><span class="cite"><span 
+class="ptmb8t-">&#x00A0;[</span><a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xda1469x"><span 
+class="ptmb8t-">10</span></a><span 
+class="ptmb8t-">]</span></span><span 
+class="ptmb8t-">. Furthermore, Microchip has kindly self</span>
+<span 
+class="ptmb8t-">disclosed more devices to be affected by multiple SweynTooth</span> <span 
+class="ptmb8t-">vulnerabilities </span><span class="cite"><span 
+class="ptmb8t-">&#x00A0;[</span><a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xmicrochip"><span 
+class="ptmb8t-">19</span></a><span 
+class="ptmb8t-">]</span></span><span 
+class="ptmb8t-">.</span><br 
+class="newline" />
+  </p><!--l. 365--><p class="indent" >  Most of the affected vendors have released patches for their
+  respective SoCs. One can get the latest patches by downloading
+  the newest SDK of each vendor referenced in Table&#x00A0;<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-6001r5">5<!--tex4ht:ref: tab:patches --></a>. Product
-vendors (who use the affected SoCs), on the other hand, are
-being independently contacted by each SoC vendor to inform
-about the security patches. However, we note that some SoCs did
-not receive a patch from their vendor yet. This is the case for
-Dialog, Microchip and STMicroelectroncs. We will be updating  this section once vendors release the security patches for the
+  vendors (who use the affected SoCs), on the other hand, are
+  being independently contacted by each SoC vendor to inform
+  about the security patches. However, we note that some SoCs did
+  not receive a patch from their vendor yet. This is the case for
+  Dialog, Microchip and STMicroelectroncs. We will be updating
+  this section once vendors release the security patches for the
   affected SoCs.
-  </p><!--l. 368--><p class="indent" >  We urge action from vendors due to the reliance of the BLE
+  </p><!--l. 374--><p class="indent" >  We urge action from vendors due to the reliance of the BLE
   IoT market on such unpatched SoCs. For example, <span 
 class="ptmb8t-">August</span>
   <span 
@@ -1077,7 +1134,7 @@ class="ptmb8t-">Eve Systems </span>products rely almost entirely on
 class="ptmb8t-">DA14680</span>, which is still <span 
 class="ptmri8t-">unpatched </span>even after a responsive
   disclosure period of more than 90 days.
-  </p><!--l. 373--><p class="indent" >  During our contact with Dialog, they have confirmed that a
+  </p><!--l. 379--><p class="indent" >  During our contact with Dialog, they have confirmed that a
   patch is planned in the next SDK release for the affected SoCs.
   We were also informed that the reason of such delay is due to the
   affected code being stored in the read-only-memory (ROM) of
@@ -1096,7 +1153,8 @@ class="ptmri8t-">unpatched </span>even after a responsive
                                                                                                 
  <div class="caption" 
 ><span class="id">Table&#x00A0;5: </span><span  
-class="content">Patches available by the SoC vendors.</span></div><!--tex4ht:label?: x1-6001r5 -->
+class="content">Patches available by SoC vendors <span 
+class="ptmb8t-">(24/04/2020)</span>.</span></div><!--tex4ht:label?: x1-6001r5 -->
  <!--tex4ht:inline--><div class="tabular"> <table id="TBL-5" class="tabular" 
 cellspacing="0" cellpadding="0"  
 ><colgroup id="TBL-5-1g"><col 
@@ -1109,7 +1167,7 @@ class="td11">    <div class="multicolumn"  style="white-space:normal; text-align
 class="ptmbi8t-">SoC Vendor</span></div>        </td><td  style="white-space:normal; text-align:center;" id="TBL-5-1-2"  
 class="td11">   <div class="multicolumn"  style="white-space:normal; text-align:center;"><span 
 class="ptmbi8t-">SoC Model</span></div>      </td><td  style="white-space:normal; text-align:center;" id="TBL-5-1-3"  
-class="td11">        <div class="multicolumn"  style="white-space:normal; text-align:center;"><span 
+class="td11">     <div class="multicolumn"  style="white-space:normal; text-align:center;"><span 
 class="ptmbi8t-">Vendor Patches</span></div>
 </td></tr><tr 
 class="hline"><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
@@ -1117,101 +1175,219 @@ class="hline"><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr
 class="td11"> Cypress (PSoC 6)      </td><td  style="white-space:normal; text-align:left;" id="TBL-5-2-2"  
 class="td11"> CYBLE-416045  </td><td  style="white-space:normal; text-align:left;" id="TBL-5-2-3"  
 class="td11"> <span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xpsoc6sdk">4</a>]</span> BLE_PDL 2.2                         </td>
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xpsoc6sdk">4</a>]</span> BLE_PDL 2.2               </td>
 </tr><tr  
  style="vertical-align:baseline;" id="TBL-5-3-"><td  style="white-space:normal; text-align:left;" id="TBL-5-3-1"  
 class="td11"> Cypress (PSoC 4)      </td><td  style="white-space:normal; text-align:left;" id="TBL-5-3-2"  
 class="td11"> CYBL11573        </td><td  style="white-space:normal; text-align:left;" id="TBL-5-3-3"  
 class="td11"> <span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xpsoc4sdk">3</a>]</span> BLE Component 3.63             </td>
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xpsoc4sdk">3</a>]</span> BLE Component 3.63  </td>
 </tr><tr 
 class="hline"><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
  style="vertical-align:baseline;" id="TBL-5-4-"><td  style="white-space:normal; text-align:left;" id="TBL-5-4-1"  
 class="td11"> NXP                          </td><td  style="white-space:normal; text-align:left;" id="TBL-5-4-2"  
-class="td11"> KW41Z                </td><td  style="white-space:normal; text-align:left;" id="TBL-5-4-3"  
+class="td11"> KW41Z/31Z        </td><td  style="white-space:normal; text-align:left;" id="TBL-5-4-3"  
 class="td11"> <span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xnxpsdk">8</a>]</span> 2.2.1 (2019-11-28)                  </td>
-</tr><tr 
-class="hline"><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xnxpsdk">8</a>]</span> 2.2.1 (2019-11-28)       </td>
+</tr><tr  
  style="vertical-align:baseline;" id="TBL-5-5-"><td  style="white-space:normal; text-align:left;" id="TBL-5-5-1"  
-class="td11"> Texas Instruments     </td><td  style="white-space:normal; text-align:left;" id="TBL-5-5-2"  
-class="td11"> CC2640R2           </td><td  style="white-space:normal; text-align:left;" id="TBL-5-5-3"  
+class="td11"> NXP                          </td><td  style="white-space:normal; text-align:left;" id="TBL-5-5-2"  
+class="td11"> KW37/8/9            </td><td  style="white-space:normal; text-align:left;" id="TBL-5-5-3"  
 class="td11"> <span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xticc2640">7</a>]</span> v3.40.00.10                             </td>
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xnxpadv">9</a>]</span> 2.6.2 (2019-12-20)       </td>
 </tr><tr  
  style="vertical-align:baseline;" id="TBL-5-6-"><td  style="white-space:normal; text-align:left;" id="TBL-5-6-1"  
-class="td11"> Texas Instruments     </td><td  style="white-space:normal; text-align:left;" id="TBL-5-6-2"  
-class="td11"> CC2540                </td><td  style="white-space:normal; text-align:left;" id="TBL-5-6-3"  
+class="td11"> NXP                          </td><td  style="white-space:normal; text-align:left;" id="TBL-5-6-2"  
+class="td11"> KW34/5/6            </td><td  style="white-space:normal; text-align:left;" id="TBL-5-6-3"  
 class="td11"> <span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xticc2540">6</a>]</span> v1.5.1                                      </td>
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xnxpadv">9</a>]</span> 2.2.2 (2019-12-06)       </td>
 </tr><tr 
 class="hline"><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
  style="vertical-align:baseline;" id="TBL-5-7-"><td  style="white-space:normal; text-align:left;" id="TBL-5-7-1"  
-class="td11"> Telink                        </td><td  style="white-space:normal; text-align:left;" id="TBL-5-7-2"  
-class="td11"> TLSR8258           </td><td  style="white-space:normal; text-align:left;" id="TBL-5-7-3"  
+class="td11"> Texas Instruments     </td><td  style="white-space:normal; text-align:left;" id="TBL-5-7-2"  
+class="td11"> CC2640R2           </td><td  style="white-space:normal; text-align:left;" id="TBL-5-7-3"  
 class="td11"> <span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xtelink8258">16</a>]</span> v3.4.0 (SMP fix)                   </td>
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xticc2640">7</a>]</span> v3.40.00.10                   </td>
 </tr><tr  
  style="vertical-align:baseline;" id="TBL-5-8-"><td  style="white-space:normal; text-align:left;" id="TBL-5-8-1"  
-class="td11"> Telink                        </td><td  style="white-space:normal; text-align:left;" id="TBL-5-8-2"  
-class="td11"> TLSR8232           </td><td  style="white-space:normal; text-align:left;" id="TBL-5-8-3"  
+class="td11"> Texas Instruments     </td><td  style="white-space:normal; text-align:left;" id="TBL-5-8-2"  
+class="td11"> CC2640/50          </td><td  style="white-space:normal; text-align:left;" id="TBL-5-8-3"  
 class="td11"> <span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xtelink8232">18</a>]</span> v1.3.0 (SMP fix)                   </td>
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xticc2640">7</a>]</span> v2.2.4                            </td>
 </tr><tr  
  style="vertical-align:baseline;" id="TBL-5-9-"><td  style="white-space:normal; text-align:left;" id="TBL-5-9-1"  
-class="td11"> Telink                        </td><td  style="white-space:normal; text-align:left;" id="TBL-5-9-2"  
-class="td11"> TLSR826x           </td><td  style="white-space:normal; text-align:left;" id="TBL-5-9-3"  
+class="td11"> Texas Instruments     </td><td  style="white-space:normal; text-align:left;" id="TBL-5-9-2"  
+class="td11"> CC13X2/26X2     </td><td  style="white-space:normal; text-align:left;" id="TBL-5-9-3"  
 class="td11"> <span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xtelink826x">17</a>]</span> v3.3 (SMP fix)                      </td>
-</tr><tr 
-class="hline"><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xticc2640">7</a>]</span> v3.40.00.02                   </td>
+</tr><tr  
  style="vertical-align:baseline;" id="TBL-5-10-"><td  style="white-space:normal; text-align:left;" id="TBL-5-10-1"  
-class="td11"> Dialog                       </td><td  style="white-space:normal; text-align:left;" id="TBL-5-10-2"  
-class="td11"> DA1469X            </td><td  style="white-space:normal; text-align:left;" id="TBL-5-10-3"  
+class="td11"> Texas Instruments     </td><td  style="white-space:normal; text-align:left;" id="TBL-5-10-2"  
+class="td11"> CC13x0                </td><td  style="white-space:normal; text-align:left;" id="TBL-5-10-3"  
 class="td11"> <span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xda1469x">9</a>]</span> 10.0.8.105                               </td>
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xticc2640">7</a>]</span> v4.10.xx                        </td>
 </tr><tr  
  style="vertical-align:baseline;" id="TBL-5-11-"><td  style="white-space:normal; text-align:left;" id="TBL-5-11-1"  
-class="td11"> Dialog                       </td><td  style="white-space:normal; text-align:left;" id="TBL-5-11-2"  
-class="td11"> DA14585/6          </td><td  style="white-space:normal; text-align:left;" id="TBL-5-11-3"  
-class="td11"> <span 
-class="ptmb8t-"><p style="color: #CB0000">Unpatched</p> </span>(End March 2020)      </td>
-</tr><tr  
- style="vertical-align:baseline;" id="TBL-5-12-"><td  style="white-space:normal; text-align:left;" id="TBL-5-12-1"  
-class="td11"> Dialog                       </td><td  style="white-space:normal; text-align:left;" id="TBL-5-12-2"  
-class="td11"> DA14680             </td><td  style="white-space:normal; text-align:left;" id="TBL-5-12-3"  
-class="td11"> <span 
-class="ptmb8t-"><p style="color: #CB0000">Unpatched</p> </span>(End February 2020)  </td>
-</tr><tr  
- style="vertical-align:baseline;" id="TBL-5-13-"><td  style="white-space:normal; text-align:left;" id="TBL-5-13-1"  
-class="td11"> Dialog                       </td><td  style="white-space:normal; text-align:left;" id="TBL-5-13-2"  
-class="td11"> DA14580             </td><td  style="white-space:normal; text-align:left;" id="TBL-5-13-3"  
-class="td11"> <span 
-class="ptmb8t-"><p style="color: #CB0000">Unpatched</p> </span>(End March 2020)      </td>
+class="td11"> Texas Instruments     </td><td  style="white-space:normal; text-align:left;" id="TBL-5-11-2"  
+class="td11"> CC2540/1            </td><td  style="white-space:normal; text-align:left;" id="TBL-5-11-3"  
+class="td11"> <span class="cite">&#x00A0;[<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xticc2540">6</a>]</span> v1.5.1                            </td>
 </tr><tr 
 class="hline"><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-5-12-"><td  style="white-space:normal; text-align:left;" id="TBL-5-12-1"  
+class="td11"> Telink                        </td><td  style="white-space:normal; text-align:left;" id="TBL-5-12-2"  
+class="td11"> TLSR8258           </td><td  style="white-space:normal; text-align:left;" id="TBL-5-12-3"  
+class="td11"> <span class="cite">&#x00A0;[<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xtelink8258">20</a>]</span> v3.4.0 (SMP fix)         </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-5-13-"><td  style="white-space:normal; text-align:left;" id="TBL-5-13-1"  
+class="td11"> Telink                        </td><td  style="white-space:normal; text-align:left;" id="TBL-5-13-2"  
+class="td11"> TLSR8232           </td><td  style="white-space:normal; text-align:left;" id="TBL-5-13-3"  
+class="td11"> <span class="cite">&#x00A0;[<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xtelink8232">22</a>]</span> v1.3.0 (SMP fix)         </td>
+</tr><tr  
  style="vertical-align:baseline;" id="TBL-5-14-"><td  style="white-space:normal; text-align:left;" id="TBL-5-14-1"  
-class="td11"> Microchip                  </td><td  style="white-space:normal; text-align:left;" id="TBL-5-14-2"  
-class="td11"> ATSAMB11         </td><td  style="white-space:normal; text-align:left;" id="TBL-5-14-3"  
-class="td11"> <span 
-class="ptmb8t-"><p style="color: #CB0000">Unpatched</p></span>                                     </td>
+class="td11"> Telink                        </td><td  style="white-space:normal; text-align:left;" id="TBL-5-14-2"  
+class="td11"> TLSR826x           </td><td  style="white-space:normal; text-align:left;" id="TBL-5-14-3"  
+class="td11"> <span class="cite">&#x00A0;[<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xtelink826x">21</a>]</span> v3.3 (SMP fix)            </td>
 </tr><tr 
 class="hline"><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
  style="vertical-align:baseline;" id="TBL-5-15-"><td  style="white-space:normal; text-align:left;" id="TBL-5-15-1"  
-class="td11"> STMicroelectronics  </td><td  style="white-space:normal; text-align:left;" id="TBL-5-15-2"  
-class="td11"> WB55                  </td><td  style="white-space:normal; text-align:left;" id="TBL-5-15-3"  
-class="td11"> <span 
-class="ptmb8t-"><p style="color: #CB0000">Unpatched</p></span>                                     </td>
+class="td11"> Dialog                       </td><td  style="white-space:normal; text-align:left;" id="TBL-5-15-2"  
+class="td11"> DA1469X            </td><td  style="white-space:normal; text-align:left;" id="TBL-5-15-3"  
+class="td11"> <span class="cite">&#x00A0;[<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xda1469x">10</a>]</span> 10.0.6                          </td>
 </tr><tr  
  style="vertical-align:baseline;" id="TBL-5-16-"><td  style="white-space:normal; text-align:left;" id="TBL-5-16-1"  
-class="td11"> STMicroelectroncis  </td><td  style="white-space:normal; text-align:left;" id="TBL-5-16-2"  
-class="td11"> BlueNRG-2          </td><td  style="white-space:normal; text-align:left;" id="TBL-5-16-3"  
-class="td11"> <span 
-class="ptmb8t-"><p style="color: #CB0000">Unpatched</p></span>                                     </td>
+class="td11"> Dialog                       </td><td  style="white-space:normal; text-align:left;" id="TBL-5-16-2"  
+class="td11"> DA14585/6          </td><td  style="white-space:normal; text-align:left;" id="TBL-5-16-3"  
+class="td11"> <span class="cite">&#x00A0;[<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xda1469x">10</a>]</span> <span id="textcolor15"><span 
+class="ptmb8t-">Hotfix available</span></span>         </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-5-17-"><td  style="white-space:normal; text-align:left;" id="TBL-5-17-1"  
+class="td11"> Dialog                       </td><td  style="white-space:normal; text-align:left;" id="TBL-5-17-2"  
+class="td11"> DA14680/1/2/3    </td><td  style="white-space:normal; text-align:left;" id="TBL-5-17-3"  
+class="td11"> <span class="cite">&#x00A0;[<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xda1469x">10</a>]</span> <span id="textcolor16"><span 
+class="ptmb8t-">Hotfix available</span></span>         </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-5-18-"><td  style="white-space:normal; text-align:left;" id="TBL-5-18-1"  
+class="td11"> Dialog                       </td><td  style="white-space:normal; text-align:left;" id="TBL-5-18-2"  
+class="td11"> DA14580/1/3       </td><td  style="white-space:normal; text-align:left;" id="TBL-5-18-3"  
+class="td11"> <span class="cite">&#x00A0;[<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xda1469x">10</a>]</span> <span id="textcolor17"><span 
+class="ptmb8t-">Hotfix available</span></span>         </td>
 </tr><tr 
 class="hline"><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
- style="vertical-align:baseline;" id="TBL-5-17-"><td  style="white-space:normal; text-align:left;" id="TBL-5-17-1"  
-class="td11">                  </td></tr></table>                                                </div>
+ style="vertical-align:baseline;" id="TBL-5-19-"><td  style="white-space:normal; text-align:left;" id="TBL-5-19-1"  
+class="td11"> Microchip                  </td><td  style="white-space:normal; text-align:left;" id="TBL-5-19-2"  
+class="td11"> ATSAMB11         </td><td  style="white-space:normal; text-align:left;" id="TBL-5-19-3"  
+class="td11"> <span class="cite">&#x00A0;[<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xmicrochip">19</a>]</span> <span id="textcolor18"><span 
+class="ptmb8t-">Pending</span></span>                      </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-5-20-"><td  style="white-space:normal; text-align:left;" id="TBL-5-20-1"  
+class="td11"> Microchip                  </td><td  style="white-space:normal; text-align:left;" id="TBL-5-20-2"  
+class="td11"> WINC3400          </td><td  style="white-space:normal; text-align:left;" id="TBL-5-20-3"  
+class="td11"> <span class="cite">&#x00A0;[<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xmicrochip">19</a>]</span> <span id="textcolor19"><span 
+class="ptmb8t-">Pending</span></span>                      </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-5-21-"><td  style="white-space:normal; text-align:left;" id="TBL-5-21-1"  
+class="td11"> Microchip                  </td><td  style="white-space:normal; text-align:left;" id="TBL-5-21-2"  
+class="td11"> IS1870/1              </td><td  style="white-space:normal; text-align:left;" id="TBL-5-21-3"  
+class="td11"> <span class="cite">&#x00A0;[<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xmicrochip">19</a>]</span> <span id="textcolor20"><span 
+class="ptmb8t-">Pending</span></span>                      </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-5-22-"><td  style="white-space:normal; text-align:left;" id="TBL-5-22-1"  
+class="td11"> Microchip                  </td><td  style="white-space:normal; text-align:left;" id="TBL-5-22-2"  
+class="td11"> BM70/1                </td><td  style="white-space:normal; text-align:left;" id="TBL-5-22-3"  
+class="td11"> <span class="cite">&#x00A0;[<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xmicrochip">19</a>]</span> <span id="textcolor21"><span 
+class="ptmb8t-">Pending</span></span>                      </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-5-23-"><td  style="white-space:normal; text-align:left;" id="TBL-5-23-1"  
+class="td11"> Microchip                  </td><td  style="white-space:normal; text-align:left;" id="TBL-5-23-2"  
+class="td11"> RN4870/1            </td><td  style="white-space:normal; text-align:left;" id="TBL-5-23-3"  
+class="td11"> <span class="cite">&#x00A0;[<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xmicrochip">19</a>]</span> <span id="textcolor22"><span 
+class="ptmb8t-">Pending</span></span>                      </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-5-24-"><td  style="white-space:normal; text-align:left;" id="TBL-5-24-1"  
+class="td11"> Microchip                  </td><td  style="white-space:normal; text-align:left;" id="TBL-5-24-2"  
+class="td11"> BTLC1000           </td><td  style="white-space:normal; text-align:left;" id="TBL-5-24-3"  
+class="td11"> <span class="cite">&#x00A0;[<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xmicrochip">19</a>]</span> <span id="textcolor23"><span 
+class="ptmb8t-">Pending</span></span>                      </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-5-25-"><td  style="white-space:normal; text-align:left;" id="TBL-5-25-1"  
+class="td11"> Microchip                  </td><td  style="white-space:normal; text-align:left;" id="TBL-5-25-2"  
+class="td11"> IS1677/8              </td><td  style="white-space:normal; text-align:left;" id="TBL-5-25-3"  
+class="td11"> <span class="cite">&#x00A0;[<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xmicrochip">19</a>]</span> <span id="textcolor24"><span 
+class="ptmb8t-">Pending</span></span>                      </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-5-26-"><td  style="white-space:normal; text-align:left;" id="TBL-5-26-1"  
+class="td11"> Microchip                  </td><td  style="white-space:normal; text-align:left;" id="TBL-5-26-2"  
+class="td11"> BM77/8                </td><td  style="white-space:normal; text-align:left;" id="TBL-5-26-3"  
+class="td11"> <span class="cite">&#x00A0;[<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xmicrochip">19</a>]</span> <span id="textcolor25"><span 
+class="ptmb8t-">Pending</span></span>                      </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-5-27-"><td  style="white-space:normal; text-align:left;" id="TBL-5-27-1"  
+class="td11"> Microchip                  </td><td  style="white-space:normal; text-align:left;" id="TBL-5-27-2"  
+class="td11"> RN4677/8            </td><td  style="white-space:normal; text-align:left;" id="TBL-5-27-3"  
+class="td11"> <span class="cite">&#x00A0;[<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xmicrochip">19</a>]</span> <span id="textcolor26"><span 
+class="ptmb8t-">Pending</span></span>                      </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-5-28-"><td  style="white-space:normal; text-align:left;" id="TBL-5-28-1"  
+class="td11"> Microchip                  </td><td  style="white-space:normal; text-align:left;" id="TBL-5-28-2"  
+class="td11"> IS2062/3/4/6        </td><td  style="white-space:normal; text-align:left;" id="TBL-5-28-3"  
+class="td11"> <span class="cite">&#x00A0;[<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xmicrochip">19</a>]</span> <span id="textcolor27"><span 
+class="ptmb8t-">Pending</span></span>                      </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-5-29-"><td  style="white-space:normal; text-align:left;" id="TBL-5-29-1"  
+class="td11"> Microchip                  </td><td  style="white-space:normal; text-align:left;" id="TBL-5-29-2"  
+class="td11"> BM62/3/4            </td><td  style="white-space:normal; text-align:left;" id="TBL-5-29-3"  
+class="td11"> <span class="cite">&#x00A0;[<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xmicrochip">19</a>]</span> <span id="textcolor28"><span 
+class="ptmb8t-">Pending</span></span>                      </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-5-30-"><td  style="white-space:normal; text-align:left;" id="TBL-5-30-1"  
+class="td11"> Microchip                  </td><td  style="white-space:normal; text-align:left;" id="TBL-5-30-2"  
+class="td11"> IS2083                 </td><td  style="white-space:normal; text-align:left;" id="TBL-5-30-3"  
+class="td11"> <span class="cite">&#x00A0;[<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xmicrochip">19</a>]</span> <span id="textcolor29"><span 
+class="ptmb8t-">Pending</span></span>                      </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-5-31-"><td  style="white-space:normal; text-align:left;" id="TBL-5-31-1"  
+class="td11"> Microchip                  </td><td  style="white-space:normal; text-align:left;" id="TBL-5-31-2"  
+class="td11"> BM83                   </td><td  style="white-space:normal; text-align:left;" id="TBL-5-31-3"  
+class="td11"> <span class="cite">&#x00A0;[<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xmicrochip">19</a>]</span> <span id="textcolor30"><span 
+class="ptmb8t-">Pending</span></span>                      </td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-5-32-"><td  style="white-space:normal; text-align:left;" id="TBL-5-32-1"  
+class="td11"> STMicroelectronics  </td><td  style="white-space:normal; text-align:left;" id="TBL-5-32-2"  
+class="td11"> WB55                  </td><td  style="white-space:normal; text-align:left;" id="TBL-5-32-3"  
+class="td11"> <span class="cite">&#x00A0;[<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xstmsw">16</a>]</span> v1.6.0                          </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-5-33-"><td  style="white-space:normal; text-align:left;" id="TBL-5-33-1"  
+class="td11"> STMicroelectroncis  </td><td  style="white-space:normal; text-align:left;" id="TBL-5-33-2"  
+class="td11"> BlueNRG-1/2      </td><td  style="white-space:normal; text-align:left;" id="TBL-5-33-3"  
+class="td11"> <span class="cite">&#x00A0;[<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbluenrg">17</a>]</span> v3.2.0                          </td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-5-34-"><td  style="white-space:normal; text-align:left;" id="TBL-5-34-1"  
+class="td11">                  </td></tr></table>                                           </div>
                                                 
                                                                                                 
                                                                                                 
@@ -1219,10 +1395,10 @@ class="td11">                  </td></tr></table>                               
   </div>
   <h3 class="sectionHead" style="font-size: 2rem;"><span class="titlemark">4    </span> <a 
  id="x1-70004"></a>Non-compliance in the wild!</h3>
-<!--l. 385--><p class="noindent" >In recent years, Bluetooth design has been under scrutiny due to
+<!--l. 391--><p class="noindent" >In recent years, Bluetooth design has been under scrutiny due to
 several security flaws such as KNOB&#x00A0;<span class="cite">&#x00A0;[<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xantonioli2019knob">1</a>]</span>, BlueBorne&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xseri2017blueborne">10</a>]</span> and
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xseri2017blueborne">11</a>]</span> and
 Invalid ECC Attack&#x00A0;<span class="cite">&#x00A0;[<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbiham2019breaking">2</a>]</span>. In contrast, little to no research has
 been carried out on the security of the diverse Bluetooth
@@ -1231,7 +1407,7 @@ the implementation tests to the Bluetooth certification process.
 This is with the mindset that once the design is sound, hardly
 anything can break in the implementation of the Bluetooth
 stack.
-</p><!--l. 393--><p class="indent" >  Our findings expose some fundamental attack vectors against
+</p><!--l. 399--><p class="indent" >  Our findings expose some fundamental attack vectors against
 certified and recertified BLE Stacks which are supposed to be
 &#8220;safe" against such flaws. We carefully investigated the reasons
 that might explain the presence of <span 
@@ -1247,7 +1423,7 @@ class="small-caps">h </span> </span>vulnerabilities
 on the affected SoCs. We believe this is due to the imposed
 isolation between the link layer and other Bluetooth protocols,
 via the Host Controller Interface (HCI) protocol<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbluetooth2016bluetooth">12</a>]</span>. While
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbluetooth2016bluetooth">13</a>]</span>. While
 such a strategy is reasonable for hardware compatibility, this
 adds complexity to the implementation. Moreover, it overly
 complicates the strategies to systematically and comprehensively
@@ -1256,7 +1432,7 @@ complex to send arbitrary Link Layer messages during other
 protocol message exchanges. Such added complexity is likely
 the reason for inadequate security testing of BLE stack
 implementation.
-</p><!--l. 405--><p class="indent" >  We carefully read and investigated relevant parts of the
+</p><!--l. 411--><p class="indent" >  We carefully read and investigated relevant parts of the
 Controller and Host volume of the Core Specification, which
 allow us to understand the main interaction of two devices (c.f.,
 Figure&#x00A0;<a 
@@ -1275,9 +1451,9 @@ this question, we have received highly different behaviours
 across most SoCs we have tested. In addition, several other
 implementation details, which are explicitly imposed by the Core
 Specification&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbluetooth2019bluetooth">13</a>]</span>, are also not followed by SoC vendors in
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbluetooth2019bluetooth">14</a>]</span>, are also not followed by SoC vendors in
 reality.
-</p><!--l. 418--><p class="indent" >  It is worthwhile to mention that every SoC BLE SDK goes
+</p><!--l. 424--><p class="indent" >  It is worthwhile to mention that every SoC BLE SDK goes
 through the certification process before going into market. Thus,
 our findings expose that improvements should be made on the
 certification process to avoid at least <span 
@@ -1290,7 +1466,7 @@ responds to version requests multiple times, going against <span
 class="ptmb8t-">[Vol 6]</span>
 <span 
 class="ptmb8t-">Part B, Section 5.1.5 </span>of Core Specification&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbluetooth2019bluetooth">13</a>]</span>, which         defines that the peripheral should only respond a version
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbluetooth2019bluetooth">14</a>]</span>, which         defines that the peripheral should only respond a version
      request a single time during the same central-peripheral
      connection. Similarly, all devices we have tested accept a
      connection request with the&#8220;hopIncrement" field value of
@@ -1304,7 +1480,7 @@ class="ptmb8t-">[Vol 1] Part E, Section 2.7 </span>(Responding to
      malformed behaviour). This part of the specification provides
      directives and few examples to handle invalid or malformed
      packets.
-     </p><!--l. 433--><p class="indent" >    In conclusion, we strongly believe that the Bluetooth SIG
+     </p><!--l. 439--><p class="indent" >    In conclusion, we strongly believe that the Bluetooth SIG
      should improve and significantly expand Section&#x00A0;2.7 (the section
      is less than one page!!!) and add more basic tests to the Bluetooth
      certification to avoid zero-day vulnerabilities such as the ones
@@ -1318,7 +1494,7 @@ class="small-caps">o</span><span
 class="small-caps">o</span><span 
 class="small-caps">t</span><span 
 class="small-caps">h</span></span>.
-     </p><!--l. 443--><p class="noindent" >
+     </p><!--l. 449--><p class="noindent" >
      </p>
          <h3 class="sectionHead" style="font-size: 2rem;"><span class="titlemark">5    </span> <a 
  id="x1-80005"></a>Why <span 
@@ -1331,7 +1507,7 @@ class="small-caps">o</span><span
 class="small-caps">o</span><span 
 class="small-caps">t</span><span 
 class="small-caps">h </span></span>?</h3>
-     <!--l. 445--><p class="noindent" >The insight behind the name SweynTooth arrives from Sweyn
+     <!--l. 451--><p class="noindent" >The insight behind the name SweynTooth arrives from Sweyn
      Forkbeard, the son of King Harald Bluetooth (after whom the
      Bluetooth Technology was originally named). Sweyn revolted
      against Harald Bluetooth and this forced King Harald to his
@@ -1340,12 +1516,10 @@ class="small-caps">h </span></span>?</h3>
      appropriately handled by BLE vendors, then the technology can
      become a breeding ground for attackers. This may, in turn, lead
      the Bluetooth technology to be obsolete.
-     </p><!--l. 447--><p class="indent" >    The SweynTooth logo captures a variation of the original
-     Bluetooth logo written in the Runic alphabet. From the Runic
-     alphabet, the "S" of Sweyn and "B" of Bluetooth are combined to
-     design the logo. Moreover, the "S" in the SweynTooth logo
-     visually captures that the arm of "H" is broken in the Bluetooth
-     logo.
+     </p><!--l. 453--><p class="indent" >    The SweynTooth logo is designed based on the combination of
+     letter "S" (abbreviating Sweyn) and letter "T" (abbreviating
+     Tooth) from the Elder Futhark alphabet &#8211; one of the oldest Runic
+     alphabets.
      </p><!--l. 1--><p class="noindent" >
      </p>
          <h3 class="sectionHead" style="font-size: 2rem;"><span class="titlemark">6    </span> <a 
@@ -1364,10 +1538,10 @@ class="ptmri8t-">Link Layer Length Overflow </span>vulnerability was identified 
 class="ptmri8t-">Cypress PSoC4/6 BLE Component 3.41/2.60 </span>(CVE-2019-16336)
      and <span 
 class="ptmri8t-">NXP KW41Z 3.40 </span>SDK (CVE-2019-17519). Both
+     implementations are susceptible to the same vulnerability. Such a
+     vulnerability allows attackers in radio range to trigger a
                                                                                                 
                                                                                                 
-implementations are susceptible to the same vulnerability. Such a
-vulnerability allows attackers in radio range to trigger a
 buffer overflow by manipulating the <span 
 class="ptmri8t-">LL Length Field</span>. The
 overflow occurs when the attacker, acting as the central
@@ -1552,7 +1726,7 @@ the peripheral responded to packets from the central with
 unexpectedly large <span 
 class="ptmri8t-">LL Length</span>. While this behaviour is not
 compliant to BLE Core specifications&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbluetooth2016bluetooth">12</a>]</span>, it does not appear
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbluetooth2016bluetooth">13</a>]</span>, it does not appear
 to affect the peripheral at first. Nonetheless, when a certain
 packet payload with higher than expected <span 
 class="ptmri8t-">LL Length </span>is sent, the
@@ -1777,20 +1951,24 @@ class="content">Sequential ATT Deadlock</span></div><!--tex4ht:label?: x1-16001r
  id="x1-170006.8"></a>Invalid L2CAP fragment<br 
 class="newline" />(CVE-2019-19195)</h4>
 <!--l. 244--><p class="noindent" >During the communication between the central device and
-peripheral, the Bluetooth 4.0-4.2 Core specification dictates that
-the minimum and maximum PDU size of the packets should be
-in the range 2-39&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xversion42">11</a>]</span>. Packets outside this boundary should
-be discarded as they are invalid. However, we discovered
-that such is not the case for devices running <span 
-class="ptmri8t-">Microchip</span>
+peripheral, the Bluetooth 4.0-4.1 Core specification dictates that
+the minimum and maximum link layer PDU size of L2CAP
+packets should be in the range 4-31&#x00A0;<span class="cite">&#x00A0;[<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xversion42">12</a>]</span>, considering
+that the L2CAP header is four bytes. Packets outside this
+boundary should be discarded as they are invalid. However, we
+discovered that such is not the case for devices running
 <span 
-class="ptmri8t-">ATMSAMB11 BluSDK Smart v6.2 </span>and earlier. Following
-Figure&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-17001r10">10<!--tex4ht:ref: fig:anomaly9 --></a>, it was discovered that if an L2CAP PDU of
-length one is sent to the peripheral, then the device simply
-crashes.
-</p><!--l. 254--><p class="noindent" ><span 
+class="ptmri8t-">Microchip ATMSAMB11 BluSDK Smart v6.2 </span>and earlier.
+Following Figure&#x00A0;<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-17001r10">10<!--tex4ht:ref: fig:anomaly9 --></a>, it was discovered that if an link layer
+PDU of length one is sent to the peripheral, then the device
+crashes due to the L2CAP header being truncated to just
+one byte. It also happens that this byte corresponds to the
+L2CAP length field. Thus, sending a higher value for this byte
+may lead to a buffer overflow and subsequently, crash the
+device.
+</p><!--l. 258--><p class="noindent" ><span 
 class="ptmb8t-"><q-chip style="width: 100px" square color="deep-orange" text-color="white" icon="warning">Impact</q-chip> </span>The watchdog mechanism is enabled by default in the
 SDK, which reduces the risk for products relying on <span 
 class="ptmri8t-">ATSAMB11</span>
@@ -1808,7 +1986,7 @@ remotely restarting them.
                                                 
                                                                                                 
                                                                                                 
-<!--l. 264--><p class="noindent" > <img 
+<!--l. 268--><p class="noindent" > <img 
 src="Figures/anomaly_9.pdf.svg" alt="PIC"  
 width="360" height="auto"  />
 <br /> </p><div class="caption" 
@@ -1821,7 +1999,7 @@ class="content">Invalid L2CAP fragment</span></div><!--tex4ht:label?: x1-17001r1
   <h4 class="subsectionHead" style="font-size: 1rem;font-weight:bold;line-height: 1.5rem;"><span class="titlemark">6.9    </span> <a 
  id="x1-180006.9"></a>Key Size Overflow<br 
 class="newline" />(CVE-2019-19196)</h4>
-<!--l. 273--><p class="noindent" >The Key Size Overflow vulnerability was found in all <span 
+<!--l. 277--><p class="noindent" >The Key Size Overflow vulnerability was found in all <span 
 class="ptmri8t-">Telink</span>
 <span 
 class="ptmri8t-">Semiconductor </span>BLE SDKs. This causes an overflow in the device
@@ -1829,7 +2007,7 @@ memory, resulting in a crash. However, the problem that allows
 this vulnerability is a combination of multiple issue found
 during the pairing procedure of devices using Telink SMP
 implementation.
-</p><!--l. 279--><p class="indent" >  During the start of the pairing procedure, the central device
+</p><!--l. 283--><p class="indent" >  During the start of the pairing procedure, the central device
 sends a <span 
 class="ptmri8t-">Pairing request </span>packet containing the maximum allowed
 key size to be negotiated at the end of the pairing procedure.
@@ -1849,28 +2027,7 @@ peripheral accepts the <span
 class="ptmri8t-">LL Encryption procedure </span>to occur
 before the pairing procedure even starts, albeit failing at later
 stage.
-</p>
-  <div style="margin-top:30px;margin-bottom:30px;" class="row items-start justify-center"><div class="figure" 
->
-                                                
-                                                                                                
-                                                                                                
-<a 
- id="x1-18001r11"></a>
-                                                
-                                                                                                
-                                                                                                
-<!--l. 295--><p class="noindent" > <img 
-src="Figures/anomaly_6.pdf.svg" alt="PIC"  
-width="420" height="auto"  />
-<br /> </p><div class="caption" 
-><span class="id">Figure&#x00A0;11: </span><span  
-class="content">Key Size Overflow</span></div><!--tex4ht:label?: x1-18001r11 -->
-                                                
-                                                                                                
-                                                                                                
-  </div></div>
-<!--l. 303--><p class="indent" >  By combining the two mentioned problems it is possible to
+</p><!--l. 300--><p class="indent" >  By combining the two mentioned problems it is possible to
 force the peripheral into allocating the over sized key buffer
 length which was negotiated during the <span 
 class="ptmri8t-">pairing request</span>. Depicted
@@ -1883,7 +2040,7 @@ class="ptmri8t-">encryption request</span>.
 The request is accepted and a buffer overflow occurs in
 peripheral&#8217;s memory as its firmware tries to allocate the
 oversized key.
-</p><!--l. 311--><p class="noindent" ><span 
+</p><!--l. 308--><p class="noindent" ><span 
 class="ptmb8t-"><q-chip style="width: 100px" square color="deep-orange" text-color="white" icon="warning">Impact</q-chip> </span>This vulnerability allows an attacker in radio to
 perform buffer overflow and crash Telink SoCs products
 with pairing support enabled, which is a common practice
@@ -1896,10 +2053,30 @@ possible to overwrite buffers that store encryption nonce
 would allow the attacker to bypass encryption and leak user
 information.
 </p>
+  <div style="margin-top:30px;margin-bottom:30px;" class="row items-start justify-center"><div class="figure" 
+>
+                                                
+                                                                                                
+                                                                                                
+<a 
+ id="x1-18001r11"></a>
+                                                
+                                                                                                
+                                                                                                
+<!--l. 315--><p class="noindent" > <img 
+src="Figures/anomaly_6.pdf.svg" alt="PIC"  
+width="420" height="auto"  />
+<br /> </p><div class="caption" 
+><span class="id">Figure&#x00A0;11: </span><span  
+class="content">Key Size Overflow</span></div><!--tex4ht:label?: x1-18001r11 -->
+                                                
+                                                                                                
+                                                                                                
+  </div></div>
   <h4 class="subsectionHead" style="font-size: 1rem;font-weight:bold;line-height: 1.5rem;"><span class="titlemark">6.10    </span> <a 
  id="x1-190006.10"></a>Zero LTK Installation<br 
 class="newline" />(CVE-2019-19194)</h4>
-<!--l. 322--><p class="noindent" >This critical vulnerability is a variation of one of the Key
+<!--l. 326--><p class="noindent" >This critical vulnerability is a variation of one of the Key
 Size Overflow. It affects all products using Telink SMP
 implementation with support for secure connection enabled. It
 was verified that when the Telink peripheral accepts an out of
@@ -1919,7 +2096,7 @@ exchange.
                                                 
                                                                                                 
                                                                                                 
-<!--l. 327--><p class="noindent" > <img 
+<!--l. 331--><p class="noindent" > <img 
 src="Figures/anomaly_7.pdf.svg" alt="PIC"  
 width="360" height="auto"  />
 <br /> </p><div class="caption" 
@@ -1929,7 +2106,7 @@ class="content">Zero LTK Installation</span></div><!--tex4ht:label?: x1-19001r12
                                                                                                 
                                                                                                 
   </div></div>
-<!--l. 334--><p class="indent" >  Following Figure <a 
+<!--l. 338--><p class="indent" >  Following Figure <a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-17001r10">10<!--tex4ht:ref: fig:anomaly9 --></a>, the rogue central sends a <span 
 class="ptmri8t-">pairing</span>
 <span 
@@ -1956,7 +2133,7 @@ completing the encryption procedure. The <span
 class="zptmcmrm-">SK </span>(hiddenly
 mentioned in Bluetooth Core Specification as <span 
 class="ptmri8t-">sessionKey</span><span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbluetooth2016bluetooth">12</a>]</span>)
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbluetooth2016bluetooth">13</a>]</span>)
 is generated by the cryptographic function of Equation
 <a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-19002r1">1<!--tex4ht:ref: eq:1 --></a>.
@@ -1968,8 +2145,8 @@ class="equation"><tr><td><a
 <img 
 src="disclosure0x.svg" alt="SK = AESECB(Key= LTK,Plaintext = SKD )
 " class="math-display"  /></center></td><td class="equation-label">(1)</td></tr></table>
-<!--l. 339--><p class="nopar" >
-</p><!--l. 341--><p class="indent" >  The Session Key Diversifier (<span 
+<!--l. 343--><p class="nopar" >
+</p><!--l. 345--><p class="indent" >  The Session Key Diversifier (<span 
 class="zptmcmrm-">SKD</span>) is a random 16 byte
 number obtained via the <span 
 class="ptmri8t-">encryption request/response </span>exchange,
@@ -1980,7 +2157,7 @@ class="zptmcmrm-">SK</span>. As an
 aggravating factor, the <span 
 class="ptmri8t-">Keys distribution procedure </span>is completely
 bypassed after the attack is performed.
-</p><!--l. 343--><p class="noindent" ><span 
+</p><!--l. 347--><p class="noindent" ><span 
 class="ptmb8t-"><q-chip style="width: 100px" square color="deep-orange" text-color="white" icon="warning">Impact</q-chip> </span>An attacker in Radio range can abuse this vulnerability
 to completely bypass security in a BLE products which rely in
 secure connections pairing to protect user privacy. Furthermore,
@@ -1988,7 +2165,7 @@ device&#8217;s functionalities which were only allowed to be accessed
 by an authorized user, can be trivially bypassed. In short, this
 vulnerability allows an attacker full communication control over
 a protected BLE application.
-</p><!--l. 347--><p class="indent" >  As a side note, this vulnerability only affects Telink devices
+</p><!--l. 351--><p class="indent" >  As a side note, this vulnerability only affects Telink devices
 that allows secure connection pairing. In reality, affected
 products that disable secure connections pairing (the currently
 secure BLE pairing mode) and enable only the insecure
@@ -1996,12 +2173,12 @@ legacy pairing mode, are in fact more secure due to this
 vulnerability.                                           </p>
          <h3 class="likesectionHead"><a 
  id="x1-200006.10"></a>Contact</h3>
-     <!--l. 454--><p class="noindent" >Feel free to reach us by email: <a 
+     <!--l. 463--><p class="noindent" >Feel free to reach us by email: <a 
 target="_blank" href="mailto:sweyntooth@gmail.com" >sweyntooth@gmail.com</a>
      </p>
          <h3 class="likesectionHead"><a 
  id="x1-210006.10"></a>Acknowledgements</h3>
-     <!--l. 458--><p class="noindent" >This research was partially supported by <a 
+     <!--l. 467--><p class="noindent" >This research was partially supported by <a 
 target="_blank" href="https://www.keysight.com/sg/en/home.html" >Keysight Technologies</a>.
      We also want to thank all the involved vendors for their support
      during the coordination process and <a 
@@ -2158,34 +2335,30 @@ target="_blank" href="https://armis.com/bleedingbit/" target="_blank" class="url
              <a 
  id="Xticc2540"></a>Texas
              Instruments.
-             Bluetooth
-             low
-             energy
-             software
-             stack,
+             Invalid
+             connection
+             request
+             advisory,
              February
              2020.
              <a 
-href="http://www.ti.com/tool/BLE-STACK" target="_blank" class="url" >http://www.ti.com/tool/BLE-STACK</a>.
+href="http://e2e.ti.com/support/wireless-connectivity/bluetooth/f/538/t/881881" target="_blank" class="url" >http://e2e.ti.com/support/wireless-connectivity/bluetooth/f/538/t/881881</a>.
              </p>
              <p class="bibitem" ><span class="biblabel">
          [7]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span>
              <a 
  id="Xticc2640"></a>Texas
              Instruments.
-             SimpleLink
-             CC2640R2
-             SDK
+             Public
+             Key
+             Crash
+             advisory,
                                                                                                 
                                                                                                 
-    -
-    Bluetooth
-    Low
-    Energy,
     February
     2020.
     <a 
-href="http://www.ti.com/tool/SIMPLELINK-CC2640R2-SDK" target="_blank" class="url" >http://www.ti.com/tool/SIMPLELINK-CC2640R2-SDK</a>.
+target="_blank" href="https://e2e.ti.com/support/wireless-connectivity/bluetooth/f/538/t/881879" target="_blank" class="url" >https://e2e.ti.com/support/wireless-connectivity/bluetooth/f/538/t/881879</a>.
     </p>
     <p class="bibitem" ><span class="biblabel">
   [8]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span>
@@ -2204,19 +2377,28 @@ target="_blank" href="https://www.nxp.com/design/software/development-software/m
     <p class="bibitem" ><span class="biblabel">
   [9]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span>
     <a 
- id="Xda1469x"></a>Dialog
-    Semiconductor.
-    SmartBond
-    DA1469x
-    Product
-    Family,
-    February
+ id="Xnxpadv"></a>NXP.
+    SweynTooth
+    Advisory,
+    March
     2020.
     <a 
-target="_blank" href="https://support.dialog-semiconductor.com/system/files/restricted/SDK_10.0.8.105.zip" target="_blank" class="url" >https://support.dialog-semiconductor.com/system/files/restricted/SDK_10.0.8.105.zip</a>.
+target="_blank" href="https://community.nxp.com/community/wireless-connectivity/security-updates/blog/2020/03/03/bluetooth-low-energy-vulnerabilities-sweyntooth" target="_blank" class="url" >https://community.nxp.com/community/wireless-connectivity/security-updates/blog/2020/03/03/bluetooth-low-energy-vulnerabilities-sweyntooth</a>.
     </p>
     <p class="bibitem" ><span class="biblabel">
  [10]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span>
+    <a 
+ id="Xda1469x"></a>Dialog
+    Semiconductor.
+    SweynTooth
+    Advisory,
+    February
+    2020.
+    <a 
+target="_blank" href="https://www.dialog-semiconductor.com/sweyntooth-bluetooth-low-energy-vulnerability" target="_blank" class="url" >https://www.dialog-semiconductor.com/sweyntooth-bluetooth-low-energy-vulnerability</a>.
+    </p>
+    <p class="bibitem" ><span class="biblabel">
+ [11]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span>
     <a 
  id="Xseri2017blueborne"></a>Ben
     Seri
@@ -2227,10 +2409,10 @@ target="_blank" href="https://support.dialog-semiconductor.com/system/files/rest
     Armis.
     <a 
 target="_blank" href="https://www.armis.com/blueborne/" target="_blank" class="url" >https://www.armis.com/blueborne/</a>,
-    2017.
-    </p>
-    <p class="bibitem" ><span class="biblabel">
- [11]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span>                                                      <a 
+    2017.                                                     </p>
+             <p class="bibitem" ><span class="biblabel">
+       [12]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span>
+             <a 
  id="Xversion42"></a>Bluetooth
              SIG.
              Bluetooth
@@ -2243,7 +2425,7 @@ target="_blank" href="https://www.armis.com/blueborne/" target="_blank" class="u
 target="_blank" href="https://www.bluetooth.com/specifications/bluetooth-core-specification" target="_blank" class="url" >https://www.bluetooth.com/specifications/bluetooth-core-specification</a>.
              </p>
              <p class="bibitem" ><span class="biblabel">
-       [12]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span>
+       [13]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span>
              <a 
  id="Xbluetooth2016bluetooth"></a>Bluetooth
              SIG.
@@ -2257,7 +2439,7 @@ target="_blank" href="https://www.bluetooth.com/specifications/bluetooth-core-sp
 target="_blank" href="https://www.bluetooth.com/specifications/bluetooth-core-specification" target="_blank" class="url" >https://www.bluetooth.com/specifications/bluetooth-core-specification</a>.
              </p>
              <p class="bibitem" ><span class="biblabel">
-       [13]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span>
+       [14]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span>
              <a 
  id="Xbluetooth2019bluetooth"></a>Bluetooth
              SIG.
@@ -2271,7 +2453,7 @@ target="_blank" href="https://www.bluetooth.com/specifications/bluetooth-core-sp
 target="_blank" href="https://www.bluetooth.com/specifications/bluetooth-core-specification" target="_blank" class="url" >https://www.bluetooth.com/specifications/bluetooth-core-specification</a>.
              </p>
              <p class="bibitem" ><span class="biblabel">
-       [14]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span>
+       [15]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span>
              <a 
  id="Xbluetooth-listing"></a>Bluetooth
              SIG.
@@ -2281,16 +2463,43 @@ target="_blank" href="https://www.bluetooth.com/specifications/bluetooth-core-sp
              designs
              and
              declared
-             products,
-             January
-             2020.
-             <a 
+                                                                                                
+                                                                                                
+    products,
+    January
+    2020.
+    <a 
 target="_blank" href="https://launchstudio.bluetooth.com/Listings/Search" target="_blank" class="url" >https://launchstudio.bluetooth.com/Listings/Search</a>.
-                                                                                                
-                                                                                                
     </p>
     <p class="bibitem" ><span class="biblabel">
- [15]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span>
+ [16]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span>
+    <a 
+ id="Xstmsw"></a>STMicroelectronics.
+    STM32Cube
+    MCU
+    Package
+    for
+    STM32WB
+    series,
+    April
+    2020.
+    <a 
+target="_blank" href="https://www.st.com/en/embedded-software/stm32cubewb.html" target="_blank" class="url" >https://www.st.com/en/embedded-software/stm32cubewb.html</a>.
+    </p>
+    <p class="bibitem" ><span class="biblabel">
+ [17]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span>
+    <a 
+ id="Xbluenrg"></a>STMicroelectronics.
+    STSW-BLUENRG1-DK
+    SW
+    package,
+    April
+    2020.
+    <a 
+target="_blank" href="https://www.st.com/en/embedded-software/stsw-bluenrg1-dk.html" target="_blank" class="url" >https://www.st.com/en/embedded-software/stsw-bluenrg1-dk.html</a>.
+    </p>
+    <p class="bibitem" ><span class="biblabel">
+ [18]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span>
     <a 
  id="Xswipbox"></a>Swipbox.
     Swipbox
@@ -2303,22 +2512,34 @@ target="_blank" href="https://launchstudio.bluetooth.com/Listings/Search" target
 target="_blank" href="https://www.swipbox.com/products_infinity.html" target="_blank" class="url" >https://www.swipbox.com/products_infinity.html</a>.
     </p>
     <p class="bibitem" ><span class="biblabel">
- [16]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span>
+ [19]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span>
     <a 
+ id="Xmicrochip"></a>Microchip
+    Technology.
+    SweynTooth
+    Advisory,                                           March
+                                                       2020.
+                                                       <a 
+target="_blank" href="https://www.microchip.com/design-centers/wireless-connectivity/bluetooth/sweyntooth-ble-vulnerability" target="_blank" class="url" >https://www.microchip.com/design-centers/wireless-connectivity/bluetooth/sweyntooth-ble-vulnerability</a>.
+                                                       </p>
+                                                       <p class="bibitem" ><span class="biblabel">
+                                                   [20]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span>
+                                                       <a 
  id="Xtelink8258"></a>Telink.
-    Telink
-    wiki
-    -
-    Kite
-    BLE
-    SDK
-    V3.4.0,
-    February
-    2020.
-    <a 
+                                                       Telink
+                                                       wiki
+                                                       -
+                                                       Kite
+                                                       BLE
+                                                       SDK
+                                                       V3.4.0,
+                                                       February
+                                                       2020.
+                                                       <a 
 href="http://wiki.telink-semi.cn/tools\_and\_sdk/BLE_SDK/8x5x_SDK/ble_sdk.zip" target="_blank" class="url" >http://wiki.telink-semi.cn/tools\_and\_sdk/BLE_SDK/8x5x_SDK/ble_sdk.zip</a>.
-    </p>
-    <p class="bibitem" ><span class="biblabel">                                               [17]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span>
+                                                       </p>
+                                                       <p class="bibitem" ><span class="biblabel">
+                                                   [21]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span>
                                                        <a 
  id="Xtelink826x"></a>Telink.
                                                        Telink
@@ -2333,7 +2554,7 @@ href="http://wiki.telink-semi.cn/tools\_and\_sdk/BLE_SDK/8x5x_SDK/ble_sdk.zip" t
 href="http://wiki.telink-semi.cn/tools_and_sdk/BLE_SDK/826x_SDK/ble_sdk.rar" target="_blank" class="url" >http://wiki.telink-semi.cn/tools_and_sdk/BLE_SDK/826x_SDK/ble_sdk.rar</a>.
                                                        </p>
                                                        <p class="bibitem" ><span class="biblabel">
-                                                   [18]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span>
+                                                   [22]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span>
                                                        <a 
  id="Xtelink8232"></a>Telink.
                                                        Telink
