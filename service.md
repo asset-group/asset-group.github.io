@@ -32,7 +32,7 @@ Review board of IEEE Transactions on Software Engineering (TSE)
 <p style="text-align:justify">
 Publication Chair: RTCSA 2020
 <br>
-Technical Program Committee (TPC): ACNS 2021, CGO 2020, ACISP 2020, DATE 2021, RTCSA 2020, ASP-DAC 2021, ASAP 2020, SETTA 2020, ISSTA-Doctoral-Symposium 2020.  
+Technical Program Committee (TPC): ACNS 2021, CGO 2020, ACISP 2020, DATE 2021, RTCSA 2020, ASP-DAC 2021, ASAP 2020, SETTA 2020, APSEC 2020, ISSTA-Doctoral-Symposium 2020.  
 </p> 
 
 #### 2019
