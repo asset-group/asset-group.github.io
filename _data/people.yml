@@ -46,6 +46,13 @@ xingbin:
     image: /img/people/Jiang_Xingbin.jpg
     bio: "Research Assistant (ME, Chinese Academy of Sciences)"
 
+vaibhav:
+    display_name: "Vaibhav Bedi"
+    webpage: "https://vaibhvbedi.github.io/Vaibhavbedi/"
+    role: postdoc 
+    image: /img/people/vaibhav-bedi.jpg
+    bio: "Research Assistant (BTech, Kurukshetra University)"
+
 rohini:
     display_name: "Rohini Poolat"
     role: alum
