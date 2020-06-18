@@ -17,6 +17,10 @@ title: Code
 
 [This repository](https://github.com/Matheus-Garbelini/sweyntooth_bluetooth_low_energy_attacks) contains the proof-of-concept code for [SweynTooth vulnerability](https://asset-group.github.io/disclosures/sweyntooth/) in major BLE System-on-chips (SoCs) such as Texas Instruments, Cypress, NXP, Microchip, ST Microelectronics, Telink and Dialog semiconductors. 
 
+#### Stitcher
+[Stitcher](https://github.com/poppopretn/Stitcher) is a tool designed to classify and correlate evidence from IoT devices. See the paper 
+[“STITCHER: Correlating Digital Forensic Evidence on Internet-of-Things Devices”](https://arxiv.org/abs/2003.07242) for details.
+
 #### Aequitas 
 [Aequitas](https://github.com/sakshiudeshi/Aequitas) is a directed fairness testing framework for machine learning models. See the paper [Automated Directed Fairness Testing](https://arxiv.org/abs/1807.00468) for more details.
 
@@ -35,7 +39,6 @@ title: Code
 #### Mirai4IIoT
 
 [Mirai4IIoT](https://gitlab.com/asset-sutd/public/mirai4iiot) is a repository to reproduce Mirai attacks in Industrial Internet-of-things (IIoT) systems. The attacks can be reproduced in both stealthy and non-stealthy mode. See the paper [An Experimental Analysis of Security Vulnerabilities in Industrial IoT Devices](https://asset-group.github.io/papers/iiot_security_journal.pdf) for more details.  
-
 #### AIG-AC
 [AIG-AC](https://gitlab.com/asset-sutd/public/aig-ac) is a tool that performs attacker classification on systems represented with And-inverter Graphs (AIGs) via bounded model checking. See the paper [Systematic Classification of Attackers via Bounded Model Checking](https://asset-group.github.io/papers/VMCAI20.pdf) for more details. 
 
@@ -50,7 +53,4 @@ title: Code
 verification of robotic software. It is able to encode models as either Satisfiability Modulo Theory or Bounded Model 
 Checking problems.
 
-#### Stitcher
-[Stitcher](https://github.com/poppopretn/Stitcher) is a tool designed to classify and correlate evidence from IoT devices. See the paper 
-[“STITCHER: Correlating Digital Forensic Evidence on Internet-of-Things Devices”](https://arxiv.org/abs/2003.07242) for details.
 
