@@ -26,6 +26,9 @@ title: Code
 #### Callisto 
 [Callisto](https://github.com/sakshiudeshi/Callisto/) is a novel test generation and data quality assessment framework. Callisto  leverages the uncertainty in the prediction to systematically generate new test cases and evaluate data quality for Machine Learning classifiers. See the paper [Callisto: Entropy based test generation and data quality assessment for Machine Learning Systems](https://asset-group.github.io/papers/Callisto.pdf) for more details.
 
+#### Aegis 
+[Aegis](https://github.com/sakshiudeshi/Expose-Robust-Backdoors) is a novel tool to detect backdoor attacks in adversarially robust machine-learning models. Aegis leverages intrinsic properties of adversarially robust models to break the stealthy nature of backdoors. See the preprint [AEGIS: Exposing Backdoors in Robust Machine Learning Models](https://arxiv.org/abs/2003.00865) for more details.
+
 #### RAIDS
 [RAIDS](https://github.com/cd-wang/RAIDS) is an intrusion detection system for autonomous cars. It extracts and analyzes sensory information (e.g., camera images and distance sensor values) to validate frames transmitted on the in-vehicle network (e.g., CAN bus). See the paper [Road Context-aware Intrusion Detection System for Autonomous Cars](https://asset-group.github.io/papers/ICICS19-RAIDS.pdf) for more details. 
 
