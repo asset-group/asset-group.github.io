@@ -3,6 +3,10 @@ layout: default
 title: Code
 ---
 
+In the ASSET research group, we encourage open-source release of software artifacts. As of now, we have released software 
+artifacts (exceptions are due to the restriction imposed by respective funding agencies supporting the project) associated 
+with most of our research papers. 
+
 ---
 
 #### *Side Channel Freedom*
