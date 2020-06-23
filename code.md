@@ -7,18 +7,19 @@ title: Code
 
 ---
 
-##### oo7 (Spectre Checker)
+###### oo7 (Spectre Checker)
 [oo7](https://github.com/winter2020/oo7) is a binary analysis framework to detect and patch Spectre vulnerabilities. See the paper [oo7: Low-overhead Defense against Spectre Attacks via Program Analysis](https://asset-group.github.io/papers/oo7.pdf) for more details.
 
-##### KLEESpectre
+###### KLEESpectre
 [KLEESpectre](https://github.com/winter2020/kleespectre) is a symbolic execution framework enhanced with speculative semantics and an accurate cache model. See the paper [KLEESpectre: Detecting Information Leakage through Speculative Cache Attacks via Symbolic Execution](https://asset-group.github.io/papers/KLEESpectre_TOSEM_main.pdf) for more details.
 
-##### GDivAn
+###### GDivAn
 [GDivAn](https://bitbucket.org/AdrianHorga/gdivan/src/master/) is a measurement based execution time and side-channel analysis tool using a systematic combination of symbolic execution(SE) and genetic algorithm (GA). The inputs to GDivAn are GPU programs (CUDA). See the paper [Genetic Algorithm Based Estimation of Non-Functional Properties for GPGPU Programs](https://asset-group.github.io/papers/GDivan_JSA.pdf) for more details. 
 
-##### Fuzzing Cache Side Channel
+###### Fuzzing Cache Side Channel
 [This repository](https://github.com/tiyashbasu/Cache_Side_Channel_Tester) contains our search-based software testing tool to discover cache side-channel leakage. It covers both timing and access-based cache attacks and is effective both in a controlled environment and real hardware (PC and Raspberry Pi). See the paper [An Exploration of Effective Fuzzing for Side-channel Cache Leakage](https://asset-group.github.io/papers/STVR-cache-side-channel-fuzz.pdf) for more details.  
 
+---
 
 #### *IoT Wireless Security*
 
@@ -59,7 +60,7 @@ title: Code
 [RAIDS](https://github.com/cd-wang/RAIDS) is an intrusion detection system for autonomous cars. It extracts and analyzes sensory information (e.g., camera images and distance sensor values) to validate frames transmitted on the in-vehicle network (e.g., CAN bus). See the paper [Road Context-aware Intrusion Detection System for Autonomous Cars](https://asset-group.github.io/papers/ICICS19-RAIDS.pdf) for more details. 
 
 
-##### *Verification*
+#### *Verification*
 
 ---
 
