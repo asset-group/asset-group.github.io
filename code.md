@@ -3,10 +3,12 @@ layout: default
 title: Code
 ---
 
-#### oo7 (Spectre Checker)
+#### Side Channel Freedom
+
+##### oo7 (Spectre Checker)
 [oo7](https://github.com/winter2020/oo7) is a binary analysis framework to detect and patch Spectre vulnerabilities. See the paper [oo7: Low-overhead Defense against Spectre Attacks via Program Analysis](https://asset-group.github.io/papers/oo7.pdf) for more details.
 
-#### KLEESpectre
+##### KLEESpectre
 [KLEESpectre](https://github.com/winter2020/kleespectre) is a symbolic execution framework enhanced with speculative semantics and an accurate cache model. See the paper [KLEESpectre: Detecting Information Leakage through Speculative Cache Attacks via Symbolic Execution](https://asset-group.github.io/papers/KLEESpectre_TOSEM_main.pdf) for more details.
 
 #### ESP8266/ESP32 Wi-Fi Attacks
