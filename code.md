@@ -3,7 +3,9 @@ layout: default
 title: Code
 ---
 
-#### Side Channel Freedom
+#### 1. *Side Channel Freedom*
+
+---
 
 ##### oo7 (Spectre Checker)
 [oo7](https://github.com/winter2020/oo7) is a binary analysis framework to detect and patch Spectre vulnerabilities. See the paper [oo7: Low-overhead Defense against Spectre Attacks via Program Analysis](https://asset-group.github.io/papers/oo7.pdf) for more details.
