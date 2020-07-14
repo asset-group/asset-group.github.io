@@ -123,7 +123,7 @@ table[rules] {border-left:solid black 0.4pt; border-right:solid black 0.4pt; }
 div.array {text-align:center;}
 .partToc a, .partToc, .likepartToc a, .likepartToc {line-height: 200%; font-weight:bold; font-size:110%;}
 .index-item, .index-subitem, .index-subsubitem {display:block}
-div.caption {text-indent:-2em; margin-left:3em; margin-right:1em; text-align:left;}
+div.caption {text-indent:-2em; margin-left:3em; margin-right:1em; text-align:center;}
 div.caption span.id{font-weight: bold; white-space: nowrap; }
 h1.partHead{text-align: center}
 p.bibitem { text-indent: -2em; margin-left: 2em; margin-top:0.6em; margin-bottom:0.6em; }
@@ -159,36 +159,36 @@ span#textcolor1{color:#CB0000}
 span#textcolor2{color:#CB0000}
 span#textcolor3{color:#CB0000}
 span#textcolor4{color:#CB0000}
-#TBL-2 colgroup{border-left: 1px solid black;border-right:1px solid black;}
-#TBL-2{border-collapse:collapse;}
-#TBL-2 colgroup{border-left: 1px solid black;border-right:1px solid black;}
-#TBL-2{border-collapse:collapse;}
-#TBL-2 colgroup{border-left: 1px solid black;border-right:1px solid black;}
-#TBL-2{border-collapse:collapse;}
-#TBL-2 colgroup{border-left: 1px solid black;border-right:1px solid black;}
-#TBL-2{border-collapse:collapse;}
-#TBL-2 colgroup{border-left: 1px solid black;border-right:1px solid black;}
-#TBL-2{border-collapse:collapse;}
-span#textcolor5{color:#FF0000}
- #TBL-3-1-{ background-color:}
- #TBL-4-1-{ background-color:}
+span#textcolor5{color:#CB0000}
 span#textcolor6{color:#CB0000}
 span#textcolor7{color:#CB0000}
-span#textcolor8{color:#CB0000}
+#TBL-2 colgroup{border-left: 1px solid black;border-right:1px solid black;}
+#TBL-2{border-collapse:collapse;}
+#TBL-2 colgroup{border-left: 1px solid black;border-right:1px solid black;}
+#TBL-2{border-collapse:collapse;}
+#TBL-2 colgroup{border-left: 1px solid black;border-right:1px solid black;}
+#TBL-2{border-collapse:collapse;}
+#TBL-2 colgroup{border-left: 1px solid black;border-right:1px solid black;}
+#TBL-2{border-collapse:collapse;}
+#TBL-2 colgroup{border-left: 1px solid black;border-right:1px solid black;}
+#TBL-2{border-collapse:collapse;}
+span#textcolor8{color:#FF0000}
+ #TBL-3-1-{ background-color:}
+ #TBL-4-1-{ background-color:}
 span#textcolor9{color:#CB0000}
 span#textcolor10{color:#CB0000}
 span#textcolor11{color:#CB0000}
 span#textcolor12{color:#CB0000}
 span#textcolor13{color:#CB0000}
 span#textcolor14{color:#CB0000}
- #TBL-5-1-{ background-color:}
-span#textcolor15{color:#CB8100}
-span#textcolor16{color:#CB8100}
-span#textcolor17{color:#CB8100}
+span#textcolor15{color:#CB0000}
+span#textcolor16{color:#CB0000}
+span#textcolor17{color:#CB0000}
 span#textcolor18{color:#CB0000}
-span#textcolor19{color:#CB0000}
-span#textcolor20{color:#CB0000}
-span#textcolor21{color:#CB0000}
+ #TBL-5-1-{ background-color:}
+span#textcolor19{color:#CB8100}
+span#textcolor20{color:#CB8100}
+span#textcolor21{color:#CB8100}
 span#textcolor22{color:#CB0000}
 span#textcolor23{color:#CB0000}
 span#textcolor24{color:#CB0000}
@@ -198,5 +198,9 @@ span#textcolor27{color:#CB0000}
 span#textcolor28{color:#CB0000}
 span#textcolor29{color:#CB0000}
 span#textcolor30{color:#CB0000}
+span#textcolor31{color:#CB0000}
+span#textcolor32{color:#CB0000}
+span#textcolor33{color:#CB0000}
+span#textcolor34{color:#CB0000}
 /* end css.sty */
 
