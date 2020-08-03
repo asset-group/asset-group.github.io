@@ -160,53 +160,83 @@
     <h1>Code</h1>
     
 
-    <h4 id="oo7-spectre-checker">oo7 (Spectre Checker)</h4>
+    <p>In the ASSET research group, we encourage open-source release of software artifacts. As of now, we have released software 
+artifacts (exceptions are due to the restriction imposed by respective funding agencies supporting the project) associated 
+with most of our research papers.</p>
+
+<hr />
+
+<h4 id="side-channel-freedom"><em>Side Channel Freedom</em></h4>
+
+<hr />
+
+<h6 id="oo7-spectre-checker">oo7 (Spectre Checker)</h6>
 <p><a href="https://github.com/winter2020/oo7">oo7</a> is a binary analysis framework to detect and patch Spectre vulnerabilities. See the paper <a href="https://asset-group.github.io/papers/oo7.pdf">oo7: Low-overhead Defense against Spectre Attacks via Program Analysis</a> for more details.</p>
 
-<h4 id="kleespectre">KLEESpectre</h4>
+<h6 id="kleespectre">KLEESpectre</h6>
 <p><a href="https://github.com/winter2020/kleespectre">KLEESpectre</a> is a symbolic execution framework enhanced with speculative semantics and an accurate cache model. See the paper <a href="https://asset-group.github.io/papers/KLEESpectre_TOSEM_main.pdf">KLEESpectre: Detecting Information Leakage through Speculative Cache Attacks via Symbolic Execution</a> for more details.</p>
 
-<h4 id="esp8266esp32-wi-fi-attacks">ESP8266/ESP32 Wi-Fi Attacks</h4>
+<h6 id="gdivan">GDivAn</h6>
+<p><a href="https://bitbucket.org/AdrianHorga/gdivan/src/master/">GDivAn</a> is a measurement based execution time and side-channel analysis tool using a systematic combination of symbolic execution(SE) and genetic algorithm (GA). The inputs to GDivAn are GPU programs (CUDA). See the paper <a href="https://asset-group.github.io/papers/GDivan_JSA.pdf">Genetic Algorithm Based Estimation of Non-Functional Properties for GPGPU Programs</a> for more details.</p>
+
+<h6 id="fuzzing-cache-side-channel">Fuzzing Cache Side Channel</h6>
+<p><a href="https://github.com/tiyashbasu/Cache_Side_Channel_Tester">This repository</a> contains our search-based software testing tool to discover cache side-channel leakage. It covers both timing and access-based cache attacks and is effective both in a controlled environment and real hardware (PC and Raspberry Pi). See the paper <a href="https://asset-group.github.io/papers/STVR-cache-side-channel-fuzz.pdf">An Exploration of Effective Fuzzing for Side-channel Cache Leakage</a> for more details.</p>
+
+<hr />
+
+<h4 id="iot-wireless-security"><em>IoT Wireless Security</em></h4>
+
+<hr />
+
+<h6 id="esp8266esp32-wi-fi-attacks">ESP8266/ESP32 Wi-Fi Attacks</h6>
 
 <p><a href="https://github.com/Matheus-Garbelini/esp32_esp8266_attacks">This repository</a> contains the proof-of-concept code for three Wi-Fi attacks (<a href="https://nvd.nist.gov/vuln/detail/CVE-2019-12586">CVE-2019-12586</a>, <a href="https://nvd.nist.gov/vuln/detail/CVE-2019-12587">CVE-2019-12587</a>, <a href="https://nvd.nist.gov/vuln/detail/CVE-2019-12588">CVE-2019-12588</a>) against the popular ESP32/8266 IoT devices.</p>
 
-<h4 id="sweyntooth">SweynTooth</h4>
+<h6 id="sweyntooth">SweynTooth</h6>
 
 <p><a href="https://github.com/Matheus-Garbelini/sweyntooth_bluetooth_low_energy_attacks">This repository</a> contains the proof-of-concept code for <a href="https://asset-group.github.io/disclosures/sweyntooth/">SweynTooth vulnerability</a> in major BLE System-on-chips (SoCs) such as Texas Instruments, Cypress, NXP, Microchip, ST Microelectronics, Telink and Dialog semiconductors.</p>
 
-<h4 id="aequitas">Aequitas</h4>
-<p><a href="https://github.com/sakshiudeshi/Aequitas">Aequitas</a> is a directed fairness testing framework for machine learning models. See the paper <a href="https://arxiv.org/abs/1807.00468">Automated Directed Fairness Testing</a> for more details.</p>
-
-<h4 id="ogma">Ogma</h4>
-<p><a href="https://github.com/sakshiudeshi/Ogma">Ogma</a> provides a systematic test framework for machine-learning systems that accept grammar-based inputs. See the paper <a href="https://arxiv.org/pdf/1902.10027">Grammar Based Directed Testing of Machine Learning Systems</a> for more details.</p>
-
-<h4 id="callisto">Callisto</h4>
-<p><a href="https://github.com/sakshiudeshi/Callisto/">Callisto</a> is a novel test generation and data quality assessment framework. Callisto  leverages the uncertainty in the prediction to systematically generate new test cases and evaluate data quality for Machine Learning classifiers. See the paper <a href="https://asset-group.github.io/papers/Callisto.pdf">Callisto: Entropy based test generation and data quality assessment for Machine Learning Systems</a> for more details.</p>
-
-<h4 id="raids">RAIDS</h4>
-<p><a href="https://github.com/cd-wang/RAIDS">RAIDS</a> is an intrusion detection system for autonomous cars. It extracts and analyzes sensory information (e.g., camera images and distance sensor values) to validate frames transmitted on the in-vehicle network (e.g., CAN bus). See the paper <a href="https://asset-group.github.io/papers/ICICS19-RAIDS.pdf">Road Context-aware Intrusion Detection System for Autonomous Cars</a> for more details.</p>
-
-<h4 id="mirai4iiot">Mirai4IIoT</h4>
+<h6 id="mirai4iiot">Mirai4IIoT</h6>
 
 <p><a href="https://gitlab.com/asset-sutd/public/mirai4iiot">Mirai4IIoT</a> is a repository to reproduce Mirai attacks in Industrial Internet-of-things (IIoT) systems. The attacks can be reproduced in both stealthy and non-stealthy mode. See the paper <a href="https://asset-group.github.io/papers/iiot_security_journal.pdf">An Experimental Analysis of Security Vulnerabilities in Industrial IoT Devices</a> for more details.</p>
+<h6 id="stitcher">Stitcher</h6>
+<p><a href="https://github.com/poppopretn/Stitcher">Stitcher</a> is a tool designed to classify and correlate evidence from IoT devices. See the paper 
+<a href="https://arxiv.org/abs/2003.07242">“STITCHER: Correlating Digital Forensic Evidence on Internet-of-Things Devices”</a> for details.</p>
 
-<h4 id="aig-ac">AIG-AC</h4>
+<hr />
+
+<h4 id="ai-safety-and-security"><em>AI Safety and Security</em></h4>
+
+<hr />
+
+<h6 id="aequitas">Aequitas</h6>
+<p><a href="https://github.com/sakshiudeshi/Aequitas">Aequitas</a> is a directed fairness testing framework for machine learning models. See the paper <a href="https://arxiv.org/abs/1807.00468">Automated Directed Fairness Testing</a> for more details.</p>
+
+<h6 id="ogma">Ogma</h6>
+<p><a href="https://github.com/sakshiudeshi/Ogma">Ogma</a> provides a systematic test framework for machine-learning systems that accept grammar-based inputs. See the paper <a href="https://arxiv.org/pdf/1902.10027">Grammar Based Directed Testing of Machine Learning Systems</a> for more details.</p>
+
+<h6 id="callisto">Callisto</h6>
+<p><a href="https://github.com/sakshiudeshi/Callisto/">Callisto</a> is a novel test generation and data quality assessment framework. Callisto  leverages the uncertainty in the prediction to systematically generate new test cases and evaluate data quality for Machine Learning classifiers. See the paper <a href="https://asset-group.github.io/papers/Callisto.pdf">Callisto: Entropy based test generation and data quality assessment for Machine Learning Systems</a> for more details.</p>
+
+<h6 id="aegis">Aegis</h6>
+<p><a href="https://github.com/sakshiudeshi/Expose-Robust-Backdoors">Aegis</a> is a novel tool to detect backdoor attacks in adversarially robust machine-learning models. Aegis leverages intrinsic properties of adversarially robust models to break the stealthy nature of backdoors. See the preprint <a href="https://arxiv.org/abs/2003.00865">AEGIS: Exposing Backdoors in Robust Machine Learning Models</a> for more details.</p>
+
+<h6 id="raids">RAIDS</h6>
+<p><a href="https://github.com/cd-wang/RAIDS">RAIDS</a> is an intrusion detection system for autonomous cars. It extracts and analyzes sensory information (e.g., camera images and distance sensor values) to validate frames transmitted on the in-vehicle network (e.g., CAN bus). See the paper <a href="https://asset-group.github.io/papers/ICICS19-RAIDS.pdf">Road Context-aware Intrusion Detection System for Autonomous Cars</a> for more details.</p>
+
+<hr />
+
+<h4 id="verification"><em>Verification</em></h4>
+
+<hr />
+
+<h6 id="aig-ac">AIG-AC</h6>
 <p><a href="https://gitlab.com/asset-sutd/public/aig-ac">AIG-AC</a> is a tool that performs attacker classification on systems represented with And-inverter Graphs (AIGs) via bounded model checking. See the paper <a href="https://asset-group.github.io/papers/VMCAI20.pdf">Systematic Classification of Attackers via Bounded Model Checking</a> for more details.</p>
 
-<h4 id="gdivan">GDivAn</h4>
-<p><a href="https://bitbucket.org/AdrianHorga/gdivan/src/master/">GDivAn</a> is a measurement based execution time and side-channel analysis tool using a systematic combination of symbolic execution(SE) and genetic algorithm (GA). The inputs to GDivAn are GPU programs (CUDA). See the paper <a href="https://asset-group.github.io/papers/GDivan_JSA.pdf">Genetic Algorithm Based Estimation of Non-Functional Properties for GPGPU Programs</a> for more details.</p>
-
-<h4 id="fuzzing-cache-side-channel">Fuzzing Cache Side Channel</h4>
-<p><a href="https://github.com/tiyashbasu/Cache_Side_Channel_Tester">This repository</a> contains our search-based software testing tool to discover cache side-channel leakage. It covers both timing and access-based cache attacks and is effective both in a controlled environment and real hardware (PC and Raspberry Pi). See the paper <a href="https://asset-group.github.io/papers/STVR-cache-side-channel-fuzz.pdf">An Exploration of Effective Fuzzing for Side-channel Cache Leakage</a> for more details.</p>
-
-<h4 id="agrid">AGRID</h4>
+<h6 id="agrid">AGRID</h6>
 <p><a href="https://gitlab.com/asset-sutd/public/agrid">AGRID</a> aims at encoding discrete models of robotic systems to support 
 verification of robotic software. It is able to encode models as either Satisfiability Modulo Theory or Bounded Model 
 Checking problems.</p>
-
-<h4 id="stitcher">Stitcher</h4>
-<p><a href="https://github.com/poppopretn/Stitcher">Stitcher</a> is a tool designed to classify and correlate evidence from IoT devices. See the paper 
-<a href="https://arxiv.org/abs/2003.07242">“STITCHER: Correlating Digital Forensic Evidence on Internet-of-Things Devices”</a> for details.</p>
 
 
 

@@ -34,6 +34,14 @@
         width: 100%;
         height: auto;
     }
+
+}
+
+@media screen and (max-width: 1200px) {
+    .big-figure {
+        width: 100%;
+        height: auto;
+    }
 }
 
 .table_image {
@@ -42,6 +50,9 @@
     margin-right: auto;
 }
 
+.caption {
+    text-indent:-2em; margin-left:3em; margin-right:1em;
+    text-align:center;}
 
 #textcolor12 {
     color: #CB0000;
