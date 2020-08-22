@@ -27,6 +27,7 @@ with most of our research papers.
 
 ###### Chalice
 [This repository](https://github.com/sudiptac/chalice) contains our tool to quantify cache side-channel leakage from program executions. It covers both timing and access-based cache attacks. See the paper [Quantifying the Information Leakage in Cache Attacks via Symbolic Execution](https://sudiptac.bitbucket.io/papers/chalice-tecs.pdf) for more details. The link for the code provided in the paper is not valid anymore, as bitbucket deleted all mercurial repositories. Please use the link provided here if you wish to reproduce the results.  
+
 ---
 
 #### *IoT Wireless Security*
