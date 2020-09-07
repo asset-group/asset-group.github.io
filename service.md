@@ -30,27 +30,27 @@ Review board of IEEE Transactions on Software Engineering (TSE)
 #### 2020
 
 <p style="text-align:justify">
-Publication Chair: RTCSA 2020
+<i>Publication Chair</i>: RTCSA 2020
 <br>
-Technical Program Committee (TPC): ACNS 2021, CGO 2021, ACISP 2020, DATE 2021, RTCSA 2020, MEMOCODE 2020, ASP-DAC 2021, ASAP 2020, SETTA 2020, APSEC 2020, ISSTA-Doctoral-Symposium 2020.  
+<i>Technical Program Committee (TPC)</i>: ACNS 2021, CGO 2021, ACISP 2020, DATE 2021, RTAS 2021, ISEC 2021, RTCSA 2020, MEMOCODE 2020, ASP-DAC 2021, ASAP 2020, SETTA 2020, APSEC 2020, ISSTA-Doctoral-Symposium 2020.  
 </p> 
 
 #### 2019
 
 <p style="text-align:justify">
-Technical Program Committee (TPC): RTSS 2019, RTAS 2020, DATE 2020, RTCSA 2019, SETTA 2019, ACNS 2020, MEMOCODE 2019, ISEC 2020, ASP-DAC 2020, ASP-DAC-SRF 2020. 
+<i>Technical Program Committee (TPC)</i>: RTSS 2019, RTAS 2020, DATE 2020, RTCSA 2019, SETTA 2019, ACNS 2020, MEMOCODE 2019, ISEC 2020, ASP-DAC 2020, ASP-DAC-SRF 2020. 
 </p> 
 
 #### 2018
 
 <p style="text-align:justify">
-Technical Program Committee (TPC): CPSS 2018, RTSS 2018, RTAS 2019, ASP-DAC 2019, ASP-DAC-SRF 2019, ISEC 2019, DISSECT 2019, WFCS 2019.
+<i>Technical Program Committee (TPC)</i>: CPSS 2018, RTSS 2018, RTAS 2019, ASP-DAC 2019, ASP-DAC-SRF 2019, ISEC 2019, DISSECT 2019, WFCS 2019.
 </p>
 
 #### 2017
 
 <p style="text-align:justify">
-Technical Program Committee (TPC): DATE 2018, RTSS 2017, EMSOFT 2017, MEMOCODE 2017.
+<i>Technical Program Committee (TPC)</i>: DATE 2018, RTSS 2017, EMSOFT 2017, MEMOCODE 2017.
 </p>
 
 

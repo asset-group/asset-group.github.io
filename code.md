@@ -25,6 +25,9 @@ with most of our research papers.
 ###### Fuzzing Cache Side Channel
 [This repository](https://github.com/tiyashbasu/Cache_Side_Channel_Tester) contains our search-based software testing tool to discover cache side-channel leakage. It covers both timing and access-based cache attacks and is effective both in a controlled environment and real hardware (PC and Raspberry Pi). See the paper [An Exploration of Effective Fuzzing for Side-channel Cache Leakage](https://asset-group.github.io/papers/STVR-cache-side-channel-fuzz.pdf) for more details.  
 
+###### Chalice
+[This repository](https://github.com/sudiptac/chalice) contains our tool to quantify cache side-channel leakage from program executions. It covers both timing and access-based cache attacks. See the paper [Quantifying the Information Leakage in Cache Attacks via Symbolic Execution](https://sudiptac.bitbucket.io/papers/chalice-tecs.pdf) for more details. The link for the code provided in the paper is not valid anymore, as bitbucket deleted all mercurial repositories. Please use the link provided here if you wish to reproduce the results.  
+
 ---
 
 #### *IoT Wireless Security*
