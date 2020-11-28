@@ -131,6 +131,13 @@ juan:
     image: /img/people/juan-hernandez.jpg
     bio: "PhD Student (SUTD)"
 
+sai:
+    display_name: "Sai Sathiesh Rajan"
+    webpage: "https://www.linkedin.com/in/srajan9/"
+    role: grad
+    image: /img/people/sai-rajan.jpg
+    bio: "PhD Student (SUTD), MS (Georgia Tech)"
+
 
 #Alumni
 baqer:
