@@ -6,7 +6,6 @@ icon: newspaper-o
 date: 2020-02-09
 ---
 <p style="text-align:justify">
-<font color="red"><b>NEW:</b></font>
 <a href="https://asset-group.github.io/cves.html">12 new CVEs</a> assigned to show how to cause havoc in 
 wireless systems (currently undisclosed for confidentiality). The vulnerabilities affect millions of 
 wireless products being used. If you are in a "smart" nation, then you are almost certainly at risk (we 
