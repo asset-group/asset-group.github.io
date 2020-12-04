@@ -6,7 +6,6 @@ icon: newspaper-o
 date: 2020-07-14
 ---
 <p style="text-align:justify">
-<font color="red"><b>NEW:</b></font>
 The details of the second wave of <a href="https://asset-group.github.io/disclosures/sweyntooth/">SweynTooth</a> vulnerabilities 
 (<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-10061">CVE-2020-10061</a>, 
 <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-10069">CVE-2020-10069</a>, 
