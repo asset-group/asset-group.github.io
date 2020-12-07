@@ -3,7 +3,7 @@ title: ASSET Research Stitcher
 layout: post
 shortnews: true
 icon: newspaper-o
-date: 2020-12-04
+date: 2020-12-07
 ---
 <p style="text-align:justify">
 <font color="red"><b>NEW:</b></font>
