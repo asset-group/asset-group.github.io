@@ -61,11 +61,12 @@ vaibhav:
     image: /img/people/vaibhav-bedi.jpg
     bio: "Research Assistant (BTech, Kurukshetra University)"
 
-rohini:
-    display_name: "Rohini Poolat"
-    role: alum
-    bio: "Research Assistant (MTech, NUS, Singapore)"
-    image: /img/people/Rohini_Poolat.jpg
+saurav:
+    display_name: "Saurav Kumar Ghosh"
+    webpage: "https://www.linkedin.com/in/saurav-kr-ghosh-98267b18b/"
+    role: postdoc
+    bio: "Research Fellow (PhD, Indian Institute of Technology Kharagpur)"
+    image: /img/people/Saurav.jpg
 
 
 #Urop
