@@ -47,6 +47,13 @@ chundong:
     image: /img/people/Chundong_Wang.jpg
     bio: "Post Doc (PhD, NUS, Singapore)"
 
+saurav:
+    display_name: "Saurav Kumar Ghosh"
+    webpage: "https://www.linkedin.com/in/saurav-kr-ghosh-98267b18b/"
+    role: postdoc
+    bio: "Post Doc (PhD, Indian Institute of Technology Kharagpur)"
+    image: /img/people/Saurav.jpg
+
 xingbin:
     display_name: "Xingbin Jiang"
     webpage: "https://www.linkedin.com/in/xingbin-jiang-4b2685140/"
@@ -61,12 +68,6 @@ vaibhav:
     image: /img/people/vaibhav-bedi.jpg
     bio: "Research Assistant (BTech, Kurukshetra University)"
 
-saurav:
-    display_name: "Saurav Kumar Ghosh"
-    webpage: "https://www.linkedin.com/in/saurav-kr-ghosh-98267b18b/"
-    role: postdoc
-    bio: "Research Fellow (PhD, Indian Institute of Technology Kharagpur)"
-    image: /img/people/Saurav.jpg
 
 
 #Urop
