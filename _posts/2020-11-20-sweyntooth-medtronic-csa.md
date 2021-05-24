@@ -6,7 +6,6 @@ icon: newspaper-o
 date: 2020-11-20
 ---
 <p style="text-align:justify">
-<font color="red"><b>NEW:</b></font>
 <a href="https://www.medtronic.com/us-en/index.html">Medtronic</a> acknowledges our <a href="https://asset-group.github.io/disclosures/sweyntooth/">SweynTooth</a> 
 work by including involved ASSET group members in their 
 <a href="https://global.medtronic.com/xg-en/product-security/outstanding-research-contributors.html">outstanding research contributor</a> page. 
