@@ -34,7 +34,7 @@ Review board of IEEE Transactions on Software Engineering (TSE)
 <br>
 <i>Workshop Chair</i>: Security in Machine Learning and its Applications (SiMLA) 2021.
 <br>
-<i>Technical Program Committee (TPC)</i>: EMSOFT 2021, RTSS 2021, ACNS 2021 (Round 2), ACNS 2022, RTCSA 2021, MEMOCODE 2021, SETTA 2021, ASAP 2021, ASE (Tool Demonstration) 2021.
+<i>Technical Program Committee (TPC)</i>: EMSOFT 2021, RTSS 2021, ACNS 2021 (Round 2), ACNS 2022, RTCSA 2021, MEMOCODE 2021, SETTA 2021, ASE (Tool Demonstration) 2021.
 </p> 
 
 #### 2020
