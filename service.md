@@ -30,7 +30,7 @@ Review board of IEEE Transactions on Software Engineering (TSE)
 #### 2021
 
 <p style="text-align:justify">
-<i>Topic Co-chair</i>: Topic E1 (Embedded Software Architecture, Compilers and Tool Chains) of Design, Automation and Test in Europe Conference (DATE) 2022.
+<i>Topic Co-chair</i>: Topic E1 (Embedded Software Architecture, Compilers and Tool Chains) of DATE 2022.
 <br>
 <i>Workshop Chair</i>: Security in Machine Learning and its Applications (SiMLA) 2021.
 <br>
