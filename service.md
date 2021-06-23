@@ -30,6 +30,8 @@ Review board of IEEE Transactions on Software Engineering (TSE)
 #### 2021
 
 <p style="text-align:justify">
+<i>Topic Co-chair</i>: Topic E1 (Embedded Software Architecture, Compilers and Tool Chains) of Design, Automation and Test in Europe Conference (DATE) 2022.
+<br>
 <i>Workshop Chair</i>: Security in Machine Learning and its Applications (SiMLA) 2021.
 <br>
 <i>Technical Program Committee (TPC)</i>: EMSOFT 2021, RTSS 2021, ACNS 2021 (Round 2), ACNS 2022, RTCSA 2021, MEMOCODE 2021, SETTA 2021, ASAP 2021, ASE (Tool Demonstration) 2021.
