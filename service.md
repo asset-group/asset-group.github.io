@@ -27,6 +27,11 @@ revisions (especially, minor revisions).
 
 Review board of IEEE Transactions on Software Engineering (TSE)
 
+#### 2022
+<p style="text-align:justify">
+<i>Technical Program Committee (TPC)</i>: ESEC/FSE 2022
+</p> 
+
 #### 2021
 
 <p style="text-align:justify">
