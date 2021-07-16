@@ -9,8 +9,8 @@ Currently, this list contains only the service of the faculty lead (Sudipta).
 <font color="red"><b>NOTE:</b></font>
 I am open to review papers for conferences and journals that incorporate 
 topics in (embedded) systems, real-time/cyber-physical systems, software 
-engineering and software security. I review all papers myself, i.e., I read 
-all the papers I get for review and I write reviews myself. Of course, time 
+engineering and software security. <font color="blue"><b>I review all papers myself</b></font>, 
+i.e., I read all the papers I get for review and I write reviews myself. Of course, time 
 to time, I seek opinions about a paper from another ASSET group member when 
 I feel that the person is more expert than myself for the topic targeted in the paper.  
 <br>
