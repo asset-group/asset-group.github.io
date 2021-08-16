@@ -48,35 +48,23 @@ vaibhav:
     image: /img/people/vaibhav-bedi.jpg
     bio: "Research Assistant (BTech, Kurukshetra University)"
 
+anthony:
+    display_name: "Yeo Kee Teck Anthony"
+    role: postdoc 
+    image: /img/people/anthony_yeo.png
+    bio: "Research Associate"
 
-
-#Urop
-gerald:
-    display_name: "Gerald Woo"
-    webpage: "https://www.linkedin.com/in/gerald-woo/"
-    image: /img/people/Gerald_Woo.jpg
-    bio: "ISTD (SUTD)"
+#UROP
+zewen:
+    display_name: "Shang Zewen"
+    webpage: "https://www.linkedin.com/in/zewen-shang-559549168"
+    bio: "ISTD UROP (SUTD)"
     role: urop
 
-shanshan:
-    display_name: "Peng Shanshan"
+xianming:
+    display_name: "Koh Xian Ming"
+    bio: "ISTD UROP (SUTD)"
     role: urop
-    bio: "ISTD (SUTD)"
-    webpage: "https://www.linkedin.com/in/shanshan-peng-a9b674146/"
-    image: /img/people/Peng_Shanshan.png
-
-lionell:
-    display_name: "Lionell Loh"
-    role: urop
-    bio: "ISTD (SUTD)"
-    webpage: "https://www.linkedin.com/in/lionellloh/"
-    image: /img/people/Lionell_Loh.jpg
-
-louth:
-    display_name: "Louth Bin Rawshan"
-    role: urop
-    bio: "EPD (SUTD)"
-
 
 #Grad Students 
 yeeching:
@@ -124,9 +112,35 @@ sai:
 
 
 #Alumni
+gerald:
+    display_name: "Gerald Woo"
+    webpage: "https://www.linkedin.com/in/gerald-woo/"
+    image: /img/people/Gerald_Woo.jpg
+    bio: "ISTD UROP (SUTD)"
+    role: alum
+
+shanshan:
+    display_name: "Peng Shanshan"
+    role: alum
+    bio: "ISTD UROP (SUTD)"
+    webpage: "https://www.linkedin.com/in/shanshan-peng-a9b674146/"
+    image: /img/people/Peng_Shanshan.png
+
+lionell:
+    display_name: "Lionell Loh"
+    role: alum
+    bio: "ISTD UROP (SUTD)"
+    webpage: "https://www.linkedin.com/in/lionellloh/"
+    image: /img/people/Lionell_Loh.jpg
+
+louth:
+    display_name: "Louth Bin Rawshan"
+    role: alum
+    bio: "EPD UROP (SUTD)"
+
 michele:
     display_name: "Michele Lora"
-    role: postdoc
+    role: alum
     webpage: "https://www.linkedin.com/in/michele-lora-0a235417/"
     bio: "Post Doc (PhD, University of Verona, Italy)"
     image: /img/people/Michele_Lora.jpg
@@ -134,21 +148,21 @@ michele:
 chundong:
     display_name: "Chundong Wang"
     webpage: "https://sites.google.com/view/wangc"
-    role: postdoc
+    role: alum
     image: /img/people/Chundong_Wang.jpg
     bio: "Post Doc (PhD, NUS, Singapore)"
 
 saurav:
     display_name: "Saurav Kumar Ghosh"
     webpage: "https://www.linkedin.com/in/saurav-kr-ghosh-98267b18b/"
-    role: postdoc
+    role: alum
     bio: "Post Doc (PhD, Indian Institute of Technology Kharagpur)"
     image: /img/people/Saurav.jpg
 
 eric:
     display_name: "Eric Gerard Rothstein Morris"
     webpage: "https://ericrothsteinmorris.github.io/"
-    role: grad
+    role: alum
     image: /img/people/Eric_Roth.png
     bio: "PhD Student (SUTD)"
 

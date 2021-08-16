@@ -4,13 +4,11 @@ title: Side-channel Freedom
 description: |
  <p style="text-align:justify">
   Securing systems against side-channel attacks. <font color="red">
-  <b> One post-doc position open in this project 
-  starting Oct, 2019</b></font>.
+  <b> Multiple post-doc and research assistant positions open in this project.</b></font>
  </p>
 people:
-  - chundong
+  - ali
   - ahmed
-  - eric
 
 layout: project
 last-updated: 2019-08-12

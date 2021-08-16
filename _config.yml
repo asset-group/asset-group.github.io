@@ -27,7 +27,7 @@ roles:
   - key: alum
     name: Alumni
   - key: collab
-    name: Collaborators
+    name: Long-term Collaborators
   - key: urop
     name: UROP Students
 

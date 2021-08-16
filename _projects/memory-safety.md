@@ -3,13 +3,15 @@ title: IoT Wireless Security
 
 description: |
  <p style="text-align:justify">
-  IIoT Wireless Security Testing and Countermeasures.<font color="red"> 
-  <b> One post-doc position open in this project starting as soon as possible.</b></font>
+  IoT Wireless Security Testing and Countermeasures.<font color="red"> 
+  <b> Multiple post-doc and research assistant positions open in this project starting as soon as possible.</b></font>
  </p>
 people:
   - xingbin
   - yeeching
   - matheus
+  - vaibhav
+  - anthony
 layout: project
 last-updated: 2019-08-10
 ---
