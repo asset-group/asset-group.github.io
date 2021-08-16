@@ -33,26 +33,6 @@ ali:
 
 
 #Post Docs/Researchers
-michele:
-    display_name: "Michele Lora"
-    role: postdoc
-    webpage: "https://www.linkedin.com/in/michele-lora-0a235417/"
-    bio: "Post Doc (PhD, University of Verona, Italy)"
-    image: /img/people/Michele_Lora.jpg
-
-chundong:
-    display_name: "Chundong Wang"
-    webpage: "https://sites.google.com/view/wangc"
-    role: postdoc
-    image: /img/people/Chundong_Wang.jpg
-    bio: "Post Doc (PhD, NUS, Singapore)"
-
-saurav:
-    display_name: "Saurav Kumar Ghosh"
-    webpage: "https://www.linkedin.com/in/saurav-kr-ghosh-98267b18b/"
-    role: postdoc
-    bio: "Post Doc (PhD, Indian Institute of Technology Kharagpur)"
-    image: /img/people/Saurav.jpg
 
 xingbin:
     display_name: "Xingbin Jiang"
@@ -120,12 +100,6 @@ yifan:
     image: /img/people/Jia_Yifan.jpg
     bio: "PhD Student (SUTD and TUV SUD)"
 
-eric:
-    display_name: "Eric Gerard Rothstein Morris"
-    webpage: "https://ericrothsteinmorris.github.io/"
-    role: grad
-    image: /img/people/Eric_Roth.png
-    bio: "PhD Student (SUTD)"
 
 matheus:
     display_name: "Matheus Eduardo"
@@ -150,6 +124,34 @@ sai:
 
 
 #Alumni
+michele:
+    display_name: "Michele Lora"
+    role: postdoc
+    webpage: "https://www.linkedin.com/in/michele-lora-0a235417/"
+    bio: "Post Doc (PhD, University of Verona, Italy)"
+    image: /img/people/Michele_Lora.jpg
+
+chundong:
+    display_name: "Chundong Wang"
+    webpage: "https://sites.google.com/view/wangc"
+    role: postdoc
+    image: /img/people/Chundong_Wang.jpg
+    bio: "Post Doc (PhD, NUS, Singapore)"
+
+saurav:
+    display_name: "Saurav Kumar Ghosh"
+    webpage: "https://www.linkedin.com/in/saurav-kr-ghosh-98267b18b/"
+    role: postdoc
+    bio: "Post Doc (PhD, Indian Institute of Technology Kharagpur)"
+    image: /img/people/Saurav.jpg
+
+eric:
+    display_name: "Eric Gerard Rothstein Morris"
+    webpage: "https://ericrothsteinmorris.github.io/"
+    role: grad
+    image: /img/people/Eric_Roth.png
+    bio: "PhD Student (SUTD)"
+
 baqer:
     display_name: "Muhammad Baqer Mollah"
     webpage: "https://sites.google.com/site/baqerweb/"
