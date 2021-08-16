@@ -8,7 +8,6 @@ description: |
   <b> One post-doc position open in this project starting as soon as possible.</b></font> 
  </p>
 people:
-  - chundong
   - sakshi
   - yifan
 
