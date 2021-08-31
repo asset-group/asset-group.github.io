@@ -3,7 +3,7 @@ title: ASSET Research SweynTooth
 layout: post
 shortnews: true
 icon: newspaper-o
-date: 2021-08-31
+date: 2021-06-30
 ---
 <p style="text-align:justify">
 <font color="red"><b>NEW:</b></font>

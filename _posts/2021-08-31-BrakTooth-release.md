@@ -16,7 +16,7 @@ Silicon Labs among others. Bluetooth listings capture over 1400 products to be a
 but not limited to Laptops and smartphones from major vendors (e.g. Dell, HP, Samsung, Microsoft etc.),
 Automotive Infotainment systems, Aircraft Entertainment systems, Speakers and Headphones.
 If you are a Bluetooth module or SoC vendor, feel free to request the proof of concept tool here:
-<a href="poc.braktooth.com">BrakTooth PoC</a>
+<a href="poc.braktooth.com">BrakTooth PoC</a>.
 </p>
 
 
