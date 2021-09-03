@@ -131,7 +131,7 @@ from Espressif System and Xiaomi. <span
 class="ptmri8t-">An exploration on Bluetooth</span>
 <span 
 class="ptmri8t-">listing</span>&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbluetooth-listing">28</a>]</span> <span 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbluetooth-listing">29</a>]</span> <span 
 class="ptmri8t-">reveals that </span><span 
 class="ptmrc8t-">B<span 
 class="small-caps">r</span><span 
@@ -273,7 +273,7 @@ class="small-caps">h </span></span>
 attacks are performed. The attacker only requires (<span 
 class="zptmcmr-">1</span>) a cheap
 ESP32 development kit (ESP-WROVER-KIT&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xesp32_wrover_kit">31</a>]</span>) with a
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xesp32_wrover_kit">33</a>]</span>) with a
 custom (non-compliant) LMP firmware and (<span 
 class="zptmcmr-">2</span>) a PC to run the
 PoC tool. The PoC tool communicates with the ESP32 board via
@@ -1427,7 +1427,7 @@ class="ptmb8t-">V </span>to identify a security vulnerability and
 class="ptmb8t-">A </span>to indicate an anomalous behaviour (i.e., faulty target
 responses) that deviates from the <span 
 class="ptmri8t-">Core Specifications</span>&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbluetooth2019bluetooth">27</a>]</span>.
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbluetooth2019bluetooth">28</a>]</span>.
 Moreover, Table&#x00A0;<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-4002r2">2<!--tex4ht:ref: tab:summary --></a> outlines the respective CVEs, affected
 devices, protocol layers, and the violated compliance. In
@@ -1501,7 +1501,7 @@ class="zptmcmr-">2021</span>. Besides,
      the <span 
 class="ptmri8t-">Core Specifications </span>only allows a limited "LMP test
      mode"&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbluetooth2019bluetooth">27</a>]</span> that restricts the SoC to operate with few LMP
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbluetooth2019bluetooth">28</a>]</span> that restricts the SoC to operate with few LMP
      procedures.
      </p>
          <h3 class="sectionHead" style="font-size: 2rem;"><span class="titlemark">4    </span> <a 
@@ -1536,13 +1536,13 @@ onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" hre
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-150008.1">8.1<!--tex4ht:ref: sec:v1 --></a>) affects
      <span 
 class="ptmri8t-">ESP32 </span>SoC&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xesp32">30</a>]</span>, which is used in many Wi-Fi and Bluetooth
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xesp32">32</a>]</span>, which is used in many Wi-Fi and Bluetooth
      IoT appliances such as Industry Automation, Smart Home,
      Fitness, etc. The attack is illustrated in Figure&#x00A0;<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-6001r3">3<!--tex4ht:ref: fig:esp32_ace --></a>. A lack of
      out-of-bounds check in ESP32 <span 
 class="ptmri8t-">BT Library</span>&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xesp-bt-stack">9</a>]</span> allows the
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xesp-bt-stack">10</a>]</span> allows the
      reception of a <span 
 class="ptmri8t-">mutated LMP_feature_response_ext</span>. This results
      in the injection of eight bytes of arbitrary data outside the bounds
@@ -1570,7 +1570,7 @@ class="ptmri8t-">JMP Addr. </span>to the
 class="ptmri8t-">nvs_flash_erase</span>. Such erase function is always
      included in <span 
 class="ptmri8t-">ESP32 </span>SDK&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xesp-idf">7</a>]</span> and therefore, it is present
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xesp-idf">8</a>]</span> and therefore, it is present
      in any <span 
 class="ptmri8t-">ESP32 </span>firmware. Similarly, disabling BT or BLE
      can be done via <span 
@@ -1612,10 +1612,10 @@ frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; pict
 <!--l. 74--><p class="noindent" >We discuss two sample DoS attacks discovered on laptops
 and smartphones employing <span 
 class="ptmri8t-">Intel AX200 </span>SoCs&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xax200">16</a>]</span> and
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xax200">17</a>]</span> and
 <span 
 class="ptmri8t-">Qualcomm WCN3990 </span>SoC&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xwcn3990">29</a>]</span>. Due to the number of
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xwcn3990">30</a>]</span>. Due to the number of
 smartphones and laptops vulnerable to such attacks, and the
 common use of BT connectivity during video conference
 calls and music streaming, updating the affected devices is
@@ -1641,7 +1641,7 @@ to <span
 class="ptmri8t-">AX200 </span>under Windows or Linux Laptops. Similarly,
 Android phones such as Pocophone F1 and Oppo Reno
 5G&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xoppo_reno_5g">21</a>]</span> experience BT disruptions. For example, users
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xoppo_reno_5g">22</a>]</span> experience BT disruptions. For example, users
 connected to BT Headsets experience audio to be continuously
 "cut" during the attack. This also results in firmware crashes
 and restart of Android BT Service. In all cases, the OS
@@ -1698,12 +1698,12 @@ width="560" height="auto"  /><a/>
 <!--l. 132--><p class="noindent" >Many vulnerabilities were discovered while testing with a BT
 Speaker (<span 
 class="ptmri8t-">Mi Portable Bluetooth Speaker - MDZ-36-DB</span>&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xxiaomi_speaker">35</a>]</span>),
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xxiaomi_speaker">37</a>]</span>),
 BT Headphone (<span 
 class="ptmri8t-">JBL TUNE 500BT</span>&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xjbl">17</a>]</span>) and BT Audio
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xjbl">18</a>]</span>) and BT Audio
 Modules (XY-WRBT&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#XXY-WRBT">24</a>]</span> and an unbranded BT Audio
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#XXY-WRBT">25</a>]</span> and an unbranded BT Audio
 Receiver). The discovered vulnerabilities arise from failures
 when sending oversized LMP packets (<span 
 class="ptmb8t-">LMP Auto Rate</span>
@@ -1770,7 +1770,7 @@ listings employing the affected BT chipsets. Each listing may
 contain one or multiple (up to hundreds) products from the same
 company. We get such an estimated number by querying the
 Bluetooth Listings Website&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbluetooth-listing">28</a>]</span>. In particular, we use the
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbluetooth-listing">29</a>]</span>. In particular, we use the
 qualification IDs (QIDs) of each affected SoCs to get their
 corresponding products listings. The total number of potentially
 affected product listings is illustrated in Table&#x00A0;<a 
@@ -2080,7 +2080,7 @@ class="small-caps">o</span><span
 class="small-caps">t</span><span 
 class="small-caps">h</span></span>. The declaration ID references each product
 on the Bluetooth Listing search website&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbluetooth-listing">28</a>]</span>.</span></div><!--tex4ht:label?: x1-9002r4 -->
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbluetooth-listing">29</a>]</span>.</span></div><!--tex4ht:label?: x1-9002r4 -->
 <!--tex4ht:inline--><div class="tabular"> <table id="TBL-17" class="tabular" 
 cellspacing="0" cellpadding="0"  
 ><colgroup id="TBL-17-1g"><col 
@@ -2672,7 +2672,7 @@ class="td11"> ESP32                        </td><td  style="white-space:normal; 
 class="td11"> esp-idf-4.4                                                                                                                                                                                               </td><td  style="white-space:normal; text-align:left;" id="TBL-025-4-4"  
 class="td11"> V1,V3-4 / A1           </td><td  style="white-space:normal; text-align:left;" id="TBL-025-4-5"  
 class="td11"> <span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xesp32_patch">10</a>]</span> <span 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xesp32_patch">11</a>]</span> <span 
 class="ptmb8t-"><span style="color: #009933">Available</span>                </span></td>
 </tr><tr  
  style="vertical-align:baseline;" id="TBL-025-5-"><td  style="white-space:normal; text-align:left;" id="TBL-025-5-1"  
@@ -2931,13 +2931,13 @@ customers.
 would be available for the affected devices. We were informed
 that they are working on a fix for WCN3990/8 and that the
 security issue reported in Qualcomm CSR8811A08&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#XCSR8811">23</a>]</span> has
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#XCSR8811">24</a>]</span> has
 been fixed since 2011 <span 
 class="ptmri8t-">only </span>for ROM Versions A12 and beyond.
 However, new products in 2021 are still being listed to use
 CSR8811A08, which has no plan to be fixed. Moreover, a patch
 for the issue on CSR8510A10&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#XCSR8510">22</a>]</span> that causes <span 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#XCSR8510">23</a>]</span> that causes <span 
 class="ptmb8t-">V6 </span>(see
 Section&#x00A0;<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-200008.6">8.6<!--tex4ht:ref: sec:v6 --></a>) is not possible for CSR8510A10 due to the lack of
@@ -2945,7 +2945,7 @@ ROM patch space.
 </p><!--l. 53--><p class="indent" >  <span 
 class="ptmb8t-">Zhuhai Jieli Technology </span>confirmed that a fix for
 AC6366C&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#XAC6366C">33</a>]</span> would be released soon, but they did not
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#XAC6366C">35</a>]</span> would be released soon, but they did not
 confirm whether a patch would also be available to their other
 audio devices AC6925C and AC6905X. Finally, we notice for
 certain vendors (e.g. Harman International, Silabs), the
@@ -2969,12 +2969,12 @@ target="_blank" href="https://github.com/Matheus-Garbelini/esp32_bluetooth_class
      ESP32-PICO-KIT can be purchased for <span 
 class="zptmcmr-">$</span><span 
 class="ptmb8t-">14.80</span>&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xesp32_mouser">20</a>]</span>, but it is
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xesp32_mouser">21</a>]</span>, but it is
      possible to find alternative ESP32 boards on Aliexpress for as
      low as <span 
 class="zptmcmr-">$</span><span 
 class="ptmb8t-">4</span>&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xesp32_aliexpress">8</a>]</span>.
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xesp32_aliexpress">9</a>]</span>.
      </p><!--l. 15--><p class="indent" >    Note that differently than <span class="underline"><span 
 class="ptmb8t-">passive</span></span> sniffers, which does not
      interact with the network, the ESP32 <span class="underline"><span 
@@ -3014,14 +3014,14 @@ captures Baseband + FHS and LMP frames.</span></div><!--tex4ht:label?: x1-12001r
 <!--l. 4--><p class="noindent" >In recent years, Bluetooth has come under scrutiny due to
 several design and implementation level vulnerabilities,
 such as KNOB&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xantonioli2019knob">2</a>]</span>, BIAS&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbias">1</a>]</span>, SweynTooth&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xsweyntooth">13</a>]</span>,
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xantonioli2019knob">3</a>]</span>, BIAS&#x00A0;<span class="cite">&#x00A0;[<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbias">2</a>]</span>, SweynTooth&#x00A0;<span class="cite">&#x00A0;[<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xsweyntooth">14</a>]</span>,
 BLESA&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xblesa">34</a>]</span>, BlueMirror&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbluemirror">5</a>]</span>, etc. Our previous disclosure of
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xblesa">36</a>]</span>, BlueMirror&#x00A0;<span class="cite">&#x00A0;[<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbluemirror">6</a>]</span>, etc. Our previous disclosure of
 SweynTooth&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xsweyntooth">13</a>]</span> vulnerabilities (2020) has clearly indicated
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xsweyntooth">14</a>]</span> vulnerabilities (2020) has clearly indicated
 the lack of basic tests in Bluetooth certification to validate
 the security of Bluetooth Low Energy (BLE) devices. The
 <span 
@@ -3041,7 +3041,7 @@ Bluetooth security.
 </p><!--l. 14--><p class="noindent" ><span 
 class="ptmb8t-">Replication difficulty: </span>Bluetooth Core Specifications allows a
 limited "LMP test mode"&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbluetooth2019bluetooth">27</a>]</span>. This limits the vendors to
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbluetooth2019bluetooth">28</a>]</span>. This limits the vendors to
 operate with only a few LMP procedures and therefore, the
 vendors are unlikely to have full control over the messages
 exchanged over <span 
@@ -3066,7 +3066,7 @@ were not tested thoroughly on such uncommon scenarios.
 This is also evident during our communication even with
 popular BT vendors (e.g. Intel, Cypress, and Qualcomm).
 Specifically, in contrast to our disclosure of SweynTooth&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xsweyntooth">13</a>]</span>
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xsweyntooth">14</a>]</span>
 vulnerabilities, we experienced the following crucial differences:
 1) The replication of <span 
 class="ptmrc8t-">B<span 
@@ -3118,7 +3118,7 @@ dismissing the need to change the BT firmware just to create
 specific test cases. This approach was inspired from our
 previous work with the "SweynTooth Non-Compliant BLE
 Controller"&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xsweyntooth">13</a>]</span>.
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xsweyntooth">14</a>]</span>.
 </p><!--l. 39--><p class="noindent" ><span 
 class="ptmb8t-">Downstream dependency: </span>During the responsible disclosure
 period, we experienced that it is impossible for certain BT
@@ -3159,7 +3159,7 @@ class="ptmb8t-">Reverse engineering effort: </span>During our research on Blueto
      Link Manager testing, we clearly observe the gap of security
      testing tools to validate arbitrary BT devices. While there exists
      emulation-based approaches&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xfrankenstein">25</a>]</span>, these works need to spend
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xfrankenstein">26</a>]</span>, these works need to spend
      significant effort in reverse engineering the target devices
      (if at all possible). The absence of any open source and
      feature-complete Bluetooth LMP stack further complicates the
@@ -3167,7 +3167,7 @@ onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" hre
      a fuzzing interface by reverse-engineering the ESP32 BT stack
      which is located in the static library <span 
 class="ptmri8t-">libbtdm_app.a</span>&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xesp-bt-stack">9</a>]</span>
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xesp-bt-stack">10</a>]</span>
      and ESP32 ROM memory. The reverse engineering effort
      was utilized to design a (non-compliant) LMP firmware
      that can be used off-the-shelf to validate any devices with
@@ -3196,7 +3196,7 @@ onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" hre
 class="newline" />(CVE-2021-28139)</h4>
 <!--l. 17--><p class="noindent" >The Bluetooth Classic implementation in Espressif ESP-IDF 4.4
 and earlier&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xesp-idf">7</a>]</span> does not properly restrict the Feature Page upon
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xesp-idf">8</a>]</span> does not properly restrict the Feature Page upon
 reception of an LMP Feature Response Extended packet,
 allowing attackers in radio range to trigger arbitrary code
 execution (ACE) in ESP32 via a crafted Extended Features
@@ -3257,7 +3257,7 @@ class="content">Feature Page Execution</span></div><!--tex4ht:label?: x1-15001r6
 class="newline" />(CVE-2021-34144)</h4>
 <!--l. 53--><p class="noindent" >The Bluetooth Classic implementation in the Zhuhai Jieli
 AC6366C BT SDK 0.9.1 and earlier&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#XAC6366C">33</a>]</span> does not properly
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#XAC6366C">35</a>]</span> does not properly
 handle the reception of truncated LMP_SCO_Link_Request
 packets while no other BT connections are active. This allows
 attackers in radio range to prevent new BT connections
@@ -3304,7 +3304,7 @@ class="content">Truncated SCO Link Request</span></div><!--tex4ht:label?: x1-160
 class="newline" />(CVE-2021-28136)</h4>
 <!--l. 84--><p class="noindent" >The Bluetooth Classic implementation in Espressif ESP-IDF 4.4
 and earlier&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xesp-idf">7</a>]</span> does not properly handle the reception of
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xesp-idf">8</a>]</span> does not properly handle the reception of
 multiple <span 
 class="ptmri8t-">LMP_IO_Capability_req </span>packets during the <span 
 class="ptmri8t-">pairing</span>
@@ -3352,7 +3352,7 @@ class="content">Duplicated IOCAP</span></div><!--tex4ht:label?: x1-17001r8 -->
 class="newline" />(CVE-2021-28135/28155/31717)</h4>
 <!--l. 114--><p class="noindent" >The Bluetooth Classic implementation in Espressif ESP-IDF 4.4
 and earlier&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xesp-idf">7</a>]</span> does not properly handle the reception of
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xesp-idf">8</a>]</span> does not properly handle the reception of
 continuous unsolicited LMP responses. This allows attackers in
 radio range to trigger a denial of service (crash) in ESP32 by
 flooding the target device with LMP Feature Response data. As
@@ -3365,12 +3365,12 @@ effective against a range of other BT chipsets such as <span
 class="ptmb8t-">JBL</span>
 <span 
 class="ptmb8t-">TUNE500BT</span>&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xjbl">17</a>]</span> and <span 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xjbl">18</a>]</span> and <span 
 class="ptmb8t-">Xiaomi MDZ-36-DB (Actions Semi.</span>
 <span 
 class="ptmb8t-">ATS2815)</span>&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xxiaomi_speaker">35</a>,&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xats2815">32</a>]</span>. See Table&#x00A0;<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xxiaomi_speaker">37</a>,&#x00A0;<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xats2815">34</a>]</span>. See Table&#x00A0;<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-4002r2">2<!--tex4ht:ref: tab:summary --></a> for all the targets affected by
 V4.
 </p><!--l. 125--><p class="noindent" ><span 
@@ -3412,16 +3412,16 @@ class="content">Feature Response Flooding</span></div><!--tex4ht:label?: x1-1800
 class="newline" />(CVE-2021-31609/31612)</h4>
 <!--l. 145--><p class="noindent" >The Bluetooth Classic implementation in Silicon Labs iWRAP
 6.3.0 and earlier&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xiwrap">18</a>]</span> does not properly handle the reception of
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xiwrap">19</a>]</span> does not properly handle the reception of
 an oversized LMP packet greater than 17 bytes, allowing
 attackers in radio range to trigger a crash in WT32i&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xwt32i">19</a>]</span> via a
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xwt32i">20</a>]</span> via a
 crafted LMP packet. As shown in Figure&#x00A0;<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-19001r10">10<!--tex4ht:ref: fig:v5 --></a>, the attack is
 triggered by sending an LMP with an ACL size higher than 17
 bytes. Normally this is not allowed by the BT Core Specification
 <span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#XBluetooth:Certification:2020">26</a>]</span>, but ESP32 radio can indeed send such oversized LMP
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#XBluetooth:Certification:2020">27</a>]</span>, but ESP32 radio can indeed send such oversized LMP
 packets over the DM1 transport channel. Our proof of concept
 (PoC) firmware bypasses some length checks on the transmission
 path to make this possible. This attack vector also works on some
@@ -3465,8 +3465,8 @@ class="content">LMP Auto Rate Overflow</span></div><!--tex4ht:label?: x1-19001r1
 class="newline" />(<span style="color: #730099">Pending</span> CVE)</h4>
 <!--l. 178--><p class="noindent" >The Bluetooth Classic implementation on Laird CSR8811
 A08&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#XCSR8811">23</a>]</span> and CSR8510 A10&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#XCSR8510">22</a>]</span> SoCs allows an LMP
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#XCSR8811">24</a>]</span> and CSR8510 A10&#x00A0;<span class="cite">&#x00A0;[<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#XCSR8510">23</a>]</span> SoCs allows an LMP
 length overflow over 2-DH1, resulting in a Deadlock (state
 machine or packet handler corruption) outcome. Figure&#x00A0;<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-20001r11">11<!--tex4ht:ref: fig:v6 --></a>
@@ -3510,8 +3510,8 @@ class="content">LMP 2-DH1 Overflow</span></div><!--tex4ht:label?: x1-20001r11 --
 class="newline" />(CVE-2021-34150)</h4>
 <!--l. 206--><p class="noindent" >The Bluetooth Classic implementation on Bluetrum
 AB5301A&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#XAB5301A">4</a>]</span> (tested with AB32VG1 dev. kit&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#XAB32VG1">3</a>]</span>) with
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#XAB5301A">5</a>]</span> (tested with AB32VG1 dev. kit&#x00A0;<span class="cite">&#x00A0;[<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#XAB32VG1">4</a>]</span>) with
 <span 
 class="ptmri8t-">unspecified </span>firmware versions does not properly handle the
 reception of oversized DM1 LMP packets. This allows attackers
@@ -3675,7 +3675,7 @@ class="content">Invalid Setup Complete</span></div><!--tex4ht:label?: x1-23001r1
 class="newline" />(CVE-2021-31785)</h4>
 <!--l. 312--><p class="noindent" >The Bluetooth Classic implementation on Actions
 ATS2815/ATS2819&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xats2815">32</a>]</span> chipsets does not properly handle the
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xats2815">34</a>]</span> chipsets does not properly handle the
 reception of multiple <span 
 class="ptmri8t-">LMP_host_connection_req </span>as shown in
 Figure&#x00A0;<a 
@@ -3716,7 +3716,7 @@ class="content">Host Connection Flooding</span></div><!--tex4ht:label?: x1-24001
 class="newline" />(CVE-2021-31786)</h4>
 <!--l. 338--><p class="noindent" >The Bluetooth Classic Audio implementation on products based
 on Actions ATS2815/ATS2819&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xats2815">32</a>]</span> chipset may not properly
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xats2815">34</a>]</span> chipset may not properly
 handle a connection attempt from a host with the same
 BDAddress as the currently connected BT host. As illustrated
 in Figure&#x00A0;<a 
@@ -3781,12 +3781,12 @@ class="ptmri8t-">LMP_AU_rand </span>packet as shown in Figure&#x00A0;<a
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-26001r17">17<!--tex4ht:ref: fig:v12 --></a>. Only
 <span 
 class="ptmb8t-">CC2564C</span>&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xcc2564c">14</a>]</span> from <span 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xcc2564c">15</a>]</span> from <span 
 class="ptmri8t-">Texas Instruments </span>enters a deadlock state,
 which requires user intervention to recover. Additionally,
 use of <span 
 class="ptmri8t-">TI Dual-mode Bluetooth Stack for MSP432</span>&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xti_stack">15</a>]</span>
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xti_stack">16</a>]</span>
 may temporarily hang the host MCU (MSP432) during the
 attack.
 </p><!--l. 387--><p class="indent" >  Many major chipset vendors are affected by this attack as
@@ -3798,7 +3798,7 @@ packets from certain LMP procedures may not have been well
 tested. This may arise because the <span 
 class="ptmri8t-">Core Specifications </span>only
 allows a limited LMP testing mode&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbluetooth2019bluetooth">27</a>]</span> that restricts the SoC
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbluetooth2019bluetooth">28</a>]</span> that restricts the SoC
 to work with only a few LMP packets. This, in turn, may restrict
 the test flexibility for BT vendors. Specifically, vendors may
 have a limited capacity of tests that they can perform with
@@ -3834,8 +3834,8 @@ class="content">LMP AU Rand Flooding</span></div><!--tex4ht:label?: x1-26001r17 
 class="newline" />(CVE-2021-34145)</h4>
 <!--l. 416--><p class="noindent" >The Bluetooth Classic implementation in the Cypress WICED
 BT stack 2.9.0&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#XWICED">12</a>]</span> and earlier for CYW20735B1&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#XCYW20735B1">11</a>]</span>
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#XWICED">13</a>]</span> and earlier for CYW20735B1&#x00A0;<span class="cite">&#x00A0;[<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#XCYW20735B1">12</a>]</span>
 devices does not properly handle the reception of <span 
 class="ptmri8t-">LMP_max_slot</span>
 with an invalid Baseband packet type and <span 
@@ -3877,8 +3877,8 @@ class="content">Invalid Max Slot Type</span></div><!--tex4ht:label?: x1-27001r18
 class="newline" />(CVE-2021-34148)</h4>
 <!--l. 442--><p class="noindent" >The Bluetooth Classic implementation in the Cypress WICED
 BT stack 2.9.0<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#XWICED">12</a>]</span> and earlier for CYW20735B1<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#XCYW20735B1">11</a>]</span> devices
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#XWICED">13</a>]</span> and earlier for CYW20735B1<span class="cite">&#x00A0;[<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#XCYW20735B1">12</a>]</span> devices
 does not properly handle the reception of <span 
 class="ptmri8t-">LMP_max_slot </span>with a
 higher ACL Length (<span 
@@ -3916,13 +3916,13 @@ class="content">Max Slot Length Overflow</span></div><!--tex4ht:label?: x1-28001
 class="newline" />(CVE-2021-34147/<span style="color: #730099">Pending</span>/<span style="color: #730099">Pending</span>)</h4>
 <!--l. 467--><p class="noindent" >The Bluetooth Classic implementations in the Cypress WICED BT
 stack 2.9.0&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#XWICED">12</a>]</span> and earlier for CYW20735B1<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#XCYW20735B1">11</a>]</span> devices,
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#XWICED">13</a>]</span> and earlier for CYW20735B1<span class="cite">&#x00A0;[<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#XCYW20735B1">12</a>]</span> devices,
 <span 
 class="ptmb8t-">Intel AX200</span>&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xax200">16</a>]</span> and <span 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xax200">17</a>]</span> and <span 
 class="ptmb8t-">Qualcomm WCN3990</span><span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xwcn3990">29</a>]</span> chipsets do
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xwcn3990">30</a>]</span> chipsets do
 not properly handle the reception of a malformed LMP timing
 accuracy response followed by multiple re-connections to the
 target link slave. This allows attackers to exhaust device BT
@@ -4147,15 +4147,17 @@ target="_blank" href="mailto:ask@braktooth.com" >ask@braktooth.com</a>.
 target="_blank" href="https://www.comp.nus.edu.sg/~nsoe-tss/" >NRF National Satellite
 of Excellence in Trustworthy Software Systems</a>. This research is
 also successfully translated to a <a 
-target="_blank" href="https://www.keysight.com/us/en/cmp/2021/iot-security.html" >Keysight penetration testing
-tool</a> with the generous funding and support provided by
-<a 
-target="_blank" href="https://www.keysight.com/sg/en/home.html" >Keysight Technologies</a>. We also want to thank all the involved
-vendors for their support during the coordination process and
-<a 
-target="_blank" href="https://www.csa.gov.sg/" >Cyber Security Agency of Singapore (CSA)</a> for working
-with us and publishing the <a 
-target="_blank" href="https://www.csa.gov.sg/singcert/Alerts/al-2021-051" >SingCERT</a> advisory. We thank
+target="_blank" href="https://www.keysight.com/us/en/cmp/2021/iot-security.html" >Keysight penetration testing tool</a>
+with the generous funding and support provided by <a 
+target="_blank" href="https://www.keysight.com/sg/en/home.html" >Keysight
+Technologies</a>. We also want to thank all the involved vendors for
+their support during the coordination process and <a 
+target="_blank" href="https://www.csa.gov.sg/" >Cyber
+Security Agency of Singapore (CSA)</a>&#x00A0;<span class="cite">&#x00A0;[<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xcsa">1</a>]</span> for working with us
+and publishing the <a 
+target="_blank" href="https://www.csa.gov.sg/singcert/Alerts/al-2021-051" >SingCERT</a> advisory&#x00A0;<span class="cite">&#x00A0;[<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xsingcert">31</a>]</span>. We thank
 <a 
 target="_blank" href="https://scholar.google.com.sg/citations?user=r8T1-yoAAAAJ&hl=eng" >Ezekiel O. Soremekun</a> for coining the term BrakTooth. We
 thank <a 
@@ -4164,7 +4166,7 @@ design. Additionally, special thanks to <a
 target="_blank" href="https://github.com/Ebiroll" >Olof Astrand</a> for his
 support on the open-source Tensilica Xtensa module for
 Ghidra&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xghidra_module">6</a>]</span> and <a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xghidra_module">7</a>]</span> and <a 
 target="_blank" href="https://www.linkedin.com/in/yip-kwok-chuo-willis-a9061b67/?originalSubdomain=sg" >Kwok Chuo Willis Yip</a> for the ESP32 attack
 video.
 </p><!--l. 1--><p class="noindent" >
@@ -4175,16 +4177,22 @@ video.
     </p><div class="thebibliography">
     <p class="bibitem" ><span class="biblabel">
   [1]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
+ id="Xcsa"></a>Cyber   Security   Agency   of   Singapore   (CSA).
+    <a 
+target="_blank" href="https://www.csa.gov.sg/" target="_blank" class="url" >https://www.csa.gov.sg/</a>, 2021.
+    </p>
+    <p class="bibitem" ><span class="biblabel">
+  [2]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
  id="Xbias"></a>Daniele   Antonioli,   Nils&#x00A0;Ole   Tippenhauer,   and
     Kasper  Rasmussen.    BIAS:  bluetooth  impersonation
     attacks.    In  <span 
-class="ptmri8t-">2020  IEEE  Symposium  on  Security  and</span>
-    <span 
+class="ptmri8t-">2020  IEEE  Symposium  on  Security  and</span>               <span 
 class="ptmri8t-">Privacy, SP 2020, San Francisco, CA, USA, May 18-21,</span>
-    <span 
+             <span 
 class="ptmri8t-">2020</span>, pages 549&#8211;562. IEEE, 2020.
-    </p>                                                         <p class="bibitem" ><span class="biblabel">
-         [2]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
+             </p>
+             <p class="bibitem" ><span class="biblabel">
+         [3]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
  id="Xantonioli2019knob"></a>Daniele                   Antonioli,                   Nils&#x00A0;Ole
              Tippenhauer, and Kasper&#x00A0;B. Rasmussen.  The KNOB
              is broken: Exploiting low entropy in the encryption key
@@ -4196,7 +4204,7 @@ class="ptmri8t-">Security   Symposium   (USENIX   Security   19)</span>,   pages
              Association.
              </p>
              <p class="bibitem" ><span class="biblabel">
-         [3]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
+         [4]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
  id="XAB32VG1"></a>Bluetrum.                                                AB32VG1
              Development         Kit         Quick         Start         (CN).
              <a 
@@ -4204,7 +4212,7 @@ target="_blank" href="https://ab32vg1-example.readthedocs.io/zh/latest/introduct
              2021.
              </p>
              <p class="bibitem" ><span class="biblabel">
-         [4]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
+         [5]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
  id="XAB5301A"></a>Bluetrum.     AB5301A  SoC  Product  Description
              Website                                                                  (CN).
              <a 
@@ -4212,7 +4220,7 @@ href="http://www.bluetrum.com/product/ab5301a.html" target="_blank" class="url" 
              2021.
              </p>
              <p class="bibitem" ><span class="biblabel">
-         [5]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
+         [6]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
  id="Xbluemirror"></a>Tristan           Claverie           and           Jose&#x00A0;Lopes
              Esteves.  Bluemirror: Reflections on bluetooth pairing
              and provisioning protocols. In <span 
@@ -4221,35 +4229,35 @@ class="ptmri8t-">2021 IEEE Security and</span>
 class="ptmri8t-">Privacy Workshops (SPW)</span>, pages 339&#8211;351, 2021.
              </p>
              <p class="bibitem" ><span class="biblabel">
-         [6]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
+         [7]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
  id="Xghidra_module"></a>Ebiroll.        Fork   of   Tensilica   Xtensa   module
              for  Ghidra.    <a 
 target="_blank" href="https://github.com/Ebiroll/ghidra-xtensa" target="_blank" class="url" >https://github.com/Ebiroll/ghidra-xtensa</a>,
              2021.
              </p>
              <p class="bibitem" ><span class="biblabel">
-         [7]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
+         [8]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
  id="Xesp-idf"></a>Espressif.  Espressif IoT Development Framework.
              <a 
 target="_blank" href="https://github.com/espressif/esp-idf" target="_blank" class="url" >https://github.com/espressif/esp-idf</a>, 2020.
              </p>
              <p class="bibitem" ><span class="biblabel">
-         [8]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
+         [9]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
  id="Xesp32_aliexpress"></a>Espressif.        Cheap   ESP32   Development   Kit.
              <a 
 target="_blank" href="https://www.aliexpress.com/item/1005001757645011.html" target="_blank" class="url" >https://www.aliexpress.com/item/1005001757645011.html</a>,
              2021.
              </p>
              <p class="bibitem" ><span class="biblabel">
-         [9]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
+       [10]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
  id="Xesp-bt-stack"></a>Espressif.        ESP32   BT/BLE   Stack   Libraries.
              <a 
 target="_blank" href="https://github.com/espressif/esp32-bt-lib" target="_blank" class="url" >https://github.com/espressif/esp32-bt-lib</a>, 2021.
-             </p>
                                                                                                 
                                                                                                 
+    </p>
     <p class="bibitem" ><span class="biblabel">
- [10]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
+ [11]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
  id="Xesp32_patch"></a>Espressif.                              ESP32          ESP-IDF
     BrakTooth         Patches         (commit         #bf71f49).
     <a 
@@ -4257,21 +4265,21 @@ target="_blank" href="https://github.com/espressif/esp-idf/tree/bf71f494a165aba5
     2021.
     </p>
     <p class="bibitem" ><span class="biblabel">
- [11]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span>
+ [12]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span>
     <a 
  id="XCYW20735B1"></a>Infineon (former Cypress).  CYW20735B1 Datasheet.
     <a 
 target="_blank" href="https://www.cypress.com/file/298426/download" target="_blank" class="url" >https://www.cypress.com/file/298426/download</a>, 2021.
     </p>
     <p class="bibitem" ><span class="biblabel">
- [12]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
+ [13]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
  id="XWICED"></a>Infineon  (former  Cypress).      WICED  Software.
     <a 
 target="_blank" href="https://www.cypress.com/products/wiced-software" target="_blank" class="url" >https://www.cypress.com/products/wiced-software</a>,
     2021.
     </p>
     <p class="bibitem" ><span class="biblabel">
- [13]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
+ [14]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
  id="Xsweyntooth"></a>Matheus&#x00A0;E.  Garbelini,  Chundong  Wang,  Sudipta
     Chattopadhyay,  Sun  Sumei,  and  Ernest  Kurniawan.
     Sweyntooth:   Unleashing   mayhem   over   bluetooth
@@ -4282,13 +4290,13 @@ class="ptmri8t-">Conference   (USENIX   ATC   20)</span>,   pages   911&#8211;92
     USENIX Association, July 2020.
     </p>
     <p class="bibitem" ><span class="biblabel">
- [14]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
+ [15]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
  id="Xcc2564c"></a>Texas  Instruments.     CC2564C  Product  Details.
     <a 
 target="_blank" href="https://www.ti.com/product/CC2564C" target="_blank" class="url" >https://www.ti.com/product/CC2564C</a>, 2021.
     </p>
     <p class="bibitem" ><span class="biblabel">
- [15]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
+ [16]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
  id="Xti_stack"></a>Texas       Instruments.                    CC2564C       TI
     Dual-mode   Bluetooth   Stack   on   MSP432   MCUs.
     <a 
@@ -4296,21 +4304,21 @@ target="_blank" href="https://www.ti.com/tool/CC2564CMSP432BTBLESW" target="_bla
     2021. Service pack must be downloaded separatelly.
     </p>
     <p class="bibitem" ><span class="biblabel">
- [16]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
+ [17]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
  id="Xax200"></a>Intel.   Intel Wi-Fi 6 AX200 SoC Product Details.
     <a 
 target="_blank" href="https://ark.intel.com/content/www/us/en/ark/products/189347/intel-wi-fi-6-ax200-gig.html" target="_blank" class="url" >https://ark.intel.com/content/www/us/en/ark/products/189347/intel-wi-fi-6-ax200-gig.html</a>,
     2021.
     </p>
     <p class="bibitem" ><span class="biblabel">
- [17]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
+ [18]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
  id="Xjbl"></a>JBL.                JBL     TUNE     500BT     Wireless
     on-ear            Headphone            Product            Details.
     <a 
 target="_blank" href="https://www.jbl.com.sg/over-ear-headphones/JBL+TUNE500BT.html" target="_blank" class="url" >https://www.jbl.com.sg/over-ear-headphones/JBL+TUNE500BT.html</a>,
-    2021.
-    </p>                                                         <p class="bibitem" ><span class="biblabel">
-       [18]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
+    2021.                                                     </p>
+             <p class="bibitem" ><span class="biblabel">
+       [19]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
  id="Xiwrap"></a>Silicon       Labs.                     Bluegiga       iWRAP
              Bluetooth            Classic            Software            Stack.
              <a 
@@ -4318,14 +4326,14 @@ target="_blank" href="https://www.silabs.com/developers/bluegiga-iwrap-bluetooth
              2021.
              </p>
              <p class="bibitem" ><span class="biblabel">
-       [19]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
+       [20]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
  id="Xwt32i"></a>Silicon   Labs.      WT32I-A   Product   Description.
              <a 
 target="_blank" href="https://www.silabs.com/wireless/bluetooth/bluegiga-classic-legacy-modules/device.wt32i-a" target="_blank" class="url" >https://www.silabs.com/wireless/bluetooth/bluegiga-classic-legacy-modules/device.wt32i-a</a>,
              2021.
              </p>
              <p class="bibitem" ><span class="biblabel">
-       [20]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
+       [21]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
  id="Xesp32_mouser"></a>Mouser.                                  Official           ESP32
              Development               Kit               ESP32-PICO-KIT.
              <a 
@@ -4333,28 +4341,28 @@ target="_blank" href="https://www.mouser.sg/ProductDetail/Espressif-Systems/ESP3
              2021.
              </p>
              <p class="bibitem" ><span class="biblabel">
-       [21]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
+       [22]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
  id="Xoppo_reno_5g"></a>Oppo. Oppo Reno 5G (CPH1921) Product Details.
              <a 
 target="_blank" href="https://www.oppo.com/en/smartphone-reno-5g/specs/" target="_blank" class="url" >https://www.oppo.com/en/smartphone-reno-5g/specs/</a>,
              2019.
              </p>
              <p class="bibitem" ><span class="biblabel">
-       [22]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span>
+       [23]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span>
              <a 
  id="XCSR8510"></a>Qualcomm.  CSR8510 Bluetooth SoC Product Details.
              <a 
 target="_blank" href="https://www.qualcomm.com/products/csr8510" target="_blank" class="url" >https://www.qualcomm.com/products/csr8510</a>, 2021.
              </p>
              <p class="bibitem" ><span class="biblabel">
-       [23]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span>
+       [24]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span>
              <a 
  id="XCSR8811"></a>Qualcomm.  CSR8811 Bluetooth SoC Product Details.
              <a 
 target="_blank" href="https://www.qualcomm.com/products/csr8811" target="_blank" class="url" >https://www.qualcomm.com/products/csr8811</a>, 2021.
              </p>
              <p class="bibitem" ><span class="biblabel">
-       [24]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
+       [25]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
  id="XXY-WRBT"></a>DF&#x00A0;Robot.
              XY-WRBT  Bluetooth  5.0  Audio  Receiver  Product
              Details.   <a 
@@ -4362,7 +4370,7 @@ target="_blank" href="https://www.dfrobot.com/product-2084.html" target="_blank"
              2021.
              </p>
              <p class="bibitem" ><span class="biblabel">
-       [25]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
+       [26]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
  id="Xfrankenstein"></a>Jan Ruge, Jiska Classen, Francesco Gringoli, and
              Matthias  Hollick.    Frankenstein:  Advanced  wireless
              fuzzing to exploit new bluetooth escalation targets.  In
@@ -4370,11 +4378,11 @@ target="_blank" href="https://www.dfrobot.com/product-2084.html" target="_blank"
 class="ptmri8t-">29th USENIX Security Symposium (USENIX Security</span>
              <span 
 class="ptmri8t-">20)</span>, pages 19&#8211;36. USENIX Association, August 2020.
-             </p>
                                                                                                 
                                                                                                 
+    </p>
     <p class="bibitem" ><span class="biblabel">
- [26]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
+ [27]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
  id="XBluetooth:Certification:2020"></a>Bluetooth     SIG.              Bluetooth     certification
     guideline:             Qualify             your             product.
     <a 
@@ -4382,21 +4390,21 @@ target="_blank" href="https://www.bluetooth.com/develop-with-bluetooth/qualifica
     2019.
     </p>
     <p class="bibitem" ><span class="biblabel">
- [27]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
+ [28]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
  id="Xbluetooth2019bluetooth"></a>Bluetooth       SIG.                     Bluetooth       Core
     Specification           v5.2,           December           2019.
     <a 
 target="_blank" href="https://www.bluetooth.com/specifications/bluetooth-core-specification" target="_blank" class="url" >https://www.bluetooth.com/specifications/bluetooth-core-specification</a>.
     </p>
     <p class="bibitem" ><span class="biblabel">
- [28]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
+ [29]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
  id="Xbluetooth-listing"></a>Bluetooth       SIG.                    View       previously
     qualified designs and declared products, January 2020.
     <a 
 target="_blank" href="https://launchstudio.bluetooth.com/Listings/Search" target="_blank" class="url" >https://launchstudio.bluetooth.com/Listings/Search</a>.
     </p>
     <p class="bibitem" ><span class="biblabel">
- [29]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
+ [30]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
  id="Xwcn3990"></a>Bluetooth          SIG.                               WCN3990
     Bluetooth                       Product                       Listings.
     <a 
@@ -4404,14 +4412,23 @@ target="_blank" href="https://launchstudio.bluetooth.com/ListingDetails/66490" t
     2021.
     </p>
     <p class="bibitem" ><span class="biblabel">
- [30]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
+ [31]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
+ id="Xsingcert"></a>Singapore  Computer  Emergency  Response&#x00A0;Team
+    (SingCERT).
+    Multiple Vulnerabilities Affecting Bluetooth Devices.
+    <a 
+target="_blank" href="https://www.csa.gov.sg/singcert/Alerts/al-2021-051" target="_blank" class="url" >https://www.csa.gov.sg/singcert/Alerts/al-2021-051</a>,
+    2021.
+    </p>
+    <p class="bibitem" ><span class="biblabel">
+ [32]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
  id="Xesp32"></a>Espressif  Systems.    ESP32  SoC  Product  Details.
     <a 
 target="_blank" href="https://www.espressif.com/en/products/socs/esp32" target="_blank" class="url" >https://www.espressif.com/en/products/socs/esp32</a>,
     2021.
     </p>
     <p class="bibitem" ><span class="biblabel">
- [31]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
+ [33]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
  id="Xesp32_wrover_kit"></a>Espressif      Systems.                  Official      ESP32
     Development            Kit            ESP32-WROVER-KIT.
     <a 
@@ -4419,23 +4436,23 @@ target="_blank" href="https://www.espressif.com/en/products/hardware/esp-wrover-
     2021.
     </p>
     <p class="bibitem" ><span class="biblabel">
- [32]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
+ [34]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
  id="Xats2815"></a>Actions    Technology.          ATS2815    Datasheet.
     <a 
 href="http://www.lanzhi-tech.com/filedownload/99240" target="_blank" class="url" >http://www.lanzhi-tech.com/filedownload/99240</a>,
-    2021.
-    </p>
-    <p class="bibitem" ><span class="biblabel">
- [33]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
+    2021.                                                     </p>
+             <p class="bibitem" ><span class="biblabel">
+       [35]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
  id="XAC6366C"></a>Jieli  Technology.    AC63  Series  SDK  repository.
-    <a 
+             <a 
 target="_blank" href="https://github.com/Jieli-Tech/fw-AC63_BT_SDK" target="_blank" class="url" >https://github.com/Jieli-Tech/fw-AC63_BT_SDK</a>,
-    2021.
-    </p>
-    <p class="bibitem" ><span class="biblabel">
- [34]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
+             2021.
+             </p>
+             <p class="bibitem" ><span class="biblabel">
+       [36]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
  id="Xblesa"></a>Jianliang  Wu,  Yuhong  Nan,  Vireshwar  Kumar,
-    Dave&#x00A0;Jing   Tian,   Antonio   Bianchi,   Mathias   Payer,               and   Dongyan   Xu.         <span 
+             Dave&#x00A0;Jing   Tian,   Antonio   Bianchi,   Mathias   Payer,
+             and   Dongyan   Xu.         <span 
 class="zptmcmrm-">BLESA</span>:   Spoofing   Attacks
              against  Reconnections  in  Bluetooth  Low  Energy.   In
              <span 
@@ -4448,7 +4465,7 @@ class="zptmcmrm-">WOOT </span><span
 class="ptmri8t-">20)</span>, 2020.
              </p>
              <p class="bibitem" ><span class="biblabel">
-       [35]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
+       [37]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
  id="Xxiaomi_speaker"></a>Xiaomi.                     Mi       Portable       Bluetooth
              Speaker          MDZ-36-DB          Product          Details.
              <a 
