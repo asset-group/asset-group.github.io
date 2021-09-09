@@ -1,9 +1,29 @@
  
 /* start css.sty */
 .ptmb8t-x-x-144{font-size:144%;  font-weight: bold;}
+.ptmb8t-x-x-144{  font-weight: bold;}
+.ptmb8t-x-x-144{  font-weight: bold;}
+.ptmbc8t-x-x-144{font-size:144%; font-weight: bold;}
 .ptmr8t-x-x-120{font-size:120%;}
 .ptmri8t-x-x-120{font-size:120%;font-style: italic;}
+.ptmri8t-x-x-120{font-style: italic;}
 .zptmcmr-x-x-90{font-size:90%; font-style: italic;}
+.pcrr8tn-{font-family: monospace;}
+.pcrr8tn-{font-family: monospace;}
+.ptmb8t-{  font-weight: bold;}
+.ptmb8t-{  font-weight: bold;}
+.ptmb8t-{  font-weight: bold;}
+.ptmri8t-{font-style: italic;}
+.ptmri8t-{font-style: italic;}
+.zptmcmr-{ font-style: italic;}
+.zpzccmry-{ font-weight: bold; font-style: italic;}
+.ptmbi8t-{ font-weight: bold;   font-style: italic;}
+.ptmr8t-x-x-80{font-size:80%;}
+.pcrr8tn-x-x-80{font-size:80%;font-family: monospace;}
+.pcrr8tn-x-x-80{font-family: monospace;}
+.ptmb8t-x-x-80{font-size:80%;  font-weight: bold;}
+.ptmb8t-x-x-80{  font-weight: bold;}
+.ptmb8t-x-x-80{  font-weight: bold;}
 .small-caps{font-variant: small-caps; }
 p.noindent { text-indent: 0em }
 td p.noindent { text-indent: 0em; margin-top:0em; }
@@ -92,6 +112,23 @@ div.pmatrix {text-align:center;}
 table.pmatrix {width:100%;}
 span.bar-css {text-decoration:overline;}
 img.cdots{vertical-align:middle;}
+div.tabular, div.center div.tabular {text-align: center; margin-top:0.5em; margin-bottom:0.5em; }
+table.tabular td p{margin-top:0em;}
+table.tabular {margin-left: auto; margin-right: auto;}
+td p:first-child{ margin-top:0em; }
+td p:last-child{ margin-bottom:0em; }
+div.td00{ margin-left:0pt; margin-right:0pt; }
+div.td01{ margin-left:0pt; margin-right:5pt; }
+div.td10{ margin-left:5pt; margin-right:0pt; }
+div.td11{ margin-left:5pt; margin-right:5pt; }
+table[rules] {border-left:solid black 0.4pt; border-right:solid black 0.4pt; }
+td.td00{ padding-left:0pt; padding-right:0pt; }
+td.td01{ padding-left:0pt; padding-right:5pt; }
+td.td10{ padding-left:5pt; padding-right:0pt; }
+td.td11{ padding-left:5pt; padding-right:5pt; }
+table[rules] {border-left:solid black 0.4pt; border-right:solid black 0.4pt; }
+.hline hr, .cline hr{ height : 1px; margin:0px; }
+div.array {text-align:center;}
 .partToc a, .partToc, .likepartToc a, .likepartToc {line-height: 200%; font-weight:bold; font-size:110%;}
 .index-item, .index-subitem, .index-subsubitem {display:block}
 div.caption {text-indent:-2em; margin-left:3em; margin-right:1em; text-align:left;}
@@ -126,5 +163,135 @@ table.multline, table.multline-star {width:100%;}
 td.gather {text-align:center; }
 table.gather {width:100%;}
 div.gather-star {text-align:center;}
+.lstlisting .label{margin-right:0.5em; }
+div.lstlisting{font-family: monospace; white-space: nowrap; margin-top:0.5em; margin-bottom:0.5em; }
+div.lstinputlisting{ font-family: monospace; white-space: nowrap; }
+.lstinputlisting .label{margin-right:0.5em;}
+div.algorithm table.caption { border-bottom: 1px solid black; margin-bottom:1pt; }
+div.algorithmic span.algorithmic{white-space:pre}
+#TBL-2 colgroup{border-left: 1px solid black;border-right:1px solid black;}
+#TBL-2{border-collapse:collapse;}
+#TBL-2 colgroup{border-left: 1px solid black;border-right:1px solid black;}
+#TBL-2{border-collapse:collapse;}
+#TBL-2 colgroup{border-left: 1px solid black;border-right:1px solid black;}
+#TBL-2{border-collapse:collapse;}
+#TBL-2 colgroup{border-left: 1px solid black;border-right:1px solid black;}
+#TBL-2{border-collapse:collapse;}
+#TBL-2 colgroup{border-left: 1px solid black;border-right:1px solid black;}
+#TBL-2{border-collapse:collapse;}
+ #TBL-2-1-{ background-color:rgb(141,180,225)}
+ #TBL-002-7-{ background-color:rgb(223,235,250)}
+ #TBL-00002-13-{ background-color:rgb(223,235,250)}
+ #TBL-0000002-19-{ background-color:rgb(223,235,250)}
+span#textcolor1{color:rgb(31,31,30)}
+span#textcolor2{color:rgb(31,31,30)}
+ #TBL-000000002-25-{ background-color:rgb(223,235,250)}
+span#textcolor3{color:rgb(31,31,30)}
+span#textcolor4{color:rgb(31,31,30)}
+ #TBL-00000000002-31-{ background-color:rgb(223,235,250)}
+ #TBL-0000000000002-37-{ background-color:rgb(223,235,250)}
+ #TBL-000000000000002-43-{ background-color:rgb(223,235,250)}
+ #TBL-00000000000000002-49-{ background-color:rgb(223,235,250)}
+ #TBL-0000000000000000002-55-{ background-color:rgb(223,235,250)}
+ #TBL-000000000000000000002-61-{ background-color:rgb(223,235,250)}
+#TBL-3 colgroup{border-left: 1px solid black;border-right:1px solid black;}
+#TBL-3{border-collapse:collapse;}
+#TBL-3 colgroup{border-left: 1px solid black;border-right:1px solid black;}
+#TBL-3{border-collapse:collapse;}
+#TBL-3 colgroup{border-left: 1px solid black;border-right:1px solid black;}
+#TBL-3{border-collapse:collapse;}
+#TBL-3 colgroup{border-left: 1px solid black;border-right:1px solid black;}
+#TBL-3{border-collapse:collapse;}
+#TBL-3 colgroup{border-left: 1px solid black;border-right:1px solid black;}
+#TBL-3{border-collapse:collapse;}
+#TBL-3 colgroup{border-left: 1px solid black;border-right:1px solid black;}
+#TBL-3{border-collapse:collapse;}
+ #TBL-3-1-{ background-color:rgb(141,180,225)}
+span#textcolor5{color:rgb(195,19,23)}
+ #TBL-003-7-{ background-color:rgb(223,235,250)}
+span#textcolor6{color:rgb(195,19,23)}
+span#textcolor7{color:rgb(195,19,23)}
+ #TBL-00003-13-{ background-color:rgb(223,235,250)}
+span#textcolor8{color:rgb(195,19,23)}
+span#textcolor9{color:rgb(195,19,23)}
+ #TBL-0000003-19-{ background-color:rgb(223,235,250)}
+span#textcolor10{color:rgb(195,19,23)}
+span#textcolor11{color:rgb(195,19,23)}
+ #TBL-000000003-25-{ background-color:rgb(223,235,250)}
+span#textcolor12{color:rgb(195,19,23)}
+span#textcolor13{color:rgb(195,19,23)}
+ #TBL-00000000003-31-{ background-color:rgb(223,235,250)}
+span#textcolor14{color:rgb(195,19,23)}
+span#textcolor15{color:rgb(195,19,23)}
+ #TBL-0000000000003-37-{ background-color:rgb(223,235,250)}
+span#textcolor16{color:rgb(195,19,23)}
+span#textcolor17{color:rgb(195,19,23)}
+ #TBL-000000000000003-43-{ background-color:rgb(223,235,250)}
+span#textcolor18{color:rgb(195,19,23)}
+span#textcolor19{color:rgb(195,19,23)}
+ #TBL-00000000000000003-49-{ background-color:rgb(223,235,250)}
+span#textcolor20{color:rgb(195,19,23)}
+ #TBL-0000000000000000003-55-{ background-color:rgb(223,235,250)}
+ #TBL-000000000000000000003-61-{ background-color:rgb(223,235,250)}
+ #TBL-00000000000000000000003-67-{ background-color:rgb(223,235,250)}
+span#textcolor21{color:#CB0000}
+#TBL-16 colgroup{border-left: 1px solid black;border-right:1px solid black;}
+#TBL-16{border-collapse:collapse;}
+#TBL-16 colgroup{border-left: 1px solid black;border-right:1px solid black;}
+#TBL-16{border-collapse:collapse;}
+#TBL-16 colgroup{border-left: 1px solid black;border-right:1px solid black;}
+#TBL-16{border-collapse:collapse;}
+#TBL-16 colgroup{border-left: 1px solid black;border-right:1px solid black;}
+#TBL-16{border-collapse:collapse;}
+#TBL-16 colgroup{border-left: 1px solid black;border-right:1px solid black;}
+#TBL-16{border-collapse:collapse;}
+ #TBL-16-1-{ background-color:rgb(141,180,225)}
+ #TBL-0016-7-{ background-color:rgb(223,235,250)}
+ #TBL-000016-13-{ background-color:rgb(223,235,250)}
+ #TBL-00000016-19-{ background-color:rgb(223,235,250)}
+ #TBL-0000000016-25-{ background-color:rgb(223,235,250)}
+ #TBL-000000000016-31-{ background-color:rgb(223,235,250)}
+ #TBL-00000000000016-37-{ background-color:rgb(223,235,250)}
+ #TBL-0000000000000016-43-{ background-color:rgb(223,235,250)}
+#TBL-17 colgroup{border-left: 1px solid black;border-right:1px solid black;}
+#TBL-17{border-collapse:collapse;}
+#TBL-17 colgroup{border-left: 1px solid black;border-right:1px solid black;}
+#TBL-17{border-collapse:collapse;}
+#TBL-17 colgroup{border-left: 1px solid black;border-right:1px solid black;}
+#TBL-17{border-collapse:collapse;}
+#TBL-17 colgroup{border-left: 1px solid black;border-right:1px solid black;}
+#TBL-17{border-collapse:collapse;}
+#TBL-17 colgroup{border-left: 1px solid black;border-right:1px solid black;}
+#TBL-17{border-collapse:collapse;}
+#TBL-17 colgroup{border-left: 1px solid black;border-right:1px solid black;}
+#TBL-17{border-collapse:collapse;}
+ #TBL-17-1-{ background-color:rgb(141,180,225)}
+ #TBL-0017-7-{ background-color:rgb(223,235,250)}
+ #TBL-000017-13-{ background-color:rgb(223,235,250)}
+ #TBL-00000017-19-{ background-color:rgb(223,235,250)}
+ #TBL-0000000017-25-{ background-color:rgb(223,235,250)}
+ #TBL-000000000017-31-{ background-color:rgb(223,235,250)}
+ #TBL-00000000000017-37-{ background-color:rgb(223,235,250)}
+#TBL-25 colgroup{border-left: 1px solid black;border-right:1px solid black;}
+#TBL-25{border-collapse:collapse;}
+#TBL-25 colgroup{border-left: 1px solid black;border-right:1px solid black;}
+#TBL-25{border-collapse:collapse;}
+#TBL-25 colgroup{border-left: 1px solid black;border-right:1px solid black;}
+#TBL-25{border-collapse:collapse;}
+#TBL-25 colgroup{border-left: 1px solid black;border-right:1px solid black;}
+#TBL-25{border-collapse:collapse;}
+#TBL-25 colgroup{border-left: 1px solid black;border-right:1px solid black;}
+#TBL-25{border-collapse:collapse;}
+#TBL-25 colgroup{border-left: 1px solid black;border-right:1px solid black;}
+#TBL-25{border-collapse:collapse;}
+ #TBL-25-1-{ background-color:rgb(141,180,225)}
+ #TBL-0025-7-{ background-color:rgb(223,235,250)}
+ #TBL-000025-13-{ background-color:rgb(223,235,250)}
+span#textcolor22{color:rgb(31,31,30)}
+ #TBL-00000025-19-{ background-color:rgb(223,235,250)}
+span#textcolor23{color:rgb(31,31,30)}
+ #TBL-0000000025-25-{ background-color:rgb(223,235,250)}
+ #TBL-000000000025-31-{ background-color:rgb(223,235,250)}
+ #TBL-00000000000025-37-{ background-color:rgb(223,235,250)}
 /* end css.sty */
 
