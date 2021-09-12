@@ -34,6 +34,10 @@ with most of our research papers.
 
 ---
 
+###### BrakTooth
+
+[This repository](https://github.com/Matheus-Garbelini/esp32_bluetooth_classic_sniffer) contains the BR/EDR active sniffer/injector code developed as part of discovering [BrakTooth vulnerability](https://asset-group.github.io/disclosures/braktooth/) in major Bluetooth System-on-chips (SoCs) such as Intel, Qualcomm, Texas Instruments, Cypress, Silicon Labs, Xiaomi etc. The injector part of the code is embargoed until 31st October, 2021. 
+
 ###### ESP8266/ESP32 Wi-Fi Attacks
 
 [This repository](https://github.com/Matheus-Garbelini/esp32_esp8266_attacks) contains the proof-of-concept code for three Wi-Fi attacks ([CVE-2019-12586](https://nvd.nist.gov/vuln/detail/CVE-2019-12586), [CVE-2019-12587](https://nvd.nist.gov/vuln/detail/CVE-2019-12587), [CVE-2019-12588](https://nvd.nist.gov/vuln/detail/CVE-2019-12588)) against the popular ESP32/8266 IoT devices. 
