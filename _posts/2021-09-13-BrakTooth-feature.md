@@ -18,7 +18,9 @@ date: 2021-09-13
 <a href="https://therecord.media/billions-of-devices-impacted-by-new-braktooth-bluetooth-vulnerabilities/"> The Record (by Recorded Future)</a>, 
 and 
 <a href="https://www.heise.de/news/Braktooth-Neue-Bluetooth-Luecken-bedrohen-unzaehlige-Geraete-6180540.html">Heise Online</a> together with 40+ other 
-news articles worldwide. The BrakTooth security alert has been covered by <a href="https://www.csa.gov.sg/singcert/Alerts/al-2021-051">CSA, SingCERT</a> 
+news articles and podcasts (<a href="https://www.youtube.com/watch?v=g2MRwdHtCDY">Podcast 1</a>, <a href="https://www.youtube.com/watch?v=s9zOQ91st6Y">Podcast 2</a>) 
+worldwide. The BrakTooth security alert has been covered 
+by <a href="https://www.csa.gov.sg/singcert/Alerts/al-2021-051">SingCERT, CSA</a> 
 and <a href="https://www.bsi.bund.de/SharedDocs/Warnmeldungen/DE/TW/2021/09/warnmeldung_tw-t21-0163.html?nn=520060">German Federal Office for Information Security</a>, 
 among others. 
 </p>
