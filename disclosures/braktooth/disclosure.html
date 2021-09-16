@@ -2926,10 +2926,15 @@ available to the public.
 </p><!--l. 26--><p class="indent" >  The vendor <span 
 class="ptmb8t-">Texas Instruments </span>has successfully replicated the
 security issue, however, at this stage has no plan for producing a
-patch. In particular, according to the Texas Instruments PSIRT
-team, they will consider producing a patch only if demanded by
-customers.
-</p><!--l. 32--><p class="indent" >  Our team approached Qualcomm to inquire whether a patch
+patch. In particular, according to the Texas Instruments
+PSIRT team, they will consider producing a patch only if
+requested by customers. Through technical analysis, TI
+PSIRT concluded the potential vulnerability causes the
+CC256x device to enter a deadlock state, resulting in a
+denial of service, which could impact the availability to
+the user, but does not impact sensitive information in the
+system.
+</p><!--l. 37--><p class="indent" >  Our team approached Qualcomm to inquire whether a patch
 would be available for the affected devices. We were informed
 that they are working on a fix for WCN3990/8 and that the
 security issue reported in Qualcomm CSR8811A08&#x00A0;<span class="cite">&#x00A0;[<a 
@@ -2944,17 +2949,17 @@ class="ptmb8t-">V6 </span>(see
 Section&#x00A0;<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-200008.6">8.6<!--tex4ht:ref: sec:v6 --></a>) is not possible for CSR8510A10 due to the lack of
 ROM patch space.
-</p><!--l. 53--><p class="indent" >  <span 
+</p><!--l. 58--><p class="indent" >  <span 
 class="ptmb8t-">Zhuhai Jieli Technology </span>confirmed that a fix for
 AC6366C&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#XAC6366C">39</a>]</span> would be released soon, but they did not
-confirm whether a patch would also be available to their other
-audio devices AC6925C and AC6905X. Finally, we notice for
-certain vendors (e.g. Harman International, Silabs), the
-investigation status is unclear, as indicated by the <span 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#XAC6366C">39</a>]</span> would be released soon, but they did not         confirm whether a patch would also be available to their other
+     audio devices AC6925C and AC6905X. Finally, we notice for
+     certain vendors (e.g. Harman International, Silabs), the
+     investigation status is unclear, as indicated by the <span 
 class="ptmri8t-"><span style="color: #730099">Pending</span> </span>status
-in Table&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-11001r5">5<!--tex4ht:ref: tab:affected_chipsets --></a>.                                             </p>
+     in Table&#x00A0;<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-11001r5">5<!--tex4ht:ref: tab:affected_chipsets --></a>.
+     </p>
          <h3 class="sectionHead" style="font-size: 2rem;"><span class="titlemark">6    </span> <a 
  id="x1-120006"></a><a id="sniffer">Sniffing BT BR/EDR in less than </a>$15</h3>
      <!--l. 5--><p class="noindent" >As part of our work of reverse engineering ESP32 BT stack, we
