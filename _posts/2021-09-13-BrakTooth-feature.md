@@ -21,6 +21,7 @@ news articles and podcasts (<a href="https://www.youtube.com/watch?v=g2MRwdHtCDY
 worldwide. The BrakTooth security alert has been covered 
 by <a href="https://www.csa.gov.sg/singcert/Alerts/al-2021-051">SingCERT, CSA</a> 
 and <a href="https://www.bsi.bund.de/SharedDocs/Warnmeldungen/DE/TW/2021/09/warnmeldung_tw-t21-0163.html?nn=520060">German Federal Office for Information Security</a>, 
+and <a href="https://www.govcert.gov.hk/en/alerts_detail.php?id=640">Hong Kong Computer Emergency Response Team Coordination Centre (HKCERT)</a>, 
 among others. 
 </p>
 
