@@ -11,6 +11,7 @@ date: 2021-09-13
 <a href="https://www.wired.com/story/braktooth-bluetooth-whatsapp-fine-omg-cable">WIRED</a>, 
 <a href="https://sea.pcmag.com/security/45801/braktooth-vulnerabilities-affect-countless-bluetooth-devices">PCMag Magazine</a>, 
 <a href="https://thehackernews.com/2021/09/new-braktooth-flaws-leave-millions-of.html">Hacker News</a>, 
+<a href="https://hackaday.com/2021/09/23/bluetooth-vulnerability-arbitrary-code-execution-on-the-esp32-among-others/">HACKADAY</a>,
 <a href="https://blog.malwarebytes.com/exploits-and-vulnerabilities/2021/09/braktooth-bluetooth-vulnerabilities-crash-all-the-devices">MalwareBytes</a>, 
 <a href="https://www.theregister.com/2021/09/01/braktooth_vulnerabilities_put_bluetooth_users/">Register</a>, 
 <a href="https://www.bleepingcomputer.com/news/security/bluetooth-braktooth-bugs-could-affect-billions-of-devices/">Bleeping Computer</a>, 
