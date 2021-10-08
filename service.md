@@ -29,7 +29,7 @@ Review board of IEEE Transactions on Software Engineering (TSE)
 
 #### 2022
 <p style="text-align:justify">
-<i>Technical Program Committee (TPC)</i>: ESEC/FSE 2022, ASE 2022. 
+<i>Technical Program Committee (TPC)</i>: ICSE 2023, ESEC/FSE 2022, ASE 2022. 
 </p> 
 
 #### 2021
