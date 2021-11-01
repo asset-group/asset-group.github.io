@@ -15,9 +15,9 @@
 .ptmb8t-{  font-weight: bold;}
 .ptmri8t-{font-style: italic;}
 .ptmri8t-{font-style: italic;}
+.ptmbi8t-{ font-weight: bold;   font-style: italic;}
 .zptmcmr-{ font-style: italic;}
 .zpzccmry-{ font-weight: bold; font-style: italic;}
-.ptmbi8t-{ font-weight: bold;   font-style: italic;}
 .ptmr8t-x-x-80{font-size:80%;}
 .pcrr8tn-x-x-80{font-size:80%;font-family: monospace;}
 .pcrr8tn-x-x-80{font-family: monospace;}
@@ -169,6 +169,10 @@ div.lstinputlisting{ font-family: monospace; white-space: nowrap; }
 .lstinputlisting .label{margin-right:0.5em;}
 div.algorithm table.caption { border-bottom: 1px solid black; margin-bottom:1pt; }
 div.algorithmic span.algorithmic{white-space:pre}
+span#textcolor1{color:#CB0000}
+span#textcolor2{color:#CB0000}
+span#textcolor3{color:#CB0000}
+span#textcolor4{color:#CB0000}
 #TBL-2 colgroup{border-left: 1px solid black;border-right:1px solid black;}
 #TBL-2{border-collapse:collapse;}
 #TBL-2 colgroup{border-left: 1px solid black;border-right:1px solid black;}
@@ -183,11 +187,11 @@ div.algorithmic span.algorithmic{white-space:pre}
  #TBL-002-7-{ background-color:rgb(223,235,250)}
  #TBL-00002-13-{ background-color:rgb(223,235,250)}
  #TBL-0000002-19-{ background-color:rgb(223,235,250)}
-span#textcolor1{color:rgb(31,31,30)}
-span#textcolor2{color:rgb(31,31,30)}
+span#textcolor5{color:rgb(31,31,30)}
+span#textcolor6{color:rgb(31,31,30)}
  #TBL-000000002-25-{ background-color:rgb(223,235,250)}
-span#textcolor3{color:rgb(31,31,30)}
-span#textcolor4{color:rgb(31,31,30)}
+span#textcolor7{color:rgb(31,31,30)}
+span#textcolor8{color:rgb(31,31,30)}
  #TBL-00000000002-31-{ background-color:rgb(223,235,250)}
  #TBL-0000000000002-37-{ background-color:rgb(223,235,250)}
  #TBL-000000000000002-43-{ background-color:rgb(223,235,250)}
@@ -207,34 +211,33 @@ span#textcolor4{color:rgb(31,31,30)}
 #TBL-3 colgroup{border-left: 1px solid black;border-right:1px solid black;}
 #TBL-3{border-collapse:collapse;}
  #TBL-3-1-{ background-color:rgb(141,180,225)}
-span#textcolor5{color:rgb(195,19,23)}
- #TBL-003-7-{ background-color:rgb(223,235,250)}
-span#textcolor6{color:rgb(195,19,23)}
-span#textcolor7{color:rgb(195,19,23)}
- #TBL-00003-13-{ background-color:rgb(223,235,250)}
-span#textcolor8{color:rgb(195,19,23)}
 span#textcolor9{color:rgb(195,19,23)}
- #TBL-0000003-19-{ background-color:rgb(223,235,250)}
+ #TBL-003-7-{ background-color:rgb(223,235,250)}
 span#textcolor10{color:rgb(195,19,23)}
 span#textcolor11{color:rgb(195,19,23)}
- #TBL-000000003-25-{ background-color:rgb(223,235,250)}
+ #TBL-00003-13-{ background-color:rgb(223,235,250)}
 span#textcolor12{color:rgb(195,19,23)}
 span#textcolor13{color:rgb(195,19,23)}
- #TBL-00000000003-31-{ background-color:rgb(223,235,250)}
+ #TBL-0000003-19-{ background-color:rgb(223,235,250)}
 span#textcolor14{color:rgb(195,19,23)}
 span#textcolor15{color:rgb(195,19,23)}
- #TBL-0000000000003-37-{ background-color:rgb(223,235,250)}
+ #TBL-000000003-25-{ background-color:rgb(223,235,250)}
 span#textcolor16{color:rgb(195,19,23)}
 span#textcolor17{color:rgb(195,19,23)}
- #TBL-000000000000003-43-{ background-color:rgb(223,235,250)}
+ #TBL-00000000003-31-{ background-color:rgb(223,235,250)}
 span#textcolor18{color:rgb(195,19,23)}
 span#textcolor19{color:rgb(195,19,23)}
- #TBL-00000000000000003-49-{ background-color:rgb(223,235,250)}
+ #TBL-0000000000003-37-{ background-color:rgb(223,235,250)}
 span#textcolor20{color:rgb(195,19,23)}
+span#textcolor21{color:rgb(195,19,23)}
+ #TBL-000000000000003-43-{ background-color:rgb(223,235,250)}
+span#textcolor22{color:rgb(195,19,23)}
+span#textcolor23{color:rgb(195,19,23)}
+ #TBL-00000000000000003-49-{ background-color:rgb(223,235,250)}
+span#textcolor24{color:rgb(195,19,23)}
  #TBL-0000000000000000003-55-{ background-color:rgb(223,235,250)}
  #TBL-000000000000000000003-61-{ background-color:rgb(223,235,250)}
  #TBL-00000000000000000000003-67-{ background-color:rgb(223,235,250)}
-span#textcolor21{color:#CB0000}
 #TBL-16 colgroup{border-left: 1px solid black;border-right:1px solid black;}
 #TBL-16{border-collapse:collapse;}
 #TBL-16 colgroup{border-left: 1px solid black;border-right:1px solid black;}
@@ -272,6 +275,7 @@ span#textcolor21{color:#CB0000}
  #TBL-0000000017-25-{ background-color:rgb(223,235,250)}
  #TBL-000000000017-31-{ background-color:rgb(223,235,250)}
  #TBL-00000000000017-37-{ background-color:rgb(223,235,250)}
+span#textcolor25{color:#CB0000}
 #TBL-25 colgroup{border-left: 1px solid black;border-right:1px solid black;}
 #TBL-25{border-collapse:collapse;}
 #TBL-25 colgroup{border-left: 1px solid black;border-right:1px solid black;}
@@ -287,12 +291,18 @@ span#textcolor21{color:#CB0000}
  #TBL-25-1-{ background-color:rgb(141,180,225)}
  #TBL-0025-7-{ background-color:rgb(223,235,250)}
  #TBL-000025-13-{ background-color:rgb(223,235,250)}
-span#textcolor22{color:rgb(31,31,30)}
+span#textcolor26{color:rgb(31,31,30)}
  #TBL-00000025-19-{ background-color:rgb(223,235,250)}
-span#textcolor23{color:rgb(31,31,30)}
+span#textcolor27{color:rgb(31,31,30)}
  #TBL-0000000025-25-{ background-color:rgb(223,235,250)}
  #TBL-000000000025-31-{ background-color:rgb(223,235,250)}
  #TBL-00000000000025-37-{ background-color:rgb(223,235,250)}
  #TBL-0000000000000025-43-{ background-color:rgb(223,235,250)}
+span#textcolor28{color:#CB0000}
+span#textcolor29{color:#CB0000}
+ #TBL-000000000000000025-49-{ background-color:rgb(223,235,250)}
+span#textcolor30{color:#CB0000}
+span#textcolor31{color:#CB0000}
+span#textcolor32{color:#CB0000}
 /* end css.sty */
 
