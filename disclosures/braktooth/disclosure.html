@@ -83,12 +83,19 @@ class="ptmri8t-x-x-120">I2R, A*STAR </span></div><br />
   </div>
   <h3 class="likesectionHead"><a 
  id="x1-1000"></a>Updates</h3>
-<!--l. 4--><p class="noindent" ><span id="textcolor1"><span 
+<!--l. 22--><p class="noindent" ><span 
+class="zpzccmry-">&#x21D2;</span>&#x00A0;&#x00A0;<span id="textcolor1"><span 
 class="ptmb8t-">The PoC embargo period is over and it is available at</span></span>
 <a 
 target="_blank" href="https://github.com/Matheus-Garbelini/braktooth_esp32_bluetooth_classic_attacks" ><span 
 class="ptmb8t-">BrakTooth PoC Website (GitHub)</span></a>.
-</p><!--l. 8--><p class="noindent" ><span id="textcolor2"><span 
+</p><!--l. 22--><p class="noindent" ><span 
+class="zpzccmry-">&#x21D2;</span>&#x00A0;&#x00A0;BrakTooth research was leveraged into improvements in
+<a 
+target="_blank" href="https://www.keysight.com/us/en/cmp/2021/iot-security.html" >Keysight IoT Security Assessment software</a>. See the <a 
+target="_blank" href="https://www.keysight.com/sg/en/about/newsroom/news-releases/2021/1013-nr21135-keysight-delivers-new-iot-security-assessment-test-.html" >official
+press release</a> from Keysight.
+</p><!--l. 25--><p class="noindent" ><span id="textcolor2"><span 
 class="ptmb8t-">1st November of 2021</span></span><span 
 class="ptmb8t-">: </span>We have updated Table&#x00A0;<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-12001r5">5<!--tex4ht:ref: tab:affected_chipsets --></a> with
@@ -104,12 +111,12 @@ Furthermore, Qualcomm has issued CVEs for V6 (<a
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-210008.6">8.6<!--tex4ht:ref: sec:v6 --></a>) and V15
 (<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-300008.15">8.15<!--tex4ht:ref: sec:v15 --></a>).
-</p><!--l. 16--><p class="noindent" >BrakTooth affects certain MacBooks and iPhones as independently
+</p><!--l. 33--><p class="noindent" >BrakTooth affects certain MacBooks and iPhones as independently
 reported by <a 
 target="_blank" href="https://www.seemoo.tu-darmstadt.de/" >seemolab</a>. For more information check their
 <a 
 target="_blank" href="https://www.seemoo.tu-darmstadt.de/news/braktooth-affects-iphones-and-macbooks/" >blogpost</a>.
-</p><!--l. 24--><p class="noindent" ><span id="textcolor3"><span 
+</p><!--l. 41--><p class="noindent" ><span id="textcolor3"><span 
 class="ptmb8t-">31st August of 2021</span></span><span 
 class="ptmb8t-">: </span>As of today, vulnerabilities V6, V15 and
 V16 are pending CVE trackers. These vulnerabilities affect
@@ -128,15 +135,15 @@ the end of October 2021. Similarly, we are also informed by
 Qualcomm that their patch for <span 
 class="ptmb8t-">V15 </span>will take another few months
 to be propagated.
-</p><!--l. 37--><p class="noindent" >
+</p><!--l. 54--><p class="noindent" >
 </p>
   <h3 class="sectionHead" style="font-size: 2rem;"><span class="titlemark">1    </span> <a 
- id="x1-20001"></a>Introduction</h3>
-<!--l. 39--><p class="noindent" >Bluetooth Classic (BT) protocol is a widely used wireless
-protocol in laptops, handheld devices, and audio devices. BT
-main procedures are shown in Figure&#x00A0;<a 
+ id="x1-20001"></a>Introduction</h3>                                       <!--l. 56--><p class="noindent" >Bluetooth Classic (BT) protocol is a widely used wireless
+     protocol in laptops, handheld devices, and audio devices. BT
+     main procedures are shown in Figure&#x00A0;<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-2001r1">1<!--tex4ht:ref: fig:bt_procedures --></a> for reference. In the past
-few years, Bluetooth has come under scrutiny due to the          discovery of several critical vulnerabilities. In this report, we
+     few years, Bluetooth has come under scrutiny due to the
+     discovery of several critical vulnerabilities. In this report, we
      disclose <span 
 class="ptmrc8t-">B<span 
 class="small-caps">r</span><span 
@@ -166,7 +173,7 @@ class="ptmri8t-">common vulnerability exposures (CVEs) already</span>
 class="ptmri8t-">assigned and two (2) are pending CVE assignment from</span>
      <span 
 class="ptmri8t-">Intel</span>.
-     </p><!--l. 54--><p class="indent" >    All the vulnerabilities are already reported to the respective
+     </p><!--l. 71--><p class="indent" >    All the vulnerabilities are already reported to the respective
      vendors, with several vulnerabilities already patched and the rest
      being in the process of replication and patching. Moreover, four
      of the <span 
@@ -204,7 +211,7 @@ class="small-caps">o</span><span
 class="small-caps">t</span><span 
 class="small-caps">h </span> </span>exposes fundamental attack
      vectors in the closed BT stack.
-     </p><!--l. 62--><p class="indent" >    As the BT stack is often shared across many products, it
+     </p><!--l. 79--><p class="indent" >    As the BT stack is often shared across many products, it
      is highly probable that many other products (beyond the
      <span 
 class="zpzccmry-">&#x2248;</span>1400 entries observed in Bluetooth listing) are affected by
@@ -248,7 +255,7 @@ class="small-caps">h </span> </span>PoC is discussed at the end of this
                                                 
                                                                                                 
                                                                                                 
-<!--l. 71--><p class="noindent" > <img 
+<!--l. 88--><p class="noindent" > <img 
 src="figures/bt_classic_procedures.pdf.svg" alt="PIC"  
 width="300" height="auto"  />
 <br /> </p><div class="caption" 
@@ -267,7 +274,7 @@ class="ptmri8t-">Asynchronous Connection Less</span>.</span></div><!--tex4ht:lab
   </div></div>
   <h4 class="likesubsectionHead" style="font-size: 1rem;font-weight:bold;line-height: 1.5rem;"><a 
  id="x1-30001"></a>Why BrakTooth</h4>
-<!--l. 83--><p class="noindent" >The code name <span 
+<!--l. 100--><p class="noindent" >The code name <span 
 class="ptmri8t-">BrakTooth </span>is the combination of two words: 1)
 Brak and 2) Tooth. While the word <span 
 class="ptmri8t-">Tooth </span>is clearly pointing
@@ -1822,11 +1829,11 @@ id="TBL-16-3" /></colgroup><colgroup id="TBL-16-4g"><col
 id="TBL-16-4" /></colgroup><tr 
 class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
  style="vertical-align:baseline;" id="TBL-16-1-"><td  style="white-space:normal; text-align:center;" id="TBL-16-1-1"  
-class="td11">                     <div class="multicolumn"  style="white-space:normal; text-align:center;"> <span 
+class="td11">                     <div class="multicolumn"  style="white-space:normal; text-align:center;"><span 
 class="ptmb8t-">Vendor</span></div>                     </td><td  style="white-space:normal; text-align:center;" id="TBL-16-1-2"  
-class="td11">       <div class="multicolumn"  style="white-space:normal; text-align:center;"> <span 
+class="td11">       <div class="multicolumn"  style="white-space:normal; text-align:center;"><span 
 class="ptmb8t-">SoC</span></div>       </td><td  style="white-space:normal; text-align:center;" id="TBL-16-1-3"  
-class="td11">         <div class="multicolumn"  style="white-space:normal; text-align:center;"> <span 
+class="td11">         <div class="multicolumn"  style="white-space:normal; text-align:center;"><span 
 class="ptmb8t-">QID(s)</span></div>         </td><td  style="white-space:normal; text-align:left;" id="TBL-16-1-4"  
 class="td11">  <span 
 class="ptmb8t-">Listing(s) Count  </span></td>
