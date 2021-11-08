@@ -81,15 +81,70 @@ class="newline" /><sup><span
 class="zptmcmr-x-x-90">2</span></sup><span 
 class="ptmri8t-x-x-120">I2R, A*STAR </span></div><br />
   </div>
+  <h3 class="likesectionHead"><a 
+ id="x1-1000"></a>Updates</h3>
+<!--l. 22--><p class="noindent" ><span 
+class="zpzccmry-">&#x21D2;</span>&#x00A0;&#x00A0;<span id="textcolor1"><span 
+class="ptmb8t-">The PoC embargo period is over and it is available at</span></span>
+<a 
+target="_blank" href="https://github.com/Matheus-Garbelini/braktooth_esp32_bluetooth_classic_attacks" ><span 
+class="ptmb8t-">BrakTooth PoC Website (GitHub)</span></a>.
+</p><!--l. 22--><p class="noindent" ><span 
+class="zpzccmry-">&#x21D2;</span>&#x00A0;&#x00A0;BrakTooth research was leveraged into improvements in
+<a 
+target="_blank" href="https://www.keysight.com/us/en/cmp/2021/iot-security.html" >Keysight IoT Security Assessment software</a>. See the <a 
+target="_blank" href="https://www.keysight.com/sg/en/about/newsroom/news-releases/2021/1013-nr21135-keysight-delivers-new-iot-security-assessment-test-.html" >official
+press release</a> from Keysight.
+</p><!--l. 25--><p class="noindent" ><span id="textcolor2"><span 
+class="ptmb8t-">1st November of 2021</span></span><span 
+class="ptmb8t-">: </span>We have updated Table&#x00A0;<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-12001r5">5<!--tex4ht:ref: tab:affected_chipsets --></a> with
+additional affected devices. Such affected devices were
+reported directly to us by the following chipset vendors:
+<span 
+class="ptmb8t-">Samsung</span>, <span 
+class="ptmb8t-">Mediatek </span>and <span 
+class="ptmb8t-">Airoha</span>. We will update Table&#x00A0;<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-12001r5">5<!--tex4ht:ref: tab:affected_chipsets --></a> for
+any additional patch status updates from such vendors.
+Furthermore, Qualcomm has issued CVEs for V6 (<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-210008.6">8.6<!--tex4ht:ref: sec:v6 --></a>) and V15
+(<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-300008.15">8.15<!--tex4ht:ref: sec:v15 --></a>).
+</p><!--l. 33--><p class="noindent" >BrakTooth affects certain MacBooks and iPhones as independently
+reported by <a 
+target="_blank" href="https://www.seemoo.tu-darmstadt.de/" >seemolab</a>. For more information check their
+<a 
+target="_blank" href="https://www.seemoo.tu-darmstadt.de/news/braktooth-affects-iphones-and-macbooks/" >blogpost</a>.
+</p><!--l. 41--><p class="noindent" ><span id="textcolor3"><span 
+class="ptmb8t-">31st August of 2021</span></span><span 
+class="ptmb8t-">: </span>As of today, vulnerabilities V6, V15 and
+V16 are pending CVE trackers. These vulnerabilities affect
+Qualcomm and Intel which are vendors that can issue CVEs by
+themselves (CVE Numbering Authorities - CNA). However, their
+default policy is to issue CVEs only after a patch has been
+distributed. Therefore, Table&#x00A0;<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-5002r2">2<!--tex4ht:ref: tab:summary --></a> will be updated accordingly once
+fixes for <span 
+class="ptmb8t-">V6</span>, <span 
+class="ptmb8t-">V15 </span>and <span 
+class="ptmb8t-">V16 </span>are available. Regarding the
+availability of patches, when our team had contacted Intel, we
+were informed that their next patch is scheduled to be released by
+the end of October 2021. Similarly, we are also informed by
+Qualcomm that their patch for <span 
+class="ptmb8t-">V15 </span>will take another few months
+to be propagated.
+</p><!--l. 54--><p class="noindent" >
+</p>
   <h3 class="sectionHead" style="font-size: 2rem;"><span class="titlemark">1    </span> <a 
- id="x1-10001"></a>Introduction</h3>
-<!--l. 7--><p class="noindent" >Bluetooth Classic (BT) protocol is a widely used wireless
-protocol in laptops, handheld devices, and audio devices. BT
-main procedures are shown in Figure&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-1001r1">1<!--tex4ht:ref: fig:bt_procedures --></a> for reference. In the past
-few years, Bluetooth has come under scrutiny due to the
-discovery of several critical vulnerabilities. In this report, we
-disclose <span 
+ id="x1-20001"></a>Introduction</h3>                                       <!--l. 56--><p class="noindent" >Bluetooth Classic (BT) protocol is a widely used wireless
+     protocol in laptops, handheld devices, and audio devices. BT
+     main procedures are shown in Figure&#x00A0;<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-2001r1">1<!--tex4ht:ref: fig:bt_procedures --></a> for reference. In the past
+     few years, Bluetooth has come under scrutiny due to the
+     discovery of several critical vulnerabilities. In this report, we
+     disclose <span 
 class="ptmrc8t-">B<span 
 class="small-caps">r</span><span 
 class="small-caps">a</span><span 
@@ -98,27 +153,30 @@ class="small-caps">o</span><span
 class="small-caps">o</span><span 
 class="small-caps">t</span><span 
 class="small-caps">h </span></span>, a family of new security vulnerabilities in
-commercial BT stacks that range from <span 
-class="ptmb8t-">denial of service (DoS)</span>
-via firmware <span 
+     commercial BT stacks that range from <span 
+class="ptmb8t-">denial of service</span>
+     <span 
+class="ptmb8t-">(DoS) </span>via firmware <span 
 class="ptmb8t-">crashes </span>and <span 
-class="ptmb8t-">deadlocks </span>in commodity hardware to
-<span 
-class="ptmb8t-">arbitrary code execution (ACE) </span>in certain IoTs. As of today,
-we have evaluated 13 BT devices from 11 vendors. <span 
-class="ptmri8t-">We have</span>
-<span 
-class="ptmri8t-">discovered a total of 16 new security vulnerabilities, with 20</span>
-<span 
-class="ptmri8t-">common vulnerability exposures (CVEs) already assigned and</span>
-<span 
-class="ptmri8t-">four (4) vulnerabilities are pending CVE assignment from Intel</span>
-<span 
-class="ptmri8t-">and Qualcomm</span>.
-</p><!--l. 21--><p class="indent" >  All the vulnerabilities are already reported to the respective
-vendors, with several vulnerabilities already patched and the rest
-being in the process of replication and patching. Moreover, four
-of the <span 
+class="ptmb8t-">deadlocks </span>in commodity
+     hardware to <span 
+class="ptmb8t-">arbitrary code execution (ACE) </span>in certain IoTs.
+     We have evaluated 13 BT devices from 11 vendors. <span 
+class="ptmri8t-">We</span>
+     <span 
+class="ptmri8t-">have discovered a total of 16 new security vulnerabilities,</span>
+     <span 
+class="ptmri8t-">with </span><span id="textcolor4"><span 
+class="ptmbi8t-">22</span></span> <span 
+class="ptmri8t-">common vulnerability exposures (CVEs) already</span>
+     <span 
+class="ptmri8t-">assigned and two (2) are pending CVE assignment from</span>
+     <span 
+class="ptmri8t-">Intel</span>.
+     </p><!--l. 71--><p class="indent" >    All the vulnerabilities are already reported to the respective
+     vendors, with several vulnerabilities already patched and the rest
+     being in the process of replication and patching. Moreover, four
+     of the <span 
 class="ptmrc8t-">B<span 
 class="small-caps">r</span><span 
 class="small-caps">a</span><span 
@@ -127,11 +185,11 @@ class="small-caps">o</span><span
 class="small-caps">o</span><span 
 class="small-caps">t</span><span 
 class="small-caps">h </span> </span>vulnerabilities have received bug bounty
-from Espressif System and Xiaomi. <span 
+     from Espressif System and Xiaomi. <span 
 class="ptmri8t-">An exploration on Bluetooth</span>
-<span 
+     <span 
 class="ptmri8t-">listing</span>&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbluetooth-listing">32</a>]</span> <span 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbluetooth-listing">33</a>]</span> <span 
 class="ptmri8t-">reveals that </span><span 
 class="ptmrc8t-">B<span 
 class="small-caps">r</span><span 
@@ -142,7 +200,7 @@ class="small-caps">o</span><span
 class="small-caps">t</span><span 
 class="small-caps">h </span> </span><span 
 class="ptmri8t-">affects over 1400</span>
-<span 
+     <span 
 class="ptmri8t-">product listings</span>. <span 
 class="ptmrc8t-">B<span 
 class="small-caps">r</span><span 
@@ -152,12 +210,12 @@ class="small-caps">o</span><span
 class="small-caps">o</span><span 
 class="small-caps">t</span><span 
 class="small-caps">h </span> </span>exposes fundamental attack
-vectors in the closed BT stack.
-</p><!--l. 29--><p class="indent" >  As the BT stack is often shared across many products, it
-is highly probable that many other products (beyond the
-<span 
+     vectors in the closed BT stack.
+     </p><!--l. 79--><p class="indent" >    As the BT stack is often shared across many products, it
+     is highly probable that many other products (beyond the
+     <span 
 class="zpzccmry-">&#x2248;</span>1400 entries observed in Bluetooth listing) are affected by
-<span 
+     <span 
 class="ptmrc8t-">B<span 
 class="small-caps">r</span><span 
 class="small-caps">a</span><span 
@@ -166,8 +224,8 @@ class="small-caps">o</span><span
 class="small-caps">o</span><span 
 class="small-caps">t</span><span 
 class="small-caps">h</span></span>. Therefore, we suggest vendors producing BT
-system-on-chips (SoCs), BT modules or BT end products
-to use the <span 
+     system-on-chips (SoCs), BT modules or BT end products
+     to use the <span 
 class="ptmrc8t-">B<span 
 class="small-caps">r</span><span 
 class="small-caps">a</span><span 
@@ -176,8 +234,8 @@ class="small-caps">o</span><span
 class="small-caps">o</span><span 
 class="small-caps">t</span><span 
 class="small-caps">h </span> </span>proof-of-concept (PoC) code to
-validate their BT stack implementation. The availability
-of the <span 
+     validate their BT stack implementation. The availability
+     of the <span 
 class="ptmrc8t-">B<span 
 class="small-caps">r</span><span 
 class="small-caps">a</span><span 
@@ -186,19 +244,18 @@ class="small-caps">o</span><span
 class="small-caps">o</span><span 
 class="small-caps">t</span><span 
 class="small-caps">h </span> </span>PoC is discussed at the end of this
-report.
-</p>
-  <div style="margin-top:30px;margin-bottom:30px;" class="row items-start justify-center text-center"><div class="figure" 
+     report.
+     </p>
+         <div style="margin-top:30px;margin-bottom:30px;" class="row items-start justify-center text-center"><div class="figure" 
 >
-                                                
                                                                                                 
                                                                                                 
 <a 
- id="x1-1001r1"></a>
+ id="x1-2001r1"></a>
                                                 
                                                                                                 
                                                                                                 
-<!--l. 38--><p class="noindent" > <img 
+<!--l. 88--><p class="noindent" > <img 
 src="figures/bt_classic_procedures.pdf.svg" alt="PIC"  
 width="300" height="auto"  />
 <br /> </p><div class="caption" 
@@ -210,14 +267,14 @@ stands for <span
 class="ptmri8t-">Identity</span>, LMP stands for <span 
 class="ptmri8t-">Link Manager Protocol</span>
 and ACL stands for <span 
-class="ptmri8t-">Asynchronous Connection Less</span>.</span></div><!--tex4ht:label?: x1-1001r1 -->
+class="ptmri8t-">Asynchronous Connection Less</span>.</span></div><!--tex4ht:label?: x1-2001r1 -->
                                                 
                                                                                                 
                                                                                                 
   </div></div>
   <h4 class="likesubsectionHead" style="font-size: 1rem;font-weight:bold;line-height: 1.5rem;"><a 
- id="x1-20001"></a>Why BrakTooth</h4>
-<!--l. 50--><p class="noindent" >The code name <span 
+ id="x1-30001"></a>Why BrakTooth</h4>
+<!--l. 100--><p class="noindent" >The code name <span 
 class="ptmri8t-">BrakTooth </span>is the combination of two words: 1)
 Brak and 2) Tooth. While the word <span 
 class="ptmri8t-">Tooth </span>is clearly pointing
@@ -231,14 +288,14 @@ consequences such as arbitrary code execution.
 </p><!--l. 5--><p class="noindent" >
 </p>
   <h3 class="sectionHead" style="font-size: 2rem;"><span class="titlemark">2    </span> <a 
- id="x1-30002"></a><a id="overview">Attack Scenario Overview</a></h3>
+ id="x1-40002"></a><a id="overview">Attack Scenario Overview</a></h3>
   <div style="margin-top:30px;margin-bottom:30px;" class="row items-start justify-center text-center"><div class="figure" 
 >
                                                 
                                                                                                 
                                                                                                 
 <a 
- id="x1-3001r2"></a>
+ id="x1-4001r2"></a>
                                                 
                                                                                                 
                                                                                                 
@@ -255,13 +312,13 @@ class="small-caps">k</span>T<span
 class="small-caps">o</span><span 
 class="small-caps">o</span><span 
 class="small-caps">t</span><span 
-class="small-caps">h </span> </span>attack scenario</span></div><!--tex4ht:label?: x1-3001r2 -->
+class="small-caps">h </span> </span>attack scenario</span></div><!--tex4ht:label?: x1-4001r2 -->
                                                 
                                                                                                 
                                                                                                 
   </div></div>
 <!--l. 30--><p class="indent" >  Figure&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-3001r2">2<!--tex4ht:ref: fig:poc_setup --></a> showcases the generic scenario in which <span 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-4001r2">2<!--tex4ht:ref: fig:poc_setup --></a> showcases the generic scenario in which <span 
 class="ptmrc8t-">B<span 
 class="small-caps">r</span><span 
 class="small-caps">a</span><span 
@@ -273,7 +330,7 @@ class="small-caps">h </span></span>
 attacks are performed. The attacker only requires (<span 
 class="zptmcmr-">1</span>) a cheap
 ESP32 development kit (ESP-WROVER-KIT&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xesp32_wrover_kit">37</a>]</span>) with a
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xesp32_wrover_kit">38</a>]</span>) with a
 custom (non-compliant) LMP firmware and (<span 
 class="zptmcmr-">2</span>) a PC to run the
 PoC tool. The PoC tool communicates with the ESP32 board via
@@ -306,13 +363,13 @@ class="small-caps">h </span> </span>PoC
 website</a>.
 </p>
   <h3 class="sectionHead" style="font-size: 2rem;"><span class="titlemark">3    </span> <a 
- id="x1-40003"></a><a id="affected-devices">Affected BT BR/EDR chipsets</a></h3>
+ id="x1-50003"></a><a id="affected-devices">Affected BT BR/EDR chipsets</a></h3>
   <div class="table row items-start justify-center">
                                                 
                                                                                                 
                                                                                                 
 <!--l. 6--><p class="indent" >  <a 
- id="x1-4001r1"></a></p><div class="float" 
+ id="x1-5001r1"></a></p><div class="float" 
 >
                                                 
                                                                                                 
@@ -321,7 +378,7 @@ website</a>.
 ><span class="id">Table&#x00A0;1: </span><span  
 class="content">Devices used for evaluation. The sample code is
 provided by vendor to test the development board. This is not
-applicable (N.A) on products running a fixed application.</span></div><!--tex4ht:label?: x1-4001r1 -->
+applicable (N.A) on products running a fixed application.</span></div><!--tex4ht:label?: x1-5001r1 -->
 <!--tex4ht:inline--><div class="tabular"> <table id="TBL-2" class="tabular" 
 cellspacing="0" cellpadding="0"  
 ><colgroup id="TBL-2-1g"><col 
@@ -415,8 +472,8 @@ class="td11"></td>
 </tr><tr  
  style="vertical-align:baseline;" id="TBL-0000002-19-"><td  style="white-space:normal; text-align:left;" id="TBL-0000002-19-1"  
 class="td11"> Zhuhai Jieli Technology                                                            </td><td  style="white-space:normal; text-align:left;" id="TBL-0000002-19-2"  
-class="td11"> <span id="textcolor1">AC6366C</span>          </td><td  style="white-space:normal; text-align:left;" id="TBL-0000002-19-3"  
-class="td11"> <span id="textcolor2">AC6366C_DEMO_V1.0</span>    </td><td  style="white-space:normal; text-align:right;" id="TBL-0000002-19-4"  
+class="td11"> <span id="textcolor5">AC6366C</span>          </td><td  style="white-space:normal; text-align:left;" id="TBL-0000002-19-3"  
+class="td11"> <span id="textcolor6">AC6366C_DEMO_V1.0</span>    </td><td  style="white-space:normal; text-align:right;" id="TBL-0000002-19-4"  
 class="td11">      app_keyboard  </td>
 </tr><tr  
  style="vertical-align:baseline;" id="TBL-0000002-20-"><td  style="white-space:normal; text-align:left;" id="TBL-0000002-20-1"  
@@ -442,8 +499,8 @@ class="td11">                                                  </td></tr><tr
  style="vertical-align:baseline;" id="TBL-000000002-25-"><td  style="white-space:normal; text-align:left;" id="TBL-000000002-25-1"  
 class="td11"> Cypress</td><td  style="white-space:normal; text-align:left;" id="TBL-000000002-25-2"  
 class="td11"> CYW20735B1  </td><td  style="white-space:normal; text-align:left;" id="TBL-000000002-25-3"  
-class="td11"> <span id="textcolor3">CYW920735Q60EVB-01</span>  </td><td  style="white-space:normal; text-align:right;" id="TBL-000000002-25-4"  
-class="td11"> <span id="textcolor4">rfcomm_serial_port</span>  </td>
+class="td11"> <span id="textcolor7">CYW920735Q60EVB-01</span>  </td><td  style="white-space:normal; text-align:right;" id="TBL-000000002-25-4"  
+class="td11"> <span id="textcolor8">rfcomm_serial_port</span>  </td>
 </tr><tr  
  style="vertical-align:baseline;" id="TBL-000000002-26-"><td  style="white-space:normal; text-align:left;" id="TBL-000000002-26-1"  
 class="td11"> </td></tr><tr><td colspan="4"></td></tr><tr  
@@ -623,7 +680,7 @@ class="td11">      ai-6.3.0-1149  </td></tr></table></div>
                                                                                                 
                                                                                                 
 <!--l. 6--><p class="indent" >  <a 
- id="x1-4002r2"></a></p><div class="float" 
+ id="x1-5002r2"></a></p><div class="float" 
 >
                                                 
                                                                                                 
@@ -632,7 +689,7 @@ class="td11">      ai-6.3.0-1149  </td></tr></table></div>
 ><span class="id">Table&#x00A0;2: </span><span  
 class="content">Summary of new vulnerabilities and other anomalies found (<span 
 class="ptmb8t-">Vx: </span>Vulnerability, <span 
-class="ptmb8t-">Ax: </span>Non-compliance)</span></div><!--tex4ht:label?: x1-4002r2 -->
+class="ptmb8t-">Ax: </span>Non-compliance)</span></div><!--tex4ht:label?: x1-5002r2 -->
 <!--tex4ht:inline--><div class="tabular"> <table id="TBL-3" class="tabular" 
 cellspacing="0" cellpadding="0"  
 ><colgroup id="TBL-3-1g"><col 
@@ -669,8 +726,8 @@ class="td11"></td>
 </tr><tr 
 class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
  style="vertical-align:baseline;" id="TBL-03-4-"><td  style="white-space:normal; text-align:left;" id="TBL-03-4-1"  
-class="td11"> <span id="textcolor5"><a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-150008.1">8.1<!--tex4ht:ref: sec:v1 --></a> <span 
+class="td11"> <span id="textcolor9"><a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-160008.1">8.1<!--tex4ht:ref: sec:v1 --></a> <span 
 class="ptmb8t-">V1 </span>Feature Pages Execution </span>                                                                                                                                                        </td><td  style="white-space:normal; text-align:left;" id="TBL-03-4-2"  
 class="td11"> <span 
 class="ptmr8t-x-x-80">CVE-2021-28139                                                                                                                                                                                                                                       </span></td><td  style="white-space:normal; text-align:left;" id="TBL-03-4-3"  
@@ -689,8 +746,8 @@ class="td11">                                                                   
 class="td11"></td>
 </tr><tr  
  style="vertical-align:baseline;" id="TBL-003-7-"><td  style="white-space:normal; text-align:left;" id="TBL-003-7-1"  
-class="td11"> <span id="textcolor6"><a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-160008.2">8.2<!--tex4ht:ref: sec:v2 --></a> <span 
+class="td11"> <span id="textcolor10"><a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-170008.2">8.2<!--tex4ht:ref: sec:v2 --></a> <span 
 class="ptmb8t-">V2 </span>Truncated SCO Link Request</span>                                                                                                                                                  </td><td  style="white-space:normal; text-align:left;" id="TBL-003-7-2"  
 class="td11"> <span 
 class="ptmr8t-x-x-80">CVE-2021-34144                                                                                                                                                                                                                                       </span></td><td  style="white-space:normal; text-align:left;" id="TBL-003-7-3"  
@@ -709,8 +766,8 @@ class="td11">                                                                   
 class="td11"></td>
 </tr><tr  
  style="vertical-align:baseline;" id="TBL-0003-10-"><td  style="white-space:normal; text-align:left;" id="TBL-0003-10-1"  
-class="td11"> <span id="textcolor7"><a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-170008.3">8.3<!--tex4ht:ref: sec:v3 --></a> <span 
+class="td11"> <span id="textcolor11"><a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-180008.3">8.3<!--tex4ht:ref: sec:v3 --></a> <span 
 class="ptmb8t-">V3 </span>Duplicated IOCAP</span>                                                                                                                                                                  </td><td  style="white-space:normal; text-align:left;" id="TBL-0003-10-2"  
 class="td11"> <span 
 class="ptmr8t-x-x-80">CVE-2021-28136                                                                                                                                                                                                                                       </span></td><td  style="white-space:normal; text-align:left;" id="TBL-0003-10-3"  
@@ -729,8 +786,8 @@ class="td11">                                                                   
 class="td11"></td>
 </tr><tr  
  style="vertical-align:baseline;" id="TBL-00003-13-"><td  style="white-space:normal; text-align:left;" id="TBL-00003-13-1"  
-class="td11"> <span id="textcolor8"><a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-180008.4">8.4<!--tex4ht:ref: sec:v4 --></a> <span 
+class="td11"> <span id="textcolor12"><a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-190008.4">8.4<!--tex4ht:ref: sec:v4 --></a> <span 
 class="ptmb8t-">V4 </span>Feature Resp. Flooding </span>                                                                                                                                                          </td><td  style="white-space:normal; text-align:left;" id="TBL-00003-13-2"  
 class="td11"> <!--tex4ht:inline--><div class="tabular"><table id="TBL-4" class="tabular" 
 cellspacing="0" cellpadding="0"  
@@ -799,8 +856,8 @@ class="td11">                                                                   
 class="td11"></td>
 </tr><tr  
  style="vertical-align:baseline;" id="TBL-000003-16-"><td  style="white-space:normal; text-align:left;" id="TBL-000003-16-1"  
-class="td11"> <span id="textcolor9"><a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-190008.5">8.5<!--tex4ht:ref: sec:v5 --></a> <span 
+class="td11"> <span id="textcolor13"><a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-200008.5">8.5<!--tex4ht:ref: sec:v5 --></a> <span 
 class="ptmb8t-">V5 </span>LMP Auto Rate Overflow</span>                                                                                                                                                       </td><td  style="white-space:normal; text-align:left;" id="TBL-000003-16-2"  
 class="td11"> <!--tex4ht:inline--><div class="tabular"><table id="TBL-6" class="tabular" 
 cellspacing="0" cellpadding="0"  
@@ -847,11 +904,11 @@ class="td11">                                                                   
 class="td11"></td>
 </tr><tr  
  style="vertical-align:baseline;" id="TBL-0000003-19-"><td  style="white-space:normal; text-align:left;" id="TBL-0000003-19-1"  
-class="td11"> <span id="textcolor10"><a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-200008.6">8.6<!--tex4ht:ref: sec:v6 --></a> <span 
+class="td11"> <span id="textcolor14"><a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-210008.6">8.6<!--tex4ht:ref: sec:v6 --></a> <span 
 class="ptmb8t-">V6 </span>LMP 2-DH1 Overflow</span>                                                                                                                                                             </td><td  style="white-space:normal; text-align:left;" id="TBL-0000003-19-2"  
 class="td11"> <span 
-class="ptmr8t-x-x-80"><span style="color: #730099">Pending</span>                                                                                                                                                                                                                                                       </span></td><td  style="white-space:normal; text-align:left;" id="TBL-0000003-19-3"  
+class="ptmr8t-x-x-80">CVE-2021-35093                                                                                                                                                                                                                                       </span></td><td  style="white-space:normal; text-align:left;" id="TBL-0000003-19-3"  
 class="td11"> DVK-BT900-SA                                                                                                                                                                                     </td><td  style="white-space:normal; text-align:left;" id="TBL-0000003-19-4"  
 class="td11"> After EDR Change        </td><td  style="white-space:normal; text-align:center;" id="TBL-0000003-19-5"  
 class="td11">    Baseband        </td><td  style="white-space:normal; text-align:center;" id="TBL-0000003-19-6"  
@@ -866,8 +923,8 @@ class="td11">                                                                   
 class="td11"></td>
 </tr><tr  
  style="vertical-align:baseline;" id="TBL-00000003-22-"><td  style="white-space:normal; text-align:left;" id="TBL-00000003-22-1"  
-class="td11"> <span id="textcolor11"><a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-210008.7">8.7<!--tex4ht:ref: sec:v7 --></a> <span 
+class="td11"> <span id="textcolor15"><a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-220008.7">8.7<!--tex4ht:ref: sec:v7 --></a> <span 
 class="ptmb8t-">V7 </span>LMP DM1 Overflow</span>                                                                                                                                                               </td><td  style="white-space:normal; text-align:left;" id="TBL-00000003-22-2"  
 class="td11"> <span 
 class="ptmr8t-x-x-80">CVE-2021-34150                                                                                                                                                                                                                                       </span></td><td  style="white-space:normal; text-align:left;" id="TBL-00000003-22-3"  
@@ -886,8 +943,8 @@ class="td11">                                                                   
 class="td11"></td>
 </tr><tr  
  style="vertical-align:baseline;" id="TBL-000000003-25-"><td  style="white-space:normal; text-align:left;" id="TBL-000000003-25-1"  
-class="td11"> <span id="textcolor12"><a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-220008.8">8.8<!--tex4ht:ref: sec:v8 --></a> <span 
+class="td11"> <span id="textcolor16"><a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-230008.8">8.8<!--tex4ht:ref: sec:v8 --></a> <span 
 class="ptmb8t-">V8 </span>Truncated LMP Accepted</span>                                                                                                                                                       </td><td  style="white-space:normal; text-align:left;" id="TBL-000000003-25-2"  
 class="td11"> <span 
 class="ptmr8t-x-x-80">CVE-2021-31613                                                                                                                                                                                                                                       </span></td><td  style="white-space:normal; text-align:left;" id="TBL-000000003-25-3"  
@@ -920,8 +977,8 @@ class="td11">                                                                   
 class="td11"></td>
 </tr><tr  
  style="vertical-align:baseline;" id="TBL-0000000003-28-"><td  style="white-space:normal; text-align:left;" id="TBL-0000000003-28-1"  
-class="td11"> <span id="textcolor13"><a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-230008.9">8.9<!--tex4ht:ref: sec:v9 --></a> <span 
+class="td11"> <span id="textcolor17"><a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-240008.9">8.9<!--tex4ht:ref: sec:v9 --></a> <span 
 class="ptmb8t-">V9 </span>Invalid Setup Complete</span>                                                                                                                                                           </td><td  style="white-space:normal; text-align:left;" id="TBL-0000000003-28-2"  
 class="td11"> <span 
 class="ptmr8t-x-x-80">CVE-2021-31611                                                                                                                                                                                                                                       </span></td><td  style="white-space:normal; text-align:left;" id="TBL-0000000003-28-3"  
@@ -954,8 +1011,8 @@ class="td11">                                                                   
 class="td11"></td>
 </tr><tr  
  style="vertical-align:baseline;" id="TBL-00000000003-31-"><td  style="white-space:normal; text-align:left;" id="TBL-00000000003-31-1"  
-class="td11"> <span id="textcolor14"><a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-240008.10">8.10<!--tex4ht:ref: sec:v10 --></a> <span 
+class="td11"> <span id="textcolor18"><a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-250008.10">8.10<!--tex4ht:ref: sec:v10 --></a> <span 
 class="ptmb8t-">V10 </span>Host Conn. Flooding</span>                                                                                                                                                           </td><td  style="white-space:normal; text-align:left;" id="TBL-00000000003-31-2"  
 class="td11"> <span 
 class="ptmr8t-x-x-80">CVE-2021-31785                                                                                                                                                                                                                                       </span></td><td  style="white-space:normal; text-align:left;" id="TBL-00000000003-31-3"  
@@ -974,8 +1031,8 @@ class="td11">                                                                   
 class="td11"></td>
 </tr><tr  
  style="vertical-align:baseline;" id="TBL-000000000003-34-"><td  style="white-space:normal; text-align:left;" id="TBL-000000000003-34-1"  
-class="td11"> <span id="textcolor15"><a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-250008.11">8.11<!--tex4ht:ref: sec:v11 --></a> <span 
+class="td11"> <span id="textcolor19"><a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-260008.11">8.11<!--tex4ht:ref: sec:v11 --></a> <span 
 class="ptmb8t-">V11 </span>Same Host Connection</span>                                                                                                                                                        </td><td  style="white-space:normal; text-align:left;" id="TBL-000000000003-34-2"  
 class="td11"> <span 
 class="ptmr8t-x-x-80">CVE-2021-31786                                                                                                                                                                                                                                       </span></td><td  style="white-space:normal; text-align:left;" id="TBL-000000000003-34-3"  
@@ -994,8 +1051,8 @@ class="td11">                                                                   
 class="td11"></td>
 </tr><tr  
  style="vertical-align:baseline;" id="TBL-0000000000003-37-"><td  style="white-space:normal; text-align:left;" id="TBL-0000000000003-37-1"  
-class="td11"> <span id="textcolor16"><a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-260008.12">8.12<!--tex4ht:ref: sec:v12 --></a> <span 
+class="td11"> <span id="textcolor20"><a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-270008.12">8.12<!--tex4ht:ref: sec:v12 --></a> <span 
 class="ptmb8t-">V12 </span>AU Rand Flooding</span>                                                                                                                                                              </td><td  style="white-space:normal; text-align:left;" id="TBL-0000000000003-37-2"  
 class="td11"> <!--tex4ht:inline--><div class="tabular"><table id="TBL-10" class="tabular" 
 cellspacing="0" cellpadding="0"  
@@ -1099,8 +1156,8 @@ class="td11">                                                                   
 class="td11">                                                                                                      </td>
 </tr><tr  
  style="vertical-align:baseline;" id="TBL-00000000000003-40-"><td  style="white-space:normal; text-align:left;" id="TBL-00000000000003-40-1"  
-class="td11"> <span id="textcolor17"><a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-270008.13">8.13<!--tex4ht:ref: sec:v13 --></a> <span 
+class="td11"> <span id="textcolor21"><a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-280008.13">8.13<!--tex4ht:ref: sec:v13 --></a> <span 
 class="ptmb8t-">V13 </span>Invalid Max Slot Type</span>                                                                                                                                                         </td><td  style="white-space:normal; text-align:left;" id="TBL-00000000000003-40-2"  
 class="td11"> <span 
 class="ptmr8t-x-x-80">CVE-2021-34145                                                                                                                                                                                                                                       </span></td><td  style="white-space:normal; text-align:left;" id="TBL-00000000000003-40-3"  
@@ -1120,8 +1177,8 @@ class="td11">                                                                   
 class="td11">                                                                                                      </td>
 </tr><tr  
  style="vertical-align:baseline;" id="TBL-000000000000003-43-"><td  style="white-space:normal; text-align:left;" id="TBL-000000000000003-43-1"  
-class="td11"> <span id="textcolor18"><a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-280008.14">8.14<!--tex4ht:ref: sec:v14 --></a> <span 
+class="td11"> <span id="textcolor22"><a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-290008.14">8.14<!--tex4ht:ref: sec:v14 --></a> <span 
 class="ptmb8t-">V14 </span>Max Slot Length Overflow</span>                                                                                                                                                  </td><td  style="white-space:normal; text-align:left;" id="TBL-000000000000003-43-2"  
 class="td11"> <span 
 class="ptmr8t-x-x-80">CVE-2021-34148                                                                                                                                                                                                                                       </span></td><td  style="white-space:normal; text-align:left;" id="TBL-000000000000003-43-3"  
@@ -1141,8 +1198,8 @@ class="td11">                                                                   
 class="td11">                                                                                                      </td>
 </tr><tr  
  style="vertical-align:baseline;" id="TBL-0000000000000003-46-"><td  style="white-space:normal; text-align:left;" id="TBL-0000000000000003-46-1"  
-class="td11"> <span id="textcolor19"><a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-290008.15">8.15<!--tex4ht:ref: sec:v15 --></a> <span 
+class="td11"> <span id="textcolor23"><a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-300008.15">8.15<!--tex4ht:ref: sec:v15 --></a> <span 
 class="ptmb8t-">V15</span><span 
 class="ptmb8t-">&#x00A0;</span>Invalid Timing Accuracy</span>                                                                                                                                                    </td><td  style="white-space:normal; text-align:left;" id="TBL-0000000000000003-46-2"  
 class="td11"> <!--tex4ht:inline--><div class="tabular"><table id="TBL-13" class="tabular" 
@@ -1161,7 +1218,7 @@ class="td00"></td>
 class="td00">                                                                                                                            </td></tr><tr  
  style="vertical-align:baseline;" id="TBL-013-4-"><td  style="white-space:normal; text-align:left;" id="TBL-013-4-1"  
 class="td00"><span 
-class="ptmr8t-x-x-80"><span style="color: #730099">Pending</span></span></td>
+class="ptmr8t-x-x-80">CVE-2021-30348</span></td>
 </tr><tr  
  style="vertical-align:baseline;" id="TBL-013-5-"><td  style="white-space:normal; text-align:left;" id="TBL-013-5-1"  
 class="td00"></td></tr><tr><td colspan="1"></td></tr><tr  
@@ -1172,7 +1229,7 @@ class="td00"></td>
 </tr><tr  
  style="vertical-align:baseline;" id="TBL-0013-7-"><td  style="white-space:normal; text-align:left;" id="TBL-0013-7-1"  
 class="td00"><span 
-class="ptmr8t-x-x-80"><span style="color: #730099">Pending</span>                                                                                                                                                                                                                                                </span></td></tr></table></div>   </td><td  style="white-space:normal; text-align:left;" id="TBL-0000000000000003-46-3"  
+class="ptmr8t-x-x-80"><span style="color: #730099">Pending </span>                                                                                                                                                                                                                                                </span></td></tr></table></div>   </td><td  style="white-space:normal; text-align:left;" id="TBL-0000000000000003-46-3"  
 class="td11"> <!--tex4ht:inline--><div class="tabular"><table id="TBL-14" class="tabular" 
 cellspacing="0" cellpadding="0"  
 ><colgroup id="TBL-14-1g"><col 
@@ -1214,12 +1271,12 @@ class="td11">                                                                   
 class="td11">                                                                                                      </td>
 </tr><tr  
  style="vertical-align:baseline;" id="TBL-00000000000000003-49-"><td  style="white-space:normal; text-align:left;" id="TBL-00000000000000003-49-1"  
-class="td11"> <span id="textcolor20"><a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-300008.16">8.16<!--tex4ht:ref: sec:v16 --></a> <span 
+class="td11"> <span id="textcolor24"><a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-310008.16">8.16<!--tex4ht:ref: sec:v16 --></a> <span 
 class="ptmb8t-">V16</span><span 
 class="ptmb8t-">&#x00A0;</span>Paging Scan Deadlock</span>                                                                                                                                                        </td><td  style="white-space:normal; text-align:left;" id="TBL-00000000000000003-49-2"  
 class="td11"> <span 
-class="ptmr8t-x-x-80"><span style="color: #730099">Pending</span>                                                                                                                                                                                                                                                       </span></td><td  style="white-space:normal; text-align:left;" id="TBL-00000000000000003-49-3"  
+class="ptmr8t-x-x-80"><span style="color: #730099">Pending </span>                                                                                                                                                                                                                                                       </span></td><td  style="white-space:normal; text-align:left;" id="TBL-00000000000000003-49-3"  
 class="td11"> Intel AX200                                                                                                                                                                                             </td><td  style="white-space:normal; text-align:left;" id="TBL-00000000000000003-49-4"  
 class="td11"> <span 
 class="ptmri8t-">After Host Connection  </span></td><td  style="white-space:normal; text-align:center;" id="TBL-00000000000000003-49-5"  
@@ -1380,38 +1437,7 @@ class="td11">                                                                   
                                                                                                 
                                                                                                 
   </div>
-<!--l. 73--><p class="indent" >  <span id="textcolor21"><span 
-class="ptmb8t-">31/08/2021</span></span><span 
-class="ptmb8t-">: As of today, vulnerabilities V6, V15 and V16</span>
-<span 
-class="ptmb8t-">are pending CVE trackers. These vulnerabilities affect</span>
-<span 
-class="ptmb8t-">Qualcomm and Intel which are vendors that can issue CVEs</span>
-<span 
-class="ptmb8t-">by themselves (CVE Numbering Authorities - CNA).</span>
-<span 
-class="ptmb8t-">However, their default policy is to issue CVEs only after a</span>
-<span 
-class="ptmb8t-">patch has been distributed. Therefore, Table</span><span 
-class="ptmb8t-">&#x00A0;</span><a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-4002r2"><span 
-class="ptmb8t-">2</span><!--tex4ht:ref: tab:summary --></a> <span 
-class="ptmb8t-">will be</span>
-<span 
-class="ptmb8t-">updated accordingly once fixes for V6, V15 and V16 are</span>
-<span 
-class="ptmb8t-">available. Regarding the availability of patches, when our</span>
-<span 
-class="ptmb8t-">team had contacted Intel, we were informed that their next</span>
-<span 
-class="ptmb8t-">patch is scheduled to be released by the end of October</span>
-<span 
-class="ptmb8t-">2021. Similarly, we are also informed by Qualcomm that</span>
-<span 
-class="ptmb8t-">their patch for V15 will take another few months to be</span>
-<span 
-class="ptmb8t-">propagated.</span>
-</p><!--l. 75--><p class="indent" >  A summary of <span 
+<!--l. 65--><p class="indent" >  A summary of <span 
 class="ptmrc8t-">B<span 
 class="small-caps">r</span><span 
 class="small-caps">a</span><span 
@@ -1420,16 +1446,16 @@ class="small-caps">o</span><span
 class="small-caps">o</span><span 
 class="small-caps">t</span><span 
 class="small-caps">h </span> </span>appears in Table&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-4002r2">2<!--tex4ht:ref: tab:summary --></a>. In each row,
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-5002r2">2<!--tex4ht:ref: tab:summary --></a>. In each row,
 we use the prefix <span 
 class="ptmb8t-">V </span>to identify a security vulnerability and
 <span 
 class="ptmb8t-">A </span>to indicate an anomalous behaviour (i.e., faulty target
 responses) that deviates from the <span 
 class="ptmri8t-">Core Specifications</span>&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbluetooth2019bluetooth">31</a>]</span>.
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbluetooth2019bluetooth">32</a>]</span>.
 Moreover, Table&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-4002r2">2<!--tex4ht:ref: tab:summary --></a> outlines the respective CVEs, affected
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-5002r2">2<!--tex4ht:ref: tab:summary --></a> outlines the respective CVEs, affected
 devices, protocol layers, and the violated compliance. In
 summary, we discovered 16 new security vulnerabilities.
 For all the discovered vulnerabilities, we have followed a
@@ -1449,8 +1475,8 @@ class="ptmri8t-">reproduce the reported attacks at their end. </span>Several ven
 patches with many in the process of producing them (e.g.
 Qualcomm, Intel). The status of patches is discussed in
 Section&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-110005">5<!--tex4ht:ref: sec:patches --></a>.
-</p><!--l. 109--><p class="indent" >  The <span 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-120005">5<!--tex4ht:ref: sec:patches --></a>.
+</p><!--l. 99--><p class="indent" >  The <span 
 class="ptmri8t-">impact </span>of our discovered vulnerabilities is categorized
 into (I) <span 
 class="ptmri8t-">crashes </span>and (II) <span 
@@ -1473,7 +1499,7 @@ Instruments) and relatively less known (i.e., Bluetrum, Jieli
 Technology, Harman), which are still employed in many
 consumers products such as BT speakers, keyboards, toys,
 etc.
-</p><!--l. 128--><p class="indent" >  <span 
+</p><!--l. 118--><p class="indent" >  <span 
 class="ptmb8t-">V1 </span>affects ESP32, which is used in many products ranging
 from consumer electronics to industrial equipment such as
 programmable logic controllers (PLCs). Hence, the impact is
@@ -1488,24 +1514,25 @@ class="ptmri8t-">can be triggered without any previous pairing or</span>
 class="ptmri8t-">authentication</span>. Moreover, the impact of <span 
 class="ptmb8t-">V1-V16 </span>reaches beyond
 the devices listed in Table&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-4002r2">2<!--tex4ht:ref: tab:summary --></a>, since any other BT product
-employing an affected SoC is also vulnerable.                  </p><!--l. 141--><p class="indent" >    Multiple Link Manager Protocol (LMP) flooding attacks (e.g.,
-     <span 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-5002r2">2<!--tex4ht:ref: tab:summary --></a>, since any other BT product
+employing an affected SoC is also vulnerable.
+</p><!--l. 131--><p class="indent" >  Multiple Link Manager Protocol (LMP) flooding attacks (e.g.,
+<span 
 class="ptmb8t-">V4</span>, <span 
 class="ptmb8t-">V12</span>) and <span 
 class="ptmb8t-">V15 </span>were detected across SoCs from different BT
-     vendors. Since the affected vendors are majors in their fields
-     (i.e., Intel &amp; Qualcomm), it indicates that there is a lack of
-     flexible tools for over-the-air testing even in <span 
+vendors. Since the affected vendors are majors in their fields
+(i.e., Intel &amp; Qualcomm), it indicates that there is a lack of
+flexible tools for over-the-air testing even in <span 
 class="zptmcmr-">2021</span>. Besides,
-     the <span 
+the <span 
 class="ptmri8t-">Core Specifications </span>only allows a limited "LMP test
-     mode"&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbluetooth2019bluetooth">31</a>]</span> that restricts the SoC to operate with few LMP
-     procedures.
-     </p>
-         <h3 class="sectionHead" style="font-size: 2rem;"><span class="titlemark">4    </span> <a 
- id="x1-50004"></a><a id="impact">Impact of </a><span 
+mode"&#x00A0;<span class="cite">&#x00A0;[<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbluetooth2019bluetooth">32</a>]</span> that restricts the SoC to operate with few LMP
+procedures.
+</p>
+  <h3 class="sectionHead" style="font-size: 2rem;"><span class="titlemark">4    </span> <a 
+ id="x1-60004"></a><a id="impact">Impact of </a><span 
 class="ptmrc8t-">B<span 
 class="small-caps">r</span><span 
 class="small-caps">a</span><span 
@@ -1513,8 +1540,7 @@ class="small-caps">k</span>T<span
 class="small-caps">o</span><span 
 class="small-caps">o</span><span 
 class="small-caps">t</span><span 
-class="small-caps">h </span></span></h3>
-     <!--l. 8--><p class="noindent" >We created different concrete attacks leveraging the <span 
+class="small-caps">h </span></span></h3>                             <!--l. 8--><p class="noindent" >We created different concrete attacks leveraging the <span 
 class="ptmrc8t-">B<span 
 class="small-caps">r</span><span 
 class="small-caps">a</span><span 
@@ -1529,17 +1555,17 @@ class="small-caps">h </span></span>
      </p><!--l. 15--><p class="noindent" >
      </p>
          <h4 class="subsectionHead" style="font-size: 1rem;font-weight:bold;line-height: 1.5rem;"><span class="titlemark">4.1    </span> <a 
- id="x1-60004.1"></a>Arbitrary Code Execution in IoTs</h4>
+ id="x1-70004.1"></a>Arbitrary Code Execution in IoTs</h4>
      <!--l. 17--><p class="noindent" >The most critical vulnerability (<span 
 class="ptmb8t-">V1 </span>in Table&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-4002r2">2<!--tex4ht:ref: tab:summary --></a> - <a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-150008.1">8.1<!--tex4ht:ref: sec:v1 --></a>) affects
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-5002r2">2<!--tex4ht:ref: tab:summary --></a> - <a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-160008.1">8.1<!--tex4ht:ref: sec:v1 --></a>) affects
      <span 
 class="ptmri8t-">ESP32 </span>SoC&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xesp32">36</a>]</span>, which is used in many Wi-Fi and Bluetooth
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xesp32">37</a>]</span>, which is used in many Wi-Fi and Bluetooth
      IoT appliances such as Industry Automation, Smart Home,
      Fitness, etc. The attack is illustrated in Figure&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-6001r3">3<!--tex4ht:ref: fig:esp32_ace --></a>. A lack of
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-7001r3">3<!--tex4ht:ref: fig:esp32_ace --></a>. A lack of
      out-of-bounds check in ESP32 <span 
 class="ptmri8t-">BT Library</span>&#x00A0;<span class="cite">&#x00A0;[<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xesp-bt-stack">11</a>]</span> allows the
@@ -1549,7 +1575,7 @@ class="ptmri8t-">mutated LMP_feature_response_ext</span>. This results
      of <span 
 class="ptmri8t-">Extended Feature Page Table </span>("E. Features Table" in
      Figure&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-6001r3">3<!--tex4ht:ref: fig:esp32_ace --></a>). An attacker, which knows the firmware layout of a
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-7001r3">3<!--tex4ht:ref: fig:esp32_ace --></a>). An attacker, which knows the firmware layout of a
      target device, can write a known function address (<span 
 class="ptmri8t-">JMP Addr.</span>) to
      the offset pointed by <span 
@@ -1588,7 +1614,7 @@ class="ptmri8t-">ESP32</span>. As expected,
                                                                                                 
                                                                                                 
 <a 
- id="x1-6001r3"></a>
+ id="x1-7001r3"></a>
                                                 
                                                                                                 
                                                                                                 
@@ -1597,7 +1623,7 @@ src="figures/ace.pdf.svg" alt="PIC"
 width="500" height="auto"  />
 <br /> </p><div class="caption" 
 ><span class="id">Figure&#x00A0;3: </span><span  
-class="content">An Illustration of CVE-2021-28138.</span></div><!--tex4ht:label?: x1-6001r3 -->
+class="content">An Illustration of CVE-2021-28138.</span></div><!--tex4ht:label?: x1-7001r3 -->
                                                 
                                                                                                 
                                                                                                 
@@ -1608,21 +1634,21 @@ src="https://www.youtube.com/embed/F7VjuOiUsNk"
 frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
   <h4 class="subsectionHead" style="font-size: 1rem;font-weight:bold;line-height: 1.5rem;"><span class="titlemark">4.2    </span> <a 
- id="x1-70004.2"></a>DoS in Laptops &amp; Smartphones</h4>
+ id="x1-80004.2"></a>DoS in Laptops &amp; Smartphones</h4>
 <!--l. 74--><p class="noindent" >We discuss two sample DoS attacks discovered on laptops
 and smartphones employing <span 
 class="ptmri8t-">Intel AX200 </span>SoCs&#x00A0;<span class="cite">&#x00A0;[<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xax200">20</a>]</span> and
 <span 
 class="ptmri8t-">Qualcomm WCN3990 </span>SoC&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xwcn3990">33</a>]</span>. Due to the number of
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xwcn3990">34</a>]</span>. Due to the number of
 smartphones and laptops vulnerable to such attacks, and the
 common use of BT connectivity during video conference
 calls and music streaming, updating the affected devices is
 essential.
 </p><!--l. 82--><p class="indent" >  The first DoS (<span 
 class="ptmb8t-">Invalid Timing Accuracy </span>- <a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-290008.15">8.15<!--tex4ht:ref: sec:v15 --></a>) is due to a
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-300008.15">8.15<!--tex4ht:ref: sec:v15 --></a>) is due to a
 failure in the SoC to free resources upon receiving an invalid
 <span 
 class="ptmri8t-">LMP_timing_accuracy_response </span>from a BT slave. The attacker
@@ -1641,7 +1667,7 @@ to <span
 class="ptmri8t-">AX200 </span>under Windows or Linux Laptops. Similarly,
 Android phones such as Pocophone F1 and Oppo Reno
 5G&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xoppo_reno_5g">25</a>]</span> experience BT disruptions. For example, users
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xoppo_reno_5g">26</a>]</span> experience BT disruptions. For example, users
 connected to BT Headsets experience audio to be continuously
 "cut" during the attack. This also results in firmware crashes
 and restart of Android BT Service. In all cases, the OS
@@ -1649,7 +1675,7 @@ tries to recover connectivity which can be continuously
 disrupted.
 </p><!--l. 97--><p class="indent" >  The second DoS (<span 
 class="ptmb8t-">Paging Scan Disable </span>- <a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-300008.16">8.16<!--tex4ht:ref: sec:v16 --></a>) affects only
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-310008.16">8.16<!--tex4ht:ref: sec:v16 --></a>) affects only
 devices using Intel <span 
 class="ptmri8t-">AX200 </span>and it is triggered when an oversized
 <span 
@@ -1662,7 +1688,7 @@ responds incorrectly during a subsequent BT connection
 and eventually disables the <span 
 class="ptmri8t-">paging scan </span>procedure (cf.,
 Figure&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-1001r1">1<!--tex4ht:ref: fig:bt_procedures --></a>). Thus, scanning <span 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-2001r1">1<!--tex4ht:ref: fig:bt_procedures --></a>). Thus, scanning <span 
 class="ptmri8t-">AX200 </span>works, but no connection is
 established from an external BT device. Therefore, this attack
 can be used to trick an user to connect to the attacker&#8217;s
@@ -1694,32 +1720,32 @@ width="560" height="auto"  /><a/>
 </p>
   </div></div>
   <h4 class="subsectionHead" style="font-size: 1rem;font-weight:bold;line-height: 1.5rem;"><span class="titlemark">4.3    </span> <a 
- id="x1-80004.3"></a>Freezing Audio Products</h4>
+ id="x1-90004.3"></a>Freezing Audio Products</h4>
 <!--l. 132--><p class="noindent" >Many vulnerabilities were discovered while testing with a BT
 Speaker (<span 
 class="ptmri8t-">Mi Portable Bluetooth Speaker - MDZ-36-DB</span>&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xxiaomi_speaker">41</a>]</span>),
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xxiaomi_speaker">42</a>]</span>),
 BT Headphone (<span 
 class="ptmri8t-">JBL TUNE 500BT</span>&#x00A0;<span class="cite">&#x00A0;[<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xjbl">21</a>]</span>) and BT Audio
 Modules (XY-WRBT&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#XXY-WRBT">28</a>]</span> and an unbranded BT Audio
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#XXY-WRBT">29</a>]</span> and an unbranded BT Audio
 Receiver). The discovered vulnerabilities arise from failures
 when sending oversized LMP packets (<span 
 class="ptmb8t-">LMP Auto Rate</span>
 <span 
 class="ptmb8t-">Overflow </span>- <a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-190008.5">8.5<!--tex4ht:ref: sec:v5 --></a>), truncated packets (<span 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-200008.5">8.5<!--tex4ht:ref: sec:v5 --></a>), truncated packets (<span 
 class="ptmb8t-">Truncated LMP Accepted </span>-
 <a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-220008.8">8.8<!--tex4ht:ref: sec:v8 --></a>), starting procedures out-of-order (<span 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-230008.8">8.8<!--tex4ht:ref: sec:v8 --></a>), starting procedures out-of-order (<span 
 class="ptmb8t-">Invalid Setup Complete </span>-
 <a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-230008.9">8.9<!--tex4ht:ref: sec:v9 --></a>) and finally by flooding LMP packets (<span 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-240008.9">8.9<!--tex4ht:ref: sec:v9 --></a>) and finally by flooding LMP packets (<span 
 class="ptmb8t-">Feature Response</span>
 <span 
 class="ptmb8t-">Flooding </span>- <a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-180008.4">8.4<!--tex4ht:ref: sec:v4 --></a>).
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-190008.4">8.4<!--tex4ht:ref: sec:v4 --></a>).
 </p><!--l. 142--><p class="indent" >  The vulnerabilities can <span 
 class="ptmri8t-">"freeze" Xiaomi MDZ-36-DB </span>and
 completely shut down <span 
@@ -1747,7 +1773,7 @@ frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; pict
 </p><!--l. 169--><p class="noindent" >
 </p>
   <h4 class="subsectionHead" style="font-size: 1rem;font-weight:bold;line-height: 1.5rem;"><span class="titlemark">4.4    </span> <a 
- id="x1-90004.4"></a>Estimating the Scope of <span 
+ id="x1-100004.4"></a>Estimating the Scope of <span 
 class="ptmrc8t-">B<span 
 class="small-caps">r</span><span 
 class="small-caps">a</span><span 
@@ -1770,11 +1796,11 @@ listings employing the affected BT chipsets. Each listing may
 contain one or multiple (up to hundreds) products from the same
 company. We get such an estimated number by querying the
 Bluetooth Listings Website&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbluetooth-listing">32</a>]</span>. In particular, we use the
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbluetooth-listing">33</a>]</span>. In particular, we use the
 qualification IDs (QIDs) of each affected SoCs to get their
 corresponding products listings. The total number of potentially
 affected product listings is illustrated in Table&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-9001r3">3<!--tex4ht:ref: tab:qids --></a>. In summary, as
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-10001r3">3<!--tex4ht:ref: tab:qids --></a>. In summary, as
 of August 23, 2021, the total number of listings affected is over
 1400. We note that even if the number of listings for a major
 vendor such as Intel seems low, its listings have up to hundreds
@@ -1786,14 +1812,14 @@ Asustek, Dell, etc.
                                                                                                 
                                                                                                 
 <!--l. 5--><p class="indent" >  <a 
- id="x1-9001r3"></a></p><div class="float" 
+ id="x1-10001r3"></a></p><div class="float" 
 >
                                                 
                                                                                                 
                                                                                                 
  <div class="caption" 
 ><span class="id">Table&#x00A0;3: </span><span  
-class="content">Number of product listings with respect to BT SoC.</span></div><!--tex4ht:label?: x1-9001r3 -->
+class="content">Number of product listings with respect to BT SoC.</span></div><!--tex4ht:label?: x1-10001r3 -->
 <!--tex4ht:inline--><div class="tabular"> <table id="TBL-16" class="tabular" 
 cellspacing="0" cellpadding="0"  
 ><colgroup id="TBL-16-1g"><col 
@@ -1803,11 +1829,11 @@ id="TBL-16-3" /></colgroup><colgroup id="TBL-16-4g"><col
 id="TBL-16-4" /></colgroup><tr 
 class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
  style="vertical-align:baseline;" id="TBL-16-1-"><td  style="white-space:normal; text-align:center;" id="TBL-16-1-1"  
-class="td11">                     <div class="multicolumn"  style="white-space:normal; text-align:center;"> <span 
+class="td11">                     <div class="multicolumn"  style="white-space:normal; text-align:center;"><span 
 class="ptmb8t-">Vendor</span></div>                     </td><td  style="white-space:normal; text-align:center;" id="TBL-16-1-2"  
-class="td11">       <div class="multicolumn"  style="white-space:normal; text-align:center;"> <span 
+class="td11">       <div class="multicolumn"  style="white-space:normal; text-align:center;"><span 
 class="ptmb8t-">SoC</span></div>       </td><td  style="white-space:normal; text-align:center;" id="TBL-16-1-3"  
-class="td11">         <div class="multicolumn"  style="white-space:normal; text-align:center;"> <span 
+class="td11">         <div class="multicolumn"  style="white-space:normal; text-align:center;"><span 
 class="ptmb8t-">QID(s)</span></div>         </td><td  style="white-space:normal; text-align:left;" id="TBL-16-1-4"  
 class="td11">  <span 
 class="ptmb8t-">Listing(s) Count  </span></td>
@@ -2054,7 +2080,7 @@ class="ptmri8t-">order of magnitude higher than the listings estimated in</span>
 <span 
 class="ptmri8t-">Table</span><span 
 class="ptmri8t-">&#x00A0;</span><a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-9001r3"><span 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-10001r3"><span 
 class="ptmri8t-">3</span><!--tex4ht:ref: tab:qids --></a>.
 </p>
   <div class="table row items-start justify-center">
@@ -2062,7 +2088,7 @@ class="ptmri8t-">3</span><!--tex4ht:ref: tab:qids --></a>.
                                                                                                 
                                                                                                 
 <!--l. 5--><p class="indent" >  <a 
- id="x1-9002r4"></a></p><div class="float" 
+ id="x1-10002r4"></a></p><div class="float" 
 >
                                                 
                                                                                                 
@@ -2080,7 +2106,7 @@ class="small-caps">o</span><span
 class="small-caps">t</span><span 
 class="small-caps">h</span></span>. The declaration ID references each product
 on the Bluetooth Listing search website&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbluetooth-listing">32</a>]</span>.</span></div><!--tex4ht:label?: x1-9002r4 -->
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbluetooth-listing">33</a>]</span>.</span></div><!--tex4ht:label?: x1-10002r4 -->
 <!--tex4ht:inline--><div class="tabular"> <table id="TBL-17" class="tabular" 
 cellspacing="0" cellpadding="0"  
 ><colgroup id="TBL-17-1g"><col 
@@ -2448,10 +2474,10 @@ class="td11">                                                  </td></tr></table
   </div>
   </div>
 <!--l. 215--><p class="indent" >  From the listings shown in Table&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-9001r3">3<!--tex4ht:ref: tab:qids --></a>, we capture some
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-10001r3">3<!--tex4ht:ref: tab:qids --></a>, we capture some
 interesting products employing the vulnerable chipsets and list
 them in Table&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-9002r4">4<!--tex4ht:ref: tab:products --></a>. The observed types of products range from
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-10002r4">4<!--tex4ht:ref: tab:products --></a>. The observed types of products range from
 audio appliances (BT Speakers, headsets, ambience, etc) to
 personal PC/laptop computers, smartphones, and surprisingly
 even automotive multimedia electronic control units (<span 
@@ -2466,7 +2492,7 @@ are employing <span
 class="ptmb8t-">Qualcomm CSR8811/510 </span>and <span 
 class="ptmb8t-">Silabs WT32i</span>
 chipsets, respectively. As discussed in Section&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-110005">5<!--tex4ht:ref: sec:patches --></a>, the Qualcomm
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-120005">5<!--tex4ht:ref: sec:patches --></a>, the Qualcomm
 CSR8811/510 is unlikely to receive a patch (affected by <span 
 class="ptmb8t-">V6</span>) and
 we are not able to receive a response from Silicon Labs regarding
@@ -2475,7 +2501,7 @@ their status of the investigation on Silabs WT32i (affected by
 class="ptmb8t-">V5</span>).
 </p>
   <h4 class="subsectionHead" style="font-size: 1rem;font-weight:bold;line-height: 1.5rem;"><span class="titlemark">4.5    </span> <a 
- id="x1-100004.5"></a>Product Design Considerations</h4>
+ id="x1-110004.5"></a>Product Design Considerations</h4>
 <!--l. 5--><p class="noindent" >It is important to clarify that any product employing a vulnerable
 Bluetooth chipset, is not necessarily insecure (nevertheless,
 affected due to BT connectivity being impaired). The overall
@@ -2483,7 +2509,7 @@ security of an end-product, which has an internal chipset with
 firmware flaws, depends on how much the product relies on such
 a vulnerable chipset for its main functionality.
 </p><!--l. 11--><p class="indent" >  Figure&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-10001r4">4<!--tex4ht:ref: fig:design --></a> showcases common BT product design strategies and
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-11001r4">4<!--tex4ht:ref: fig:design --></a> showcases common BT product design strategies and
 their dependency on the BT chipset or stack.
 </p>
   <div style="margin-top:30px;margin-bottom:30px;" class="row items-start justify-center text-center"><div class="figure" 
@@ -2492,7 +2518,7 @@ their dependency on the BT chipset or stack.
                                                                                                 
                                                                                                 
 <a 
- id="x1-10001r4"></a>
+ id="x1-11001r4"></a>
                                                 
                                                                                                 
                                                                                                 
@@ -2501,7 +2527,7 @@ src="figures/design.pdf.svg" alt="PIC"
 width="500" height="auto"  />
 <br /> </p><div class="caption" 
 ><span class="id">Figure&#x00A0;4: </span><span  
-class="content">Examples of Bluetooth Product Design</span></div><!--tex4ht:label?: x1-10001r4 -->
+class="content">Examples of Bluetooth Product Design</span></div><!--tex4ht:label?: x1-11001r4 -->
                                                 
                                                                                                 
                                                                                                 
@@ -2561,13 +2587,13 @@ class="ptmb8t-">Texas Instruments CC2564C </span>as
 the BT controller when we had tested a sample code from
 TI&#8217;s BT stack (CC2564CMSP432BTBLESW1 (v4.2.1.1) +
 Service pack v1.4). In this context, attack V12 (<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-260008.12">8.12<!--tex4ht:ref: sec:v12 --></a>) causes a
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-270008.12">8.12<!--tex4ht:ref: sec:v12 --></a>) causes a
 temporary hang on MSP432, which could cause an impact
 on the underlying product. In contrast, operating systems
 in smartphones and laptops have a mature mechanism to
 handle BT controller hardware errors originated from attacks
 in the BT controller. See Section&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-70004.2">4.2<!--tex4ht:ref: sec:laptop-attacks --></a> where we illustrate
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-80004.2">4.2<!--tex4ht:ref: sec:laptop-attacks --></a> where we illustrate
 the impact of <span 
 class="ptmrc8t-">B<span 
 class="small-caps">r</span><span 
@@ -2598,7 +2624,7 @@ class="ptmri8t-">Product SW </span>and <span
 class="ptmri8t-">BT Stack </span>being coexistent
 on the same hardware. This is exemplified by V1 attack
 (<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-150008.1">8.1<!--tex4ht:ref: sec:v1 --></a>), which affects ESP32 running Bluedroid BR/EDR
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-160008.1">8.1<!--tex4ht:ref: sec:v1 --></a>), which affects ESP32 running Bluedroid BR/EDR
 stack.
 </p><!--l. 66--><p class="indent" >  To conclude, the assessment of a product based on its
 dependency on the BT chipset is a fundamental approach to
@@ -2623,11 +2649,11 @@ consideration when evaluating the product risks. Specifically, it  needs to be e
   required for the assessed product to properly function.
   </p>
     <h3 class="sectionHead" style="font-size: 2rem;"><span class="titlemark">5    </span> <a 
- id="x1-110005"></a><a id="patches">BT Firmware Patches</a></h3>
+ id="x1-120005"></a><a id="patches">BT Firmware Patches</a></h3>
                                                                                                 
                                                                                                 
 <!--l. 6--><p class="indent" >  <a 
- id="x1-11001r5"></a></p><div class="float" 
+ id="x1-12001r5"></a></p><div class="float" 
 >
                                                 
                                                                                                 
@@ -2636,7 +2662,8 @@ consideration when evaluating the product risks. Specifically, it  needs to be e
 ><span class="id">Table&#x00A0;5: </span><span  
 class="content">Patching status, Vulnerabilities and SDK/Firmware version of affected devices.<br 
 class="newline" /><span 
-class="ptmb8t-">* </span>Contact vendor to acquire the patch.</span></div><!--tex4ht:label?: x1-11001r5 -->
+class="ptmb8t-">* </span>Contact vendor to acquire the patch; <span id="textcolor25"><span 
+class="zpzccmry-">&#8224; </span>The vendor disclosed to us to be affected by BrakTooth vulnerabilities.</span></span></div><!--tex4ht:label?: x1-12001r5 -->
 <!--tex4ht:inline--><div class="tabular"> <table id="TBL-25" class="tabular" 
 cellspacing="0" cellpadding="0"  
 ><colgroup id="TBL-25-1g"><col 
@@ -2672,7 +2699,7 @@ class="td11"> ESP32                        </td><td  style="white-space:normal; 
 class="td11"> esp-idf-4.4                                                                                                                                                                                               </td><td  style="white-space:normal; text-align:left;" id="TBL-025-4-4"  
 class="td11"> V1,V3-4 / A1           </td><td  style="white-space:normal; text-align:left;" id="TBL-025-4-5"  
 class="td11"> <span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xesp32_advisory">35</a>,&#x00A0;<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xesp32_advisory">36</a>,&#x00A0;<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xesp32_patch">12</a>]</span> <span 
 class="ptmb8t-"><span style="color: #009933">Available</span>         </span></td>
 </tr><tr  
@@ -2702,7 +2729,8 @@ class="td00">                                                                   
  style="vertical-align:baseline;" id="TBL-026-4-"><td  style="white-space:normal; text-align:left;" id="TBL-026-4-1"  
 class="td00">Windows - 22.40.0</td></tr></table></div>  </td><td  style="white-space:normal; text-align:left;" id="TBL-0025-7-4"  
 class="td11"> V15-16 / A1-2, A5  </td><td  style="white-space:normal; text-align:left;" id="TBL-0025-7-5"  
-class="td11"> <span style="color: #cc7a00">Patch in progress</span>              </td>
+class="td11"> <span 
+class="ptmb8t-">TBA                                  </span></td>
 </tr><tr  
  style="vertical-align:baseline;" id="TBL-0025-8-"><td  style="white-space:normal; text-align:left;" id="TBL-0025-8-1"  
 class="td11"> </td></tr><tr><td colspan="5"></td></tr><tr  
@@ -2716,7 +2744,8 @@ class="td11"> Qualcomm                                                          
 class="td11"> WCN3990/8              </td><td  style="white-space:normal; text-align:left;" id="TBL-00025-10-3"  
 class="td11"> crbtfw21.tlv, patch 0x0002                                                                                                                                                                      </td><td  style="white-space:normal; text-align:left;" id="TBL-00025-10-4"  
 class="td11"> V15 / A1-2,A4         </td><td  style="white-space:normal; text-align:left;" id="TBL-00025-10-5"  
-class="td11"> <span style="color: #cc7a00">Patch in progress</span>              </td>
+class="td11"> <span 
+class="ptmb8t-">TBA                                  </span></td>
 </tr><tr  
  style="vertical-align:baseline;" id="TBL-00025-11-"><td  style="white-space:normal; text-align:left;" id="TBL-00025-11-1"  
 class="td11"> </td></tr><tr><td colspan="5"></td></tr><tr  
@@ -2728,7 +2757,7 @@ class="td11"></td>
  style="vertical-align:baseline;" id="TBL-000025-13-"><td  style="white-space:normal; text-align:left;" id="TBL-000025-13-1"  
 class="td11"> Qualcomm                                                                                                                                                                                           </td><td  style="white-space:normal; text-align:left;" id="TBL-000025-13-2"  
 class="td11"> CSR8811/CSR8510  </td><td  style="white-space:normal; text-align:left;" id="TBL-000025-13-3"  
-class="td11"> <span id="textcolor22">v9.1.12.14</span>                                                                                                                                                                                                </td><td  style="white-space:normal; text-align:left;" id="TBL-000025-13-4"  
+class="td11"> <span id="textcolor26">v9.1.12.14</span>                                                                                                                                                                                                </td><td  style="white-space:normal; text-align:left;" id="TBL-000025-13-4"  
 class="td11"> V6 / A1-2                 </td><td  style="white-space:normal; text-align:left;" id="TBL-000025-13-5"  
 class="td11"> <span style="color: #C70039">No fix</span>                                </td>
 </tr><tr  
@@ -2756,7 +2785,7 @@ class="td11"></td>
  style="vertical-align:baseline;" id="TBL-00000025-19-"><td  style="white-space:normal; text-align:left;" id="TBL-00000025-19-1"  
 class="td11"> Infineon (Cypress)                                                                                                                                                                               </td><td  style="white-space:normal; text-align:left;" id="TBL-00000025-19-2"  
 class="td11"> CYW20735B1           </td><td  style="white-space:normal; text-align:left;" id="TBL-00000025-19-3"  
-class="td11"> <span id="textcolor23">WICED SDK 2.9.0</span>                                                                                                                                                                                  </td><td  style="white-space:normal; text-align:left;" id="TBL-00000025-19-4"  
+class="td11"> <span id="textcolor27">WICED SDK 2.9.0</span>                                                                                                                                                                                  </td><td  style="white-space:normal; text-align:left;" id="TBL-00000025-19-4"  
 class="td11"> V12-15 / A2,A6       </td><td  style="white-space:normal; text-align:left;" id="TBL-00000025-19-5"  
 class="td11"> <span class="cite">&#x00A0;[<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xcypress_patch">17</a>]</span> <span 
@@ -2780,10 +2809,9 @@ class="ptmb8t-"><span style="color: #009933">Available</span> *                 
  style="vertical-align:baseline;" id="TBL-000000025-23-"><td  style="white-space:normal; text-align:left;" id="TBL-000000025-23-1"  
 class="td11"> </td></tr><tr><td colspan="5"></td></tr><tr  
  style="vertical-align:baseline;" id="TBL-0000000025-23-"><td  style="white-space:normal; text-align:left;" id="TBL-0000000025-23-1"  
-class="td11">                                                                                                  </td>
-</tr><tr  
+class="td11">                                                                                                  </td></tr><tr  
  style="vertical-align:baseline;" id="TBL-0000000025-24-"><td  style="white-space:normal; text-align:left;" id="TBL-0000000025-24-1"  
-class="td11">                                                                                                      </td>
+class="td11"></td>
 </tr><tr  
  style="vertical-align:baseline;" id="TBL-0000000025-25-"><td  style="white-space:normal; text-align:left;" id="TBL-0000000025-25-1"  
 class="td11"> Zhuhai Jieli Technology                                                                                                                                                                      </td><td  style="white-space:normal; text-align:left;" id="TBL-0000000025-25-2"  
@@ -2822,7 +2850,9 @@ class="td11"> Zhuhai Jieli Technology                                           
 class="td11"> AC6366C                   </td><td  style="white-space:normal; text-align:left;" id="TBL-000000000025-31-3"  
 class="td11"> fw-AC63_BT_SDK 0.9.0                                                                                                                                                                        </td><td  style="white-space:normal; text-align:left;" id="TBL-000000000025-31-4"  
 class="td11"> V2,V12 / A1-2         </td><td  style="white-space:normal; text-align:left;" id="TBL-000000000025-31-5"  
-class="td11"> <span style="color: #cc7a00">Patch in progress</span>              </td>
+class="td11"> <span class="cite">&#x00A0;[<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#XAC6366C_patch">22</a>]</span> <span 
+class="ptmb8t-"><span style="color: #009933">Available</span>                </span></td>
 </tr><tr  
  style="vertical-align:baseline;" id="TBL-000000000025-32-"><td  style="white-space:normal; text-align:left;" id="TBL-000000000025-32-1"  
 class="td11"> </td></tr><tr><td colspan="5"></td></tr><tr  
@@ -2854,7 +2884,7 @@ class="td11"> JX25X                       </td><td  style="white-space:normal; t
 class="td11"> <span 
 class="ptmri8t-">unspecified </span>(LMP Subver. 5063)                                                                                                                                                             </td><td  style="white-space:normal; text-align:left;" id="TBL-00000000000025-37-4"  
 class="td11"> V4 / A1-2                 </td><td  style="white-space:normal; text-align:left;" id="TBL-00000000000025-37-5"  
-class="td11"> <span style="color: #730099">Pending</span>                             </td>
+class="td11"> <span style="color: #cc7a00">Patch in progress</span>              </td>
 </tr><tr  
  style="vertical-align:baseline;" id="TBL-00000000000025-38-"><td  style="white-space:normal; text-align:left;" id="TBL-00000000000025-38-1"  
 class="td11"> </td></tr><tr><td colspan="5"></td></tr><tr  
@@ -2869,7 +2899,7 @@ class="td11"> Silabs                                                            
 class="td11"> WT32i                       </td><td  style="white-space:normal; text-align:left;" id="TBL-000000000000025-40-3"  
 class="td11"> iWRAP 6.3.0 build 1149                                                                                                                                                                         </td><td  style="white-space:normal; text-align:left;" id="TBL-000000000000025-40-4"  
 class="td11"> V5 / A1-2                 </td><td  style="white-space:normal; text-align:left;" id="TBL-000000000000025-40-5"  
-class="td11"> <span style="color: #730099">Pending</span>                             </td>
+class="td11"> <span style="color: #005c99">Investigation in progress</span>  </td>
 </tr><tr  
  style="vertical-align:baseline;" id="TBL-000000000000025-41-"><td  style="white-space:normal; text-align:left;" id="TBL-000000000000025-41-1"  
 class="td11"> </td></tr><tr><td colspan="5"></td></tr><tr  
@@ -2880,16 +2910,15 @@ class="td11">                                                                   
 class="td11">                                                                                                      </td>
 </tr><tr  
  style="vertical-align:baseline;" id="TBL-0000000000000025-43-"><td  style="white-space:normal; text-align:left;" id="TBL-0000000000000025-43-1"  
-class="td11"> <span 
-class="ptmb8t-">Samsung                                                                                                                                                                                             </span></td><td  style="white-space:normal; text-align:left;" id="TBL-0000000000000025-43-2"  
+class="td11"> <span id="textcolor28">Samsung <span 
+class="zpzccmry-">&#8224;</span></span>                                                             </td><td  style="white-space:normal; text-align:left;" id="TBL-0000000000000025-43-2"  
 class="td11"> <span 
 class="ptmb8t-">Not Disclosed           </span></td><td  style="white-space:normal; text-align:left;" id="TBL-0000000000000025-43-3"  
 class="td11"> <span 
 class="ptmb8t-">Not Disclosed                                                                                                                                                                                          </span></td><td  style="white-space:normal; text-align:left;" id="TBL-0000000000000025-43-4"  
+class="td11"> V4,V6,V12              </td><td  style="white-space:normal; text-align:left;" id="TBL-0000000000000025-43-5"  
 class="td11"> <span 
-class="ptmb8t-">V4,V6,V12              </span></td><td  style="white-space:normal; text-align:left;" id="TBL-0000000000000025-43-5"  
-class="td11"> <span 
-class="ptmb8t-"><span style="color: #009933">Available</span> *                       </span></td>
+class="ptmb8t-">TBA                                  </span></td>
 </tr><tr  
  style="vertical-align:baseline;" id="TBL-0000000000000025-44-"><td  style="white-space:normal; text-align:left;" id="TBL-0000000000000025-44-1"  
 class="td11"> </td></tr><tr><td colspan="5"></td></tr><tr  
@@ -2898,22 +2927,64 @@ class="td11">                                                                   
 </tr><tr  
  style="vertical-align:baseline;" id="TBL-00000000000000025-45-"><td  style="white-space:normal; text-align:left;" id="TBL-00000000000000025-45-1"  
 class="td11">                                                                                                      </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-00000000000000025-46-"><td  style="white-space:normal; text-align:left;" id="TBL-00000000000000025-46-1"  
+class="td11"> <span id="textcolor29">Mediatek <span 
+class="zpzccmry-">&#8224;</span></span>                                                             </td><td  style="white-space:normal; text-align:left;" id="TBL-00000000000000025-46-2"  
+class="td11"> <span 
+class="ptmb8t-">Not Disclosed           </span></td><td  style="white-space:normal; text-align:left;" id="TBL-00000000000000025-46-3"  
+class="td11"> <span 
+class="ptmb8t-">Not Disclosed                                                                                                                                                                                          </span></td><td  style="white-space:normal; text-align:left;" id="TBL-00000000000000025-46-4"  
+class="td11"> V3,V10-V12            </td><td  style="white-space:normal; text-align:left;" id="TBL-00000000000000025-46-5"  
+class="td11"> <span style="color: #cc7a00">Patch in progress</span>              </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-00000000000000025-47-"><td  style="white-space:normal; text-align:left;" id="TBL-00000000000000025-47-1"  
+class="td11"> </td></tr><tr><td colspan="5"></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-000000000000000025-47-"><td  style="white-space:normal; text-align:left;" id="TBL-000000000000000025-47-1"  
+class="td11">                                                                                                  </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-000000000000000025-48-"><td  style="white-space:normal; text-align:left;" id="TBL-000000000000000025-48-1"  
+class="td11">                                                                                                      </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-000000000000000025-49-"><td  style="white-space:normal; text-align:left;" id="TBL-000000000000000025-49-1"  
+class="td11"> <span id="textcolor30">Airoha <span 
+class="zpzccmry-">&#8224;</span></span>                                                              </td><td  style="white-space:normal; text-align:left;" id="TBL-000000000000000025-49-2"  
+class="td11"> <span 
+class="ptmb8t-">Not Disclosed           </span></td><td  style="white-space:normal; text-align:left;" id="TBL-000000000000000025-49-3"  
+class="td11"> <span 
+class="ptmb8t-">Not Disclosed                                                                                                                                                                                          </span></td><td  style="white-space:normal; text-align:left;" id="TBL-000000000000000025-49-4"  
+class="td11"> <span 
+class="ptmb8t-">Not Disclosed          </span></td><td  style="white-space:normal; text-align:left;" id="TBL-000000000000000025-49-5"  
+class="td11"> <span style="color: #005c99">Investigation in progress</span>  </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-000000000000000025-50-"><td  style="white-space:normal; text-align:left;" id="TBL-000000000000000025-50-1"  
+class="td11"> </td></tr><tr><td colspan="5"></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-0000000000000000025-50-"><td  style="white-space:normal; text-align:left;" id="TBL-0000000000000000025-50-1"  
+class="td11">                                                                                                  </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-0000000000000000025-51-"><td  style="white-space:normal; text-align:left;" id="TBL-0000000000000000025-51-1"  
+class="td11">                                                                                                      </td>
 </tr><tr 
 class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
- style="vertical-align:baseline;" id="TBL-00000000000000025-46-"><td  style="white-space:normal; text-align:left;" id="TBL-00000000000000025-46-1"  
+ style="vertical-align:baseline;" id="TBL-0000000000000000025-52-"><td  style="white-space:normal; text-align:left;" id="TBL-0000000000000000025-52-1"  
 class="td11">                                                                                                      </td></tr></table>                                                                                                                                                                    </div>
                                                 
                                                                                                 
                                                                                                 
   </div>
 <!--l. 8--><p class="noindent" >Table&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-11001r5">5<!--tex4ht:ref: tab:affected_chipsets --></a> captures the affected vendors and the status of their
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-12001r5">5<!--tex4ht:ref: tab:affected_chipsets --></a> captures the affected vendors and the status of their
 investigation. We categorize the status of the investigation in the
 following forms: </p>
     <ul class="itemize1">
     <li class="itemize"><span 
 class="ptmbi8t-"><span style="color: #009933">Available</span></span>: The vendor has replicated the vulnerability
     and a patch is available.
+    </li>
+    <li class="itemize"><span 
+class="ptmbi8t-">TBA (To be announced)</span>: The vendor has produced a
+    patch for internal testing and validation, but has yet to
+    release such patch to the general public (clients).
     </li>
     <li class="itemize"><span 
 class="ptmbi8t-">Patch   in   progress</span>:   The   vendor   has   successfully
@@ -2930,10 +3001,13 @@ class="ptmbi8t-"><span style="color: #C70039">No fix</span></span>: The vendor h
     but there is no plan to release a patch.
     </li>
     <li class="itemize"><span 
-class="ptmbi8t-"><span style="color: #730099">Pending</span></span>:  The  vendor  hardly  communicated  with  the
+class="ptmbi8t-"><span style="color: #730099">Pending </span></span>:  The  vendor  hardly  communicated  with  the
     team and the status of their investigation is unclear at
-    best.</li></ul>
-<!--l. 21--><p class="noindent" >We observe that <span 
+    best. <span id="textcolor31"><span 
+class="ptmb8t-">No patch is in pending state as of 1st November</span>
+    <span 
+class="ptmb8t-">of 2021.</span></span></li></ul>
+<!--l. 22--><p class="noindent" >We observe that <span 
 class="ptmb8t-">Espressif Systems</span>, <span 
 class="ptmb8t-">Infineon </span>(former Cypress) and
 <span 
@@ -2942,7 +3016,7 @@ are currently at the stage of investigation or patch development of
 the reported issues. We are working with the vendors to help
 them reproduce the issues in their systems such that patches are
 available to the public.
-</p><!--l. 26--><p class="indent" >  The vendor <span 
+</p><!--l. 27--><p class="indent" >  The vendor <span 
 class="ptmb8t-">Texas Instruments </span>has successfully replicated the
 security issue, however, at this stage has no plan for producing a
 patch. In particular, according to the Texas Instruments
@@ -2953,80 +3027,80 @@ CC256x device to enter a deadlock state, resulting in a
 denial of service, which could impact the availability to
 the user, but does not impact sensitive information in the
 system.
-</p><!--l. 37--><p class="indent" >  Our team approached Qualcomm to inquire whether a patch
+</p><!--l. 38--><p class="indent" >  Our team approached Qualcomm to inquire whether a patch
 would be available for the affected devices. We were informed
 that they are working on a fix for WCN3990/8 and that the
 security issue reported in Qualcomm CSR8811A08&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#XCSR8811">27</a>]</span> has
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#XCSR8811">28</a>]</span> has
 been fixed since 2011 <span 
 class="ptmri8t-">only </span>for ROM Versions A12 and beyond.
 However, new products in 2021 are still being listed to use
-CSR8811A08, which has no plan to be fixed. Moreover, a patch
-for the issue on CSR8510A10&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#XCSR8510">26</a>]</span> that causes <span 
+CSR8811A08, which has no plan to be fixed. Moreover, a patch  for the issue on CSR8510A10&#x00A0;<span class="cite">&#x00A0;[<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#XCSR8510">27</a>]</span> that causes <span 
 class="ptmb8t-">V6 </span>(see
-Section&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-200008.6">8.6<!--tex4ht:ref: sec:v6 --></a>) is not possible for CSR8510A10 due to the lack of
-ROM patch space.
-</p><!--l. 58--><p class="indent" >  <span 
+  Section&#x00A0;<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-210008.6">8.6<!--tex4ht:ref: sec:v6 --></a>) is not possible for CSR8510A10 due to the lack of
+  ROM patch space.
+  </p><!--l. 59--><p class="indent" >  <span 
 class="ptmb8t-">Zhuhai Jieli Technology </span>confirmed that a fix for
-AC6366C&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#XAC6366C">39</a>]</span> would be released soon, but they did not         confirm whether a patch would also be available to their other
-     audio devices AC6925C and AC6905X. Finally, we notice for
-     certain vendors (e.g. Harman International, Silabs), the
-     investigation status is unclear, as indicated by the <span 
-class="ptmri8t-"><span style="color: #730099">Pending</span> </span>status
-     in Table&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-11001r5">5<!--tex4ht:ref: tab:affected_chipsets --></a>.
-     </p>
-         <h3 class="sectionHead" style="font-size: 2rem;"><span class="titlemark">6    </span> <a 
- id="x1-120006"></a><a id="sniffer">Sniffing BT BR/EDR in less than </a>$15</h3>
-     <!--l. 5--><p class="noindent" >As part of our work of reverse engineering ESP32 BT stack, we
-     are releasing to the community a low-cost BT Classic (BR/EDR)
-     Active Sniffer which is available at the following URL:
-     </p>
-     <div class="center" 
+  AC6366C&#x00A0;<span class="cite">&#x00A0;[<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#XAC6366C">40</a>]</span> would be released soon, but they did not
+  confirm whether a patch would also be available to their other
+  audio devices AC6925C and AC6905X. Finally, we notice for
+  certain vendors (e.g. Harman International, Silabs), the
+  investigation status is unclear, as indicated by the <span 
+class="ptmri8t-"><span style="color: #730099">Pending </span> </span>status
+  in Table&#x00A0;<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-12001r5">5<!--tex4ht:ref: tab:affected_chipsets --></a>.
+  </p>
+    <h3 class="sectionHead" style="font-size: 2rem;"><span class="titlemark">6    </span> <a 
+ id="x1-130006"></a><a id="sniffer">Sniffing BT BR/EDR in less than </a>$15</h3>
+  <!--l. 5--><p class="noindent" >As part of our work of reverse engineering ESP32 BT stack, we
+  are releasing to the community a low-cost BT Classic (BR/EDR)
+  Active Sniffer which is available at the following URL:
+  </p>
+  <div class="center" 
 >
-     <!--l. 8--><p class="noindent" >
-     </p><!--l. 9--><p class="noindent" ><a 
+  <!--l. 8--><p class="noindent" >
+  </p><!--l. 9--><p class="noindent" ><a 
 target="_blank" href="https://github.com/Matheus-Garbelini/esp32_bluetooth_classic_sniffer" target="_blank" class="url" >https://github.com/Matheus-Garbelini/esp32_bluetooth_classic_sniffer</a></p></div>
  <!--l. 11--><p class="noindent" >At the time of writing, this is the cheapest BR/EDR active
-     sniffer, we are aware of due to the low price of ESP32 boards.
-     ESP32-PICO-KIT can be purchased for <span 
+  sniffer, we are aware of due to the low price of ESP32 boards.
+  ESP32-PICO-KIT can be purchased for <span 
 class="zptmcmr-">$</span><span 
 class="ptmb8t-">14.80</span>&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xesp32_mouser">24</a>]</span>, but it is
-     possible to find alternative ESP32 boards on AliExpress for as
-     low as <span 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xesp32_mouser">25</a>]</span>, but it is
+  possible to find alternative ESP32 boards on AliExpress for as
+  low as <span 
 class="zptmcmr-">$</span><span 
 class="ptmb8t-">4</span>&#x00A0;<span class="cite">&#x00A0;[<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xesp32_aliexpress">10</a>]</span>.
-     </p><!--l. 15--><p class="indent" >    Note that differently than <span class="underline"><span 
+  </p><!--l. 15--><p class="indent" >  Note that differently than <span class="underline"><span 
 class="ptmb8t-">passive</span></span> sniffers, which does not
-     interact with the network, the ESP32 <span class="underline"><span 
+  interact with the network, the ESP32 <span class="underline"><span 
 class="ptmb8t-">active</span></span> sniffer must act as
-     either a BT Master or Slave device within the BT piconet. As
-     exemplified in Figure&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-12001r5">5<!--tex4ht:ref: fig:sniffer --></a>, the sniffer logs BT BR/EDR OTA
-     protocols such as Baseband header, FHS, LMP, and ACL
-     packets. The sniffer cannot be used to inject packets at the
-     moment due to the PoC embargo. The embargo will be lifted
-     at the end of October 2021 and our full PoC tool will be
-     made available to the public for research and reproduction.
-     Nevertheless, some open-source tools such as InternalBlue BT
-     patching framework&#x00A0;<span class="cite">&#x00A0;[<a 
+  either a BT Master or Slave device within the BT piconet. As
+  exemplified in Figure&#x00A0;<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-13001r5">5<!--tex4ht:ref: fig:sniffer --></a>, the sniffer logs BT BR/EDR OTA
+  protocols such as Baseband header, FHS, LMP, and ACL
+  packets. The sniffer cannot be used to inject packets at the
+  moment due to the PoC embargo. The embargo will be lifted
+  at the end of October 2021 and our full PoC tool will be
+  made available to the public for research and reproduction.
+  Nevertheless, some open-source tools such as InternalBlue BT
+  patching framework&#x00A0;<span class="cite">&#x00A0;[<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xinternalblue">6</a>]</span> and Ubertooth experimental BTBR
-     implementation&#x00A0;<span class="cite">&#x00A0;[<a 
+  implementation&#x00A0;<span class="cite">&#x00A0;[<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xubertooth">16</a>]</span> could be used by someone with certain
-     BT firmware skill to attempt triggering BrakTooth LMP
-     attacks.
-     </p>
-         <div style="margin-top:30px;margin-bottom:30px;" class="row items-start justify-center text-center"><div class="figure" 
+  BT firmware skill to attempt triggering BrakTooth LMP
+  attacks.
+  </p>
+    <div style="margin-top:30px;margin-bottom:30px;" class="row items-start justify-center text-center"><div class="figure" 
 >
                                                                                                 
                                                                                                 
 <a 
- id="x1-12001r5"></a>
+ id="x1-13001r5"></a>
                                                 
                                                                                                 
                                                                                                 
@@ -3036,13 +3110,13 @@ width="800" height="auto"  />
 <br /> </p><div class="caption" 
 ><span class="id">Figure&#x00A0;5: </span><span  
 class="content">Active BR/EDR Sniffing of piconet. The sniffer
-captures Baseband + FHS and LMP frames.</span></div><!--tex4ht:label?: x1-12001r5 -->
+captures Baseband + FHS and LMP frames.</span></div><!--tex4ht:label?: x1-13001r5 -->
                                                 
                                                                                                 
                                                                                                 
   </div></div>
   <h3 class="sectionHead" style="font-size: 2rem;"><span class="titlemark">7    </span> <a 
- id="x1-130007"></a>Reflection</h3>
+ id="x1-140007"></a>Reflection</h3>
 <!--l. 4--><p class="noindent" >In recent years, Bluetooth has come under scrutiny due to
 several design and implementation level vulnerabilities,
 such as KNOB&#x00A0;<span class="cite">&#x00A0;[<a 
@@ -3050,7 +3124,7 @@ onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" hre
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbias">2</a>]</span>, SweynTooth&#x00A0;<span class="cite">&#x00A0;[<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xsweyntooth">15</a>]</span>,
 BLESA&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xblesa">40</a>]</span>, BlueMirror&#x00A0;<span class="cite">&#x00A0;[<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xblesa">41</a>]</span>, BlueMirror&#x00A0;<span class="cite">&#x00A0;[<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbluemirror">7</a>]</span>, etc. Our previous disclosure of
 SweynTooth&#x00A0;<span class="cite">&#x00A0;[<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xsweyntooth">15</a>]</span> vulnerabilities (2020) has clearly indicated
@@ -3073,7 +3147,7 @@ Bluetooth security.
 </p><!--l. 14--><p class="noindent" ><span 
 class="ptmb8t-">Replication difficulty: </span>Bluetooth Core Specifications allows a
 limited "LMP test mode"&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbluetooth2019bluetooth">31</a>]</span>. This limits the vendors to
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbluetooth2019bluetooth">32</a>]</span>. This limits the vendors to
 operate with only a few LMP procedures and therefore, the
 vendors are unlikely to have full control over the messages
 exchanged over <span 
@@ -3092,7 +3166,7 @@ class="ptmb8t-">V16</span>
 involve specific mutation or duplication to create potentially
 unexpected scenarios in the Bluetooth link manager (see
 Section&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-140008">8<!--tex4ht:ref: sec:bt-vulnerabilities --></a> for details). We postulate that due to the lack of tools
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-150008">8<!--tex4ht:ref: sec:bt-vulnerabilities --></a> for details). We postulate that due to the lack of tools
 (or flexibility thereof) to control all LMP procedures, BT devices
 were not tested thoroughly on such uncommon scenarios.
 This is also evident during our communication even with
@@ -3141,7 +3215,7 @@ class="small-caps">o</span><span
 class="small-caps">o</span><span 
 class="small-caps">t</span><span 
 class="small-caps">h </span> </span>PoC tool (see Figure&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-3001r2">2<!--tex4ht:ref: fig:poc_setup --></a>).
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-4001r2">2<!--tex4ht:ref: fig:poc_setup --></a>).
 We believe such is the case due to the lack of BT tooling
 for comprehensively testing the security of Bluetooth link
 manager implementations under unexpected packet exchanges.
@@ -3191,7 +3265,7 @@ class="ptmb8t-">Reverse engineering effort: </span>During our research on Blueto
      Link Manager testing, we clearly observe the gap of security
      testing tools to validate arbitrary BT devices. While there exists
      emulation-based approaches&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xfrankenstein">29</a>]</span>, these works need to spend
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xfrankenstein">30</a>]</span>, these works need to spend
      significant effort in reverse engineering the target devices
      (if at all possible). The absence of any open source and
      feature-complete Bluetooth LMP stack further complicates the
@@ -3213,7 +3287,7 @@ onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" hre
      </p><!--l. 6--><p class="noindent" >
      </p>
          <h3 class="sectionHead" style="font-size: 2rem;"><span class="titlemark">8    </span> <a 
- id="x1-140008"></a><a id="technical-description">Vulnerabilities Description</a></h3>
+ id="x1-150008"></a><a id="technical-description">Vulnerabilities Description</a></h3>
      <!--l. 9--><p class="noindent" >In this section, we provide a detailed description of each
      vulnerability, the affected system-on-chip (SoC) models and the
      SDKs where applicable. Some vulnerabilities were discovered
@@ -3224,7 +3298,7 @@ onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" hre
 </p><!--l. 14--><p class="noindent" >
 </p>
   <h4 class="subsectionHead" style="font-size: 1rem;font-weight:bold;line-height: 1.5rem;"><span class="titlemark">8.1    </span> <a 
- id="x1-150008.1"></a>V1: Feature Pages Execution<br 
+ id="x1-160008.1"></a>V1: Feature Pages Execution<br 
 class="newline" />(CVE-2021-28139)</h4>
 <!--l. 17--><p class="noindent" >The Bluetooth Classic implementation in Espressif ESP-IDF 4.4
 and earlier&#x00A0;<span class="cite">&#x00A0;[<a 
@@ -3233,7 +3307,7 @@ reception of an LMP Feature Response Extended packet,
 allowing attackers in radio range to trigger arbitrary code
 execution (ACE) in ESP32 via a crafted Extended Features
 bitfield payload. As shown in Figure&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-15001r6">6<!--tex4ht:ref: fig:v1 --></a>, the ACE vulnerability is
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-16001r6">6<!--tex4ht:ref: fig:v1 --></a>, the ACE vulnerability is
 triggered by simply sending <span 
 class="ptmri8t-">LMP_feature_res_ext </span>with an
 invalid feature page of <span 
@@ -3242,12 +3316,12 @@ class="zptmcmrm-">x</span><span
 class="zptmcmr-">62 </span>after <span 
 class="ptmri8t-">LMP Setup </span>procedure (c.f.,
 Figure&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-1001r1">1<!--tex4ht:ref: fig:bt_procedures --></a>). Moreover, the contents of extended features in the
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-2001r1">1<!--tex4ht:ref: fig:bt_procedures --></a>). Moreover, the contents of extended features in the
 <span 
 class="ptmri8t-">LMP_feature_res_ext </span>can be used to execute code at an arbitrary
 address within the ESP32 firmware. For example, as described in
 Section&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-60004.1">4.1<!--tex4ht:ref: sec:ace_iot --></a>, such an address may point to the erase function
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-70004.1">4.1<!--tex4ht:ref: sec:ace_iot --></a>, such an address may point to the erase function
 (<span 
 class="ptmri8t-">nvs_flash_erase</span>) and disabling Wi-Fi (<span 
 class="ptmri8t-">disable_wifi_agc</span>), among
@@ -3270,7 +3344,7 @@ communications.
                                                                                                 
                                                                                                 
 <a 
- id="x1-15001r6"></a>
+ id="x1-16001r6"></a>
                                                 
                                                                                                 
                                                                                                 
@@ -3279,17 +3353,17 @@ src="figures/attack_features_page_execution.pdf.svg" alt="PIC"
 width="400" height="auto"  />
 <br /> </p><div class="caption" 
 ><span class="id">Figure&#x00A0;6: </span><span  
-class="content">Feature Page Execution</span></div><!--tex4ht:label?: x1-15001r6 -->
+class="content">Feature Page Execution</span></div><!--tex4ht:label?: x1-16001r6 -->
                                                 
                                                                                                 
                                                                                                 
   </div></div>
   <h4 class="subsectionHead" style="font-size: 1rem;font-weight:bold;line-height: 1.5rem;"><span class="titlemark">8.2    </span> <a 
- id="x1-160008.2"></a>V2: Truncated SCO Link Request<br 
+ id="x1-170008.2"></a>V2: Truncated SCO Link Request<br 
 class="newline" />(CVE-2021-34144)</h4>
 <!--l. 53--><p class="noindent" >The Bluetooth Classic implementation in the Zhuhai Jieli
 AC6366C BT SDK 0.9.1 and earlier&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#XAC6366C">39</a>]</span> does not properly
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#XAC6366C">40</a>]</span> does not properly
 handle the reception of truncated LMP_SCO_Link_Request
 packets while no other BT connections are active. This allows
 attackers in radio range to prevent new BT connections
@@ -3297,7 +3371,7 @@ attackers in radio range to prevent new BT connections
 crafted LMP packet. The user needs to manually perform a
 power cycle (restart) of the device to restore BT communication.
 Following Figure&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-16001r7">7<!--tex4ht:ref: fig:v2 --></a>, the attack can be launched by sending an
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-17001r7">7<!--tex4ht:ref: fig:v2 --></a>, the attack can be launched by sending an
 <span 
 class="ptmri8t-">LMP_SCO_Link_Request </span>with <span 
 class="ptmri8t-">ACL length=2 </span>instead of its
@@ -3317,7 +3391,7 @@ time.
                                                                                                 
                                                                                                 
 <a 
- id="x1-16001r7"></a>
+ id="x1-17001r7"></a>
                                                 
                                                                                                 
                                                                                                 
@@ -3326,13 +3400,13 @@ src="figures/attack_truncated_sco_link_request.pdf.svg" alt="PIC"
 width="400" height="auto"  />
 <br /> </p><div class="caption" 
 ><span class="id">Figure&#x00A0;7: </span><span  
-class="content">Truncated SCO Link Request</span></div><!--tex4ht:label?: x1-16001r7 -->
+class="content">Truncated SCO Link Request</span></div><!--tex4ht:label?: x1-17001r7 -->
                                                 
                                                                                                 
                                                                                                 
   </div></div>
   <h4 class="subsectionHead" style="font-size: 1rem;font-weight:bold;line-height: 1.5rem;"><span class="titlemark">8.3    </span> <a 
- id="x1-170008.3"></a>V3: Duplicated IOCAP<br 
+ id="x1-180008.3"></a>V3: Duplicated IOCAP<br 
 class="newline" />(CVE-2021-28136)</h4>
 <!--l. 84--><p class="noindent" >The Bluetooth Classic implementation in Espressif ESP-IDF 4.4
 and earlier&#x00A0;<span class="cite">&#x00A0;[<a 
@@ -3342,7 +3416,7 @@ class="ptmri8t-">LMP_IO_Capability_req </span>packets during the <span
 class="ptmri8t-">pairing</span>
 <span 
 class="ptmri8t-">process </span>(see Figure&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-17001r8">8<!--tex4ht:ref: fig:v3 --></a>). This allows attackers in radio range to
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-18001r8">8<!--tex4ht:ref: fig:v3 --></a>). This allows attackers in radio range to
 trigger memory corruption (and consequently a crash) in ESP32
 via a replayed (duplicated) LMP packet. The issue was
 raised due to the sudden disconnection of ESP32 while its
@@ -3350,7 +3424,7 @@ bluedroid host stack was still in the pairing process. The
 patch provided by Espressif rectifies this issue by handling a
 sudden disconnection during the pairing procedure (c.f.,
 Table&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-11001r5">5<!--tex4ht:ref: tab:affected_chipsets --></a>).
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-12001r5">5<!--tex4ht:ref: tab:affected_chipsets --></a>).
 </p><!--l. 93--><p class="noindent" ><span 
 class="ptmb8t-"><q-chip style="width: 100px" square color="deep-orange" text-color="white" icon="warning">IMPACT</q-chip> </span>The attacker can exploit this vulnerability to promptly
 cause firmware crashes and therefore maintain a DoS while the
@@ -3365,7 +3439,7 @@ stopped.
                                                                                                 
                                                                                                 
 <a 
- id="x1-17001r8"></a>
+ id="x1-18001r8"></a>
                                                 
                                                                                                 
                                                                                                 
@@ -3374,13 +3448,13 @@ src="figures/attack_duplicated_iocap.pdf.svg" alt="PIC"
 width="400" height="auto"  />
 <br /> </p><div class="caption" 
 ><span class="id">Figure&#x00A0;8: </span><span  
-class="content">Duplicated IOCAP</span></div><!--tex4ht:label?: x1-17001r8 -->
+class="content">Duplicated IOCAP</span></div><!--tex4ht:label?: x1-18001r8 -->
                                                 
                                                                                                 
                                                                                                 
   </div></div>
   <h4 class="subsectionHead" style="font-size: 1rem;font-weight:bold;line-height: 1.5rem;"><span class="titlemark">8.4    </span> <a 
- id="x1-180008.4"></a>V4: Feature Response Flooding<br 
+ id="x1-190008.4"></a>V4: Feature Response Flooding<br 
 class="newline" />(CVE-2021-28135/28155/31717)</h4>
 <!--l. 114--><p class="noindent" >The Bluetooth Classic implementation in Espressif ESP-IDF 4.4
 and earlier&#x00A0;<span class="cite">&#x00A0;[<a 
@@ -3389,7 +3463,7 @@ continuous unsolicited LMP responses. This allows attackers in
 radio range to trigger a denial of service (crash) in ESP32 by
 flooding the target device with LMP Feature Response data. As
 shown in Figure&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-18001r9">9<!--tex4ht:ref: fig:v4 --></a>, <span 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-19001r9">9<!--tex4ht:ref: fig:v4 --></a>, <span 
 class="ptmri8t-">LMP_features_res </span>packets are sent within a
 BT transmission slot of 1.25ms, which effectively floods the
 Slave with unsolicited responses. This attack vector is also
@@ -3401,9 +3475,9 @@ onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" hre
 class="ptmb8t-">Xiaomi MDZ-36-DB (Actions Semi.</span>
 <span 
 class="ptmb8t-">ATS2815)</span>&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xxiaomi_speaker">41</a>,&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xats2815">38</a>]</span>. See Table&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-4002r2">2<!--tex4ht:ref: tab:summary --></a> for all the targets affected by
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xxiaomi_speaker">42</a>,&#x00A0;<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xats2815">39</a>]</span>. See Table&#x00A0;<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-5002r2">2<!--tex4ht:ref: tab:summary --></a> for all the targets affected by
 V4.
 </p><!--l. 125--><p class="noindent" ><span 
 class="ptmb8t-"><q-chip style="width: 100px" square color="deep-orange" text-color="white" icon="warning">IMPACT</q-chip> </span>The attack triggers a firmware crash on ESP32 and a
@@ -3425,7 +3499,7 @@ launch the attack.
                                                                                                 
                                                                                                 
 <a 
- id="x1-18001r9"></a>
+ id="x1-19001r9"></a>
                                                 
                                                                                                 
                                                                                                 
@@ -3434,26 +3508,26 @@ src="figures/attack_feature_response_flooding.pdf.svg" alt="PIC"
 width="400" height="auto"  />
 <br /> </p><div class="caption" 
 ><span class="id">Figure&#x00A0;9: </span><span  
-class="content">Feature Response Flooding</span></div><!--tex4ht:label?: x1-18001r9 -->
+class="content">Feature Response Flooding</span></div><!--tex4ht:label?: x1-19001r9 -->
                                                 
                                                                                                 
                                                                                                 
   </div></div>
   <h4 class="subsectionHead" style="font-size: 1rem;font-weight:bold;line-height: 1.5rem;"><span class="titlemark">8.5    </span> <a 
- id="x1-190008.5"></a>V5: LMP Auto Rate Overflow<br 
+ id="x1-200008.5"></a>V5: LMP Auto Rate Overflow<br 
 class="newline" />(CVE-2021-31609/31612)</h4>
 <!--l. 145--><p class="noindent" >The Bluetooth Classic implementation in Silicon Labs iWRAP
 6.3.0 and earlier&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xiwrap">22</a>]</span> does not properly handle the reception of
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xiwrap">23</a>]</span> does not properly handle the reception of
 an oversized LMP packet greater than 17 bytes, allowing
 attackers in radio range to trigger a crash in WT32i&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xwt32i">23</a>]</span> via a
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xwt32i">24</a>]</span> via a
 crafted LMP packet. As shown in Figure&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-19001r10">10<!--tex4ht:ref: fig:v5 --></a>, the attack is
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-20001r10">10<!--tex4ht:ref: fig:v5 --></a>, the attack is
 triggered by sending an LMP with an ACL size higher than 17
 bytes. Normally this is not allowed by the BT Core Specification
 <span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#XBluetooth:Certification:2020">30</a>]</span>, but ESP32 radio can indeed send such oversized LMP
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#XBluetooth:Certification:2020">31</a>]</span>, but ESP32 radio can indeed send such oversized LMP
 packets over the DM1 transport channel. Our proof of concept
 (PoC) firmware bypasses some length checks on the transmission
 path to make this possible. This attack vector also works on some
@@ -3478,7 +3552,7 @@ class="ptmb8t-">AC6905X</span>. This can be used to cause a sporadic denial of s
                                                                                                 
                                                                                                 
 <a 
- id="x1-19001r10"></a>
+ id="x1-20001r10"></a>
                                                 
                                                                                                 
                                                                                                 
@@ -3487,21 +3561,21 @@ src="figures/attack_auto_rate_overflow.pdf.svg" alt="PIC"
 width="400" height="auto"  />
 <br /> </p><div class="caption" 
 ><span class="id">Figure&#x00A0;10: </span><span  
-class="content">LMP Auto Rate Overflow</span></div><!--tex4ht:label?: x1-19001r10 -->
+class="content">LMP Auto Rate Overflow</span></div><!--tex4ht:label?: x1-20001r10 -->
                                                 
                                                                                                 
                                                                                                 
   </div></div>
   <h4 class="subsectionHead" style="font-size: 1rem;font-weight:bold;line-height: 1.5rem;"><span class="titlemark">8.6    </span> <a 
- id="x1-200008.6"></a>V6: LMP 2-DH1 Overflow<br 
-class="newline" />(<span style="color: #730099">Pending</span> CVE)</h4>
+ id="x1-210008.6"></a>V6: LMP 2-DH1 Overflow<br 
+class="newline" />(CVE-2021-35093)</h4>
 <!--l. 178--><p class="noindent" >The Bluetooth Classic implementation on Laird CSR8811
 A08&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#XCSR8811">27</a>]</span> and CSR8510 A10&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#XCSR8510">26</a>]</span> SoCs allows an LMP
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#XCSR8811">28</a>]</span> and CSR8510 A10&#x00A0;<span class="cite">&#x00A0;[<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#XCSR8510">27</a>]</span> SoCs allows an LMP
 length overflow over 2-DH1, resulting in a Deadlock (state
 machine or packet handler corruption) outcome. Figure&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-20001r11">11<!--tex4ht:ref: fig:v6 --></a>
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-21001r11">11<!--tex4ht:ref: fig:v6 --></a>
 captures the sequence of messages exchanged to expose this
 vulnerability. In particular, the attack is performed by changing
 the transport type of the normal LMP packet to <span 
@@ -3523,7 +3597,7 @@ CSR8811.
                                                                                                 
                                                                                                 
 <a 
- id="x1-20001r11"></a>
+ id="x1-21001r11"></a>
                                                 
                                                                                                 
                                                                                                 
@@ -3532,13 +3606,13 @@ src="figures/attack_2dh1_overflow.pdf.svg" alt="PIC"
 width="400" height="auto"  />
 <br /> </p><div class="caption" 
 ><span class="id">Figure&#x00A0;11: </span><span  
-class="content">LMP 2-DH1 Overflow</span></div><!--tex4ht:label?: x1-20001r11 -->
+class="content">LMP 2-DH1 Overflow</span></div><!--tex4ht:label?: x1-21001r11 -->
                                                 
                                                                                                 
                                                                                                 
   </div></div>
   <h4 class="subsectionHead" style="font-size: 1rem;font-weight:bold;line-height: 1.5rem;"><span class="titlemark">8.7    </span> <a 
- id="x1-210008.7"></a>V7: LMP DM1 Overflow<br 
+ id="x1-220008.7"></a>V7: LMP DM1 Overflow<br 
 class="newline" />(CVE-2021-34150)</h4>
 <!--l. 206--><p class="noindent" >The Bluetooth Classic implementation on Bluetrum
 AB5301A&#x00A0;<span class="cite">&#x00A0;[<a 
@@ -3550,7 +3624,7 @@ reception of oversized DM1 LMP packets. This allows attackers
 in radio range to prevent new BT connections (disabling the
 AB5301A inquiry and page scan procedures) via a crafted
 LMP packet. Following Figure&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-21001r12">12<!--tex4ht:ref: fig:v7 --></a>, an arbitrary LMP packet
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-22001r12">12<!--tex4ht:ref: fig:v7 --></a>, an arbitrary LMP packet
 (<span 
 class="ptmri8t-">LMP_packet_type_table_req</span>) is sent with an ACL length of 31,
 which is much higher than the expected 17 byte limit for
@@ -3563,17 +3637,17 @@ already connected to AB5301A and the attack is started
 not disrupted, but new connections or reconnection is not
 possible. As compared to <span 
 class="ptmb8t-">V5 </span>(Section&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-190008.5">8.5<!--tex4ht:ref: sec:v5 --></a>), this attack works
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-200008.5">8.5<!--tex4ht:ref: sec:v5 --></a>), this attack works
 with any overflown LMP packet rather than a specific LMP
 packet.
 </p><!--l. 223--><p class="noindent" ><span 
 class="ptmb8t-"><q-chip style="width: 100px" square color="deep-orange" text-color="white" icon="warning">IMPACT</q-chip> </span>The impact of this attack is similar to <span 
 class="ptmb8t-">V2 </span>(Section&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-160008.2">8.2<!--tex4ht:ref: sec:v2 --></a>),
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-170008.2">8.2<!--tex4ht:ref: sec:v2 --></a>),
 in which connections to the target are not accepted due to the
 page scan procedure being disabled after the attack (see
 Figure&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-1001r1">1<!--tex4ht:ref: fig:bt_procedures --></a>). Therefore, the user needs to manually perform a
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-2001r1">1<!--tex4ht:ref: fig:bt_procedures --></a>). Therefore, the user needs to manually perform a
 power cycle (restart) of the device to restore normal BT
 connectivity.
 </p>
@@ -3583,7 +3657,7 @@ connectivity.
                                                                                                 
                                                                                                 
 <a 
- id="x1-21001r12"></a>
+ id="x1-22001r12"></a>
                                                 
                                                                                                 
                                                                                                 
@@ -3592,13 +3666,13 @@ src="figures/attack_dm1_overflow.pdf.svg" alt="PIC"
 width="400" height="auto"  />
 <br /> </p><div class="caption" 
 ><span class="id">Figure&#x00A0;12: </span><span  
-class="content">LMP DM1 Overflow</span></div><!--tex4ht:label?: x1-21001r12 -->
+class="content">LMP DM1 Overflow</span></div><!--tex4ht:label?: x1-22001r12 -->
                                                 
                                                                                                 
                                                                                                 
   </div></div>
   <h4 class="subsectionHead" style="font-size: 1rem;font-weight:bold;line-height: 1.5rem;"><span class="titlemark">8.8    </span> <a 
- id="x1-220008.8"></a>V8: Truncated LMP Accepted<br 
+ id="x1-230008.8"></a>V8: Truncated LMP Accepted<br 
 class="newline" />(CVE-2021-31613)</h4>
 <!--l. 242--><p class="noindent" >The Bluetooth Classic implementation on Zhuhai Jieli AC690X
 and AC692X devices with <span 
@@ -3607,7 +3681,7 @@ handle the reception of a truncated LMP packet during LMP
 auto rate procedure, allowing attackers in radio range to
 immediately crash (and restart) a device via a crafted LMP
 packet. As depicted in Figure&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-22001r13">13<!--tex4ht:ref: fig:v8 --></a>, an attacker sends a malformed
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-23001r13">13<!--tex4ht:ref: fig:v8 --></a>, an attacker sends a malformed
 <span 
 class="ptmri8t-">LMP_accepted </span>just after the LMP Setup procedure. This
 malformed packet has an ACL size of one byte, rather than
@@ -3640,7 +3714,7 @@ when no user is connected to AC690X or AC692X.
                                                                                                 
                                                                                                 
 <a 
- id="x1-22001r13"></a>
+ id="x1-23001r13"></a>
                                                 
                                                                                                 
                                                                                                 
@@ -3649,22 +3723,22 @@ src="figures/attack_truncated_lmp_accepted.pdf.svg" alt="PIC"
 width="400" height="auto"  />
 <br /> </p><div class="caption" 
 ><span class="id">Figure&#x00A0;13: </span><span  
-class="content">Truncated LMP Accepted</span></div><!--tex4ht:label?: x1-22001r13 -->
+class="content">Truncated LMP Accepted</span></div><!--tex4ht:label?: x1-23001r13 -->
                                                 
                                                                                                 
                                                                                                 
   </div></div>
   <h4 class="subsectionHead" style="font-size: 1rem;font-weight:bold;line-height: 1.5rem;"><span class="titlemark">8.9    </span> <a 
- id="x1-230008.9"></a>V9: Invalid Setup Complete<br 
+ id="x1-240008.9"></a>V9: Invalid Setup Complete<br 
 class="newline" />(CVE-2021-31611)</h4>
 <!--l. 284--><p class="noindent" >The Bluetooth Classic implementation on Zhuhai Jieli AC690X
 and AC692X devices does not properly handle the reception of
 an out-of-order <span 
 class="ptmri8t-">LMP Setup </span>procedure (c.f., Figure&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-1001r1">1<!--tex4ht:ref: fig:bt_procedures --></a>) followed
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-2001r1">1<!--tex4ht:ref: fig:bt_procedures --></a>) followed
 by a malformed LMP packet.
 </p><!--l. 288--><p class="indent" >  This scenario is illustrated in Figure&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-23001r14">14<!--tex4ht:ref: fig:v9 --></a>. The attacker sends an
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-24001r14">14<!--tex4ht:ref: fig:v9 --></a>. The attacker sends an
 unexpected (duplicated) <span 
 class="ptmri8t-">LMP_setup_complete</span>, followed by a
 malformed <span 
@@ -3673,7 +3747,7 @@ such as <span
 class="zptmcmr-">0</span><span 
 class="zptmcmrm-">x</span><span 
 class="zptmcmr-">64</span>. The behaviour seen in Figure&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-23001r14">14<!--tex4ht:ref: fig:v9 --></a> allows attackers
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-24001r14">14<!--tex4ht:ref: fig:v9 --></a> allows attackers
 in radio range to deadlock a device via injecting crafted LMP
 packets. Moreover, the user needs to manually reboot the device
 to restore communication.
@@ -3688,7 +3762,7 @@ AC692X do not allow multiple BT connections.
                                                                                                 
                                                                                                 
 <a 
- id="x1-23001r14"></a>
+ id="x1-24001r14"></a>
                                                 
                                                                                                 
                                                                                                 
@@ -3697,21 +3771,21 @@ src="figures/attack_invalid_setup_complete.pdf.svg" alt="PIC"
 width="400" height="auto"  />
 <br /> </p><div class="caption" 
 ><span class="id">Figure&#x00A0;14: </span><span  
-class="content">Invalid Setup Complete</span></div><!--tex4ht:label?: x1-23001r14 -->
+class="content">Invalid Setup Complete</span></div><!--tex4ht:label?: x1-24001r14 -->
                                                 
                                                                                                 
                                                                                                 
   </div></div>
   <h4 class="subsectionHead" style="font-size: 1rem;font-weight:bold;line-height: 1.5rem;"><span class="titlemark">8.10    </span> <a 
- id="x1-240008.10"></a>V10: Host Connection Flooding<br 
+ id="x1-250008.10"></a>V10: Host Connection Flooding<br 
 class="newline" />(CVE-2021-31785)</h4>
 <!--l. 312--><p class="noindent" >The Bluetooth Classic implementation on Actions
 ATS2815/ATS2819&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xats2815">38</a>]</span> chipsets does not properly handle the
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xats2815">39</a>]</span> chipsets does not properly handle the
 reception of multiple <span 
 class="ptmri8t-">LMP_host_connection_req </span>as shown in
 Figure&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-24001r15">15<!--tex4ht:ref: fig:v10 --></a>. This allows attackers in radio range to trigger a denial
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-25001r15">15<!--tex4ht:ref: fig:v10 --></a>. This allows attackers in radio range to trigger a denial
 of service (deadlock) if no user is connected to the target. Manual
 user intervention is required to restart the device and restore
 Bluetooth communication.
@@ -3729,7 +3803,7 @@ target.
                                                                                                 
                                                                                                 
 <a 
- id="x1-24001r15"></a>
+ id="x1-25001r15"></a>
                                                 
                                                                                                 
                                                                                                 
@@ -3738,21 +3812,21 @@ src="figures/attack_host_conn_flooding.pdf.svg" alt="PIC"
 width="400" height="auto"  />
 <br /> </p><div class="caption" 
 ><span class="id">Figure&#x00A0;15: </span><span  
-class="content">Host Connection Flooding</span></div><!--tex4ht:label?: x1-24001r15 -->
+class="content">Host Connection Flooding</span></div><!--tex4ht:label?: x1-25001r15 -->
                                                 
                                                                                                 
                                                                                                 
   </div></div>
   <h4 class="subsectionHead" style="font-size: 1rem;font-weight:bold;line-height: 1.5rem;"><span class="titlemark">8.11    </span> <a 
- id="x1-250008.11"></a>V11: Same Host Connection<br 
+ id="x1-260008.11"></a>V11: Same Host Connection<br 
 class="newline" />(CVE-2021-31786)</h4>
 <!--l. 338--><p class="noindent" >The Bluetooth Classic Audio implementation on products based
 on Actions ATS2815/ATS2819&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xats2815">38</a>]</span> chipset may not properly
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xats2815">39</a>]</span> chipset may not properly
 handle a connection attempt from a host with the same
 BDAddress as the currently connected BT host. As illustrated
 in Figure&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-25001r16">16<!--tex4ht:ref: fig:v11 --></a>, by simply connecting to the target device
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-26001r16">16<!--tex4ht:ref: fig:v11 --></a>, by simply connecting to the target device
 (BT Speaker) with a forged BDAddress that matches the
 BDAddress of the originally connected host (Device A -
 <span 
@@ -3770,7 +3844,7 @@ connections with repeated host BDAddress are rejected on <span
 class="ptmri8t-">LMP</span>
 <span 
 class="ptmri8t-">Setup </span>procedure (c.f., Figure&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-1001r1">1<!--tex4ht:ref: fig:bt_procedures --></a>). However, this procedure is
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-2001r1">1<!--tex4ht:ref: fig:bt_procedures --></a>). However, this procedure is
 successful when testing <span 
 class="ptmri8t-">Xiaomi MDZ-36-DB </span>with repeated
 host BDAddress, leading the audio device to an undefined
@@ -3786,7 +3860,7 @@ device.
                                                                                                 
                                                                                                 
 <a 
- id="x1-25001r16"></a>
+ id="x1-26001r16"></a>
                                                 
                                                                                                 
                                                                                                 
@@ -3795,13 +3869,13 @@ src="figures/attack_same_host_connection.pdf.svg" alt="PIC"
 width="500" height="auto"  />
 <br /> </p><div class="caption" 
 ><span class="id">Figure&#x00A0;16: </span><span  
-class="content">Same Host Connection</span></div><!--tex4ht:label?: x1-25001r16 -->
+class="content">Same Host Connection</span></div><!--tex4ht:label?: x1-26001r16 -->
                                                 
                                                                                                 
                                                                                                 
   </div></div>
   <h4 class="subsectionHead" style="font-size: 1rem;font-weight:bold;line-height: 1.5rem;"><span class="titlemark">8.12    </span> <a 
- id="x1-260008.12"></a>V12: LMP AU Rand Flooding<br 
+ id="x1-270008.12"></a>V12: LMP AU Rand Flooding<br 
 class="newline" />(CVE-2021-31610/34149/34146/34143)</h4>
 <!--l. 376--><p class="noindent" >The Bluetooth Classic implementation on several chipsets does
 not properly handle the reception of continuous unsolicited LMP
@@ -3810,7 +3884,7 @@ This allows attackers in radio range to trigger a denial of service
 (either restart or deadlock the device) by flooding a device
 with <span 
 class="ptmri8t-">LMP_AU_rand </span>packet as shown in Figure&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-26001r17">17<!--tex4ht:ref: fig:v12 --></a>. Only
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-27001r17">17<!--tex4ht:ref: fig:v12 --></a>. Only
 <span 
 class="ptmb8t-">CC2564C</span>&#x00A0;<span class="cite">&#x00A0;[<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xcc2564c">18</a>]</span> from <span 
@@ -3823,14 +3897,14 @@ may temporarily hang the host MCU (MSP432) during the
 attack.
 </p><!--l. 387--><p class="indent" >  Many major chipset vendors are affected by this attack as
 shown in Table&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-4002r2">2<!--tex4ht:ref: tab:summary --></a>. This attack is similar to Feature Response
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-5002r2">2<!--tex4ht:ref: tab:summary --></a>. This attack is similar to Feature Response
 Flooding (Section&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-180008.4">8.4<!--tex4ht:ref: sec:v4 --></a>), indicating that flooding testing with
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-190008.4">8.4<!--tex4ht:ref: sec:v4 --></a>), indicating that flooding testing with
 packets from certain LMP procedures may not have been well
 tested. This may arise because the <span 
 class="ptmri8t-">Core Specifications </span>only
 allows a limited LMP testing mode&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbluetooth2019bluetooth">31</a>]</span> that restricts the SoC
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xbluetooth2019bluetooth">32</a>]</span> that restricts the SoC
 to work with only a few LMP packets. This, in turn, may restrict
 the test flexibility for BT vendors. Specifically, vendors may
 have a limited capacity of tests that they can perform with
@@ -3847,7 +3921,7 @@ the target device.
                                                                                                 
                                                                                                 
 <a 
- id="x1-26001r17"></a>
+ id="x1-27001r17"></a>
                                                 
                                                                                                 
                                                                                                 
@@ -3856,13 +3930,13 @@ src="figures/attack_au_rand_flooding.pdf.svg" alt="PIC"
 width="400" height="auto"  />
 <br /> </p><div class="caption" 
 ><span class="id">Figure&#x00A0;17: </span><span  
-class="content">LMP AU Rand Flooding</span></div><!--tex4ht:label?: x1-26001r17 -->
+class="content">LMP AU Rand Flooding</span></div><!--tex4ht:label?: x1-27001r17 -->
                                                 
                                                                                                 
                                                                                                 
   </div></div>
   <h4 class="subsectionHead" style="font-size: 1rem;font-weight:bold;line-height: 1.5rem;"><span class="titlemark">8.13    </span> <a 
- id="x1-270008.13"></a>V13: LMP Invalid Max Slot Type<br 
+ id="x1-280008.13"></a>V13: LMP Invalid Max Slot Type<br 
 class="newline" />(CVE-2021-34145)</h4>
 <!--l. 416--><p class="noindent" >The Bluetooth Classic implementation in the Cypress WICED
 BT stack 2.9.0&#x00A0;<span class="cite">&#x00A0;[<a 
@@ -3875,7 +3949,7 @@ class="ptmri8t-">LT_ADDRESS </span>(see
 <span 
 class="ptmri8t-">Type </span>and <span 
 class="ptmri8t-">LT_ADDR </span>fields in Figure&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-27001r18">18<!--tex4ht:ref: fig:v13 --></a>). The vulnerability is
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-28001r18">18<!--tex4ht:ref: fig:v13 --></a>). The vulnerability is
 triggered after completion of the LMP setup procedure, allowing
 attackers in radio range to trigger a denial of service (firmware
 crash) via a crafted LMP packet.
@@ -3890,7 +3964,7 @@ device.
                                                                                                 
                                                                                                 
 <a 
- id="x1-27001r18"></a>
+ id="x1-28001r18"></a>
                                                 
                                                                                                 
                                                                                                 
@@ -3899,13 +3973,13 @@ src="figures/attack_invalid_max_slot_type.pdf.svg" alt="PIC"
 width="400" height="auto"  />
 <br /> </p><div class="caption" 
 ><span class="id">Figure&#x00A0;18: </span><span  
-class="content">Invalid Max Slot Type</span></div><!--tex4ht:label?: x1-27001r18 -->
+class="content">Invalid Max Slot Type</span></div><!--tex4ht:label?: x1-28001r18 -->
                                                 
                                                                                                 
                                                                                                 
   </div></div>
   <h4 class="subsectionHead" style="font-size: 1rem;font-weight:bold;line-height: 1.5rem;"><span class="titlemark">8.14    </span> <a 
- id="x1-280008.14"></a>V14: Max Slot Length Overflow<br 
+ id="x1-290008.14"></a>V14: Max Slot Length Overflow<br 
 class="newline" />(CVE-2021-34148)</h4>
 <!--l. 442--><p class="noindent" >The Bluetooth Classic implementation in the Cypress WICED
 BT stack 2.9.0<span class="cite">&#x00A0;[<a 
@@ -3915,7 +3989,7 @@ does not properly handle the reception of <span
 class="ptmri8t-">LMP_max_slot </span>with a
 higher ACL Length (<span 
 class="ptmri8t-">Length=31 </span>as shown in Figure&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-28001r19">19<!--tex4ht:ref: fig:v14 --></a>) after
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-29001r19">19<!--tex4ht:ref: fig:v14 --></a>) after
 completion of the LMP setup procedure. This allows attackers in
 radio range to trigger a denial of service (firmware crash) via a
 crafted LMP packet.
@@ -3929,7 +4003,7 @@ to perform DoS and intentionally crash the target device.
                                                                                                 
                                                                                                 
 <a 
- id="x1-28001r19"></a>
+ id="x1-29001r19"></a>
                                                 
                                                                                                 
                                                                                                 
@@ -3938,15 +4012,15 @@ src="figures/attack_max_slot_length_overflow.pdf.svg" alt="PIC"
 width="400" height="auto"  />
 <br /> </p><div class="caption" 
 ><span class="id">Figure&#x00A0;19: </span><span  
-class="content">Max Slot Length Overflow</span></div><!--tex4ht:label?: x1-28001r19 -->
+class="content">Max Slot Length Overflow</span></div><!--tex4ht:label?: x1-29001r19 -->
                                                 
                                                                                                 
                                                                                                 
   </div></div>
   <h4 class="subsectionHead" style="font-size: 1rem;font-weight:bold;line-height: 1.5rem;"><span class="titlemark">8.15    </span> <a 
- id="x1-290008.15"></a>V15: Invalid Timing Accuracy<br 
-class="newline" />(CVE-2021-34147/<span style="color: #730099">Pending</span>/<span style="color: #730099">Pending</span>)</h4>
-<!--l. 467--><p class="noindent" >The Bluetooth Classic implementations in the Cypress WICED BT
+ id="x1-300008.15"></a>V15: Invalid Timing Accuracy<br 
+class="newline" />(CVE-2021-34147/CVE-2021-30348/<span style="color: #730099">Pending </span>)</h4>
+<!--l. 471--><p class="noindent" >The Bluetooth Classic implementations in the Cypress WICED BT
 stack 2.9.0&#x00A0;<span class="cite">&#x00A0;[<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#XWICED">14</a>]</span> and earlier for CYW20735B1<span class="cite">&#x00A0;[<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#XCYW20735B1">13</a>]</span> devices,
@@ -3954,7 +4028,7 @@ onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" hre
 class="ptmb8t-">Intel AX200</span>&#x00A0;<span class="cite">&#x00A0;[<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xax200">20</a>]</span> and <span 
 class="ptmb8t-">Qualcomm WCN3990</span><span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xwcn3990">33</a>]</span> chipsets do
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xwcn3990">34</a>]</span> chipsets do
 not properly handle the reception of a malformed LMP timing
 accuracy response followed by multiple re-connections to the
 target link slave. This allows attackers to exhaust device BT
@@ -3964,8 +4038,8 @@ BT disturbance via multiple attempts of sending a crafted
 class="ptmri8t-">LMP_timing_acc_response </span>(i.e. LMP timing accuracy response)
 followed by a sudden reconnection to the target with a random
 BDAddress.
-</p><!--l. 476--><p class="indent" >  As shown in Figure&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-29001r20">20<!--tex4ht:ref: fig:v15 --></a>, the attacker needs to perform a
+</p><!--l. 480--><p class="indent" >  As shown in Figure&#x00A0;<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-30001r20">20<!--tex4ht:ref: fig:v15 --></a>, the attacker needs to perform a
 loop of reconnection and injection of the malformed
 <span 
 class="ptmri8t-">LMP_timing_acc_response </span>until the target chipset gets
@@ -3975,11 +4049,11 @@ BT devices (in the case of Intel AX200). The faster the
 reconnection is performed, the easier is for the attack to
 succeed in disturbing other BT devices connected to the target
 chipset.
-</p><!--l. 483--><p class="noindent" ><span 
+</p><!--l. 487--><p class="noindent" ><span 
 class="ptmb8t-"><q-chip style="width: 100px" square color="deep-orange" text-color="white" icon="warning">IMPACT</q-chip> </span>This attack causes a denial of service (DoS) attack.
 Specifically, while the attack is in progress, the target devices are
 unable to use the Bluetooth service normally.
-</p><!--l. 488--><p class="indent" >  The impact of this attack does not persist after the attack stops.
+</p><!--l. 492--><p class="indent" >  The impact of this attack does not persist after the attack stops.
 This is because the target normally tries to recover the BT
 connection by performing a re-connection to previously
 disconnected devices (e.g., Intel AX200 under Linux or
@@ -4000,27 +4074,27 @@ attack.
                                                                                                 
                                                                                                 
 <a 
- id="x1-29001r20"></a>
+ id="x1-30001r20"></a>
                                                 
                                                                                                 
                                                                                                 
-<!--l. 500--><p class="noindent" > <img 
+<!--l. 504--><p class="noindent" > <img 
 src="figures/attack_invalid_timing_accuracy.pdf.svg" alt="PIC"  
 width="400" height="auto"  />
 <br /> </p><div class="caption" 
 ><span class="id">Figure&#x00A0;20: </span><span  
-class="content">Invalid Timing Accuracy</span></div><!--tex4ht:label?: x1-29001r20 -->
+class="content">Invalid Timing Accuracy</span></div><!--tex4ht:label?: x1-30001r20 -->
                                                 
                                                                                                 
                                                                                                 
   </div></div>
   <h4 class="subsectionHead" style="font-size: 1rem;font-weight:bold;line-height: 1.5rem;"><span class="titlemark">8.16    </span> <a 
- id="x1-300008.16"></a>V16: Paging Scan Disable<br 
-class="newline" />(<span style="color: #730099">Pending</span> CVE)</h4>
-<!--l. 511--><p class="noindent" >This vulnerability is depicted in Figure&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-30001r21">21<!--tex4ht:ref: fig:v16 --></a>. As shown in
+ id="x1-310008.16"></a>V16: Paging Scan Disable<br 
+class="newline" />(<span style="color: #730099">Pending </span> CVE)</h4>
+<!--l. 515--><p class="noindent" >This vulnerability is depicted in Figure&#x00A0;<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-31001r21">21<!--tex4ht:ref: fig:v16 --></a>. As shown in
 Figure&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-30001r21">21<!--tex4ht:ref: fig:v16 --></a>, sending an invalid packet during the LMP timing
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-31001r21">21<!--tex4ht:ref: fig:v16 --></a>, sending an invalid packet during the LMP timing
 accuracy procedure (i.e. packet <span class="underline"><span 
 class="ptmri8t-">LMP_timing_acc_request</span></span>),
 followed by a forced re-connection with the same BDAddress
@@ -4032,15 +4106,15 @@ undetermined amount of time. This persists even after the attack
 stops and requires user intervention to recover <span 
 class="ptmbi8t-">AX200 </span>normal
 functionalities.
-</p><!--l. 521--><p class="indent" >  Figure&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-30001r21">21<!--tex4ht:ref: fig:v16 --></a> illustrates the attack, which, similarly to attack <span 
+</p><!--l. 525--><p class="indent" >  Figure&#x00A0;<a 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-31001r21">21<!--tex4ht:ref: fig:v16 --></a> illustrates the attack, which, similarly to attack <span 
 class="ptmb8t-">V15</span>
 (Section&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-290008.15">8.15<!--tex4ht:ref: sec:v15 --></a>), involves a loop of sending the malformed packet
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-300008.15">8.15<!--tex4ht:ref: sec:v15 --></a>), involves a loop of sending the malformed packet
 throughout re-connections to trigger the vulnerability. In
 contrast to V15, the attack is triggered before role switch
 procedure (see Figure&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-1001r1">1<!--tex4ht:ref: fig:bt_procedures --></a>), requires the same BDAddress
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-2001r1">1<!--tex4ht:ref: fig:bt_procedures --></a>), requires the same BDAddress
 when initiating re-connections and injects a malformed
 <span class="underline"><span 
 class="ptmri8t-">LMP_timing_acc_request</span></span> with an oversized LMP length greater
@@ -4049,20 +4123,20 @@ LMP packet under DM1 channel is 17 bytes, which suggests that
 oversized LMP packets are not correctly handled by <span 
 class="ptmb8t-">AX200</span>
 under a sudden disconnection scenario.
-</p><!--l. 532--><p class="indent" >  Furthermore, during the next re-connection, <span 
+</p><!--l. 536--><p class="indent" >  Furthermore, during the next re-connection, <span 
 class="ptmb8t-">AX200 </span>sends an
 out-of-order response which does not correspond to the
 original request. For instance, during the second re-connection
 involved in the scenario captured in Figure&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-30001r21">21<!--tex4ht:ref: fig:v16 --></a>, <span 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-31001r21">21<!--tex4ht:ref: fig:v16 --></a>, <span 
 class="ptmb8t-">AX200</span>
 sends <span 
 class="ptmri8t-">LMP_version_res </span>when receiving a feature request
 from the attacker. This depicts anomaly <span 
 class="ptmb8t-">A5 </span>as listed in
 Table&#x00A0;<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-4002r2">2<!--tex4ht:ref: tab:summary --></a>.
-</p><!--l. 538--><p class="indent" >  Finally, as a second side effect of the vulnerability, the user
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-5002r2">2<!--tex4ht:ref: tab:summary --></a>.
+</p><!--l. 542--><p class="indent" >  Finally, as a second side effect of the vulnerability, the user
 may not be able to initiate as much BR/EDR connections as
 AX200 originally supports even after the attack stops. For
 example, the user is able to connect a maximum of only one or
@@ -4074,7 +4148,7 @@ class="ptmb8t-">AX200 </span>is already connected
 to a device when the vulnerability is triggered, then <span 
 class="ptmb8t-">AX200 </span>can
 only connect to two devices.
-</p><!--l. 547--><p class="noindent" ><span 
+</p><!--l. 551--><p class="noindent" ><span 
 class="ptmb8t-"><q-chip style="width: 100px" square color="deep-orange" text-color="white" icon="warning">IMPACT</q-chip> </span>Once the attack is triggered and successful, the attacker
 can cause DoS via the following <span 
 class="ptmb8t-">AX200 </span>behaviours: <span 
@@ -4090,7 +4164,7 @@ cannot be performed from the target. The user requires to
 manually restart the Bluetooth service to restore normal BT
 behaviour. On Linux and Windows, BT is recovered by disabling
 and enabling Bluetooth via their respective configuration          menu.
-     </p><!--l. 561--><p class="indent" >    Firmware crashes may be sporadically triggered on <span 
+     </p><!--l. 565--><p class="indent" >    Firmware crashes may be sporadically triggered on <span 
 class="ptmb8t-">AX200</span>
      during the attacks, but no specific scenario was found to reliably
      trigger such crashes all the time.
@@ -4100,23 +4174,28 @@ class="ptmb8t-">AX200</span>
                                                                                                 
                                                                                                 
 <a 
- id="x1-30001r21"></a>
+ id="x1-31001r21"></a>
                                                 
                                                                                                 
                                                                                                 
-<!--l. 566--><p class="noindent" > <img 
+<!--l. 570--><p class="noindent" > <img 
 src="figures/attack_paging_scan_disable.pdf.svg" alt="PIC"  
 width="400" height="auto"  />
 <br /> </p><div class="caption" 
 ><span class="id">Figure&#x00A0;21: </span><span  
-class="content">Paging Scan Disable</span></div><!--tex4ht:label?: x1-30001r21 -->
+class="content">Paging Scan Disable</span></div><!--tex4ht:label?: x1-31001r21 -->
                                                 
                                                                                                 
                                                                                                 
   </div></div>
   <h3 class="likesectionHead"><a 
- id="x1-310008.16"></a><a id="poc-tool">PoC Tool Availability</a></h3>
-<!--l. 266--><p class="noindent" ><span 
+ id="x1-320008.16"></a><a id="poc-tool">PoC Tool Availability</a></h3>
+<!--l. 267--><p class="noindent" ><span id="textcolor32"><span 
+class="ptmb8t-">Update: The PoC embargo period is over and it is available at</span></span>
+<a 
+target="_blank" href="https://github.com/Matheus-Garbelini/braktooth_esp32_bluetooth_classic_attacks" ><span 
+class="ptmb8t-">BrakTooth PoC Website (GitHub)</span></a>.
+</p><!--l. 272--><p class="indent" >  <span 
 class="ptmrc8t-">B<span 
 class="small-caps">r</span><span 
 class="small-caps">a</span><span 
@@ -4171,11 +4250,11 @@ class="small-caps">o</span><span
 class="small-caps">t</span><span 
 class="small-caps">h </span> </span>to <a 
 target="_blank" href="mailto:ask@braktooth.com" >ask@braktooth.com</a>.
-</p><!--l. 284--><p class="noindent" >
+</p><!--l. 290--><p class="noindent" >
 </p>
   <h3 class="likesectionHead"><a 
- id="x1-320008.16"></a>Acknowledgments</h3>
-<!--l. 285--><p class="noindent" >This research was partially supported by <a 
+ id="x1-330008.16"></a>Acknowledgments</h3>
+<!--l. 291--><p class="noindent" >This research was partially supported by <a 
 target="_blank" href="https://www.comp.nus.edu.sg/~nsoe-tss/" >NRF National Satellite
 of Excellence in Trustworthy Software Systems</a>. This research is
 also successfully translated to a <a 
@@ -4189,7 +4268,7 @@ target="_blank" href="https://www.csa.gov.sg/" >Cyber Security Agency of Singapo
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xcsa">1</a>]</span> for working
 with us and publishing the <a 
 target="_blank" href="https://www.csa.gov.sg/singcert/Alerts/al-2021-051" >SingCERT</a> advisory&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xsingcert">34</a>]</span>. We thank
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xsingcert">35</a>]</span>. We thank
 <a 
 target="_blank" href="https://scholar.google.com.sg/citations?user=r8T1-yoAAAAJ&hl=eng" >Ezekiel O. Soremekun</a> for coining the term BrakTooth. We
 thank <a 
@@ -4204,7 +4283,7 @@ video.
 </p><!--l. 1--><p class="noindent" >
 </p>
   <h3 class="likesectionHead"><a 
- id="x1-330008.16"></a>References</h3>
+ id="x1-340008.16"></a>References</h3>
 <!--l. 1--><p class="noindent" >
     </p><div class="thebibliography">
     <p class="bibitem" ><span class="biblabel">
@@ -4212,13 +4291,13 @@ video.
  id="Xcsa"></a>Cyber   Security   Agency   of   Singapore   (CSA).
     <a 
 target="_blank" href="https://www.csa.gov.sg/" target="_blank" class="url" >https://www.csa.gov.sg/</a>, 2021.
-    </p>
-    <p class="bibitem" ><span class="biblabel">
-  [2]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
+    </p>                                                         <p class="bibitem" ><span class="biblabel">
+         [2]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
  id="Xbias"></a>Daniele   Antonioli,   Nils&#x00A0;Ole   Tippenhauer,   and
-    Kasper  Rasmussen.    BIAS:  bluetooth  impersonation
-    attacks.    In  <span 
-class="ptmri8t-">2020  IEEE  Symposium  on  Security  and</span>               <span 
+             Kasper  Rasmussen.    BIAS:  bluetooth  impersonation
+             attacks.    In  <span 
+class="ptmri8t-">2020  IEEE  Symposium  on  Security  and</span>
+             <span 
 class="ptmri8t-">Privacy, SP 2020, San Francisco, CA, USA, May 18-21,</span>
              <span 
 class="ptmri8t-">2020</span>, pages 549&#8211;562. IEEE, 2020.
@@ -4277,13 +4356,13 @@ class="ptmri8t-">Privacy Workshops (SPW)</span>, pages 339&#8211;351, 2021.
 target="_blank" href="https://github.com/Ebiroll/ghidra-xtensa" target="_blank" class="url" >https://github.com/Ebiroll/ghidra-xtensa</a>,
              2021.
              </p>
-             <p class="bibitem" ><span class="biblabel">
-         [9]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
+                                                                                                
+                                                                                                
+    <p class="bibitem" ><span class="biblabel">
+  [9]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
  id="Xesp-idf"></a>Espressif.  Espressif IoT Development Framework.
-             <a 
+    <a 
 target="_blank" href="https://github.com/espressif/esp-idf" target="_blank" class="url" >https://github.com/espressif/esp-idf</a>, 2020.
-                                                                                                
-                                                                                                
     </p>
     <p class="bibitem" ><span class="biblabel">
  [10]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
@@ -4377,6 +4456,13 @@ target="_blank" href="https://www.jbl.com.sg/over-ear-headphones/JBL+TUNE500BT.h
              </p>
              <p class="bibitem" ><span class="biblabel">
        [22]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
+ id="XAC6366C_patch"></a>Jieli-Tech.      AC63  series  BT  SDK  Repository.
+             <a 
+target="_blank" href="https://github.com/Jieli-Tech/fw-AC63_BT_SDK" target="_blank" class="url" >https://github.com/Jieli-Tech/fw-AC63_BT_SDK</a>,
+             2021.
+             </p>
+             <p class="bibitem" ><span class="biblabel">
+       [23]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
  id="Xiwrap"></a>Silicon       Labs.                     Bluegiga       iWRAP
              Bluetooth            Classic            Software            Stack.
              <a 
@@ -4384,45 +4470,45 @@ target="_blank" href="https://www.silabs.com/developers/bluegiga-iwrap-bluetooth
              2021.
              </p>
              <p class="bibitem" ><span class="biblabel">
-       [23]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
+       [24]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
  id="Xwt32i"></a>Silicon   Labs.      WT32I-A   Product   Description.
              <a 
 target="_blank" href="https://www.silabs.com/wireless/bluetooth/bluegiga-classic-legacy-modules/device.wt32i-a" target="_blank" class="url" >https://www.silabs.com/wireless/bluetooth/bluegiga-classic-legacy-modules/device.wt32i-a</a>,
              2021.
              </p>
              <p class="bibitem" ><span class="biblabel">
-       [24]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
+       [25]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
  id="Xesp32_mouser"></a>Mouser.                                  Official           ESP32
              Development               Kit               ESP32-PICO-KIT.
              <a 
 target="_blank" href="https://www.mouser.sg/ProductDetail/Espressif-Systems/ESP32-PICO-KIT?qs=MLItCLRbWsyoLrlknFRqcQ%3D%3D  " target="_blank" class="url" >https://www.mouser.sg/ProductDetail/Espressif-Systems/ESP32-PICO-KIT?qs=MLItCLRbWsyoLrlknFRqcQ%3D%3D</a>,
              2021.
              </p>
-             <p class="bibitem" ><span class="biblabel">
-       [25]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
- id="Xoppo_reno_5g"></a>Oppo. Oppo Reno 5G (CPH1921) Product Details.
-             <a 
-target="_blank" href="https://www.oppo.com/en/smartphone-reno-5g/specs/" target="_blank" class="url" >https://www.oppo.com/en/smartphone-reno-5g/specs/</a>,
-             2019.
-             </p>
                                                                                                 
                                                                                                 
     <p class="bibitem" ><span class="biblabel">
- [26]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span>
+ [26]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
+ id="Xoppo_reno_5g"></a>Oppo. Oppo Reno 5G (CPH1921) Product Details.
+    <a 
+target="_blank" href="https://www.oppo.com/en/smartphone-reno-5g/specs/" target="_blank" class="url" >https://www.oppo.com/en/smartphone-reno-5g/specs/</a>,
+    2019.
+    </p>
+    <p class="bibitem" ><span class="biblabel">
+ [27]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span>
     <a 
  id="XCSR8510"></a>Qualcomm.  CSR8510 Bluetooth SoC Product Details.
     <a 
 target="_blank" href="https://www.qualcomm.com/products/csr8510" target="_blank" class="url" >https://www.qualcomm.com/products/csr8510</a>, 2021.
     </p>
     <p class="bibitem" ><span class="biblabel">
- [27]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span>
+ [28]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span>
     <a 
  id="XCSR8811"></a>Qualcomm.  CSR8811 Bluetooth SoC Product Details.
     <a 
 target="_blank" href="https://www.qualcomm.com/products/csr8811" target="_blank" class="url" >https://www.qualcomm.com/products/csr8811</a>, 2021.
     </p>
     <p class="bibitem" ><span class="biblabel">
- [28]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
+ [29]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
  id="XXY-WRBT"></a>DF&#x00A0;Robot.
     XY-WRBT  Bluetooth  5.0  Audio  Receiver  Product
     Details.   <a 
@@ -4430,7 +4516,7 @@ target="_blank" href="https://www.dfrobot.com/product-2084.html" target="_blank"
     2021.
     </p>
     <p class="bibitem" ><span class="biblabel">
- [29]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
+ [30]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
  id="Xfrankenstein"></a>Jan Ruge, Jiska Classen, Francesco Gringoli, and
     Matthias  Hollick.    Frankenstein:  Advanced  wireless
     fuzzing to exploit new bluetooth escalation targets.  In
@@ -4440,7 +4526,7 @@ class="ptmri8t-">29th USENIX Security Symposium (USENIX Security</span>
 class="ptmri8t-">20)</span>, pages 19&#8211;36. USENIX Association, August 2020.
     </p>
     <p class="bibitem" ><span class="biblabel">
- [30]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
+ [31]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
  id="XBluetooth:Certification:2020"></a>Bluetooth     SIG.              Bluetooth     certification
     guideline:             Qualify             your             product.
     <a 
@@ -4448,28 +4534,28 @@ target="_blank" href="https://www.bluetooth.com/develop-with-bluetooth/qualifica
     2019.
     </p>
     <p class="bibitem" ><span class="biblabel">
- [31]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
+ [32]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
  id="Xbluetooth2019bluetooth"></a>Bluetooth       SIG.                     Bluetooth       Core
     Specification           v5.2,           December           2019.
     <a 
 target="_blank" href="https://www.bluetooth.com/specifications/bluetooth-core-specification" target="_blank" class="url" >https://www.bluetooth.com/specifications/bluetooth-core-specification</a>.
     </p>
     <p class="bibitem" ><span class="biblabel">
- [32]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
+ [33]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
  id="Xbluetooth-listing"></a>Bluetooth       SIG.                    View       previously
     qualified designs and declared products, January 2020.
     <a 
 target="_blank" href="https://launchstudio.bluetooth.com/Listings/Search" target="_blank" class="url" >https://launchstudio.bluetooth.com/Listings/Search</a>.
-    </p>
-    <p class="bibitem" ><span class="biblabel">
- [33]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
- id="Xwcn3990"></a>Bluetooth          SIG.                               WCN3990
-    Bluetooth                       Product                       Listings.
-    <a 
-target="_blank" href="https://launchstudio.bluetooth.com/ListingDetails/66490" target="_blank" class="url" >https://launchstudio.bluetooth.com/ListingDetails/66490</a>,
-    2021.
     </p>                                                         <p class="bibitem" ><span class="biblabel">
        [34]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
+ id="Xwcn3990"></a>Bluetooth          SIG.                               WCN3990
+             Bluetooth                       Product                       Listings.
+             <a 
+target="_blank" href="https://launchstudio.bluetooth.com/ListingDetails/66490" target="_blank" class="url" >https://launchstudio.bluetooth.com/ListingDetails/66490</a>,
+             2021.
+             </p>
+             <p class="bibitem" ><span class="biblabel">
+       [35]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
  id="Xsingcert"></a>Singapore  Computer  Emergency  Response&#x00A0;Team
              (SingCERT).
              Multiple Vulnerabilities Affecting Bluetooth Devices.
@@ -4478,7 +4564,7 @@ target="_blank" href="https://www.csa.gov.sg/singcert/Alerts/al-2021-051" target
              2021.
              </p>
              <p class="bibitem" ><span class="biblabel">
-       [35]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
+       [36]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
  id="Xesp32_advisory"></a>Espressif          System.                              Advisory
              and                patches                for                BrakTooth.
              <a 
@@ -4486,14 +4572,14 @@ target="_blank" href="https://www.espressif.com/sites/default/files/advisory_dow
              2021.
              </p>
              <p class="bibitem" ><span class="biblabel">
-       [36]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
+       [37]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
  id="Xesp32"></a>Espressif  Systems.    ESP32  SoC  Product  Details.
              <a 
 target="_blank" href="https://www.espressif.com/en/products/socs/esp32" target="_blank" class="url" >https://www.espressif.com/en/products/socs/esp32</a>,
              2021.
              </p>
              <p class="bibitem" ><span class="biblabel">
-       [37]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
+       [38]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
  id="Xesp32_wrover_kit"></a>Espressif      Systems.                  Official      ESP32
              Development            Kit            ESP32-WROVER-KIT.
              <a 
@@ -4501,21 +4587,21 @@ target="_blank" href="https://www.espressif.com/en/products/hardware/esp-wrover-
              2021.
              </p>
              <p class="bibitem" ><span class="biblabel">
-       [38]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
+       [39]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
  id="Xats2815"></a>Actions    Technology.          ATS2815    Datasheet.
              <a 
 href="http://www.lanzhi-tech.com/filedownload/99240" target="_blank" class="url" >http://www.lanzhi-tech.com/filedownload/99240</a>,
              2021.
              </p>
              <p class="bibitem" ><span class="biblabel">
-       [39]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
+       [40]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
  id="XAC6366C"></a>Jieli  Technology.    AC63  Series  SDK  repository.
              <a 
 target="_blank" href="https://github.com/Jieli-Tech/fw-AC63_BT_SDK" target="_blank" class="url" >https://github.com/Jieli-Tech/fw-AC63_BT_SDK</a>,
              2021.
              </p>
              <p class="bibitem" ><span class="biblabel">
-       [40]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
+       [41]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
  id="Xblesa"></a>Jianliang  Wu,  Yuhong  Nan,  Vireshwar  Kumar,
              Dave&#x00A0;Jing   Tian,   Antonio   Bianchi,   Mathias   Payer,
              and   Dongyan   Xu.         <span 
@@ -4529,16 +4615,16 @@ class="ptmri8t-">Workshop  on  Offensive  Technologies</span>
 class="ptmri8t-">(</span><span 
 class="zptmcmrm-">WOOT </span><span 
 class="ptmri8t-">20)</span>, 2020.
-             </p>
-             <p class="bibitem" ><span class="biblabel">
-       [41]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
+                                                                                                
+                                                                                                
+    </p>
+    <p class="bibitem" ><span class="biblabel">
+ [42]<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
  id="Xxiaomi_speaker"></a>Xiaomi.                     Mi       Portable       Bluetooth
-             Speaker          MDZ-36-DB          Product          Details.
-             <a 
+    Speaker          MDZ-36-DB          Product          Details.
+    <a 
 target="_blank" href="https://www.mi.com/global/mi-portable-bluetooth-speaker-16w/specs/" target="_blank" class="url" >https://www.mi.com/global/mi-portable-bluetooth-speaker-16w/specs/</a>,
-             2021.
-                                                                                                
-                                                                                                
+    2021.
 </p>
     </div>
    
