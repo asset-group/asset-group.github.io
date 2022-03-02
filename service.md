@@ -29,7 +29,9 @@ Review board of IEEE Transactions on Software Engineering (TSE)
 
 #### 2022
 <p style="text-align:justify">
-<i>Technical Program Committee (TPC)</i>: ICSE 2023, ESEC/FSE 2022, ASE 2022. 
+<i>Workshop Chair</i>: Security in Machine Learning and its Applications (SiMLA) 2022.
+<br>
+<i>Technical Program Committee (TPC)</i>: ICSE 2023, ESEC/FSE 2022, ASE 2022, EMSOFT 2022, RTSS 2022. 
 </p> 
 
 #### 2021
