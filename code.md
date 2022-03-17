@@ -59,20 +59,26 @@ with most of our research papers.
 
 ---
 
+###### AequeVox
+[AequeVox](https://github.com/sparkssss/AequeVox) is a fairness formalization and testing framework for speech recognition systems. See the paper in IEEE TSE 2022 [AequeVox: Automated Fairness Testing of Speech Recognition Systems](https://arxiv.org/abs/2110.09843) for more details.
+
+###### Astraea
+[Astraea](https://github.com/sakshiudeshi/Astraea) is a grammar-based fairness testing framework for machine learning models (specifically, NLP tasks). See the paper in FASE 2022 [Grammar-based Fairness Testing](https://arxiv.org/abs/2010.02542) for more details.
+
 ###### Aequitas 
-[Aequitas](https://github.com/sakshiudeshi/Aequitas) is a directed fairness testing framework for machine learning models. See the paper [Automated Directed Fairness Testing](https://arxiv.org/abs/1807.00468) for more details.
+[Aequitas](https://github.com/sakshiudeshi/Aequitas) is a directed fairness testing framework for machine learning models. See the paper in ASE 2018 [Automated Directed Fairness Testing](https://arxiv.org/abs/1807.00468) for more details.
 
 ###### Ogma
-[Ogma](https://github.com/sakshiudeshi/Ogma) provides a systematic test framework for machine-learning systems that accept grammar-based inputs. See the paper [Grammar Based Directed Testing of Machine Learning Systems](https://arxiv.org/pdf/1902.10027) for more details.
+[Ogma](https://github.com/sakshiudeshi/Ogma) provides a systematic test framework for machine-learning systems that accept grammar-based inputs. See the paper in IEEE TSE 2019 [Grammar Based Directed Testing of Machine Learning Systems](https://arxiv.org/pdf/1902.10027) for more details.
 
 ###### Callisto 
-[Callisto](https://github.com/sakshiudeshi/Callisto/) is a novel test generation and data quality assessment framework. Callisto  leverages the uncertainty in the prediction to systematically generate new test cases and evaluate data quality for Machine Learning classifiers. See the paper [Callisto: Entropy based test generation and data quality assessment for Machine Learning Systems](https://asset-group.github.io/papers/Callisto.pdf) for more details.
+[Callisto](https://github.com/sakshiudeshi/Callisto/) is a novel test generation and data quality assessment framework. Callisto  leverages the uncertainty in the prediction to systematically generate new test cases and evaluate data quality for Machine Learning classifiers. See the paper in ICST 2020 [Callisto: Entropy based test generation and data quality assessment for Machine Learning Systems](https://asset-group.github.io/papers/Callisto.pdf) for more details.
 
 ###### Aegis 
 [Aegis](https://github.com/sakshiudeshi/Expose-Robust-Backdoors) is a novel tool to detect backdoor attacks in adversarially robust machine-learning models. Aegis leverages intrinsic properties of adversarially robust models to break the stealthy nature of backdoors. See the preprint [AEGIS: Exposing Backdoors in Robust Machine Learning Models](https://arxiv.org/abs/2003.00865) for more details.
 
 ###### RAIDS
-[RAIDS](https://github.com/cd-wang/RAIDS) is an intrusion detection system for autonomous cars. It extracts and analyzes sensory information (e.g., camera images and distance sensor values) to validate frames transmitted on the in-vehicle network (e.g., CAN bus). See the paper [Road Context-aware Intrusion Detection System for Autonomous Cars](https://asset-group.github.io/papers/ICICS19-RAIDS.pdf) for more details. 
+[RAIDS](https://github.com/cd-wang/RAIDS) is an intrusion detection system for autonomous cars. It extracts and analyzes sensory information (e.g., camera images and distance sensor values) to validate frames transmitted on the in-vehicle network (e.g., CAN bus). See the paper in ICICS 2019 [Road Context-aware Intrusion Detection System for Autonomous Cars](https://asset-group.github.io/papers/ICICS19-RAIDS.pdf) for more details. 
 
 ---
 
