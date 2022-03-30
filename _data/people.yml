@@ -40,6 +40,10 @@ anthony:
     image: /img/people/anthony_yeo.png
     bio: "Research Associate"
 
+#Urop
+    display_name: "You"
+    role: urop
+    bio: "Student at SUTD"
 
 #Grad Students 
 yeeching:
@@ -77,10 +81,6 @@ zewen:
     bio: "PhD Student (SUTD), BE (SUTD)"
 
 
-#Urop
-    display_name: "You"
-    role: urop
-    bio: "Student at SUTD"
 
 #Alumni
 
