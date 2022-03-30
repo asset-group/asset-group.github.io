@@ -76,6 +76,12 @@ zewen:
     role: grad
     bio: "PhD Student (SUTD), BE (SUTD)"
 
+
+#Urop
+    display_name: "You"
+    role: urop
+    bio: "Student at SUTD"
+
 #Alumni
 
 sakshi:
