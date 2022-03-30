@@ -34,20 +34,6 @@ ali:
 
 #Post Docs/Researchers
 
-xingbin:
-    display_name: "Xingbin Jiang"
-    webpage: "https://www.linkedin.com/in/xingbin-jiang-4b2685140/"
-    role: postdoc 
-    image: /img/people/Jiang_Xingbin.jpg
-    bio: "Research Assistant (ME, Chinese Academy of Sciences)"
-
-vaibhav:
-    display_name: "Vaibhav Bedi"
-    webpage: "https://vaibhvbedi.github.io/Vaibhavbedi/"
-    role: postdoc 
-    image: /img/people/vaibhav-bedi.jpg
-    bio: "Research Assistant (BTech, Kurukshetra University)"
-
 anthony:
     display_name: "Yeo Kee Teck Anthony"
     role: postdoc 
@@ -61,10 +47,6 @@ zewen:
     bio: "ISTD UROP (SUTD)"
     role: urop
 
-xianming:
-    display_name: "Koh Xian Ming"
-    bio: "ISTD UROP (SUTD)"
-    role: urop
 
 #Grad Students 
 yeeching:
@@ -72,13 +54,6 @@ yeeching:
     webpage: "https://poppopretn.com"
     role: grad
     image: /img/people/Tok_Yee_Ching.jpg
-    bio: "PhD Student (SUTD)"
-
-sakshi:
-    display_name: "Sakshi Udeshi"
-    webpage: "http://sakshiudeshi.github.io"
-    role: grad
-    image: /img/people/Sakshi_Udeshi.jpg
     bio: "PhD Student (SUTD)"
 
 yifan:
@@ -112,6 +87,33 @@ sai:
 
 
 #Alumni
+
+sakshi:
+    display_name: "Sakshi Udeshi"
+    webpage: "http://sakshiudeshi.github.io"
+    role: alum
+    image: /img/people/Sakshi_Udeshi.jpg
+    bio: "PhD Student (SUTD)"
+
+xianming:
+    display_name: "Koh Xian Ming"
+    bio: "ISTD UROP (SUTD)"
+    role: alum
+
+xingbin:
+    display_name: "Xingbin Jiang"
+    webpage: "https://www.linkedin.com/in/xingbin-jiang-4b2685140/"
+    role: alum 
+    image: /img/people/Jiang_Xingbin.jpg
+    bio: "Research Assistant (ME, Chinese Academy of Sciences)"
+
+vaibhav:
+    display_name: "Vaibhav Bedi"
+    role: alum 
+    image: /img/people/vaibhav-bedi.jpg
+    webpage: "https://vaibhvbedi.github.io/Vaibhavbedi/"
+    bio: "Research Assistant (BTech, Kurukshetra University)"
+
 gerald:
     display_name: "Gerald Woo"
     webpage: "https://www.linkedin.com/in/gerald-woo/"
