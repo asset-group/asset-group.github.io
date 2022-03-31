@@ -34,37 +34,12 @@ ali:
 
 #Post Docs/Researchers
 
-xingbin:
-    display_name: "Xingbin Jiang"
-    webpage: "https://www.linkedin.com/in/xingbin-jiang-4b2685140/"
-    role: postdoc 
-    image: /img/people/Jiang_Xingbin.jpg
-    bio: "Research Assistant (ME, Chinese Academy of Sciences)"
-
-vaibhav:
-    display_name: "Vaibhav Bedi"
-    webpage: "https://vaibhvbedi.github.io/Vaibhavbedi/"
-    role: postdoc 
-    image: /img/people/vaibhav-bedi.jpg
-    bio: "Research Assistant (BTech, Kurukshetra University)"
-
 anthony:
     display_name: "Yeo Kee Teck Anthony"
     role: postdoc 
     image: /img/people/anthony_yeo.png
     bio: "Research Associate"
 
-#UROP
-zewen:
-    display_name: "Shang Zewen"
-    webpage: "https://www.linkedin.com/in/zewen-shang-559549168"
-    bio: "ISTD UROP (SUTD)"
-    role: urop
-
-xianming:
-    display_name: "Koh Xian Ming"
-    bio: "ISTD UROP (SUTD)"
-    role: urop
 
 #Grad Students 
 yeeching:
@@ -74,27 +49,12 @@ yeeching:
     image: /img/people/Tok_Yee_Ching.jpg
     bio: "PhD Student (SUTD)"
 
-sakshi:
-    display_name: "Sakshi Udeshi"
-    webpage: "http://sakshiudeshi.github.io"
-    role: grad
-    image: /img/people/Sakshi_Udeshi.jpg
-    bio: "PhD Student (SUTD)"
-
 yustynn:
     display_name: "Yustynn Panicker"
     # webpage: "http://sakshiudeshi.github.io"
     role: grad
     image: /img/people/Yustynn_Panicker.png
     bio: "PhD Student (SUTD and A*STAR ACIS Scholar)"
-
-yifan:
-    display_name: "Jia Yifan"
-    webpage: "https://www.linkedin.com/in/jia-yifan-a704403b/"
-    role: grad
-    image: /img/people/Jia_Yifan.jpg
-    bio: "PhD Student (SUTD and TUV SUD)"
-
 
 matheus:
     display_name: "Matheus Eduardo"
@@ -117,8 +77,55 @@ sai:
     image: /img/people/sai-rajan.jpg
     bio: "PhD Student (SUTD), MS (Georgia Tech)"
 
+zewen:
+    display_name: "Shang Zewen"
+    webpage: "https://www.linkedin.com/in/zewen-shang-559549168"
+    role: grad
+    bio: "PhD Student (SUTD), BE (SUTD)"
+
+
+#Urop
+
+You:
+    display_name: "You"
+    role: urop
+    bio: "Student at SUTD"
 
 #Alumni
+
+sakshi:
+    display_name: "Sakshi Udeshi"
+    webpage: "http://sakshiudeshi.github.io"
+    role: alum
+    image: /img/people/Sakshi_Udeshi.jpg
+    bio: "PhD Student (SUTD)"
+
+yifan:
+    display_name: "Jia Yifan"
+    webpage: "https://www.linkedin.com/in/jia-yifan-a704403b/"
+    role: alum
+    image: /img/people/Jia_Yifan.jpg
+    bio: "PhD Student (SUTD and TUV SUD)"
+
+xianming:
+    display_name: "Koh Xian Ming"
+    bio: "ISTD UROP (SUTD)"
+    role: alum
+
+xingbin:
+    display_name: "Xingbin Jiang"
+    webpage: "https://www.linkedin.com/in/xingbin-jiang-4b2685140/"
+    role: alum 
+    image: /img/people/Jiang_Xingbin.jpg
+    bio: "Research Assistant (ME, Chinese Academy of Sciences)"
+
+vaibhav:
+    display_name: "Vaibhav Bedi"
+    role: alum 
+    image: /img/people/vaibhav-bedi.jpg
+    webpage: "https://vaibhvbedi.github.io/Vaibhavbedi/"
+    bio: "Research Assistant (BTech, Kurukshetra University)"
+
 gerald:
     display_name: "Gerald Woo"
     webpage: "https://www.linkedin.com/in/gerald-woo/"
