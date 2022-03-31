@@ -8,8 +8,6 @@ description: |
   <b> Multiple post-doc and research assistant positions open in this project starting as soon as possible.</b></font> 
  </p>
 people:
-  - sakshi
-  - yifan
   - ezekiel
   - sai
 

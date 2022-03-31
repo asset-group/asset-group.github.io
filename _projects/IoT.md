@@ -7,10 +7,8 @@ description: |
   <b> Multiple post-doc and research assistant positions open in this project starting as soon as possible.</b></font>
  </p>
 people:
-  - xingbin
   - yeeching
   - matheus
-  - vaibhav
   - anthony
 layout: project
 last-updated: 2019-08-10
