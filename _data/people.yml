@@ -49,6 +49,13 @@ yeeching:
     image: /img/people/Tok_Yee_Ching.jpg
     bio: "PhD Student (SUTD)"
 
+yustynn:
+    display_name: "Yustynn Panicker"
+    # webpage: "http://sakshiudeshi.github.io"
+    role: grad
+    image: /img/people/Yustynn_Panicker.png
+    bio: "PhD Student (SUTD and A*STAR ACIS Scholar)"
+
 matheus:
     display_name: "Matheus Eduardo"
     webpage: "https://matheus-garbelini.github.io/home/"
