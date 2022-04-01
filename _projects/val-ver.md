@@ -5,7 +5,6 @@ description: |
   Validation, Verification and Optimization of Software and Systems Performance.
 
 people:
-  - ahmed
   - juan
 layout: project
 last-updated: 2015-05-05
