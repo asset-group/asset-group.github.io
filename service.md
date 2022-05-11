@@ -27,8 +27,14 @@ revisions (especially, minor revisions).
 
 Review board of IEEE Transactions on Software Engineering (TSE)
 
+#### 2022 - Present
+
+ACM Transactions on Software Engineering and Methodology (TOSEM): Board of Distinguished Reviewers
+
 #### 2022
 <p style="text-align:justify">
+<i>Topic Chair</i>: Topic E1 (Embedded Software Architecture, Compilers and Tool Chains) of DATE 2023.
+<br>
 <i>Workshop Chair</i>: Security in Machine Learning and its Applications (SiMLA) 2022.
 <br>
 <i>Technical Program Committee (TPC)</i>: ICSE 2023, ESEC/FSE 2022, ASE 2022, EMSOFT 2022, RTSS 2022, MEMOCODE 2022, SETTA 2022, RTCSA 2022.  
