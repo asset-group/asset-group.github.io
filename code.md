@@ -34,9 +34,13 @@ with most of our research papers.
 
 ---
 
-###### BrakTooth
+###### BrakTooth (Proof of Concept)
 
-[This repository](https://github.com/Matheus-Garbelini/esp32_bluetooth_classic_sniffer) contains the BR/EDR active sniffer/injector code developed as part of discovering [BrakTooth vulnerability](https://asset-group.github.io/disclosures/braktooth/) in major Bluetooth System-on-chips (SoCs) such as Intel, Qualcomm, Texas Instruments, Cypress, Silicon Labs, Xiaomi etc. The injector part of the code is embargoed until 31st October, 2021. 
+[This repository](https://github.com/Matheus-Garbelini/braktooth_esp32_bluetooth_classic_attacks) contains the Proof-of-concept (PoC) code for [BrakTooth vulnerability](https://asset-group.github.io/disclosures/braktooth/) in major Bluetooth System-on-chips (SoCs) such as Intel, Qualcomm, Texas Instruments, Cypress, Silicon Labs, Xiaomi, Mediatek, Samsung etc.
+
+###### BrakTooth (Sniffing)
+
+[This repository](https://github.com/Matheus-Garbelini/esp32_bluetooth_classic_sniffer) contains the BR/EDR active sniffer code developed as part of discovering [BrakTooth vulnerability](https://asset-group.github.io/disclosures/braktooth/) in major Bluetooth System-on-chips (SoCs) such as Intel, Qualcomm, Texas Instruments, Cypress, Silicon Labs, Xiaomi etc. It is as cheap as any ESP32 board can get (less than 15 USD).
 
 ###### ESP8266/ESP32 Wi-Fi Attacks
 
