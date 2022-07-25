@@ -63,13 +63,6 @@ matheus:
     bio: "PhD student (SUTD and SINGA Scholar)"
     image: /img/people/Matheus_Eduardo.jpg
 
-juan:
-    display_name: "Juan David Guarnizo Hernandez"
-    webpage: "https://istd.sutd.edu.sg/people/phd-students/juan-david-guarnizo-hernandez"
-    role: grad
-    image: /img/people/juan-hernandez.jpg
-    bio: "PhD Student (SUTD)"
-
 sai:
     display_name: "Sai Sathiesh Rajan"
     webpage: "https://www.linkedin.com/in/srajan9/"
@@ -107,6 +100,14 @@ yifan:
     role: alum
     image: /img/people/Jia_Yifan.jpg
     bio: "PhD Student (SUTD and TUV SUD)"
+
+juan:
+    display_name: "Juan David Guarnizo Hernandez"
+    webpage: "https://istd.sutd.edu.sg/people/phd-students/juan-david-guarnizo-hernandez"
+    role: alum
+    image: /img/people/juan-hernandez.jpg
+    bio: "PhD Student (SUTD)"
+
 
 xianming:
     display_name: "Koh Xian Ming"
