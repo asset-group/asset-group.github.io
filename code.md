@@ -68,10 +68,10 @@ with most of our research papers.
 ---
 
 ###### AequeVox
-[AequeVox](https://github.com/sparkssss/AequeVox) is a fairness formalization and testing framework for speech recognition systems. See the paper in IEEE TSE 2022 [AequeVox: Automated Fairness Testing of Speech Recognition Systems](https://arxiv.org/abs/2110.09843) for more details.
+[AequeVox](https://github.com/sparkssss/AequeVox) is a fairness formalization and testing framework for speech recognition systems. See the paper in FASE 2022 [AequeVox: Automated Fairness Testing of Speech Recognition Systems](https://arxiv.org/abs/2110.09843) for more details.
 
 ###### Astraea
-[Astraea](https://github.com/sakshiudeshi/Astraea) is a grammar-based fairness testing framework for machine learning models (specifically, NLP tasks). See the paper in FASE 2022 [Grammar-based Fairness Testing](https://arxiv.org/abs/2010.02542) for more details.
+[Astraea](https://github.com/sakshiudeshi/Astraea) is a grammar-based fairness testing framework for machine learning models (specifically, NLP tasks). See the paper in IEEE TSE 2022 [Grammar-based Fairness Testing](https://arxiv.org/abs/2010.02542) for more details.
 
 ###### Aequitas 
 [Aequitas](https://github.com/sakshiudeshi/Aequitas) is a directed fairness testing framework for machine learning models. See the paper in ASE 2018 [Automated Directed Fairness Testing](https://arxiv.org/abs/1807.00468) for more details.
