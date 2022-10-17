@@ -37,7 +37,7 @@ ACM Transactions on Software Engineering and Methodology (TOSEM): Board of Disti
 <br>
 <i>Workshop Chair</i>: Security in Machine Learning and its Applications (SiMLA) 2022.
 <br>
-<i>Technical Program Committee (TPC)</i>: ICSE 2023, ESEC/FSE 2022, ASE 2022, CGO 2023, EMSOFT 2022, RTSS 2022, MEMOCODE 2022, SETTA 2022, RTCSA 2022.  
+<i>Technical Program Committee (TPC)</i>: ICSE 2023, ESEC/FSE 2022, ASE 2022, CGO 2023, ACNS 2023 (Round 1), EMSOFT 2022, RTSS 2022, MEMOCODE 2022, SETTA 2022, RTCSA 2022.  
 <br>
 <i>Publication Chair</i>: ESEC/FSE 2022.
 </p> 
