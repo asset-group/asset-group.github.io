@@ -54,12 +54,14 @@ with most of our research papers.
 
 [This repository](https://github.com/Matheus-Garbelini/sweyntooth_bluetooth_low_energy_attacks) contains the proof-of-concept code for [SweynTooth vulnerability](https://asset-group.github.io/disclosures/sweyntooth/) in major BLE System-on-chips (SoCs) such as Texas Instruments, Cypress, NXP, Microchip, ST Microelectronics, Telink and Dialog semiconductors. 
 
+###### Stitcher
+
+[Stitcher](https://github.com/poppopretn/Stitcher) is a tool designed to classify and correlate evidence from IoT devices. See the paper 
+[“STITCHER: Correlating Digital Forensic Evidence on Internet-of-Things Devices”](https://arxiv.org/abs/2003.07242) for details.
+
 ###### Mirai4IIoT
 
 [Mirai4IIoT](https://gitlab.com/asset-sutd/public/mirai4iiot) is a repository to reproduce Mirai attacks in Industrial Internet-of-things (IIoT) systems. The attacks can be reproduced in both stealthy and non-stealthy mode. See the paper [An Experimental Analysis of Security Vulnerabilities in Industrial IoT Devices](https://asset-group.github.io/papers/iiot_security_journal.pdf) for more details.  
-###### Stitcher
-[Stitcher](https://github.com/poppopretn/Stitcher) is a tool designed to classify and correlate evidence from IoT devices. See the paper 
-[“STITCHER: Correlating Digital Forensic Evidence on Internet-of-Things Devices”](https://arxiv.org/abs/2003.07242) for details.
 
 ---
 
