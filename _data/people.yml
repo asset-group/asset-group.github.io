@@ -23,15 +23,6 @@ ezekiel:
     image: /img/people/ezekiel.jpg
     bio: "Research Associate (University of Luxembourg)"
 
-#Collaborators
-ali:
-    display_name: "Ali Sahraee"
-    webpage: "https://scholar.google.com/citations?user=C-2MZkkAAAAJ&hl=en"
-    role: collab
-    image: /img/people/Ali-Sahraee.jpg
-    bio: "PhD Student (Linköping University, Sweden)"
-
-
 #Post Docs/Researchers
 
 anthony:
