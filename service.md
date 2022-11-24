@@ -31,6 +31,11 @@ Review board of IEEE Transactions on Software Engineering (TSE)
 
 ACM Transactions on Software Engineering and Methodology (TOSEM): Board of Distinguished Reviewers
 
+#### 2023
+<p style="text-align:justify">
+<i>Technical Program Committee (TPC)</i>: DAC 2023, ASE 2023.
+</p> 
+
 #### 2022
 <p style="text-align:justify">
 <i>Topic Chair</i>: Topic E1 (Embedded Software Architecture, Compilers and Tool Chains) of DATE 2023.
