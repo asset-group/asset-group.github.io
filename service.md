@@ -33,6 +33,9 @@ ACM Transactions on Software Engineering and Methodology (TOSEM): Board of Disti
 
 #### 2023
 <p style="text-align:justify">
+<i>Workshop Chair</i>: ACM ASIA Conference on Computer and Communications Security (AsiaCCS), 2024.
+<br>
+<p style="text-align:justify">
 <i>Technical Program Committee (TPC)</i>: DAC 2023, ASE 2023.
 </p> 
 
