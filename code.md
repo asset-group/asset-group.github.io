@@ -81,6 +81,9 @@ with most of our research papers.
 ###### Ogma
 [Ogma](https://github.com/sakshiudeshi/Ogma) provides a systematic test framework for machine-learning systems that accept grammar-based inputs. See the paper in IEEE TSE 2019 [Grammar Based Directed Testing of Machine Learning Systems](https://arxiv.org/pdf/1902.10027) for more details.
 
+###### Aegis
+[Aegis](https://github.com/sakshiudeshi/Expose-Robust-Backdoors) provides a systematic detection framework for detecting backdoored machine-learning systems. See the paper in Computers and Security 2023 [Towards Backdoor Attacks and Defense in Robust Machine Learning Models](https://arxiv.org/abs/2003.00865) for more details.
+
 ###### Neo
 [Neo](https://github.com/sakshiudeshi/Ogma) provides a systematic model-agnostic defense for Backdoor attacks. See the paper in IEEE Transactions on Reliability 2022 [Model Agnostic Defence Against Backdoor Attacks in Machine Learning](https://arxiv.org/abs/1908.02203) for more details.
 
