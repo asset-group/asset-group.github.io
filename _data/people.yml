@@ -21,7 +21,7 @@ ezekiel:
     webpage: "https://scholar.google.com.sg/citations?user=r8T1-yoAAAAJ&hl=en"
     role: collab
     image: /img/people/ezekiel.jpg
-    bio: "Research Associate (University of Luxembourg)"
+    bio: "Assistant Professor (Royal Holloway, University of London)"
 
 #Post Docs/Researchers
 
@@ -31,14 +31,14 @@ anthony:
     image: /img/people/anthony_yeo.png
     bio: "Research Associate"
 
-
-#Grad Students 
 yeeching:
     display_name: "Tok Yee Ching"
     webpage: "https://poppopretn.com"
-    role: grad
+    role: postdoc
     image: /img/people/Tok_Yee_Ching.jpg
-    bio: "PhD Student (SUTD)"
+    bio: "Research Fellow (PhD, SUTD)"
+
+#Grad Students 
 
 yustynn:
     display_name: "Yustynn Panicker"
