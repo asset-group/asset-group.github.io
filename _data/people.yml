@@ -88,7 +88,7 @@ You:
     role: urop
     bio: "Student at SUTD"
 
-#Alumni
+#Alumni (selected)
 
 sakshi:
     display_name: "Sakshi Udeshi"
@@ -104,32 +104,12 @@ yifan:
     image: /img/people/Jia_Yifan.jpg
     bio: "PhD Student (SUTD and TUV SUD)"
 
-juan:
-    display_name: "Juan David Guarnizo Hernandez"
-    webpage: "https://istd.sutd.edu.sg/people/phd-students/juan-david-guarnizo-hernandez"
-    role: alum
-    image: /img/people/juan-hernandez.jpg
-    bio: "PhD Student (SUTD)"
-
-
-xianming:
-    display_name: "Koh Xian Ming"
-    bio: "ISTD UROP (SUTD)"
-    role: alum
-
 xingbin:
     display_name: "Xingbin Jiang"
     webpage: "https://www.linkedin.com/in/xingbin-jiang-4b2685140/"
     role: alum 
     image: /img/people/Jiang_Xingbin.jpg
     bio: "Research Assistant (ME, Chinese Academy of Sciences)"
-
-vaibhav:
-    display_name: "Vaibhav Bedi"
-    role: alum 
-    image: /img/people/vaibhav-bedi.jpg
-    webpage: "https://vaibhvbedi.github.io/Vaibhavbedi/"
-    bio: "Research Assistant (BTech, Kurukshetra University)"
 
 gerald:
     display_name: "Gerald Woo"
@@ -171,26 +151,12 @@ chundong:
     image: /img/people/Chundong_Wang.jpg
     bio: "Post Doc (PhD, NUS, Singapore)"
 
-saurav:
-    display_name: "Saurav Kumar Ghosh"
-    webpage: "https://www.linkedin.com/in/saurav-kr-ghosh-98267b18b/"
-    role: alum
-    bio: "Post Doc (PhD, Indian Institute of Technology Kharagpur)"
-    image: /img/people/Saurav.jpg
-
 eric:
     display_name: "Eric Gerard Rothstein Morris"
     webpage: "https://ericrothsteinmorris.github.io/"
     role: alum
     image: /img/people/Eric_Roth.png
     bio: "PhD Student (SUTD)"
-
-baqer:
-    display_name: "Muhammad Baqer Mollah"
-    webpage: "https://sites.google.com/site/baqerweb/"
-    role: alum
-    bio: "Research Assistant (MS, Jahangirnagar University)"
-    image: /img/people/Muhammad_Baqer.jpg
 
 eyasu:
     display_name: "Eyasu Getahun Chekole"
@@ -205,37 +171,17 @@ adrian:
     image: /img/people/Adrian_Horga.jpg
     bio: "PhD Student (Linköping University, Sweden)"
 
-amit:
-    display_name: "Amit Behal"
-    role: alum
-    bio: "Research Intern"
-    bio: "PhD Student (IIT Ropar)"
-
 arian:
     display_name: "Arian Maghazeh"
     role: alum
     bio: "Research Intern"
     bio: "PhD Student (Linköping University, Sweden)"
 
-rishabh:
-    display_name: "Rishabh Singhal"
-    role: alum
-    bio: "Research Intern"
-    image: /img/people/Rishabh_Singhal.jpg
-    bio: "Undergraduate Student (IIT Patna)"
-
 kartik:
     display_name: "Kartik Aggarwal"
     role: alum
     bio: "Research Intern"
     bio: "Undergraduate Student (BITS Pilani, India)"
-
-mehak:
-    display_name: "Mehak Aggarwal"
-    role: alum
-    bio: "Research Intern"
-    image: /img/people/Mehak_Aggarwal.jpeg
-    bio: "Undergraduate Student (IIT Delhi)"
 
 gunavaran:
     display_name: "Gunavaran Brihadiswarn"
@@ -253,16 +199,9 @@ tanya:
     role: alum
     bio: "Undergraduate Student (BITS Pilani, India)"
 
-#Visitors
 jingxuan:
     display_name: "Jingxuan Jiang"
     role: alum
     bio: "Research Intern"
     bio: "Masters Student (Shandong University, China)"
 
-unni:
-    display_name: "Unnikrishnan Cheramangalath"
-    webpage: "https://www.linkedin.com/in/unnikrishnan-cheramangalath-52282715/"
-    role: alum
-    image: /img/people/Unnikrishnan_Cheramangalath.jpg
-    bio: "Post Doc (PhD, Indian Institute of Science, India)"
