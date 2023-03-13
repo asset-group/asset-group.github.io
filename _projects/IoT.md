@@ -1,12 +1,11 @@
 ---
-title: IoT Wireless Security
+title: (Wireless) Communication Security
 
 description: |
  <p style="text-align:justify">
-  IoT Wireless Security Testing and Countermeasures.
+  (Wireless) Communication Security Testing and Countermeasures.
  </p>
 people:
-  - yeeching
   - matheus
   - anthony
   - zewen
@@ -16,7 +15,7 @@ last-updated: 2019-08-10
 <p style="text-align:justify">
 
 In this project, we investigate systematic and automated security testing 
-of (IoT) Wireless Protocols. Our work in this area has uncovered critical 
+of (Wireless) Communication Protocols. Our work in this area has uncovered critical 
 security vulnerabilities such as <a href="https://asset-group.github.io/disclosures/sweyntooth/">SweynTooth</a> 
 and <a href="https://www.braktooth.com">BrakTooth</a>, among others. Additionally, 
 our security testing tool has been translated by <a href="https://www.keysight.com/">Keysight Technologies</a> 
@@ -37,7 +36,7 @@ worldwide.
 </p>
 
 
-<h2>Representative Publications:</h2>
+<h3>Representative Publications:</h3>
 
 
 <p style="text-align:justify">
