@@ -44,13 +44,13 @@ worldwide.
 <p style="text-align:justify">
 <a href="https://asset-group.github.io/papers/AutoFuzz4G5G.pdf">Towards Automated Fuzzing of 4G/5G Protocol Implementations Over the Air</a><br>
 Matheus E. Garbelini, Zewen Shang, Sudipta Chattopadhyay, Sumei Sun, and Ernest Kurniawan<br>
-IEEE Global Communications Conference (GLOBECOM)<br>
+IEEE Global Communications Conference (GLOBECOM), 2022<br>
 </p>
 
 <p style="text-align:justify">
 <a href="https://asset-group.github.io/papers/Greyhound.pdf">Greyhound: Directed Greybox Wi-Fi Fuzzing</a><br>
 Matheus E. Garbelini, Chundong Wang, and Sudipta Chattopadhyay<br>
-IEEE Transactions on Dependable and Secure Computing (TDSC)
+IEEE Transactions on Dependable and Secure Computing (TDSC), 2020
 </p>
 
 <p style="text-align:justify">
@@ -62,7 +62,7 @@ USENIX Security Symposium, 2022
 <p style="text-align:justify">
 <a href="https://asset-group.github.io/papers/SweynTooth.pdf">SweynTooth: Unleashing Mayhem over Bluetooth Low Energy</a><br>
 Matheus E. Garbelini, Chundong Wang, Sudipta Chattopadhyay, Sumei Sun, and Ernest Kurniawan<br>
-USENIX Annual Technical Conference (USENIX ATC).
+USENIX Annual Technical Conference (USENIX ATC), 2020
 </p>
 
 

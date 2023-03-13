@@ -3,9 +3,7 @@ title: AI Safety and Security
 
 description: |
  <p style="text-align:justify">
-  Validation and Verification of AI/ML-based Systems to make 
-  them safe and secure. <font color="red"> 
-  <b> Multiple post-doc and research assistant positions open in this project starting as soon as possible.</b></font> 
+  Functionality, Fairness and Security Validation of AI/ML-based Systems. 
  </p>
 people:
   - ezekiel
@@ -18,29 +16,65 @@ last-updated: 2019-08-11
 
 The aim of this project is to employ rigorous software 
 engineering principles for designing robust decision 
-making systems (e.g. robust and secure artificial intelligent 
+making systems (e.g., robust and secure artificial intelligent 
 and machine-learning systems). To this end, we focus on 
 various desirable properties of decision making systems, 
-including but not limited to security (e.g. resilience against 
+including but not limited to security (e.g., resilience against 
 adversarial and backdoor attacks), robustness and fairness 
-(i.e. removing social discrimination). Another focus of 
-the project is the systematic usage of artificial 
-intelligent (AI) systems to detect cyber attacks and explain 
-their cause. To know more about the topic, take a look at the 
-following publications: 
+(i.e., removing social discrimination). In this topic, we have 
+made some of the pioneering contributions, specifically, to 
+discover inherent bias in AI/ML software. In terms of practical 
+impact, our proposed techniques for functional and fairness testing 
+methodologies have discovered hundreds and thousands of bugs in 
+well-established AI/ML models developed or used by popular software 
+industries including but not limited to Google, Microsoft, IBM, 
+Amazon and Airbnb. 
+</p>
 
-<a href="http://arxiv.org/abs/2003.00865">Arxiv-2020-Backdoor</a>,
-<a href="https://arxiv.org/abs/1912.08920">ICST-2020-Callisto</a>,
-<a href="https://arxiv.org/pdf/1902.10027">TSE-2019-OGMA</a>, 
-<a href="https://sudiptac.bitbucket.io/papers/aequitas.pdf">ASE-2018</a>, 
-<a href="https://arxiv.org/pdf/1908.02203">Arxiv-2019-NEO</a>,
-<a href="https://asset-group.github.io/papers/ICICS19-RAIDS.pdf">ICICS-2019-RAIDS</a>, 
-<a href="https://sudiptac.bitbucket.io/papers/raids.pdf">EMSOFT-WiP-2018</a>.
 
+<h3>Representative Publications:</h3>
+
+<p style="text-align:justify">
+<a href="https://asset-group.github.io/papers/AEGIS.pdf">Towards Backdoor Attacks and Defense in Robust Machine Learning Models</a><br>
+Ezekiel Soremekun, Sakshi Udeshi, and Sudipta Chattopadhyay<br>
+Elsevier Journal of Computers and Security, 2023<br>
+</p>
+
+<p style="text-align:justify">
+<a href="https://asset-group.github.io/papers/AequeVox.pdf">AequeVox: Automated Fairness Testing of Speech Recognition Systems</a><br>
+Sai Sathiesh Rajan, Sakshi Udeshi, and Sudipta Chattopadhyay<br>
+25th International Conference on Fundamental Approaches to Software Engineering (FASE), 2022
+</p>
+
+<p style="text-align:justify">
+<a href="https://asset-group.github.io/papers/Astrea.pdf"> Astraea: Grammar-based fairness testing</a><br>
+Ezekiel Soremekun, Sakshi Sunil Udeshi, and Sudipta Chattopadhyay<br>
+IEEE Transactions on Software Engineering (TSE), 2022<br>
+</p>
+
+<p style="text-align:justify">
+<a href="http://doi.acm.org/10.1145/3238147.3238165">Automated directed fairness testing</a><br>
+Sakshi Udeshi, Pryanshu Arora, and Sudipta Chattopadhyay<br>
+Proceedings of the 33rd (ACM/IEEE) International Conference on Automated Software Engineering (ASE), 2018
+</p>
+
+<p style="text-align:justify">
+<a href="https://arxiv.org/abs/1902.10027">Grammar Based Directed Testing of Machine Learning Systems</a><br>
+Sakshi Udeshi and Sudipta Chattopadhyay<br>
+IEEE Transactions on Software Engineering (TSE), 2020
+</p>
+
+
+<h3>Interdisciplinary Publications:</h3>
+
+<p style="text-align:justify">
+Accented DH: Assessing Fairness of Multilingual Speech Recognition Systems<br>
+Setsuko Yokoyama, Sai Sathiesh Rajan and Sudipta Chattopadhyay<br>
+Digital Humanities (DH), 2023
 </p>
 
 <p style="text-align:justify">
 <b>Acknowledgement:</b> We are grateful to 
-<a href="https://www.nrf.gov.sg/">National Research Foundations, Singapore</a> 
-for generously supporting this project. 
+<a href="https://www.moe.gov.sg/">Ministry of Education, Singapore</a>, <a href="https://www.ocft.com.sg/">OneConnect Financial</a> and 
+<a href="https://temasek-labs.sutd.edu.sg/">Temasek Labs</a> for generously supporting this project. 
 </p>
