@@ -44,6 +44,12 @@ geovani:
     image: /img/people/geovani_benita.png
     bio: "Research Associate (B.S. (CS), Autonomous University of Nuevo Leon)"
 
+leonardo:
+    display_name: "Leonardo Sestrem de Oliveira"
+    role: postdoc
+    image: /img/people/leonardo_sesm.jpeg
+    bio: "Research Associate (MSc, Polytechnic Institute of Braganca)"
+
 #Grad Students 
 
 yustynn:
