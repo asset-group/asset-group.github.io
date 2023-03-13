@@ -9,13 +9,11 @@ people:
   - matheus
   - anthony
   - zewen
-		- geovani
 
 layout: project
 last-updated: 2019-08-10
 ---
 <p style="text-align:justify">
-
 In this project, we investigate systematic and automated security testing 
 of (Wireless) Communication Protocols. Our work in this area has uncovered critical 
 security vulnerabilities such as <a href="https://asset-group.github.io/disclosures/sweyntooth/">SweynTooth</a> 
@@ -44,7 +42,7 @@ worldwide.
 <p style="text-align:justify">
 <a href="https://asset-group.github.io/papers/AutoFuzz4G5G.pdf">Towards Automated Fuzzing of 4G/5G Protocol Implementations Over the Air</a><br>
 Matheus E. Garbelini, Zewen Shang, Sudipta Chattopadhyay, Sumei Sun, and Ernest Kurniawan<br>
-IEEE Global Communications Conference (GLOBECOM), 2022<br>
+IEEE Global Communications Conference (GLOBECOM), 2022
 </p>
 
 <p style="text-align:justify">
@@ -55,13 +53,13 @@ IEEE Transactions on Dependable and Secure Computing (TDSC), 2020
 
 <p style="text-align:justify">
 <a href="https://asset-group.github.io/papers/BrakTooth.pdf">BrakTooth: Causing Havoc on Bluetooth Link Manager via Directed Fuzzing</a><br>
-Matheus E. Garbelini, Vaibhav Bedi, Sudipta Chattopadhyay, Sumei Sun, and Ernest Kurniawan<br>
+Matheus E. Garbelini, Vaibhav Bedi, Sudipta Chattopadhyay, Sumei Sun, and Ernest Kurniawan
 USENIX Security Symposium, 2022
 </p>
 
 <p style="text-align:justify">
 <a href="https://asset-group.github.io/papers/SweynTooth.pdf">SweynTooth: Unleashing Mayhem over Bluetooth Low Energy</a><br>
-Matheus E. Garbelini, Chundong Wang, Sudipta Chattopadhyay, Sumei Sun, and Ernest Kurniawan<br>
+Matheus E. Garbelini, Chundong Wang, Sudipta Chattopadhyay, Sumei Sun, and Ernest Kurniawan
 USENIX Annual Technical Conference (USENIX ATC), 2020
 </p>
 
