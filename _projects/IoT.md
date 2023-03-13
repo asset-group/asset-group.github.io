@@ -3,7 +3,7 @@ title: IoT Wireless Security
 
 description: |
  <p style="text-align:justify">
-  IoT Wireless Security Testing and Countermeasures.<font color="red"> 
+  IoT Wireless Security Testing and Countermeasures.
  </p>
 people:
   - yeeching
