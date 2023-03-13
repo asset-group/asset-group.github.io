@@ -38,6 +38,12 @@ yeeching:
     image: /img/people/Tok_Yee_Ching.jpg
     bio: "Research Fellow (PhD, SUTD)"
 
+geovani:
+    display_name: "Geovani Benita Maldonado"
+    role: postdoc
+    image: /img/people/geovani_benita.png
+    bio: "Research Associate (B.S. (CS), Autonomous University of Nuevo Leon)"
+
 #Grad Students 
 
 yustynn:
