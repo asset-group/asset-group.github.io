@@ -9,7 +9,7 @@ people:
   - yeeching
 
 layout: project
-last-updated: 2019-08-10
+last-updated: 2023-03-09
 ---
 <p style="text-align:justify">
 Emerging technologies such as IoT and smart city infrastructure (SCI) entice adversaries 
