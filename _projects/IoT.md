@@ -53,13 +53,13 @@ IEEE Transactions on Dependable and Secure Computing (TDSC), 2020
 
 <p style="text-align:justify">
 <a href="https://asset-group.github.io/papers/BrakTooth.pdf">BrakTooth: Causing Havoc on Bluetooth Link Manager via Directed Fuzzing</a><br>
-Matheus E. Garbelini, Vaibhav Bedi, Sudipta Chattopadhyay, Sumei Sun, and Ernest Kurniawan
+Matheus E. Garbelini, Vaibhav Bedi, Sudipta Chattopadhyay, Sumei Sun, and Ernest Kurniawan<br>
 USENIX Security Symposium, 2022
 </p>
 
 <p style="text-align:justify">
 <a href="https://asset-group.github.io/papers/SweynTooth.pdf">SweynTooth: Unleashing Mayhem over Bluetooth Low Energy</a><br>
-Matheus E. Garbelini, Chundong Wang, Sudipta Chattopadhyay, Sumei Sun, and Ernest Kurniawan
+Matheus E. Garbelini, Chundong Wang, Sudipta Chattopadhyay, Sumei Sun, and Ernest Kurniawan<br>
 USENIX Annual Technical Conference (USENIX ATC), 2020
 </p>
 

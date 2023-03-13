@@ -37,7 +37,7 @@ Amazon and Airbnb.
 <p style="text-align:justify">
 <a href="https://asset-group.github.io/papers/AEGIS.pdf">Towards Backdoor Attacks and Defense in Robust Machine Learning Models</a><br>
 Ezekiel Soremekun, Sakshi Udeshi, and Sudipta Chattopadhyay<br>
-Elsevier Journal of Computers and Security, 2023<br>
+Elsevier Journal of Computers and Security, 2023
 </p>
 
 <p style="text-align:justify">
@@ -49,7 +49,7 @@ Sai Sathiesh Rajan, Sakshi Udeshi, and Sudipta Chattopadhyay<br>
 <p style="text-align:justify">
 <a href="https://asset-group.github.io/papers/Astrea.pdf"> Astraea: Grammar-based fairness testing</a><br>
 Ezekiel Soremekun, Sakshi Sunil Udeshi, and Sudipta Chattopadhyay<br>
-IEEE Transactions on Software Engineering (TSE), 2022<br>
+IEEE Transactions on Software Engineering (TSE), 2022
 </p>
 
 <p style="text-align:justify">
