@@ -1,9 +1,9 @@
 ---
-title: Side-channel Freedom
+title: (Micro-architectural) Timing Channel
 
 description: |
  <p style="text-align:justify">
- Analysis and mitigation of timing-channels in programs. 
+ Analysis and mitigation of (micro-architectural) timing-channels in programs. 
  </p>
 people:
   - ahmed
