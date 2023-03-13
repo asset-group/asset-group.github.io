@@ -88,21 +88,21 @@ You:
     role: urop
     bio: "Student at SUTD"
 
-#Alumni (selected)
+#Alumni
 
 sakshi:
     display_name: "Sakshi Udeshi"
     webpage: "http://sakshiudeshi.github.io"
     role: alum
     image: /img/people/Sakshi_Udeshi.jpg
-    bio: "PhD Student (SUTD)"
+    bio: "PhD Student (SUTD), First doctoral graduate from ASSET group"
 
 yifan:
     display_name: "Jia Yifan"
     webpage: "https://www.linkedin.com/in/jia-yifan-a704403b/"
     role: alum
     image: /img/people/Jia_Yifan.jpg
-    bio: "PhD Student (SUTD and TUV SUD)"
+    bio: "PhD Student of ASSET Group"
 
 xingbin:
     display_name: "Xingbin Jiang"
@@ -169,39 +169,39 @@ adrian:
     webpage: "https://www.ida.liu.se/~adrho74/"
     role: alum
     image: /img/people/Adrian_Horga.jpg
-    bio: "PhD Student (Linköping University, Sweden)"
+    bio: "Visiting PhD Student (Linköping University, Sweden)"
 
 arian:
     display_name: "Arian Maghazeh"
     role: alum
     bio: "Research Intern"
-    bio: "PhD Student (Linköping University, Sweden)"
+    bio: "Visiting PhD Student (Linköping University, Sweden)"
 
 kartik:
     display_name: "Kartik Aggarwal"
     role: alum
     bio: "Research Intern"
-    bio: "Undergraduate Student (BITS Pilani, India)"
+    bio: "Visiting Undergraduate Student (BITS Pilani, India)"
 
 gunavaran:
     display_name: "Gunavaran Brihadiswarn"
     role: alum
     bio: "Research Intern"
-    bio: "Undergraduate Student (University of Moratuwa, Sri Lanka)"
+    bio: "Visiting Undergraduate Student (University of Moratuwa, Sri Lanka)"
 
 pryanshu:
     display_name: "Pryanshu Arora"
     role: alum
-    bio: "Undergraduate Student (BITS Pilani, India)"
+    bio: "Visiting Undergraduate Student (BITS Pilani, India)"
 
 tanya:
     display_name: "Tanya Srivastava"
     role: alum
-    bio: "Undergraduate Student (BITS Pilani, India)"
+    bio: "Visiting Undergraduate Student (BITS Pilani, India)"
 
 jingxuan:
     display_name: "Jingxuan Jiang"
     role: alum
     bio: "Research Intern"
-    bio: "Masters Student (Shandong University, China)"
+    bio: "Visiting Masters Student (Shandong University, China)"
 

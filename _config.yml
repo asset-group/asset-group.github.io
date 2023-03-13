@@ -25,7 +25,7 @@ roles:
   - key: grad
     name: Graduate Students
   - key: alum
-    name: Alumni
+    name: Selected Alumni
   - key: collab
     name: Long-term Collaborators
   - key: urop
