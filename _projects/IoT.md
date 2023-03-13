@@ -10,7 +10,6 @@ people:
   - anthony
   - zewen
 		- geovani
-		- leonardo
 
 layout: project
 last-updated: 2019-08-10
