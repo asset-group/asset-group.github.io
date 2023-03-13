@@ -9,7 +9,7 @@ with most of our research papers.
 
 ---
 
-#### *Side Channel Freedom*
+#### *Micro-architectural Timing Channel*
 
 ---
 
@@ -30,7 +30,7 @@ with most of our research papers.
 
 ---
 
-#### *IoT Wireless Security*
+#### *(Wireless) Communication Security*
 
 ---
 
@@ -54,10 +54,6 @@ with most of our research papers.
 
 [This repository](https://github.com/Matheus-Garbelini/sweyntooth_bluetooth_low_energy_attacks) contains the proof-of-concept code for [SweynTooth vulnerability](https://asset-group.github.io/disclosures/sweyntooth/) in major BLE System-on-chips (SoCs) such as Texas Instruments, Cypress, NXP, Microchip, ST Microelectronics, Telink and Dialog semiconductors. 
 
-###### Stitcher
-
-[Stitcher](https://github.com/poppopretn/Stitcher) is a tool designed to classify and correlate evidence from IoT devices. See the paper 
-[“STITCHER: Correlating Digital Forensic Evidence on Internet-of-Things Devices”](https://arxiv.org/abs/2003.07242) for details.
 
 ###### Mirai4IIoT
 
@@ -65,7 +61,29 @@ with most of our research papers.
 
 ---
 
-#### *AI Safety and Security*
+#### *(IoT) Cybercrime and Forensics*
+
+---
+
+
+###### Stitcher
+
+[Stitcher](https://github.com/poppopretn/Stitcher) is a tool designed to classify and correlate evidence from IoT devices. See the FSIDI paper 
+[“STITCHER: Correlating Digital Forensic Evidence on Internet-of-Things Devices”](https://asset-group.github.io/papers/Stitcher_FSIDI.pdf) for details.
+
+
+###### SCI Threat Models
+
+[SCI Threat Models](https://github.com/poppopretn/SmartCityThreatModel) is a set of threat models designed to classify threats and map evidences for 
+cybercrime investigation in smart city infrastructure (SCI). The threat model is technology-agnostic - the SCI modeled here focuses on gathering 
+quality of life data indicators as specified in ISO37101:2016, ISO37120:2018, ISO37122:2019 and ISO37123:2019 instead. See the FSIDI  paper 
+[“Identifying Threats, Cybercrime and Digital Forensic Opportunities in Smart City Infrastructure via Threat Modeling.”](https://asset-group.github.io/papers/SmartCityThreatModelCyberCrime.pdf) 
+for details.
+
+
+---
+
+#### *AI/ML Safety, Bias and Security*
 
 ---
 
@@ -85,7 +103,7 @@ with most of our research papers.
 [Aegis](https://github.com/sakshiudeshi/Expose-Robust-Backdoors) provides a systematic framework for detecting backdoored, yet robust machine-learning systems. See the paper in Computers & Security 2023 [Towards Backdoor Attacks and Defense in Robust Machine Learning Models](https://arxiv.org/abs/2003.00865) for more details.
 
 ###### Neo
-[Neo](https://github.com/sakshiudeshi/Ogma) provides a systematic model-agnostic defense for Backdoor attacks. See the paper in IEEE Transactions on Reliability 2022 [Model Agnostic Defence Against Backdoor Attacks in Machine Learning](https://arxiv.org/abs/1908.02203) for more details.
+[Neo](https://github.com/sakshiudeshi/Neo) provides a systematic model-agnostic defense for Backdoor attacks. See the paper in IEEE Transactions on Reliability 2022 [Model Agnostic Defence Against Backdoor Attacks in Machine Learning](https://arxiv.org/abs/1908.02203) for more details.
 
 ###### Callisto 
 [Callisto](https://github.com/sakshiudeshi/Callisto/) is a novel test generation and data quality assessment framework. Callisto  leverages the uncertainty in the prediction to systematically generate new test cases and evaluate data quality for Machine Learning classifiers. See the paper in ICST 2020 [Callisto: Entropy based test generation and data quality assessment for Machine Learning Systems](https://asset-group.github.io/papers/Callisto.pdf) for more details.
