@@ -21,7 +21,8 @@ and <a href="https://www.braktooth.com">BrakTooth</a>, among others. Additionall
 our security testing tool has been translated by <a href="https://www.keysight.com/">Keysight Technologies</a> 
 into <a href="https://www.keysight.com/us/en/cmp/2021/iot-security.html">Keysight IoT Security Assesssment Software</a>. 
 Our research in this topic was featured in 
-<a href="https://www.wired.com/story/braktooth-bluetooth-whatsapp-fine-omg-cable">WIRED</a>,
+<a href="https://www.wired.com/story/bluetooth-flaws-ble-internet-of-things-pacemakers">WIRED (1)</a>, 
+<a href="https://www.wired.com/story/braktooth-bluetooth-whatsapp-fine-omg-cable">WIRED (2)</a>,
 <a href="https://sea.pcmag.com/security/45801/braktooth-vulnerabilities-affect-countless-bluetooth-devices">PCMag Magazine</a>,
 <a href="https://thehackernews.com/2021/09/new-braktooth-flaws-leave-millions-of.html">Hacker News</a>,
 <a href="https://hackaday.com/2021/09/23/bluetooth-vulnerability-arbitrary-code-execution-on-the-esp32-among-others/">HACKADAY</a>,
