@@ -3,8 +3,7 @@ title: Side-channel Freedom
 
 description: |
  <p style="text-align:justify">
-  Securing systems against side-channel attacks. <font color="red">
-  <b> Multiple post-doc and research assistant positions open in this project.</b></font>
+ Analysis and mitigation of timing-channels in programs. 
  </p>
 people:
   - ahmed
