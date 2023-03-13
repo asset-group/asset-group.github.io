@@ -7,7 +7,6 @@ description: |
   <b> Multiple post-doc and research assistant positions open in this project.</b></font>
  </p>
 people:
-  - ali
   - ahmed
 
 layout: project
