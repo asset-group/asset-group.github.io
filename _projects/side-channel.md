@@ -62,4 +62,3 @@ Singapore <a href="https://www.moe.gov.sg/">Ministry of Education (MOE)</a>
 for generously supporting this project. 
 </p>
 
-</p>
