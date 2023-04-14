@@ -39,6 +39,14 @@ anthony:
     image: /img/people/anthony_yeo.png
     bio: "Research Associate (MSSD, SUTD)"
 
+# Research Assistants
+wangcheng:
+  display_name: "Wang Cheng"
+  role: postdoc
+  image: /img/people/Wang_Cheng.jpg
+  bio: "Research Assistant (BEng, SUTD)"
+
+#Grad Students 
 yeeching:
     display_name: "Tok Yee Ching"
     webpage: "https://poppopretn.com"

@@ -28,6 +28,8 @@ roles:
     name: Selected Alumni
   - key: collab
     name: Long-term Collaborators
+  - key: ra
+    name: Research Assistants
   - key: urop
     name: UROP Students
 
