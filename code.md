@@ -9,7 +9,7 @@ with most of our research papers.
 
 ---
 
-#### *Micro-architectural Timing Channel*
+#### *(Micro-architectural) Timing Channel*
 
 ---
 
