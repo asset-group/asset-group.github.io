@@ -35,13 +35,23 @@
     <!-- This is a bit nasty, but it basically says be a column first, and on larger screens be a spaced out row -->
     <div class="header d-flex
                         flex-column
-                        flex-md-row justify-content-md-between">
-        <a href="{{ site.base }}/" class="">
+                        flex-md-row justify-content-center">
+        
+								<a href="{{ site.base }}/" class="">
+            <img src="{{ site.base }}/img/sample-logo-test-2.png"
+												     width="300" height="120" alt="Awesome">
+                 <!-- alt="Awesome" id="logo"> -->
+        </a>
+
+       <!--  <a href="https://istd.sutd.edu.sg/" class="">
             <img src="{{ site.base }}/img/logo.png"
                  srcset="{{ site.base }}/img/logo@2x.png 2x"
-                 alt="Awesome" id="logo">
-        </a>
-        <ul class="nav nav-pills justify-content-center">
+												     width="260" height="90" align="right" alt="awesome" hspace="550">
+        </a> -->
+        
+    </div>
+
+							<ul class="nav nav-pills justify-content-center">
 
             {% assign shorturl = page.url | replace:'.html','' | replace:'index','' %}
             {% for item in site.navigation %}
@@ -66,7 +76,11 @@
             {% endfor %}
 
         </ul>
-    </div>
+    
+				<div class="header d-flex
+                        flex-column
+                        flex-md-row justify-content-center">
+				</div>
 
     {% if page.image %}
     <img src="{{ page.image }}"
