@@ -37,7 +37,7 @@ ACM Transactions on Software Engineering and Methodology (TOSEM): Board of Disti
 <br>
 <i>Topic Chair</i>: Topic E1 (Embedded Software Architecture, Compilers and Tool Chains) of DATE 2024.
 <br>
-<i>Technical Program Committee (TPC)</i>: DAC 2023, ASE 2023, EMSOFT 2023, ACNS 2023 (Round 2), RTSS 2023, ACNS 2024 (Round 1). 
+<i>Technical Program Committee (TPC)</i>: DAC 2023, ASE 2023, EMSOFT 2023, ACNS 2023 (Round 2), RTSS 2023, FSE 2024, ACNS 2024 (Round 1). 
 </p> 
 
 #### 2022
