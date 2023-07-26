@@ -1,7 +1,7 @@
 ---
 layout: default_disclosure
 title: VitroBench
-img: sweintooth_logo.jpg
+img: VitroBench_logo.png
 img_size: 100px
 comments: true
 tags: [disclosure]
