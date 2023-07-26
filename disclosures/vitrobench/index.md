@@ -2,7 +2,7 @@
 layout: default_disclosure
 title: VitroBench
 img: VitroBench_logo.png
-img_size: 100px
+img_size: 200px
 comments: true
 tags: [disclosure]
 ---
