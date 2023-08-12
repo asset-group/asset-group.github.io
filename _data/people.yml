@@ -15,7 +15,6 @@ ahmed:
     image: /img/people/ahmed.jpg
     bio: "Associate Professor (Linköping University, Sweden)"
 
-#Collaborators
 ezekiel:
     display_name: "Ezekiel Olamide Soremekun"
     webpage: "https://scholar.google.com.sg/citations?user=r8T1-yoAAAAJ&hl=en"
@@ -23,7 +22,6 @@ ezekiel:
     image: /img/people/ezekiel.jpg
     bio: "Assistant Professor (Royal Holloway, University of London)"
 
-#Collaborators
 sumei:
     display_name: "Dr. Sun Sumei"
     webpage: "https://www.a-star.edu.sg/i2r/about-i2r/i2r-management/sun-sumei"
@@ -32,21 +30,19 @@ sumei:
     bio: "Head of the Communications and Networks Department (I2R, A*STAR)"
 
 #Post Docs/Researchers
+yuanbin:
+  display_name: "Yuanbin Zhou"
+  role: postdoc
+  image: /img/people/Yuanbin_Zhou.jpeg
+  bio: "Research Fellow (PhD, Linköping University, Sweden)"
+  webpage: "https://sites.google.com/view/yuazh81/"
 
-anthony:
-    display_name: "Yeo Kee Teck Anthony"
-    role: postdoc 
-    image: /img/people/anthony_yeo.png
-    bio: "Research Associate (MSSD, SUTD)"
-
-# Research Assistants
 wangcheng:
   display_name: "Wang Cheng"
   role: postdoc
   image: /img/people/Wang_Cheng.jpg
   bio: "Research Assistant (BEng, SUTD)"
 
-#Grad Students 
 yeeching:
     display_name: "Tok Yee Ching"
     webpage: "https://poppopretn.com"
@@ -54,11 +50,6 @@ yeeching:
     image: /img/people/Tok_Yee_Ching.jpg
     bio: "Research Fellow (PhD, SUTD)"
 
-geovani:
-    display_name: "Geovani Benita Maldonado"
-    role: postdoc
-    image: /img/people/geovani_benita.png
-    bio: "Research Associate (B.S. (CS), Autonomous University of Nuevo Leon)"
 
 leonardo:
     display_name: "Leonardo Sestrem de Oliveira"
@@ -67,13 +58,41 @@ leonardo:
     bio: "Research Associate (MSc, Polytechnic Institute of Braganca)"
 
 #Grad Students 
+shijie:
+    display_name: "Luo Shijie"
+    role: grad
+    image: /img/people/Luo_Shijie.jpeg
+    bio: "PhD Student (BEng, SUTD)"
+
+guoqiang:
+    display_name: "Hua Guoqiang"
+    role: grad
+    image: /img/people/Hua_Guoqiang.jpeg
+    bio: "PhD Student (BEng, SUTD)"
+
+mayank:
+    display_name: "Mayank Nauni"
+    role: grad
+    image: /img/people/Mayank_Nauni.jpeg
+    bio: "PhD Student (MSSD, SUTD)"
+
+anthony:
+    display_name: "Yeo Kee Teck Anthony"
+    role: grad
+    image: /img/people/anthony_yeo.png
+    bio: "PhD Student (MSSD, SUTD)"
+
+geovani:
+    display_name: "Geovani Benita Maldonado"
+    role: grad
+    image: /img/people/geovani_benita.png
+    bio: "PhD Student (B.S. (CS), Autonomous University of Nuevo Leon)"
 
 yustynn:
     display_name: "Yustynn Panicker"
-    # webpage: "http://sakshiudeshi.github.io"
     role: grad
     image: /img/people/Yustynn_Panicker.png
-    bio: "PhD Student (SUTD and A*STAR ACIS Scholar)"
+    bio: "PhD Student (BEng, SUTD and A*STAR ACIS Scholar)"
 
 matheus:
     display_name: "Matheus Eduardo"
@@ -87,14 +106,14 @@ sai:
     webpage: "https://www.linkedin.com/in/srajan9/"
     role: grad
     image: /img/people/sai-rajan.jpg
-    bio: "PhD Student (SUTD), MS (Georgia Tech)"
+    bio: "PhD Student (MS, Georgia Tech)"
 
 zewen:
     display_name: "Shang Zewen"
     webpage: "https://www.linkedin.com/in/zewen-shang-559549168"
     role: grad
     image: /img/people/Zewen.jpg
-    bio: "PhD Student (SUTD), BE (SUTD)"
+    bio: "PhD Student (BEng, SUTD)"
 
 
 #Urop
