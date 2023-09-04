@@ -9,6 +9,10 @@ people:
   - matheus
   - anthony
   - zewen
+  - geovani
+  - shijie
+  - guoqiang
+  - yuanbin
 
 layout: project
 last-updated: 2023-03-10

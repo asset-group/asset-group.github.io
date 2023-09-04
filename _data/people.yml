@@ -37,12 +37,6 @@ yuanbin:
   bio: "Research Fellow (PhD, Linköping University, Sweden)"
   webpage: "https://sites.google.com/view/yuazh81/"
 
-wangcheng:
-  display_name: "Wang Cheng"
-  role: postdoc
-  image: /img/people/Wang_Cheng.jpg
-  bio: "Research Assistant (BEng, SUTD)"
-
 yeeching:
     display_name: "Tok Yee Ching"
     webpage: "https://poppopretn.com"
@@ -50,12 +44,13 @@ yeeching:
     image: /img/people/Tok_Yee_Ching.jpg
     bio: "Research Fellow (PhD, SUTD)"
 
-
-leonardo:
-    display_name: "Leonardo Sestrem de Oliveira"
+davis:
+    display_name: "Davis Zheng"
+    webpage: "https://sg.linkedin.com/in/davis-zhengyang"
     role: postdoc
-    image: /img/people/leonardo_sesm.jpeg
-    bio: "Research Associate (MSc, Polytechnic Institute of Braganca)"
+    image: /img/people/Davis.jpeg
+    bio: "Visiting Researcher (Pursuing BE (Cybersecurity), SIT)"
+
 
 #Grad Students 
 shijie:
