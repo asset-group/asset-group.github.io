@@ -30,6 +30,14 @@ sumei:
     bio: "Head of the Communications and Networks Department (I2R, A*STAR)"
 
 #Post Docs/Researchers
+
+matheus:
+    display_name: "Matheus Eduardoi Garbelini"
+    webpage: "https://matheus-garbelini.github.io/home/"
+    role: postdoc
+    bio: "Research Fellow (PhD, SUTD)"
+    image: /img/people/Matheus_Eduardo.jpg
+
 yuanbin:
   display_name: "Yuanbin Zhou"
   role: postdoc
@@ -89,13 +97,6 @@ yustynn:
     role: grad
     image: /img/people/Yustynn_Panicker.png
     bio: "PhD Student (BEng, SUTD and A*STAR ACIS Scholar)"
-
-matheus:
-    display_name: "Matheus Eduardo"
-    webpage: "https://matheus-garbelini.github.io/home/"
-    role: grad
-    bio: "PhD student (SUTD and SINGA Scholar)"
-    image: /img/people/Matheus_Eduardo.jpg
 
 sai:
     display_name: "Sai Sathiesh Rajan"
