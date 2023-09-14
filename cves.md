@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CVEs
+title: Disclosures
 ---
 
 <script>
@@ -28,4 +28,3 @@ The iframe should automatically ajust its size after 100ms
 
 
 <iframe src="disclosures/disclosures.html" style="height:100vh;width: 100%;" onload="setDocHeight(this);" scrolling="no" frameBorder="0"></iframe>
-

@@ -23,6 +23,54 @@
 <div id="q-app" style="height: 100%">
     <div class="q-pa-md row items-start justify-center q-gutter-md">
 
+<q-card class="my-card bg-grey-1 items-start">
+            <q-img
+                    src="/disclosures/5ghoul/logo12.jpg"
+                    height="140px"
+                    ratio="1"
+                    basic
+            >
+                <div class="absolute-bottom text-h6">
+                    5Ghoul
+                </div>
+            </q-img>
+
+            <q-card-section>
+                Disclosure to be announced on <font
+                    color="red"><b>Thursday, December 7, 2023</b></font>
+                <br></br>
+            </q-card-section>
+
+            <div style="padding-bottom: 83px;"></div>
+
+            <q-list>
+                <q-item clickable>
+                    <q-item-section>
+                        <q-btn push color="primary" icon="info" label="See details"
+                               @click="Quasar.Notify.create({message:'Disclosure to be announced on Thursday, December 7, 2023!', position:'top', type: 'negative', timeout: 2000});"/>
+                    </q-item-section>
+                </q-item>
+            </q-list>
+
+            <q-separator></q-separator>
+
+            <q-btn-dropdown
+            flat
+            class="full-width"
+            color="primary"
+            >
+
+                <template v-slot:label>
+                    <q-chip class="full-width">
+                        <q-avatar color="red" text-color="white">10+</q-avatar>
+                        CVES (TBA)
+                    </q-chip>
+                </template>
+
+            </q-btn-dropdown>
+
+        </q-card>
+
         <q-card class="my-card bg-grey-1 items-start">
             <q-img
                     src="/disclosures/braktooth/braktooth_logo.png"
