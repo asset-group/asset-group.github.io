@@ -30,18 +30,19 @@ sumei:
     bio: "Head of the Communications and Networks Department (I2R, A*STAR)"
 
 #Post Docs/Researchers
+matheus:
+    display_name: "Matheus Eduardo Garbelini"
+    webpage: "https://matheus-garbelini.github.io/home/"
+    role: postdoc
+    bio: "Research Fellow (PhD, SUTD)"
+    image: /img/people/Matheus_Eduardo.jpg
+
 yuanbin:
   display_name: "Yuanbin Zhou"
   role: postdoc
   image: /img/people/Yuanbin_Zhou.jpeg
   bio: "Research Fellow (PhD, Linköping University, Sweden)"
   webpage: "https://sites.google.com/view/yuazh81/"
-
-wangcheng:
-  display_name: "Wang Cheng"
-  role: postdoc
-  image: /img/people/Wang_Cheng.jpg
-  bio: "Research Assistant (BEng, SUTD)"
 
 yeeching:
     display_name: "Tok Yee Ching"
@@ -50,12 +51,13 @@ yeeching:
     image: /img/people/Tok_Yee_Ching.jpg
     bio: "Research Fellow (PhD, SUTD)"
 
-
-leonardo:
-    display_name: "Leonardo Sestrem de Oliveira"
+davis:
+    display_name: "Davis Zheng"
+    webpage: "https://sg.linkedin.com/in/davis-zhengyang"
     role: postdoc
-    image: /img/people/leonardo_sesm.jpeg
-    bio: "Research Associate (MSc, Polytechnic Institute of Braganca)"
+    image: /img/people/Davis.jpeg
+    bio: "Visiting Researcher (Pursuing BE (Cybersecurity), SIT)"
+
 
 #Grad Students 
 shijie:
@@ -75,6 +77,7 @@ mayank:
     role: grad
     image: /img/people/Mayank_Nauni.jpeg
     bio: "PhD Student (MSSD, SUTD)"
+    webpage: "https://mayanknauni.com/"
 
 anthony:
     display_name: "Yeo Kee Teck Anthony"
@@ -93,13 +96,6 @@ yustynn:
     role: grad
     image: /img/people/Yustynn_Panicker.png
     bio: "PhD Student (BEng, SUTD and A*STAR ACIS Scholar)"
-
-matheus:
-    display_name: "Matheus Eduardo"
-    webpage: "https://matheus-garbelini.github.io/home/"
-    role: grad
-    bio: "PhD student (SUTD and SINGA Scholar)"
-    image: /img/people/Matheus_Eduardo.jpg
 
 sai:
     display_name: "Sai Sathiesh Rajan"

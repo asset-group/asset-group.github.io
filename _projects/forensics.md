@@ -7,6 +7,8 @@ description: |
  </p>
 people:
   - yeeching
+  - mayank
+  - davis
 
 layout: project
 last-updated: 2023-03-09
