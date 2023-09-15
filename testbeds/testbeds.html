@@ -1,0 +1,129 @@
+<head>
+    <style>
+        .my-card {
+            width: 100%;
+            max-width: 250px
+        }
+
+        .gradient-blue {
+            background: radial-gradient(circle, #35a2ff 0%, #014a88 100%)
+        }
+    </style>
+</head>
+
+<body>
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons" rel="stylesheet"
+      type="text/css">
+<link href="https://cdn.jsdelivr.net/npm/@mdi/font@^3.0.0/css/materialdesignicons.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/animate.css@^3.5.2/animate.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/quasar@1.15.23/dist/quasar.min.css">
+<script src="https://cdn.jsdelivr.net/npm/vue@^2.0.0/dist/vue.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/quasar@1.15.23/dist/quasar.umd.min.js"></script>
+
+<div id="q-app" style="height: 100%">
+    <div class="q-pa-md row items-start justify-center q-gutter-md">
+
+        <q-card class="my-card bg-grey-1">
+            <q-img
+                    src="/testbeds/vitrobench/card_logo_v1_t.png"
+                    basic
+            >
+      <!--          <div class="absolute-bottom text-h6" style="opacity: 1.0;">
+                    VitroBench
+                </div> -->
+            </q-img>
+
+            <q-card-section style="text-align: justify;">
+                <font color="red"><b>VitroBench</b></font>
+                is a comprehensive test platform involving
+                commercial off-the-shelf (COTS) ECUs that allows  <font color="red"><b>arbitrary
+                control over IVN communication</b></font>. VitroBench allows us to sniff, inject CAN/LIN frames, and isolate targeted ECUs via bridging.
+                This allows us to design and evaluate concrete attacks related to a driving scenario.
+            </q-card-section>
+
+            <q-list>
+                <q-item clickable>
+                    <q-item-section>
+                        <q-btn push color="primary" icon="info" label="See details"
+                               @click="window.open('/testbeds/vitrobench/','_parent');"/>
+                    </q-item-section>
+                </q-item>
+                <q-item clickable>
+                    <q-item-section>
+                        <q-btn push color="secondary" icon="smart_display" label="Teaser Video"
+                               @click="window.open('https://www.youtube.com/watch?v=5JA58Mpn1lg','_blank');"/>
+                    </q-item-section>
+                </q-item>
+            </q-list>
+
+            <q-separator></q-separator>
+
+            <q-btn-dropdown
+            flat
+            class="full-width"
+            color="primary"
+            >
+                <template v-slot:label>
+                    <q-chip class="full-width">
+                        <q-avatar color="red" text-color="white">3</q-avatar>
+                        Features (Expand)
+                    </q-chip>
+                </template>
+                <q-list bordered>
+                    <q-item clickable>
+                        <q-item-section avatar>
+                            <q-icon color="primary" name="trending_up"/>
+                        </q-item-section>
+                        <q-item-section>
+                            <q-item-label>
+                                CAN/LIN Protocol Fuzzing
+                            </q-item-label>
+                        </q-item-section>
+                    </q-item>
+
+                    <q-item clickable>
+                        <q-item-section avatar>
+                            <q-icon color="primary" name="start"/>
+                        </q-item-section>
+                        <q-item-section>
+                            <q-item-label>
+                                CAN/LIN Frame Injection
+                            </q-item-label>
+                        </q-item-section>
+                    </q-item>
+
+                    <q-item clickable>
+                        <q-item-section avatar>
+                            <q-icon color="primary" name="sync_alt"/>
+                        </q-item-section>
+                        <q-item-section>
+                            <q-item-label>
+                                CAN/LIN Bridging
+                            </q-item-label>
+                        </q-item-section>
+                    </q-item>
+
+                </q-list>
+            </q-btn-dropdown>
+        </q-card>
+
+    </div>
+</div>
+
+<script>
+    new Vue({
+        el: '#q-app',
+        data: function () {
+            return {}
+        },
+        methods: {},
+        beforeMount() {
+
+        },
+        mounted() {
+
+        }
+
+    })
+</script>
+</body> 

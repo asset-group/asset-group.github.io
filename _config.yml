@@ -60,5 +60,7 @@ navigation:
     link: /code.html
   - title: Disclosures
     link: /cves.html
+  - title: Testbeds
+    link: /testbeds.html
   - title: Service
     link: /service.html
