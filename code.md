@@ -34,6 +34,10 @@ with most of our research papers.
 
 ---
 
+###### VitroBench (Software)
+
+[This repository](https://github.com/yeoant/VitroBench) contains the Proof-of-concept (PoC) code for sniffing, injection or interception, and fuzzing or attacks executed on the [VitroBench Test Platform](https://www.vitrobench.com). See the paper [VitroBench: Manipulating In-vehicle Networks and COTS ECUs on Your Bench](https://asset-group.github.io/papers/VitroBench.pdf) and the companion [VitroBench Website](https://www.vitrobench.com) for more details. 
+
 ###### BrakTooth (Proof of Concept)
 
 [This repository](https://github.com/Matheus-Garbelini/braktooth_esp32_bluetooth_classic_attacks) contains the Proof-of-concept (PoC) code for [BrakTooth vulnerability](https://asset-group.github.io/disclosures/braktooth/) in major Bluetooth System-on-chips (SoCs) such as Intel, Qualcomm, Texas Instruments, Cypress, Silicon Labs, Xiaomi, Mediatek, Samsung etc.
