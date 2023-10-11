@@ -71,6 +71,10 @@ The primary objective of VitroBench is to facilitate the discovery and investiga
 | Message 0x1A6 | Wrong Speed Display | Speed value for instrument cluster |
 | Message 0x600 to 0x6FF | Penetration Test | Range of diagnostic messages |
 
+<span style="color:blue">
+_A short video to show the attack process and the attack impact will be uploaded soon._
+</span>
+
 ---
 ### Acknowledgements
 <p align="justify">This research/project is supported by the National Research Foundation, Singapore, and Land Transport Authority under Urban Mobility Grand Challenge (Grant number UMGC-L011). Any opinions, findings and conclusions or recommendations expressed in this material are those of the author(s) and do not reflect the views of National Research Foundation, Singapore and Land Transport Authority.
