@@ -58,6 +58,13 @@ davis:
     image: /img/people/Davis.jpeg
     bio: "Visiting Researcher (Pursuing BE (Cybersecurity), SIT)"
 
+louisa:
+    display_name: "Louisa Nonis"
+    webpage: "https://www.linkedin.com/in/louisa-nonis/"
+    role: postdoc
+    image: img/people/louisa_n.png
+    bio: "Research Technician"
+
 
 #Grad Students 
 shijie:

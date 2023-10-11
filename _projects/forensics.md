@@ -9,6 +9,7 @@ people:
   - yeeching
   - mayank
   - davis
+  - louisa
 
 layout: project
 last-updated: 2023-03-09
