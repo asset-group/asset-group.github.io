@@ -72,12 +72,14 @@ shijie:
     role: grad
     image: /img/people/Luo_Shijie.jpeg
     bio: "PhD Student (BEng, SUTD)"
+    year: "2023 (Sept) - "
 
 guoqiang:
     display_name: "Hua Guoqiang"
     role: grad
     image: /img/people/Hua_Guoqiang.jpeg
     bio: "PhD Student (BEng, SUTD)"
+    year: "2023 (Sept) - "
 
 mayank:
     display_name: "Mayank Nauni"
@@ -85,24 +87,28 @@ mayank:
     image: /img/people/Mayank_Nauni.jpeg
     bio: "PhD Student (MSSD, SUTD)"
     webpage: "https://mayanknauni.com/"
+    year: "2023 (Sept) - "
 
 anthony:
     display_name: "Yeo Kee Teck Anthony"
     role: grad
     image: /img/people/anthony_yeo.png
     bio: "PhD Student (MSSD, SUTD)"
+    year: "2023 (Sept) - "
 
 geovani:
     display_name: "Geovani Benita Maldonado"
     role: grad
     image: /img/people/geovani_benita.png
-    bio: "PhD Student (B.S. (CS), Autonomous University of Nuevo Leon)"
+    bio: "PhD Student (B.S. (CS), AUNL)"
+    year: "2023 (Sept) - "
 
 yustynn:
     display_name: "Yustynn Panicker"
     role: grad
     image: /img/people/Yustynn_Panicker.png
-    bio: "PhD Student (BEng, SUTD and A*STAR ACIS Scholar)"
+    bio: "PhD Student (BEng, SUTD) and A*STAR ACIS Scholar)"
+    year: "2022 (Jan) - "
 
 sai:
     display_name: "Sai Sathiesh Rajan"
@@ -110,6 +116,7 @@ sai:
     role: grad
     image: /img/people/sai-rajan.jpg
     bio: "PhD Student (MS, Georgia Tech)"
+    year: "2020 (Sept) - "
 
 zewen:
     display_name: "Shang Zewen"
@@ -117,6 +124,7 @@ zewen:
     role: grad
     image: /img/people/Zewen.jpg
     bio: "PhD Student (BEng, SUTD)"
+    year: "2022 (Jan) - "
 
 
 #Urop
