@@ -65,6 +65,13 @@ louisa:
     image: /img/people/louisa_n.png
     bio: "Research Technician"
 
+mayukh:
+    display_name: "Mayukh Borana"
+    webpage: "https://sg.linkedin.com/in/mayukh-borana-99523112a"
+    role: postdoc
+    image: /img/people/mayukh.jpeg
+    bio: "Research Assistant (MSSD, SUTD)"
+
 
 #Grad Students 
 shijie:
