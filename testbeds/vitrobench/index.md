@@ -93,7 +93,9 @@ The primary objective of VitroBench is to facilitate the discovery and investiga
 ##### Penetration Test
 An example of the message ID (0x608) that passes though the JBE gateway is shown in the figure below. We observe that such penetration testing has little to no impact on
 the inter-frame interval (see the inter-frame timing distribution in the figure).
-<p align="center"><iframe class="table_image resize_table" width="100" height="auto" src="D-CAN_infiltrated_IDs_3.jpg" frameborder="0" allowfullscreen></iframe></p>
+<p align="center">
+  <img src="./D-CAN_infiltrated_IDs_3.jpg" width="800">
+</p>
 
 ---
 ### Acknowledgements
