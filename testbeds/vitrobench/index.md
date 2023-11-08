@@ -65,15 +65,46 @@ The primary objective of VitroBench is to facilitate the discovery and investiga
 
 | Message | Attack | Testbed Response |
 |:--------------|:----------|:---------------------------|
-| KCAN messages| Message Flooding | Affects instrument cluster display |
-| Message 0xAA | Fuel Pump Attack | Affects the fuel pump function |
-| Message 0x130 | Forced Car Stop | Status of car key |
-| Message 0x1A6 | Wrong Speed Display | Speed value for instrument cluster |
-| Message 0x600 to 0x6FF | Penetration Test | Range of diagnostic messages |
+| KCAN messages| [Message Flooding](#MessageFlooding) | Affects instrument cluster display |
+| Message 0xAA | [Fuel Pump Attack](#FuelPump) | Affects the fuel pump function |
+| Message 0x130 | [Forced Car Stop](#CarStop) | Status of car key |
+| Message 0x1A6 | [Wrong Speed Display](#SpeedDisplay) | Speed value for instrument cluster |
+| Message 0x600 to 0x6FF | [Penetration Test](#PenTest) | Range of diagnostic messages |
 
-<span style="color:blue">
-_A short video to show the attack process and the attack impact will be uploaded soon._
-</span>
+<a id="MessageFlooding"></a>
+##### Message Flooding
+
+<p align="justify">The objective of this attack is to stop the message 0x1A6 to reach the Instrument Cluster, so as the display in the cluster reflects an incorrect value. Therefore, we design a flooding attack scenario by flooding messages with IDs lower than 0x1A6 (hence higher priority for transmission).</p>
+
+<p align="center"><iframe class="table_image resize_table" width="450" height="auto" src="https://www.youtube.com/embed/McMWdhE0nag?si=TcR6K0hfemXSLHoO" frameborder="0" allowfullscreen></iframe></p>
+
+<a id="FuelPump"></a>
+##### Fuel Pump Attack
+
+<p align="justify">In our fuzzing case study, engine status message 0xAA from DDE is found to affect the pump control signal of EKP. From fingerprinting case study, we observed that EKP message 0x335 (i.e. PumpDutyCycle field) reflects the function of the control signal to the fuel pump. When the intercepted modified message 0xAA or injected fuzzed message 0xAA is sent into PCAN, the fuel is pumped in an irregular fashion to the engine. Since this attack impairs the fuel pump functionality of the car, this may potentially impact the engine to behave in an erratic fashion during driving.</p>
+
+<p align="center"><iframe class="table_image resize_table" width="450" height="auto" src="https://www.youtube.com/embed/TMC1XJwf8vQ?si=qxHjExy3pnocRFBO" frameborder="0" allowfullscreen></iframe></p>
+<p align="center"><iframe class="table_image resize_table" width="450" height="auto" src="https://www.youtube.com/embed/DRb61JohBNk?si=9oFwfCsAVQUrGyha" frameborder="0" allowfullscreen></iframe></p>
+
+<a id="CarStop"></a>
+##### Forced Car Stop
+<p align="justify">From our fingerprinting case study, we observed that power status message 0x130 flows from CAS ECU over KCAN network. We observed that message 0x130 has three fields: CarKey, Ignition and Engine that affect the engine function. we send the modified message ID 0x130 with CarKey, Ignition and Engine set to zero to KCAN when the car is running and a specified time duration is reached. When the attack condition is ongoing,
+the fuel pump stops and the car eventually stops due to the attack.</p>
+<p align="center"><iframe class="table_image resize_table" width="450" height="auto" src="https://www.youtube.com/embed/OpGyhcTmGdU?si=3eqM7X19ZsT5-6qR" frameborder="0" allowfullscreen></iframe></p>
+
+<a id="SpeedDisplay"></a>
+##### Wrong Speed Display
+<p align="justify">From our fingerprinting case study, we observed that the wheel speed message 0xCE and the display message 0x1A6 flow from the DSC ECU over PCAN network. We discovered that the wheel speed is encoded in message 0x1A6 transmitted to the Instrument Cluster. In the first attack, the car runs normally till 40km/h and thereafter, the speed in message 0x1A6 is randomly modified. In the second attack, the car runs normally till 10km/h and thereafter, the speed message is incremented by 2/3 of the actual increased speed. For both attacks, the Instrument Cluster reflects the incorrect speed. As a result, the driver may accelerate the car beyond the imposed speed limit. This may not only result in accidents but may also have legal implications.</p>
+<p align="center"><iframe class="table_image resize_table" width="450" height="auto" src="https://www.youtube.com/embed/0Oqgfetr1u8?si=X1yzwM1pISbL7GTX" frameborder="0" allowfullscreen></iframe></p>
+<p align="center"><iframe class="table_image resize_table" width="450" height="auto" src="https://www.youtube.com/embed/RoD_XWYDG9U?si=YNb3yiSePgkWuhj0" frameborder="0" allowfullscreen></iframe></p>
+
+<a id="PenTest"></a>
+##### Penetration Test
+An example of the message ID (0x608) that passes though the JBE gateway is shown in the figure below. We observe that such penetration testing has little to no impact on
+the inter-frame interval (see the inter-frame timing distribution in the figure).
+<p align="center">
+  <img src="./D-CAN_infiltrated_IDs_3.jpg" width="800">
+</p>
 
 ---
 ### Acknowledgements
