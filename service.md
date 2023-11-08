@@ -31,6 +31,13 @@ Review board of IEEE Transactions on Software Engineering (TSE)
 
 ACM Transactions on Software Engineering and Methodology (TOSEM): Board of Distinguished Reviewers
 
+#### 2024
+<p style="text-align:justify">
+<i>Program Chair</i>: 10th ACM Cyber-Physical System Security Workshop (CPSS) 2024.
+<br>
+<i>Technical Program Committee (TPC)</i>: ICSE 2025, ACNS 2024 (Round 2). 
+</p> 
+
 #### 2023
 <p style="text-align:justify">
 <i>Workshop Chair</i>: ACM ASIA Conference on Computer and Communications Security (AsiaCCS), 2024.
