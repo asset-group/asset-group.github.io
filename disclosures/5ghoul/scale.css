@@ -1,0 +1,119 @@
+/* Automatically change size of tables or figures in smaller screen*/
+
+@font-face {
+    font-family: 'Franklin Gothic Medium Cond';
+    src: url('FranklinGothic-MediumCond.woff2') format('woff2'),
+    url('FranklinGothic-MediumCond.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+.author{
+    /*padding-bottom: -200px;*/
+}
+
+.tabular {
+        font-size: 1.2vw;
+        /*width: 100vw;*/
+
+        /*table-layout: fixed;*/
+        text-overflow: ellipsis;
+        /*white-space: nowrap;*/
+        /*text-wrap: normal;*/
+        /*margin-bottom: 50px;*/
+}
+
+td {
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    .resize_table {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+
+@media screen {
+    .big-figure {
+        width: 100%;
+        height: auto;
+    }
+    .medium-figure {
+        width: 80%;
+        height: auto;
+    }
+}
+
+.table_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.caption {
+    text-indent:-2em; margin-left:3em; margin-right:1em;
+    text-align:center;}
+
+#textcolor12 {
+    color: #CB0000;
+}
+
+.ptmb8t- {
+    /*color: #CB0000;*/
+}
+
+.ptmr8t-x-x-120 {
+    word-break: break-all;
+    white-space: normal;
+}
+
+.titleHead {
+    font-family: 'Franklin Gothic Medium Cond';
+}
+
+.likesectionHead {
+    font-size: 2rem;
+}
+
+.sectionHead {
+    text-align: left;
+}
+
+#q-app {
+    text-align: justify;
+}
+
+/* p {
+    text-align: justify;
+} */
+
+hr {
+    border-style: solid;
+    border-width: thin;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    /*border-top: 2px solid #3d7e9a;*/
+    border-top: 2px solid;
+}
+
+td.td11 {
+    /*border-right: 2px solid #3d7e9a;*/
+}
+
+.td00 {
+    text-align: left;
+}

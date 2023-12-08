@@ -25,29 +25,27 @@
 
 <q-card class="my-card bg-grey-1 items-start">
             <q-img
-                    src="/disclosures/5ghoul/logo12.jpg"
+                    src="/disclosures/5ghoul/logo-small.png"
                     height="140px"
                     ratio="1"
-                    basic
-            >
+                    basic>
                 <div class="absolute-bottom text-h6">
                     5Ghoul
                 </div>
             </q-img>
 
             <q-card-section>
-                Disclosure to be announced on <font
-                    color="red"><b>Thursday, December 7, 2023</b></font>
-                <br></br>
+                5Ghoul is family of implementation-level 5G DoS vulnerabilities affecting Qualcomm and MediaTek mobile platforms.
+                Year of discovery: <font color="red"><b>2023</b></font>
             </q-card-section>
 
-            <div style="padding-bottom: 83px;"></div>
+            <div style="padding-bottom: 64px;"></div>
 
             <q-list>
                 <q-item clickable>
                     <q-item-section>
                         <q-btn push color="primary" icon="info" label="See details"
-                               @click="Quasar.Notify.create({message:'Disclosure to be announced on Thursday, December 7, 2023!', position:'top', type: 'negative', timeout: 2000});"/>
+                        @click="window.open('/disclosures/5ghoul/','_parent');"/>
                     </q-item-section>
                 </q-item>
             </q-list>
@@ -63,9 +61,124 @@
                 <template v-slot:label>
                     <q-chip class="full-width">
                         <q-avatar color="red" text-color="white">10+</q-avatar>
-                        CVES (TBA)
+                        CVEs (Click to expand)
                     </q-chip>
                 </template>
+
+                <q-list bordered>
+
+                    <q-item clickable>
+                        <q-item-section avatar>
+                            <q-icon color="primary" name="open_in_new"/>
+                        </q-item-section>
+                        <q-item-section>
+                            <q-item-label>
+                                <a href="https://nvd.nist.gov/vuln/detail/CVE-2023-33042" target="_blank">CVE-2023-33042</a>
+                            </q-item-label>
+                        </q-item-section>
+                    </q-item>
+
+                    <q-item clickable>
+                        <q-item-section avatar>
+                            <q-icon color="primary" name="open_in_new"/>
+                        </q-item-section>
+                        <q-item-section>
+                            <q-item-label>
+                                <a href="https://nvd.nist.gov/vuln/detail/CVE-2023-33043" target="_blank">CVE-2023-33043</a>
+                            </q-item-label>
+                        </q-item-section>
+                    </q-item>
+
+                    <q-item clickable>
+                        <q-item-section avatar>
+                            <q-icon color="primary" name="open_in_new"/>
+                        </q-item-section>
+                        <q-item-section>
+                            <q-item-label>
+                                <a href="https://nvd.nist.gov/vuln/detail/CVE-2023-33044" target="_blank">CVE-2023-33044</a>
+                            </q-item-label>
+                        </q-item-section>
+                    </q-item>
+
+
+                    <q-item clickable>
+                        <q-item-section avatar>
+                            <q-icon color="primary" name="open_in_new"/>
+                        </q-item-section>
+                        <q-item-section>
+                            <q-item-label>
+                                <a href="https://nvd.nist.gov/vuln/detail/CVE-2023-32842" target="_blank">CVE-2023-32842</a>
+                            </q-item-label>
+                        </q-item-section>
+                    </q-item>
+
+                    <q-item clickable>
+                        <q-item-section avatar>
+                            <q-icon color="primary" name="open_in_new"/>
+                        </q-item-section>
+                        <q-item-section>
+                            <q-item-label>
+                                <a href="https://nvd.nist.gov/vuln/detail/CVE-2023-32844" target="_blank">CVE-2023-32844</a>
+                            </q-item-label>
+                        </q-item-section>
+                    </q-item>
+
+                    <q-item clickable>
+                        <q-item-section avatar>
+                            <q-icon color="primary" name="open_in_new"/>
+                        </q-item-section>
+                        <q-item-section>
+                            <q-item-label>
+                                <a href="https://nvd.nist.gov/vuln/detail/CVE-2023-20702" target="_blank">CVE-2023-20702</a>
+                            </q-item-label>
+                        </q-item-section>
+                    </q-item>
+
+                    <q-item clickable>
+                        <q-item-section avatar>
+                            <q-icon color="primary" name="open_in_new"/>
+                        </q-item-section>
+                        <q-item-section>
+                            <q-item-label>
+                                <a href="https://nvd.nist.gov/vuln/detail/CVE-2023-32846" target="_blank">CVE-2023-32846</a>
+                            </q-item-label>
+                        </q-item-section>
+                    </q-item>
+
+                    <q-item clickable>
+                        <q-item-section avatar>
+                            <q-icon color="primary" name="open_in_new"/>
+                        </q-item-section>
+                        <q-item-section>
+                            <q-item-label>
+                                <a href="https://nvd.nist.gov/vuln/detail/CVE-2023-32841" target="_blank">CVE-2023-32841</a>
+                            </q-item-label>
+                        </q-item-section>
+                    </q-item>
+
+                    <q-item clickable>
+                        <q-item-section avatar>
+                            <q-icon color="primary" name="open_in_new"/>
+                        </q-item-section>
+                        <q-item-section>
+                            <q-item-label>
+                                <a href="https://nvd.nist.gov/vuln/detail/CVE-2023-32843" target="_blank">CVE-2023-32843</a>
+                            </q-item-label>
+                        </q-item-section>
+                    </q-item>
+
+                    <q-item clickable>
+                        <q-item-section avatar>
+                            <q-icon color="primary" name="open_in_new"/>
+                        </q-item-section>
+                        <q-item-section>
+                            <q-item-label>
+                                <a href="https://nvd.nist.gov/vuln/detail/CVE-2023-32845" target="_blank">CVE-2023-32845</a>
+                            </q-item-label>
+                        </q-item-section>
+                    </q-item>
+
+                </q-list>
 
             </q-btn-dropdown>
 
@@ -83,12 +196,12 @@
                 </div>
             </q-img>
 
-            <q-card-section>
-                Bluetooth Classic (BR/EDR) Attacks against comodity hardware from multiple BT vendors. Year of discovery: <font
+            <q-card-section class="text-justify">
+                Bluetooth Classic (BR/EDR) Attacks against commodity hardware from multiple Bluetooth vendors. Year of discovery: <font
                     color="red"><b>2021</b></font>
             </q-card-section>
 
-            <div style="padding-bottom: 83px;"></div>
+            <div style="padding-bottom: 85px;"></div>
 
             <q-list>
                 <q-item clickable>
@@ -359,6 +472,7 @@
                 already in the market. Year of discovery: <font color="red"><b>2019-2020</b></font>
             </q-card-section>
 
+
             <q-list>
                 <q-item clickable>
                     <q-item-section>
@@ -589,7 +703,7 @@
                     color="red"><b>2019</b></font>
             </q-card-section>
 
-            <div style="padding-bottom: 104px;"></div>
+            <div style="padding-bottom: 105px;"></div>
 
             <q-list>
                 <q-item clickable>

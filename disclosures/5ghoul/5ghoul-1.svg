@@ -1,0 +1,2 @@
+ </p><!--l. 37--><p class="noindent" > <span id="textcolor23">[ASSERT] nr5g_ml1_mdb.c:12636 Assert serving_cell_ptr-&#x003E;cell_data.nr5g.configured_bwp_bmask &amp; (1«bwp_idx)
+failed: gNB beam update for BWP not configured 0x1</span>                                                                                                                      
