@@ -168,12 +168,14 @@ div.algorithmic span.algorithmic{white-space:pre}
 div.verbatiminput {font-family: monospace; white-space: nowrap; }
 span#textcolor1{color:#CB0000}
 span#textcolor2{color:#CB0000}
-span#textcolor3{color:#FF0000}
+span#textcolor3{color:#CB0000}
 span#textcolor4{color:#FF0000}
 span#textcolor5{color:#FF0000}
 span#textcolor6{color:#FF0000}
 span#textcolor7{color:#FF0000}
 span#textcolor8{color:#FF0000}
+span#textcolor9{color:#FF0000}
+span#textcolor10{color:#FF0000}
 #TBL-2 colgroup{border-left: 1px solid black;border-right:1px solid black;}
 #TBL-2{border-collapse:collapse;}
 #TBL-2 colgroup{border-left: 1px solid black;border-right:1px solid black;}
@@ -198,37 +200,35 @@ span#textcolor8{color:#FF0000}
 #TBL-3{border-collapse:collapse;}
  #TBL-3-1-{ background-color:rgb(141,180,225)}
  #TBL-03-4-{ background-color:rgb(223,235,255)}
-span#textcolor9{color:#FF0000}
-span#textcolor10{color:#FF0000}
+span#textcolor11{color:#FF0000}
+span#textcolor12{color:#FF0000}
  #TBL-0003-10-{ background-color:rgb(223,235,255)}
-span#textcolor11{color:rgb(0,126,0)}
+span#textcolor13{color:rgb(0,126,0)}
  #TBL-00003-13-{ background-color:rgb(223,235,255)}
-span#textcolor12{color:rgb(0,126,0)}
+span#textcolor14{color:rgb(0,126,0)}
  #TBL-0000003-19-{ background-color:rgb(223,235,255)}
  #TBL-00000003-22-{ background-color:rgb(223,235,255)}
-span#textcolor13{color:#FF0000}
+span#textcolor15{color:#FF0000}
  #TBL-000000003-25-{ background-color:rgb(223,235,255)}
-span#textcolor14{color:#FF0000}
+span#textcolor16{color:#FF0000}
  #TBL-0000000000003-37-{ background-color:rgb(223,235,255)}
  #TBL-00000000000003-40-{ background-color:rgb(223,235,255)}
  #TBL-000000000000003-43-{ background-color:rgb(223,235,255)}
-span#textcolor15{color:#FF0000}
+span#textcolor17{color:#FF0000}
  #TBL-0000000000000003-46-{ background-color:rgb(223,235,255)}
  #TBL-00000000000000003-49-{ background-color:rgb(223,235,255)}
-span#textcolor16{color:#FF0000}
- #TBL-00000000000000000003-58-{ background-color:rgb(223,235,255)}
-span#textcolor17{color:#FF0000}
- #TBL-000000000000000000003-61-{ background-color:rgb(223,235,255)}
 span#textcolor18{color:#FF0000}
- #TBL-000000000000000000000003-70-{ background-color:rgb(223,235,255)}
+ #TBL-00000000000000000003-58-{ background-color:rgb(223,235,255)}
 span#textcolor19{color:#FF0000}
- #TBL-0000000000000000000000003-73-{ background-color:rgb(223,235,255)}
+ #TBL-000000000000000000003-61-{ background-color:rgb(223,235,255)}
 span#textcolor20{color:#FF0000}
- #TBL-0000000000000000000000000003-82-{ background-color:rgb(223,235,255)}
+ #TBL-000000000000000000000003-70-{ background-color:rgb(223,235,255)}
 span#textcolor21{color:#FF0000}
- #TBL-00000000000000000000000000003-85-{ background-color:rgb(223,235,255)}
+ #TBL-0000000000000000000000003-73-{ background-color:rgb(223,235,255)}
 span#textcolor22{color:#FF0000}
+ #TBL-0000000000000000000000000003-82-{ background-color:rgb(223,235,255)}
 span#textcolor23{color:#FF0000}
+ #TBL-00000000000000000000000000003-85-{ background-color:rgb(223,235,255)}
 span#textcolor24{color:#FF0000}
 span#textcolor25{color:#FF0000}
 span#textcolor26{color:#FF0000}
@@ -287,5 +287,7 @@ span#textcolor78{color:#FF0000}
 span#textcolor79{color:#FF0000}
 span#textcolor80{color:#FF0000}
 span#textcolor81{color:#FF0000}
+span#textcolor82{color:#FF0000}
+span#textcolor83{color:#FF0000}
 /* end css.sty */
 
