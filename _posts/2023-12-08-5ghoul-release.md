@@ -15,7 +15,7 @@ downgrade the 5G connectivity to 4G.
 Based on the <a href="https://www.kimovil.com/en/">Kimovil</a> listings and December security 
 bulletin from <a href="https://docs.qualcomm.com/product/publicresources/securitybulletin/december-2023-bulletin.html">Qualcomm</a> 
 and <a href="https://corp.mediatek.com/product-security-bulletin/December-2023">MediaTek</a>, we (under)-estimate that 
-over <a href="https://docs.google.com/spreadsheets/d/13TQDN0wWWEOaBlj3RJfxoeOM92vqE4B5qihzvGg-qQM/edit#gid=0">710 different smartphone models</a> 
+over <a href="https://asset-group.github.io/disclosures/5ghoul/5ghoul_affected_chipset_phones.pdf">710 different smartphone models</a> 
 to be affected along with other 5G IoT devices. If you are a 5G module or device maker, or 
 simply interested in 5G research, feel free to read the  <a href="https://www.5ghoul.com">5Ghoul Disclosure</a> 
 and get back to us via <font color="red"><b>contact@5ghoul.com</b></font> for any question. 
