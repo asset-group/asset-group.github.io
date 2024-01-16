@@ -35,7 +35,7 @@ ACM Transactions on Software Engineering and Methodology (TOSEM): Board of Disti
 <p style="text-align:justify">
 <i>Program Chair</i>: 10th ACM Cyber-Physical System Security Workshop (CPSS) 2024.
 <br>
-<i>Technical Program Committee (TPC)</i>: ICSE 2025, ACNS 2024 (Round 2). 
+<i>Technical Program Committee (TPC)</i>: ICSE 2025, DAC 2024, ACNS 2024 (Round 2). 
 </p> 
 
 #### 2023
