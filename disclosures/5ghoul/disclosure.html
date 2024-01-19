@@ -80,7 +80,14 @@ class="ptmri8t-x-x-120">I2R, A*STAR </span></div><br />
   </div>
   <h3 class="likesectionHead"><a 
  id="x1-1000"></a>Updates</h3>
-<!--l. 4--><p class="noindent" >*    <span id="textcolor1"><span 
+<!--l. 6--><p class="noindent" >*    <span id="textcolor1"><span 
+class="ptmb8t-">29th December of 2023</span></span><span 
+class="ptmb8t-">: </span>After <a 
+target="_blank" href="https://corp.mediatek.com/product-security-bulletin/December-2023" >additional severity assessment
+review</a> from MediaTek, three vulnerabilities have been elevated
+from Medium to High severity rating. (CVE-2023-32842,
+CVE-2023-32841 and CVE-2023-32843).
+</p><!--l. 13--><p class="noindent" > *    <span id="textcolor2"><span 
 class="ptmb8t-">15th December of 2023</span></span><span 
 class="ptmb8t-">: </span>Our study to estimate the affected
 smartphones considers phone models that employ the vulnerable
@@ -89,7 +96,7 @@ functionality. We performed further analysis to estimate the
 number of smartphones that also offer 5G features and amended
 the study (see Section&#x00A0;<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-70004">4<!--tex4ht:ref: sec:attack-impact --></a>).
-</p><!--l. 12--><p class="noindent" > *    <span id="textcolor2"><span 
+</p><!--l. 22--><p class="noindent" > *    <span id="textcolor3"><span 
 class="ptmb8t-">7th December of 2023</span></span><span 
 class="ptmb8t-">: </span>As of today, we disclose a total of
 14 vulnerabilities (10 CVEs), of which 10 affect commercial
@@ -104,7 +111,7 @@ vulnerability, please refer to Section&#x00A0;<a
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-150007">7<!--tex4ht:ref: sec:5g-vulnerabilities --></a>. Feel free to contact us via
 <a 
 target="_blank" href="mailto:contact@5ghoul.com" >contact@5ghoul.com</a>.
-</p><!--l. 23--><p class="noindent" > *     <span id="textcolor3"><span 
+</p><!--l. 33--><p class="noindent" > *     <span id="textcolor4"><span 
 class="ptmb8t-">4th December of 2023</span></span><span 
 class="ptmb8t-">: </span>Following a responsible
 disclosure period, the December security bulletin of MediaTek
@@ -116,30 +123,31 @@ Chipsets affected by <span
 class="ptmri8t-">5Ghoul</span>&#x00A0;&#x00A0;vulnerabilities are detailed in
 December security bulletin of Qualcomm&#x00A0;<span class="cite">&#x00A0;[<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xqualcomm-december">13</a>]</span>.
-</p><!--l. 32--><p class="noindent" >
+</p><!--l. 42--><p class="noindent" >
 </p>
   <h3 class="likesectionHead"><a 
  id="x1-2000"></a>Summary</h3>
-<!--l. 33--><p class="noindent" >In this vulnerability disclosure report, we discuss details of
+<!--l. 43--><p class="noindent" >In this vulnerability disclosure report, we discuss details of
 <span 
 class="ptmri8t-">5Ghoul</span>&#x00A0;&#x00A0;&#8211; a family of implementation-level 5G vulnerabilities.
 Such a family of vulnerabilities are present in the firmware
-implementation of 5G mobile network modems from major
-chipset vendors i.e., Qualcomm and MediaTek. Consequently,
-many 5G-capable commercial products such as smartphones,
-Customer-premises Equipment (CPE) routers and USB modems
-are potentially impacted due to the employment of vulnerable      5G modems in such products. <span id="textcolor4"><span 
+implementation of 5G mobile network modems from major        chipset vendors i.e., Qualcomm and MediaTek. Consequently,
+     many 5G-capable commercial products such as smartphones,
+     Customer-premises Equipment (CPE) routers and USB modems
+     are potentially impacted due to the employment of vulnerable
+     5G modems in such products. <span id="textcolor5"><span 
 class="ptmri8t-">In total, we have found 12</span>
      <span 
 class="ptmri8t-">new vulnerabilities (14 total), out of which 10 affect 5G</span>
      <span 
 class="ptmri8t-">modems from Qualcomm and MediaTek.</span></span> More importantly,
-     three of these ten vulnerabilities are confirmed to have high
+     <span id="textcolor6"><span 
+class="ptmri8t-">six</span></span> of these ten vulnerabilities are confirmed to have high
      severity. We also wrote a scraper to send crafted queries to
      <a 
 target="_blank" href="https://www.kimovil.com/en/" target="_blank" class="url" >https://www.kimovil.com/en/</a> and to have an estimate on
      the number of smartphone models affected due to these
-     vulnerabilities. We found over<span id="textcolor5"> <span 
+     vulnerabilities. We found over<span id="textcolor7"> <span 
 class="ptmri8t-">710 smartphone models that are</span>
      <span 
 class="ptmri8t-">currently in the market to employ the vulnerable modems.</span>
@@ -147,12 +155,12 @@ class="ptmri8t-">currently in the market to employ the vulnerable modems.</span>
 class="ptmri8t-">Further considering the 5G capability of these phones employing</span>
      <span 
 class="ptmri8t-">the vulnerable chipsets, we found over</span></span> <a 
-target="_blank" href="https://asset-group.github.io/disclosures/5ghoul/filtered_5g_phones.txt" >626 phone models</a> <span id="textcolor6"><span 
+target="_blank" href="https://asset-group.github.io/disclosures/5ghoul/filtered_5g_phones.txt" >626 phone models</a> <span id="textcolor8"><span 
 class="ptmri8t-">to be</span>
      <span 
 class="ptmri8t-">affected.</span></span> We emphasize that the actual number of affected models
      might be more, as firmware code is often shared across
-     different modem versions. In this disclosure report, <span id="textcolor7"><span 
+     different modem versions. In this disclosure report, <span id="textcolor9"><span 
 class="ptmri8t-">we also</span>
      <span 
 class="ptmri8t-">demonstrate the exploitation of 5Ghoul</span><span 
@@ -166,7 +174,7 @@ class="ptmri8t-">routers. We also show downgrade attacks across multiple</span>
 class="ptmri8t-">smartphones that result in downgrading the 5G connection to</span>
      <span 
 class="ptmri8t-">4G.</span></span>
-     </p><!--l. 62--><p class="noindent" >
+     </p><!--l. 73--><p class="noindent" >
      </p>
          <h3 class="sectionHead" style="font-size: 2rem;"><span class="titlemark">1    </span> <a 
  id="x1-30001"></a>Introduction</h3>
@@ -179,7 +187,7 @@ class="ptmri8t-">4G.</span></span>
                                                 
                                                                                                 
                                                                                                 
-<!--l. 66--><p class="noindent" > <img 
+<!--l. 77--><p class="noindent" > <img 
 src="figures/procedures.pdf.svg" alt="PIC"  
 width="400" height="auto"  />
 <br /> </p><div class="caption" 
@@ -191,7 +199,7 @@ and UE (e.g., 5G smartphone).</span></div><!--tex4ht:label?: x1-3001r1 -->
                                                                                                 
                                                                                                 
   </div></div>
-<!--l. 88--><p class="indent" >  Mobile communications are indispensable in our daily lives,
+<!--l. 99--><p class="indent" >  Mobile communications are indispensable in our daily lives,
 and the advent of 5G networks has brought several new
 opportunities for low-latency communication in critical
 domains such as internet-of-things (IoT), virtual reality,
@@ -209,7 +217,7 @@ the earliest protocol decoding and handling, further emphasizing
 the requirement for validating the security of early-stage
 5G communication down to data link protocols (OSI layer
 2).
-</p><!--l. 102--><p class="indent" >  In the following, we provide a brief overview on the
+</p><!--l. 113--><p class="indent" >  In the following, we provide a brief overview on the
 architecture of 5G system and procedures involved in 5G
 communication. This is to provide the necessary background
 knowledge for this disclosure report. Firstly, the 5G cellular
@@ -225,7 +233,7 @@ the gNB. Lastly, the Core Network acts as the backbone of the
 including authentication, security, mobility management,
 session establishment, and data routing between network
 entities.
-</p><!--l. 116--><p class="indent" >  Figure&#x00A0;<a 
+</p><!--l. 127--><p class="indent" >  Figure&#x00A0;<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-3001r1">1<!--tex4ht:ref: fig:5g-procedures --></a> illustrates a clean connection process between a 5G
 UE device (e.g., a smartphone) and a legitimate gNB. Multiple
 protocols including Radio Resource Control (RRC), Non-Access
@@ -234,9 +242,9 @@ Convergence Protocol (PDCP) and Radio Link Control (RLC)
 from both network layer (OSI layer 3) and data link layer (OSI
 layer 2) are involved to ensure that the connection is established
 successfully and securely.
-</p><!--l. 126--><p class="indent" >  A notable feature of currently disclosed <span 
+</p><!--l. 137--><p class="indent" >  A notable feature of currently disclosed <span 
 class="ptmri8t-">5Ghoul</span>&#x00A0;&#x00A0;vulnerabilities
-is that they can all be <span id="textcolor8"><span 
+is that they can all be <span id="textcolor10"><span 
 class="ptmri8t-">fairly easy to exploit by an attacker, as no</span>
 <span 
 class="ptmri8t-">information about the victim&#8217;s SIM card is required.</span></span> This is
@@ -253,7 +261,7 @@ Section&#x00A0;<a
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-130005">5<!--tex4ht:ref: sec:fuzzing-tool --></a>.
 </p>
   <h4 class="likesubsectionHead" style="font-size: 1rem;font-weight:bold;line-height: 1.5rem;"><a 
- id="x1-40001"></a>Why <span id="textcolor9"><span 
+ id="x1-40001"></a>Why <span id="textcolor11"><span 
 class="ptmbi8t-">5Ghoul</span><span 
 class="ptmbi8t-">&#x00A0;</span><span 
 class="ptmbi8t-">&#x00A0;</span></span>?</h4>                                      <!--l. 4--><p class="noindent" >The code name <span 
@@ -278,7 +286,7 @@ class="ptmri8t-">5Ghoul</span>&#x00A0;&#x00A0;vulnerabilities may be
      exploited to continuously launch attacks to drop the connections,
      freeze the connection that involve manual reboot or downgrade
      the 5G connectivity to 4G.
-     </p><!--l. 7--><p class="noindent" >
+     </p><!--l. 3--><p class="noindent" >
      </p>
          <h3 class="sectionHead" style="font-size: 2rem;"><span class="titlemark">2    </span> <a 
  id="x1-50002"></a><a id="overview">Attack Scenario Overview</a></h3>
@@ -291,7 +299,7 @@ class="ptmri8t-">5Ghoul</span>&#x00A0;&#x00A0;vulnerabilities may be
                                                 
                                                                                                 
                                                                                                 
-<!--l. 22--><p class="noindent" > <img 
+<!--l. 18--><p class="noindent" > <img 
 src="figures/attack_overview_with_output.pdf.svg" alt="PIC"  
 width="800" class="medium-figure" height="auto"  />
 <br /> </p><div class="caption" 
@@ -308,7 +316,7 @@ class="ptmri8t-">MNC</span>).</span></div><!--tex4ht:label?: x1-5001r2 -->
                                                                                                 
                                                                                                 
   </div></div>
-<!--l. 25--><p class="indent" >  As illustrated in Figure&#x00A0;<a 
+<!--l. 22--><p class="indent" >  As illustrated in Figure&#x00A0;<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-5001r2">2<!--tex4ht:ref: fig:attack-model --></a>, <span 
 class="ptmri8t-">5Ghoul</span>&#x00A0;&#x00A0;makes use of an attacker
 model which mimics a <span 
@@ -325,7 +333,7 @@ implementation based on OpenAirInterface&#x00A0;<span class="cite">&#x00A0;[<a
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#XnikaeinOpenAirInterfaceFlexiblePlatform2014">11</a>]</span> (gNB) and
 Open5GS&#x00A0;<span class="cite">&#x00A0;[<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xopen5gs">1</a>]</span> (5G Core Network).
-</p><!--l. 37--><p class="indent" >  More importantly, <span id="textcolor10"><span 
+</p><!--l. 37--><p class="indent" >  More importantly, <span id="textcolor12"><span 
 class="ptmri8t-">the attacker does not need to be aware of</span>
 <span 
 class="ptmri8t-">any secret information of the target UE e.g., SIM card details, to</span>
@@ -355,7 +363,7 @@ to the target UE, opening a window of opportunities to
 launch attacks at any step of the 5G NR procedures shown in
 Figure&#x00A0;<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-3001r1">1<!--tex4ht:ref: fig:5g-procedures --></a>.
-</p><!--l. 65--><p class="indent" >  In practicality, <span 
+</p><!--l. 69--><p class="indent" >  In practicality, <span 
 class="ptmri8t-">5Ghoul</span>&#x00A0;&#x00A0;vulnerabilities can be easily
 exploited over-the-air by starting a malicious gNB within radio
 range of the target 5G UE device (see Figure&#x00A0;<a 
@@ -373,7 +381,7 @@ attacks.
  id="x1-60003"></a><a id="affected-devices">Vulnerable 5G Modems and Products</a></h3>
 <!--l. 7--><p class="noindent" >In this section, we provide some salient characteristics of the
 found vulnerabilities and vulnerable devices.
-</p><!--l. 11--><p class="noindent" ><span 
+</p><!--l. 17--><p class="noindent" ><span 
 class="ptmb8t-">Vulnerability Summary: </span>The vulnerable targets used in
 our evaluation and their corresponding firmware version
 are outlined in Table&#x00A0;<a 
@@ -618,7 +626,7 @@ class="td11"> V1 - Invalid PUSCH Resource Allocation                            
 class="td11">           OAI UE                       </td><td  style="white-space:normal; text-align:center;" id="TBL-03-4-3"  
 class="td11">    RRC        </td><td  style="white-space:normal; text-align:center;" id="TBL-03-4-4"  
 class="td11">      DoS             </td><td  style="white-space:normal; text-align:center;" id="TBL-03-4-5"  
-class="td11">     <span id="textcolor11"><span style="color: #730099">Pending </span></span>          </td>
+class="td11">     <span id="textcolor13"><span style="color: #730099">Pending </span></span>          </td>
 </tr><tr  
  style="vertical-align:baseline;" id="TBL-03-5-"><td  style="white-space:normal; text-align:left;" id="TBL-03-5-1"  
 class="td11"> </td></tr><tr><td colspan="5"></td></tr><tr  
@@ -632,7 +640,7 @@ class="td11"> V2 - Empty RRC dedicatedNAS-Message                               
 class="td11">           OAI UE                       </td><td  style="white-space:normal; text-align:center;" id="TBL-003-7-3"  
 class="td11"> RRC, NAS   </td><td  style="white-space:normal; text-align:center;" id="TBL-003-7-4"  
 class="td11">      DoS             </td><td  style="white-space:normal; text-align:center;" id="TBL-003-7-5"  
-class="td11">     <span id="textcolor12"><span style="color: #730099">Pending </span></span>          </td>
+class="td11">     <span id="textcolor14"><span style="color: #730099">Pending </span></span>          </td>
 </tr><tr  
  style="vertical-align:baseline;" id="TBL-003-8-"><td  style="white-space:normal; text-align:left;" id="TBL-003-8-1"  
 class="td11"> </td></tr><tr><td colspan="5"></td></tr><tr  
@@ -646,7 +654,7 @@ class="td11"> V3 - Invalid RRC Setup                                            
 class="td11">      Fibocom FM150-AE             </td><td  style="white-space:normal; text-align:center;" id="TBL-0003-10-3"  
 class="td11">    RRC        </td><td  style="white-space:normal; text-align:center;" id="TBL-0003-10-4"  
 class="td11">      DoS             </td><td  style="white-space:normal; text-align:center;" id="TBL-0003-10-5"  
-class="td11">     <span id="textcolor13">Patched</span>          </td>
+class="td11">     <span id="textcolor15">Patched</span>          </td>
 </tr><tr  
  style="vertical-align:baseline;" id="TBL-0003-11-"><td  style="white-space:normal; text-align:left;" id="TBL-0003-11-1"  
 class="td11"> </td></tr><tr><td colspan="5"></td></tr><tr  
@@ -673,7 +681,7 @@ class="td11"> V4 - Invalid RRC Reconfiguration</td><td  style="white-space:norma
 class="td11">      Simcom SIM8202G             </td><td  style="white-space:normal; text-align:center;" id="TBL-000003-16-3"  
 class="td11"> MAC, RRC  </td><td  style="white-space:normal; text-align:center;" id="TBL-000003-16-4"  
 class="td11">      DoS             </td><td  style="white-space:normal; text-align:center;" id="TBL-000003-16-5"  
-class="td11">     <span id="textcolor14">Patched</span>          </td>
+class="td11">     <span id="textcolor16">Patched</span>          </td>
 </tr><tr  
  style="vertical-align:baseline;" id="TBL-000003-17-"><td  style="white-space:normal; text-align:left;" id="TBL-000003-17-1"  
 class="td11"> </td></tr><tr><td colspan="5"></td></tr><tr  
@@ -701,7 +709,7 @@ onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" hre
 class="td11">      Simcom SIM8202G             </td><td  style="white-space:normal; text-align:center;" id="TBL-00000003-22-3"  
 class="td11"> MAC, RLC   </td><td  style="white-space:normal; text-align:center;" id="TBL-00000003-22-4"  
 class="td11">      DoS             </td><td  style="white-space:normal; text-align:center;" id="TBL-00000003-22-5"  
-class="td11"> <span id="textcolor15">CVE-2023-33043</span>  </td>
+class="td11"> <span id="textcolor17">CVE-2023-33043</span>  </td>
 </tr><tr  
  style="vertical-align:baseline;" id="TBL-00000003-23-"><td  style="white-space:normal; text-align:left;" id="TBL-00000003-23-1"  
 class="td11"> </td></tr><tr><td colspan="5"></td></tr><tr  
@@ -743,7 +751,7 @@ onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" hre
 class="td11">      Fibocom FM150-AE             </td><td  style="white-space:normal; text-align:center;" id="TBL-00000000003-31-3"  
 class="td11">    NAS        </td><td  style="white-space:normal; text-align:center;" id="TBL-00000000003-31-4"  
 class="td11">      DoS             </td><td  style="white-space:normal; text-align:center;" id="TBL-00000000003-31-5"  
-class="td11"> <span id="textcolor16">CVE-2023-33044</span>  </td>
+class="td11"> <span id="textcolor18">CVE-2023-33044</span>  </td>
 </tr><tr  
  style="vertical-align:baseline;" id="TBL-00000000003-32-"><td  style="white-space:normal; text-align:left;" id="TBL-00000000003-32-1"  
 class="td11"> </td></tr><tr><td colspan="5"></td></tr><tr  
@@ -798,7 +806,7 @@ onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" hre
 class="td11">      Simcom SIM8202G             </td><td  style="white-space:normal; text-align:center;" id="TBL-000000000000003-43-3"  
 class="td11">    RRC        </td><td  style="white-space:normal; text-align:center;" id="TBL-000000000000003-43-4"  
 class="td11"> Hang/Downgrade  </td><td  style="white-space:normal; text-align:center;" id="TBL-000000000000003-43-5"  
-class="td11"> <span id="textcolor17">CVE-2023-33042</span>  </td>
+class="td11"> <span id="textcolor19">CVE-2023-33042</span>  </td>
 </tr><tr  
  style="vertical-align:baseline;" id="TBL-000000000000003-44-"><td  style="white-space:normal; text-align:left;" id="TBL-000000000000003-44-1"  
 class="td11"> </td></tr><tr><td colspan="5"></td></tr><tr  
@@ -812,11 +820,12 @@ class="td11">                                                                   
 class="td11">      Fibocom FM150-AE             </td><td  style="white-space:normal; text-align:center;" id="TBL-0000000000000003-46-3"  
 class="td11">            </td><td  style="white-space:normal; text-align:center;" id="TBL-0000000000000003-46-4"  
 class="td11">                </td><td  style="white-space:normal; text-align:center;" id="TBL-0000000000000003-46-5"  
-class="td11">                </td></tr><tr  
+class="td11">                </td>
+</tr><tr  
  style="vertical-align:baseline;" id="TBL-0000000000000003-47-"><td  style="white-space:normal; text-align:left;" id="TBL-0000000000000003-47-1"  
 class="td11"> </td></tr><tr><td colspan="5"></td></tr><tr  
  style="vertical-align:baseline;" id="TBL-00000000000000003-47-"><td  style="white-space:normal; text-align:left;" id="TBL-00000000000000003-47-1"  
-class="td11"> </td>
+class="td11">                                                                                                  </td>
 </tr><tr  
  style="vertical-align:baseline;" id="TBL-00000000000000003-48-"><td  style="white-space:normal; text-align:left;" id="TBL-00000000000000003-48-1"  
 class="td11">                                                                                                      </td>
@@ -842,7 +851,7 @@ onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" hre
 class="td11">     OnePlus Nord CE 2 5G          </td><td  style="white-space:normal; text-align:center;" id="TBL-000000000000000003-52-3"  
 class="td11">    RRC        </td><td  style="white-space:normal; text-align:center;" id="TBL-000000000000000003-52-4"  
 class="td11">      DoS             </td><td  style="white-space:normal; text-align:center;" id="TBL-000000000000000003-52-5"  
-class="td11"> <span id="textcolor18">CVE-2023-32842</span>  </td>
+class="td11"> <span id="textcolor20">CVE-2023-32842</span>  </td>
 </tr><tr  
  style="vertical-align:baseline;" id="TBL-000000000000000003-53-"><td  style="white-space:normal; text-align:left;" id="TBL-000000000000000003-53-1"  
 class="td11"> </td></tr><tr><td colspan="5"></td></tr><tr  
@@ -873,7 +882,7 @@ onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" hre
 class="td11">     OnePlus Nord CE 2 5G          </td><td  style="white-space:normal; text-align:center;" id="TBL-00000000000000000003-58-3"  
 class="td11">    RRC        </td><td  style="white-space:normal; text-align:center;" id="TBL-00000000000000000003-58-4"  
 class="td11">      DoS             </td><td  style="white-space:normal; text-align:center;" id="TBL-00000000000000000003-58-5"  
-class="td11"> <span id="textcolor19">CVE-2023-32844</span>  </td>
+class="td11"> <span id="textcolor21">CVE-2023-32844</span>  </td>
 </tr><tr  
  style="vertical-align:baseline;" id="TBL-00000000000000000003-59-"><td  style="white-space:normal; text-align:left;" id="TBL-00000000000000000003-59-1"  
 class="td11"> </td></tr><tr><td colspan="5"></td></tr><tr  
@@ -904,7 +913,7 @@ onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" hre
 class="td11">     OnePlus Nord CE 2 5G          </td><td  style="white-space:normal; text-align:center;" id="TBL-0000000000000000000003-64-3"  
 class="td11">    RLC        </td><td  style="white-space:normal; text-align:center;" id="TBL-0000000000000000000003-64-4"  
 class="td11">      DoS             </td><td  style="white-space:normal; text-align:center;" id="TBL-0000000000000000000003-64-5"  
-class="td11"> <span id="textcolor20">CVE-2023-20702</span>  </td>
+class="td11"> <span id="textcolor22">CVE-2023-20702</span>  </td>
 </tr><tr  
  style="vertical-align:baseline;" id="TBL-0000000000000000000003-65-"><td  style="white-space:normal; text-align:left;" id="TBL-0000000000000000000003-65-1"  
 class="td11"> </td></tr><tr><td colspan="5"></td></tr><tr  
@@ -935,7 +944,7 @@ onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" hre
 class="td11">     OnePlus Nord CE 2 5G          </td><td  style="white-space:normal; text-align:center;" id="TBL-000000000000000000000003-70-3"  
 class="td11">    RRC        </td><td  style="white-space:normal; text-align:center;" id="TBL-000000000000000000000003-70-4"  
 class="td11">      DoS             </td><td  style="white-space:normal; text-align:center;" id="TBL-000000000000000000000003-70-5"  
-class="td11"> <span id="textcolor21">CVE-2023-32846</span>  </td>
+class="td11"> <span id="textcolor23">CVE-2023-32846</span>  </td>
 </tr><tr  
  style="vertical-align:baseline;" id="TBL-000000000000000000000003-71-"><td  style="white-space:normal; text-align:left;" id="TBL-000000000000000000000003-71-1"  
 class="td11"> </td></tr><tr><td colspan="5"></td></tr><tr  
@@ -966,7 +975,7 @@ onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" hre
 class="td11">     OnePlus Nord CE 2 5G          </td><td  style="white-space:normal; text-align:center;" id="TBL-00000000000000000000000003-76-3"  
 class="td11">    RRC        </td><td  style="white-space:normal; text-align:center;" id="TBL-00000000000000000000000003-76-4"  
 class="td11">      DoS             </td><td  style="white-space:normal; text-align:center;" id="TBL-00000000000000000000000003-76-5"  
-class="td11"> <span id="textcolor22">CVE-2023-32841</span>  </td>
+class="td11"> <span id="textcolor24">CVE-2023-32841</span>  </td>
 </tr><tr  
  style="vertical-align:baseline;" id="TBL-00000000000000000000000003-77-"><td  style="white-space:normal; text-align:left;" id="TBL-00000000000000000000000003-77-1"  
 class="td11"> </td></tr><tr><td colspan="5"></td></tr><tr  
@@ -997,7 +1006,7 @@ onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" hre
 class="td11">     OnePlus Nord CE 2 5G          </td><td  style="white-space:normal; text-align:center;" id="TBL-0000000000000000000000000003-82-3"  
 class="td11">    RRC        </td><td  style="white-space:normal; text-align:center;" id="TBL-0000000000000000000000000003-82-4"  
 class="td11">      DoS             </td><td  style="white-space:normal; text-align:center;" id="TBL-0000000000000000000000000003-82-5"  
-class="td11"> <span id="textcolor23">CVE-2023-32843</span>  </td>
+class="td11"> <span id="textcolor25">CVE-2023-32843</span>  </td>
 </tr><tr  
  style="vertical-align:baseline;" id="TBL-0000000000000000000000000003-83-"><td  style="white-space:normal; text-align:left;" id="TBL-0000000000000000000000000003-83-1"  
 class="td11"> </td></tr><tr><td colspan="5"></td></tr><tr  
@@ -1028,7 +1037,7 @@ onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" hre
 class="td11">     OnePlus Nord CE 2 5G          </td><td  style="white-space:normal; text-align:center;" id="TBL-000000000000000000000000000003-88-3"  
 class="td11">    RRC        </td><td  style="white-space:normal; text-align:center;" id="TBL-000000000000000000000000000003-88-4"  
 class="td11">      DoS             </td><td  style="white-space:normal; text-align:center;" id="TBL-000000000000000000000000000003-88-5"  
-class="td11"> <span id="textcolor24">CVE-2023-32845</span>  </td>
+class="td11"> <span id="textcolor26">CVE-2023-32845</span>  </td>
 </tr><tr  
  style="vertical-align:baseline;" id="TBL-000000000000000000000000000003-89-"><td  style="white-space:normal; text-align:left;" id="TBL-000000000000000000000000000003-89-1"  
 class="td11"> </td></tr><tr><td colspan="5"></td></tr><tr  
@@ -1060,8 +1069,8 @@ class="td11">                                                                   
                                                                                                 
                                                                                                 
   
-<!--l. 29--><p class="indent" >  It is worthwhile to note that our discovered vulnerabilities
-(<span id="textcolor25"><span 
+<!--l. 35--><p class="indent" >  It is worthwhile to note that our discovered vulnerabilities
+(<span id="textcolor27"><span 
 class="ptmbi8t-">V3-V14</span></span>) are within the 5G baseband modem firmware. Thus,
 any product employing the respective Qualcomm and MediaTek
 modem firmware are affected (although the impact may vary
@@ -1074,7 +1083,7 @@ class="ptmri8t-">FIBOCOM </span>modems (see Table&#x00A0;<a
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-6002r2">2<!--tex4ht:ref: tab:summary --></a>). We
 verified that such issues do not affect products (e.g., 5G
 USB modems and smartphones) that had firmware with
-build date in 2023. Finally, <span id="textcolor26"><span 
+build date in 2023. Finally, <span id="textcolor28"><span 
 class="ptmbi8t-">V5-V14 affect the latest modem</span>
 <span 
 class="ptmbi8t-">firmware at the time of experiments and therefore, need</span>
@@ -1086,7 +1095,7 @@ class="ptmbi8t-">2</span><!--tex4ht:ref: tab:summary --></a> <span
 class="ptmbi8t-">to prevent</span>
 <span 
 class="ptmbi8t-">exploitation.</span></span>
-</p><!--l. 40--><p class="indent" >  In our findings, <span 
+</p><!--l. 46--><p class="indent" >  In our findings, <span 
 class="ptmri8t-">Qualcomm </span>5G USB Modems and 5G-enabled
 Smartphones such as <span 
 class="ptmri8t-">Asus ROG Phone 5S </span>were impacted
@@ -1107,9 +1116,15 @@ class="ptmbi8t-">V8-V14 </span>(see Table&#x00A0;<a
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-6002r2">2<!--tex4ht:ref: tab:summary --></a>). In
 particular, vulnerabilities V10 and V11 capture memory access
 violations in terms of <span 
-class="ptmri8t-">null pointer dereference</span>. All vulnerabilities
-were confirmed to have medium severity.
-</p><!--l. 65--><p class="noindent" ><span 
+class="ptmri8t-">null pointer dereference</span>. <span id="textcolor29"><span 
+class="ptmri8t-">While most</span>
+<span 
+class="ptmri8t-">vulnerabilities were confirmed to have medium severity, V11-V13</span>
+<span 
+class="ptmri8t-">were upgraded to high severity after further security assessment</span>
+<span 
+class="ptmri8t-">review from MediaTek on 29th December 2023.</span></span>
+</p><!--l. 74--><p class="noindent" ><span 
 class="ptmb8t-">Vulnerable Procedures: </span>In summary, the <span 
 class="ptmri8t-">RRC Attach </span>and
 <span 
@@ -1133,7 +1148,7 @@ onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" hre
 class="ptmri8t-">RRC Setup</span>
 <span 
 class="ptmri8t-">Connection</span>.
-</p><!--l. 79--><p class="indent" >  Lastly, all <span 
+</p><!--l. 88--><p class="indent" >  Lastly, all <span 
 class="ptmri8t-">5Ghoul</span>&#x00A0;&#x00A0;vulnerabilities were found during the
 pre-authentication stage of the communication between UE and
 gNB. This means that attacks exploiting <span 
@@ -1152,7 +1167,7 @@ demonstrates vulnerabilities at OSI Layer 3 and above (e.g.,
 <span 
 class="ptmri8t-">RRC</span>, <span 
 class="ptmri8t-">NAS</span>) for COTS 5G UEs.
-</p><!--l. 146--><p class="noindent" ><span 
+</p><!--l. 155--><p class="noindent" ><span 
 class="ptmb8t-">Triggering the Vulnerabilities: </span>Overall, the vulnerabilities
 summarized in Table&#x00A0;<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-6002r2">2<!--tex4ht:ref: tab:summary --></a> are triggered by either sending a
@@ -1168,31 +1183,31 @@ class="ptmri8t-">NAS</span>
 <span 
 class="ptmri8t-">Authentication Request </span>is malformed such that the actual NAS
 message payload is empty. In contrast, only <span 
-class="ptmbi8t-">V4 </span>requires sending
-both an invalid <span 
+class="ptmbi8t-">V4 </span>requires sending  both an invalid <span 
 class="ptmri8t-">MAC Time Advance Command </span>and a malformed
-<span 
-class="ptmri8t-">RRC Connection Setup</span>.                                   </p><!--l. 162--><p class="noindent" ><span 
+  <span 
+class="ptmri8t-">RRC Connection Setup</span>.
+  </p><!--l. 171--><p class="noindent" ><span 
 class="ptmb8t-">Patch Status: </span>Patching 5G modem vulnerabilities involves a
-     complex process until the patches become available to end users.
-     We reflect on this process in more detail in Section&#x00A0;<a 
+  complex process until the patches become available to end users.
+  We reflect on this process in more detail in Section&#x00A0;<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-120004.5">4.5<!--tex4ht:ref: sec:5G-patch-process --></a>. The
-     patches for vulnerabilities <span id="textcolor27"><span 
+  patches for vulnerabilities <span id="textcolor30"><span 
 class="ptmri8t-">V5-V14</span></span> have taken reasonable time to
-     be available to end users. In particular, for Android-based
-     smartphones, the patches are expected to be available in
-     <span id="textcolor28"><span 
+  be available to end users. In particular, for Android-based
+  smartphones, the patches are expected to be available in
+  <span id="textcolor31"><span 
 class="ptmbi8t-">December 2023</span></span>. For Apple-based iPhones, however, the patch
-     schedule is not aligned with the December timeline. Nonetheless,
-     <span 
+  schedule is not aligned with the December timeline. Nonetheless,
+  <span 
 class="ptmri8t-">Qualcomm has confirmed that patches were available to their</span>
-     <span 
+  <span 
 class="ptmri8t-">customers (i.e., device makers) starting in August 2023. Likewise,</span>
-     <span 
+  <span 
 class="ptmri8t-">MediaTek has also stated that the patches were available</span>
-     <span 
+  <span 
 class="ptmri8t-">to their OEM partners two months before the December</span>
-     <span 
+  <span 
 class="ptmri8t-">bulletin</span><span 
 class="ptmri8t-">&#x00A0;</span><span class="cite"><span 
 class="ptmri8t-">&#x00A0;[</span><a 
@@ -1200,49 +1215,49 @@ onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" hre
 class="ptmri8t-">10</span></a><span 
 class="ptmri8t-">]</span></span><span 
 class="ptmri8t-">.  </span>Therefore, end users are advised to apply
-     respective security updates as they become available from device
-     makers.
-     </p>
-         <h3 class="sectionHead" style="font-size: 2rem;"><span class="titlemark">4    </span> <a 
+  respective security updates as they become available from device
+  makers.
+  </p>
+    <h3 class="sectionHead" style="font-size: 2rem;"><span class="titlemark">4    </span> <a 
  id="x1-70004"></a><a id="impact">Exploitation of </a><span 
 class="ptmri8t-">5Ghoul</span>&#x00A0;&#x00A0;vulnerabilities</h3>
-     <!--l. 5--><p class="noindent" >We created different concrete attacks leveraging the
-     <span 
+  <!--l. 5--><p class="noindent" >We created different concrete attacks leveraging the
+  <span 
 class="ptmri8t-">5Ghoul</span>&#x00A0;&#x00A0;vulnerabilities. In the following, we discuss attacks that
-     cause Denial of Service (DoS) or connectivity Downgrade on
-     affected target devices.
-     </p><!--l. 41--><p class="noindent" >
-     </p>
-         <h4 class="subsectionHead" style="font-size: 1rem;font-weight:bold;line-height: 1.5rem;"><span class="titlemark">4.1    </span> <a 
+  cause Denial of Service (DoS) or connectivity Downgrade on
+  affected target devices.
+  </p><!--l. 41--><p class="noindent" >
+  </p>
+    <h4 class="subsectionHead" style="font-size: 1rem;font-weight:bold;line-height: 1.5rem;"><span class="titlemark">4.1    </span> <a 
  id="x1-80004.1"></a>Exploitation on Mobile Devices</h4>
-     <!--l. 42--><p class="noindent" >To test the impact of 5G vulnerabilities on mobile devices and
-     hence user experience, we exploit vulnerabilities <span 
+  <!--l. 42--><p class="noindent" >To test the impact of 5G vulnerabilities on mobile devices and
+  hence user experience, we exploit vulnerabilities <span 
 class="ptmri8t-">V5 </span>to <span 
 class="ptmri8t-">V10</span>
-     against <span 
+  against <span 
 class="ptmri8t-">Asus ROG Phone 5S (ARP5s)</span>, which uses Qualcomm
-     Modem and <span 
+  Modem and <span 
 class="ptmri8t-">OnePlus Nord CE</span><span 
 class="ptmri8t-">&#x00A0;2 (OnePlus)</span>, which uses
-     MediaTek Modem (see Table&#x00A0;<a 
+  MediaTek Modem (see Table&#x00A0;<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-6001r1">1<!--tex4ht:ref: tab:setup --></a>). First, when vulnerability <span 
 class="ptmb8t-">V5</span>
-     (see Figure&#x00A0;<a 
+  (see Figure&#x00A0;<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-8001r3">3<!--tex4ht:ref: fig:attack-v5 --></a>) or <span 
 class="ptmb8t-">V6 </span>is triggered on <span 
 class="ptmri8t-">ARP5s</span>, its 5G modem
-     immediately reboots and automatically recovers connection to
-     gNB in few seconds (temporary DoS). Hence, an attacker
-     exploiting <span 
+  immediately reboots and automatically recovers connection to
+  gNB in few seconds (temporary DoS). Hence, an attacker
+  exploiting <span 
 class="ptmbi8t-">V5 </span>and <span 
 class="ptmbi8t-">V6 </span>must continuously launch the attacks if the
-     intention is to completely disrupt mobile network connectivity of
-     the user. Additionally, 3G and 4G communication are also
-     disrupted upon modem reboot since the modem handles all
-     <span 
+  intention is to completely disrupt mobile network connectivity of
+  the user. Additionally, 3G and 4G communication are also
+  disrupted upon modem reboot since the modem handles all
+  <span 
 class="ptmri8t-">3GPP </span>related communication.
-     </p>
-         <div style="margin-top:30px;margin-bottom:30px;" class="row items-start justify-center text-center"><div class="figure" 
+  </p>
+    <div style="margin-top:30px;margin-bottom:30px;" class="row items-start justify-center text-center"><div class="figure" 
 >
                                                                                                 
                                                                                                 
@@ -1313,7 +1328,7 @@ the attack). We then start the malicious gNB and <span
 class="ptmri8t-">V7</span>
 is triggered by starting <span 
 class="ptmri8t-">5Ghoul</span>&#x00A0;&#x00A0;framework (exploit
-<span id="textcolor29"><span 
+<span id="textcolor32"><span 
 class="pcrbo8t-">mac_sch_rrc_setup_crash_var</span></span>). <span 
 class="ptmri8t-">Although the video</span>
 <span 
@@ -1413,7 +1428,7 @@ class="ptmri8t-">Configuration Webpage</span>. We launched continuous attacks wi
 radio range, exploiting vulnerabilities <span 
 class="ptmbi8t-">V5 </span>and <span 
 class="ptmbi8t-">V6 </span>from a
-malicious gNB. <span id="textcolor30"><span 
+malicious gNB. <span id="textcolor33"><span 
 class="ptmbi8t-">This resulted in a complete loss of internet</span>
 <span 
 class="ptmbi8t-">connectivity for devices connected to the FT980WW LAN</span>
@@ -1607,7 +1622,7 @@ all 5G devices due to the vulnerable components existing in the
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#X3gpp">2</a>]</span>. During our exploration of downgrade
 attacks, we were able to trigger known general downgrade
 attacks&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#X5g_ue_wisec2023">3</a>]</span>. Moreover, <span id="textcolor31"><span 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#X5g_ue_wisec2023">3</a>]</span>. Moreover, <span id="textcolor34"><span 
 class="ptmbi8t-">we exploited a new downgrade attack</span>
 <span 
 class="ptmbi8t-">vector (</span><span 
@@ -1707,9 +1722,9 @@ chipsets. This is because mobile processor vendors usually
 provide to the smartphone vendor a chipset platform that
 already integrates a CPU, 5G modem, GPU, amongst other
 peripherals. For example, smartphones employing a Qualcomm
-processor contains a <span id="textcolor32"><span 
+processor contains a <span id="textcolor35"><span 
 class="ptmbi8t-">Snapdragon 8XX Mobile Platform</span></span>, while
-MediaTek-based 5G phones contains a <span id="textcolor33"><span 
+MediaTek-based 5G phones contains a <span id="textcolor36"><span 
 class="ptmbi8t-">Dimensity XXXX</span></span>
 chipset.
 </p><!--l. 513--><p class="indent" >  To find potentially affected smartphone models, we based our
@@ -1744,7 +1759,7 @@ their specification (e.g., RAM and storage size). The summarized
 number of affected smartphones models across the market is
 shown via the pie chart of Figure&#x00A0;<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-11001r8">8<!--tex4ht:ref: fig:5ghoul-affected-phones --></a>. Notably, while most of the
-smartphone models e.g., <span id="textcolor34"><span 
+smartphone models e.g., <span id="textcolor37"><span 
 class="ptmbi8t-">Samsung, OnePlus, Oppo, Vivo,</span>
 <span 
 class="ptmbi8t-">Xiaomi etc.</span></span> in our estimation use chipsets from Qualcomm (670
@@ -1799,7 +1814,7 @@ class="ptmri8t-">5Ghoul</span>&#x00A0;&#x00A0;vulnerabilities goes beyond smartp
 because the affected 5G modems are also used in other
 5G-enabled applications. Indeed, as detailed in Qualcomm
 Security Bulletin&#x00A0;<span class="cite">&#x00A0;[<a 
-onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xqualcomm-december">13</a>]</span>, <span id="textcolor35"><span 
+onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#Xqualcomm-december">13</a>]</span>, <span id="textcolor38"><span 
 class="ptmbi8t-">5Ghoul</span><span 
 class="ptmbi8t-">&#x00A0;</span><span 
 class="ptmbi8t-">&#x00A0;vulnerabilities potentially</span>
@@ -2032,7 +2047,7 @@ class="ptmri8t-">August 2023</span>.
      <span 
 class="ptmri8t-">December 2023 </span>for (smartphone) end users to repair our reported
      vulnerabilities.
-     </p><!--l. 73--><p class="indent" >    <span id="textcolor36"><span 
+     </p><!--l. 73--><p class="indent" >    <span id="textcolor39"><span 
 class="ptmbi8t-">In summary, it took approximately seven (7) months for the</span>
      <span 
 class="ptmbi8t-">patch to be available to end users since it was reproduced by the</span>
@@ -2110,14 +2125,14 @@ testing smartphones.
  id="x1-160007.1"></a>V5: Invalid MAC/RLC PDU<br 
 class="newline" />(CVE-2023-33043)</h4>
 <!--l. 17--><p class="noindent" >An attacker within radio range can trigger a denial of service (<span 
-class="ptmbi8t-">reachable assert</span>) within the <span id="textcolor37"><span 
+class="ptmbi8t-">reachable assert</span>) within the <span id="textcolor40"><span 
 class="ptmbi8t-">Qualcomm&#8217;s X55/X60</span></span> modem firmware by
 means of sending invalid downlink MAC frame to the target 5G UE (e.g., smartphone) from a nearby malicious gNB. After the <span 
 class="ptmri8t-">RRC</span>
 <span 
 class="ptmri8t-">Attach Procedure </span>is complete, the attacker (malicious gNB) sends a malformed <span 
 class="ptmri8t-">RLC Status PDU</span>, changing the MAC header (first byte)
-of the downlink transport block from 0x41 (DL-SCH) to <span id="textcolor38"><span 
+of the downlink transport block from 0x41 (DL-SCH) to <span id="textcolor41"><span 
 class="ptmbi8t-">0xB5 (MAC TCI States Activation/Deactivation)</span></span>. We highlight this
 byte in red in Figure&#x00A0;<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-16001r11">11<!--tex4ht:ref: fig:v5 --></a>. After the invalid frame is sent to the 5G UE, the Qualcomm X55 modem fails and reboots,
@@ -2163,14 +2178,14 @@ class="content">Invalid MAC/RLC PDU.</span></div><!--tex4ht:label?: x1-16001r11 
  id="x1-170007.2"></a>V6: NAS Unknown PDU<br 
 class="newline" />(CVE-2023-33044)</h4>
 <!--l. 85--><p class="noindent" >An attacker within radio range can trigger a denial of service (<span 
-class="ptmbi8t-">reachable assert</span>) within the <span id="textcolor39"><span 
+class="ptmbi8t-">reachable assert</span>) within the <span id="textcolor42"><span 
 class="ptmbi8t-">Qualcomm&#8217;s X55/X60</span></span> modem firmware by
 means of sending invalid downlink MAC frame to the target 5G UE (smartphone, CPE router) from a nearby malicious gNB. After the
 <span 
 class="ptmri8t-">RRC Attach Procedure </span>is complete and before NAS network registration is complete, the attacker (malicious gNB) sends an invalid NAS
 PDU, changing the third byte of the <span 
 class="ptmbi8t-">RRC dlInformationTransfer </span>from <span 
-class="ptmri8t-">0xC0 </span>(NAS Authentication Request) to <span id="textcolor40"><span 
+class="ptmri8t-">0xC0 </span>(NAS Authentication Request) to <span id="textcolor43"><span 
 class="ptmbi8t-">0xF4 (NAS Unknown</span>
 <span 
 class="ptmbi8t-">PDU)</span></span> (See this byte highlighted in red in the Figure&#x00A0;<a 
@@ -2214,7 +2229,7 @@ class="content">NAS Unknown PDU.</span></div><!--tex4ht:label?: x1-17001r12 -->
   <h4 class="subsectionHead" style="font-size: 1rem;font-weight:bold;line-height: 1.5rem;"><span class="titlemark">7.3    </span> <a 
  id="x1-180007.3"></a>V7: Disabling 5G / Downgrade via Invalid RRC pdcch-Config<br 
 class="newline" />(CVE-2023-33042)</h4>
-<!--l. 138--><p class="noindent" >An attacker within radio range can trigger a 5G connectivity downgrade or denial of service within the <span id="textcolor41"><span 
+<!--l. 138--><p class="noindent" >An attacker within radio range can trigger a 5G connectivity downgrade or denial of service within the <span id="textcolor44"><span 
 class="ptmbi8t-">Qualcomm&#8217;s X55/X60</span></span> modem
 firmware by means of sending malformed RRC frame to the target 5G UE (smartphone, CPE router) from a nearby malicious gNB.
 During the <span 
@@ -2223,11 +2238,11 @@ class="ptmri8t-">30th </span>byte of the <span
 class="ptmbi8t-">RRC</span>
 <span 
 class="ptmbi8t-">dlInformationTransfer </span>payload from <span 
-class="ptmri8t-">0x04 </span>to <span id="textcolor42"><span 
+class="ptmri8t-">0x04 </span>to <span id="textcolor45"><span 
 class="ptmbi8t-">0x9C</span></span>. This modifies optional bits of the <span 
-class="ptmbi8t-">pdcch-Config </span>such as <span id="textcolor43"><span 
+class="ptmbi8t-">pdcch-Config </span>such as <span id="textcolor46"><span 
 class="ptmbi8t-">tpc-PUCCH</span></span> and
-<span id="textcolor44"><span 
+<span id="textcolor47"><span 
 class="ptmbi8t-">Sequence-Of Length</span></span> (See these bytes highlighted in red in the Figure&#x00A0;<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-17001r12">12<!--tex4ht:ref: fig:v6 --></a>). After the malformed message is sent to the 5G UE,
 connection to any 5G network fails. For example, USB Modems or CPE Routers are often not able to scan 5G networks via the serial
@@ -2275,7 +2290,7 @@ class="content">Disabling 5G / Downgrade via Invalid RRC pdcch-Config.</span></d
  id="x1-190007.4"></a>V8: Invalid RRC Setup spCellConfig<br 
 class="newline" />(CVE-2023-32842)</h4>
 <!--l. 184--><p class="noindent" >An attacker within radio range can trigger a denial of service (<span 
-class="ptmbi8t-">reachable assert</span>) within the Mediatek <span id="textcolor45"><span 
+class="ptmbi8t-">reachable assert</span>) within the Mediatek <span id="textcolor48"><span 
 class="ptmbi8t-">Dimensity 900 /</span>
 <span 
 class="ptmbi8t-">1200</span></span> 5G modem firmware by means of sending invalid downlink RRC frame to the target 5G UE (e.g., smartphone)
@@ -2293,14 +2308,14 @@ class="ptmri8t-">0x71 </span>(See this bytes highlighted in red in the Figure&#x
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-19001r14">14<!--tex4ht:ref: fig:v8 --></a>). This corresponds to changing some fields within the
 RRC payload such <span 
 class="ptmri8t-">spCellConfigDedicated </span>optional bits: <span 
-class="ptmbi8t-">defaultDownlinkBWP-Id=</span><span id="textcolor46"><span 
+class="ptmbi8t-">defaultDownlinkBWP-Id=</span><span id="textcolor49"><span 
 class="ptmbi8t-">1</span></span>, <span 
-class="ptmbi8t-">pdcch-ServingCellConfig=</span><span id="textcolor47"><span 
+class="ptmbi8t-">pdcch-ServingCellConfig=</span><span id="textcolor50"><span 
 class="ptmbi8t-">1</span></span>,
 <span 
-class="ptmbi8t-">pdsch-ServingCellConfig=</span><span id="textcolor48"><span 
+class="ptmbi8t-">pdsch-ServingCellConfig=</span><span id="textcolor51"><span 
 class="ptmbi8t-">0</span></span>, <span 
-class="ptmbi8t-">sCellDeactivationTimer=</span><span id="textcolor49"><span 
+class="ptmbi8t-">sCellDeactivationTimer=</span><span id="textcolor52"><span 
 class="ptmbi8t-">1</span></span>. After such an invalid packet is sent to the 5G UE, the <span 
 class="ptmri8t-">Dimensity 900 </span>5G
 modem fails and reboots, indicating a firmware crash/assert in the Android logs (logcat). More specifically, the modem
@@ -2339,7 +2354,7 @@ class="content">Invalid RRC Setup spCellConfig.</span></div><!--tex4ht:label?: x
  id="x1-200007.5"></a>V9: Invalid RRC pucch CSIReportConfig<br 
 class="newline" />(CVE-2023-32844)</h4>
 <!--l. 253--><p class="noindent" >An attacker within radio range can trigger a denial of service (<span 
-class="ptmbi8t-">reachable assert</span>) within the Mediatek <span id="textcolor50"><span 
+class="ptmbi8t-">reachable assert</span>) within the Mediatek <span id="textcolor53"><span 
 class="ptmbi8t-">Dimensity 900 / 1200</span></span> 5G modem
 firmware by means of sending invalid downlink RRC frame to the target 5G UE (e.g., smartphone) from a nearby malicious gNB. During
 the <span 
@@ -2347,17 +2362,17 @@ class="ptmri8t-">RRC Attach Procedure</span>, the attacker (malicious gNB) sends
 class="ptmri8t-">RRC Connection Setup</span>, changing the <span 
 class="ptmbi8t-">192nd byte </span>of the
 downlink transport block from <span 
-class="ptmri8t-">0x0A </span>to <span id="textcolor51"><span 
+class="ptmri8t-">0x0A </span>to <span id="textcolor54"><span 
 class="ptmbi8t-">0xD0</span></span> (See this byte highlighted in red in Figure&#x00A0;<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-20001r15">15<!--tex4ht:ref: fig:v9 --></a>). This corresponds to changing some fields
 within the RRC payload (<span 
 class="ptmri8t-">searchSpacesToAddModList </span>element) such as <span 
 class="ptmbi8t-">pucch-Resource </span>from <span 
-class="ptmri8t-">0x02 </span>to <span id="textcolor52"><span 
+class="ptmri8t-">0x02 </span>to <span id="textcolor55"><span 
 class="ptmbi8t-">0x52</span></span> and <span 
 class="ptmbi8t-">reportQuantity</span>
 from <span 
-class="ptmri8t-">0x05 (cri-RSRP) </span>to <span id="textcolor53"><span 
+class="ptmri8t-">0x05 (cri-RSRP) </span>to <span id="textcolor56"><span 
 class="ptmbi8t-">0x01 (cri-RI-PMI-CQI)</span></span>. After such invalid packet is sent to the 5G UE, the <span 
 class="ptmri8t-">Dimensity 900 </span>5G
 modem fails and reboots, indicating a firmware crash/assert in the Android logs (logcat). More specifically, the modem
@@ -2397,7 +2412,7 @@ class="content">Invalid RRC pucch CSIReportConfig.</span></div><!--tex4ht:label?
  id="x1-210007.6"></a>V10: Invalid RLC Data Sequence<br 
 class="newline" />(CVE-2023-20702)</h4>
 <!--l. 319--><p class="noindent" >An attacker within radio range can trigger a denial of service (<span 
-class="ptmbi8t-">null pointer dereference</span>) within the Mediatek <span id="textcolor54"><span 
+class="ptmbi8t-">null pointer dereference</span>) within the Mediatek <span id="textcolor57"><span 
 class="ptmbi8t-">Dimensity 900 /</span>
 <span 
 class="ptmbi8t-">1200</span></span> 5G modem firmware by means of sending invalid downlink RLC payload to the target 5G UE (e.g., smartphone)
@@ -2406,18 +2421,18 @@ class="ptmri8t-">RRC attach procedure</span>, the attacker (malicious gNB) sends
 class="ptmri8t-">RLC</span>
 <span 
 class="ptmri8t-">Status PDU</span>, changing the <span 
-class="ptmbi8t-">4th </span>byte of the downlink transport block from 0x00 to <span id="textcolor55"><span 
+class="ptmbi8t-">4th </span>byte of the downlink transport block from 0x00 to <span id="textcolor58"><span 
 class="ptmbi8t-">0x84</span></span> (See this byte highlighted in red
 in Figure&#x00A0;<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-21001r16">16<!--tex4ht:ref: fig:v10 --></a>). This corresponds to changing some fields within the RLC header such as <span 
-class="ptmbi8t-">Data/Control field </span>to <span id="textcolor56"><span 
+class="ptmbi8t-">Data/Control field </span>to <span id="textcolor59"><span 
 class="ptmbi8t-">0x01</span>
 <span 
 class="ptmbi8t-">(Data PDU)</span></span> and <span 
-class="ptmbi8t-">RLC Sequence Number </span>to <span id="textcolor57"><span 
+class="ptmbi8t-">RLC Sequence Number </span>to <span id="textcolor60"><span 
 class="ptmbi8t-">1025</span></span>. The original downlink packet is an <span 
 class="ptmri8t-">RLC Control PDU (Status ACK)</span>.
-However, after writing the invalid byte <span id="textcolor58"><span 
+However, after writing the invalid byte <span id="textcolor61"><span 
 class="ptmbi8t-">0x84</span></span> to the RLC Header, such PDU is changed to a <span 
 class="ptmri8t-">Data PDU </span>with a wrong
 (out-of-order) RLC Data sequence number. After the invalid RLC payload is sent to the 5G UE, the <span 
@@ -2459,7 +2474,7 @@ class="content">Invalid RLC Data Sequence.</span></div><!--tex4ht:label?: x1-210
  id="x1-220007.7"></a>V11: Truncated RRC physicalCellGroupConfig<br 
 class="newline" />(CVE-2023-32846)</h4>
 <!--l. 390--><p class="noindent" >An attacker within radio range can trigger a denial of service (<span 
-class="ptmbi8t-">null pointer dereference</span>) within the Mediatek <span id="textcolor59"><span 
+class="ptmbi8t-">null pointer dereference</span>) within the Mediatek <span id="textcolor62"><span 
 class="ptmbi8t-">Dimensity 900 / 1200</span></span> 5G
 modem firmware by means of sending invalid downlink RRC frame to the target 5G UE (e.g., smartphone) from a nearby malicious gNB.
 During the <span 
@@ -2468,15 +2483,15 @@ class="ptmri8t-">RRC Connection Setup</span>, changing the <span
 class="ptmbi8t-">14th </span>and <span 
 class="ptmbi8t-">15th</span>
 bytes of the downlink transport block from <span 
-class="ptmri8t-">0xBA 0xE0 </span>to <span id="textcolor60"><span 
+class="ptmri8t-">0xBA 0xE0 </span>to <span id="textcolor63"><span 
 class="ptmbi8t-">0x13 0x46</span></span> (See these bytes highlighted in red in Figure&#x00A0;<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-22001r17">17<!--tex4ht:ref: fig:v11 --></a>). This corresponds
 to changing some fields within the <span 
-class="ptmbi8t-">physicalCellGroupConfig </span>such as <span id="textcolor61"><span 
-class="ptmbi8t-">Extension bit</span></span> to <span id="textcolor62"><span 
-class="ptmbi8t-">0x01 (True)</span></span> and <span id="textcolor63"><span 
+class="ptmbi8t-">physicalCellGroupConfig </span>such as <span id="textcolor64"><span 
+class="ptmbi8t-">Extension bit</span></span> to <span id="textcolor65"><span 
+class="ptmbi8t-">0x01 (True)</span></span> and <span id="textcolor66"><span 
 class="ptmbi8t-">pdsch-HARQ-ACK-Codebook</span></span> to
-<span id="textcolor64"><span 
+<span id="textcolor67"><span 
 class="ptmbi8t-">0x00 (semiStatic)</span></span>. Consequently, this causes the RRC message to be truncated, thus causing encoding errors as highlighted in Wireshark
 (yellow messages in Figure&#x00A0;<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-22001r17">17<!--tex4ht:ref: fig:v11 --></a>). After such malformed packet is sent to the 5G UE, the <span 
@@ -2522,7 +2537,7 @@ class="content">Truncated RRC physicalCellGroupConfig.</span></div><!--tex4ht:la
  id="x1-230007.8"></a>V12: Invalid RRC searchSpacesToAddModList<br 
 class="newline" />(CVE-2023-32841)</h4>
 <!--l. 450--><p class="noindent" >An attacker within radio range can trigger a denial of service (<span 
-class="ptmbi8t-">reachable assert</span>) within the Mediatek <span id="textcolor65"><span 
+class="ptmbi8t-">reachable assert</span>) within the Mediatek <span id="textcolor68"><span 
 class="ptmbi8t-">Dimensity 900 / 1200</span></span> 5G
 modem firmware by means of sending invalid downlink RRC frame to the target 5G UE (e.g., smartphone) from a nearby
 malicious gNB. During the <span 
@@ -2531,14 +2546,14 @@ class="ptmri8t-">RRC Connection</span>
 <span 
 class="ptmri8t-">Setup</span>, changing the <span 
 class="ptmbi8t-">52nd byte </span>of the downlink transport block from <span 
-class="ptmri8t-">0x00 </span>to <span id="textcolor66"><span 
+class="ptmri8t-">0x00 </span>to <span id="textcolor69"><span 
 class="ptmbi8t-">0x5B</span></span> (See this byte highlighted in red in
 Figure&#x00A0;<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-23001r18">18<!--tex4ht:ref: fig:v12 --></a>). This corresponds to changing some fields within the RRC payload (<span 
 class="ptmri8t-">searchSpacesToAddModList element</span>) such as
 <span 
 class="ptmbi8t-">monitoringSymbolsWithinSlots </span>from <span 
-class="ptmri8t-">0x80 0x00 </span>to <span id="textcolor67"><span 
+class="ptmri8t-">0x80 0x00 </span>to <span id="textcolor70"><span 
 class="ptmbi8t-">0x82 0xd8</span></span>. After such invalid packet is sent to the 5G UE, the <span 
 class="ptmri8t-">Dimensity 900 </span>5G
 modem fails and reboots, indicating a firmware crash/assert in the Android logs (logcat). More specifically, the modem
@@ -2578,7 +2593,7 @@ class="content">Invalid RRC searchSpacesToAddModList.</span></div><!--tex4ht:lab
  id="x1-240007.9"></a>V13: Invalid RRC Uplink Config Element<br 
 class="newline" />(CVE-2023-32843)</h4>
 <!--l. 503--><p class="noindent" >An attacker within radio range can trigger a denial of service (<span 
-class="ptmbi8t-">reachable assert</span>) within the Mediatek <span id="textcolor68"><span 
+class="ptmbi8t-">reachable assert</span>) within the Mediatek <span id="textcolor71"><span 
 class="ptmbi8t-">Dimensity 900 / 1200</span></span> 5G modem
 firmware by means of sending invalid downlink RRC frame to the target 5G UE (e.g., smartphone) from a nearby malicious gNB. During
 the <span 
@@ -2586,18 +2601,18 @@ class="ptmri8t-">RRC Attach Procedure</span>, the attacker (malicious gNB) sends
 class="ptmri8t-">RRC Connection Setup</span>, changing the <span 
 class="ptmbi8t-">92nd byte </span>of the
 downlink transport block from <span 
-class="ptmri8t-">0x49 </span>to <span id="textcolor69"><span 
+class="ptmri8t-">0x49 </span>to <span id="textcolor72"><span 
 class="ptmbi8t-">0x67</span></span> (See this byte highlighted in red in the Figure&#x00A0;<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-24001r19">19<!--tex4ht:ref: fig:v13 --></a>). This corresponds to changing many fields
-within the RRC payload such as <span id="textcolor70"><span 
-class="ptmbi8t-">qcl-Type</span></span> from 0x02 to <span id="textcolor71"><span 
-class="ptmbi8t-">0x03</span></span>, <span id="textcolor72"><span 
-class="ptmbi8t-">resourceAllocation</span></span> from 0x01 to <span id="textcolor73"><span 
-class="ptmbi8t-">0x00</span></span>, <span id="textcolor74"><span 
-class="ptmbi8t-">rbg-size</span></span> from 0x00 to <span id="textcolor75"><span 
+within the RRC payload such as <span id="textcolor73"><span 
+class="ptmbi8t-">qcl-Type</span></span> from 0x02 to <span id="textcolor74"><span 
+class="ptmbi8t-">0x03</span></span>, <span id="textcolor75"><span 
+class="ptmbi8t-">resourceAllocation</span></span> from 0x01 to <span id="textcolor76"><span 
+class="ptmbi8t-">0x00</span></span>, <span id="textcolor77"><span 
+class="ptmbi8t-">rbg-size</span></span> from 0x00 to <span id="textcolor78"><span 
 class="ptmbi8t-">0x01</span></span>,
-<span id="textcolor76"><span 
-class="ptmbi8t-">prb-BundlingType</span></span> from 0x00 to <span id="textcolor77"><span 
+<span id="textcolor79"><span 
+class="ptmbi8t-">prb-BundlingType</span></span> from 0x00 to <span id="textcolor80"><span 
 class="ptmbi8t-">0x01</span></span> and other <span 
 class="ptmbi8t-">uplinkConfig optional bits</span>. After such invalid packet is sent to the 5G UE, the
 <span 
@@ -2638,7 +2653,7 @@ class="content">Invalid RRC Uplink Config Element.</span></div><!--tex4ht:label?
  id="x1-250007.10"></a>V14: Null RRC Uplink Config Element<br 
 class="newline" />(CVE-2023-32845)</h4>
 <!--l. 559--><p class="noindent" >An attacker within radio range can trigger a denial of service (<span 
-class="ptmbi8t-">reachable assert</span>) within the Mediatek <span id="textcolor78"><span 
+class="ptmbi8t-">reachable assert</span>) within the Mediatek <span id="textcolor81"><span 
 class="ptmbi8t-">Dimensity 900 / 1200</span></span> 5G modem
 firmware by means of sending invalid downlink RRC frame to the target 5G UE (e.g., smartphone) from a nearby malicious gNB.
 During the <span 
@@ -2646,13 +2661,13 @@ class="ptmri8t-">RRC Attach Procedure</span>, the attacker (malicious gNB) sends
 class="ptmri8t-">RRC Connection Setup</span>, changing
 the <span 
 class="ptmbi8t-">50th byte </span>of the downlink transport block from <span 
-class="ptmri8t-">0xA2 </span>to <span id="textcolor79"><span 
+class="ptmri8t-">0xA2 </span>to <span id="textcolor82"><span 
 class="ptmbi8t-">0xA1</span></span> (See this byte highlighted in red in Figure&#x00A0;<a 
 onclick="document.getElementById(this.href.split(`#`)[1]).scrollIntoView();" href="#x1-25001r20">20<!--tex4ht:ref: fig:v14 --></a>). This
-corresponds to changing some fields within the RRC payload such as <span id="textcolor80"><span 
-class="ptmbi8t-">controlResourceSetId</span></span> to <span id="textcolor81"><span 
-class="ptmbi8t-">0x00</span></span>, <span id="textcolor82"><span 
-class="ptmbi8t-">pdsch-Config</span></span> to <span id="textcolor83"><span 
+corresponds to changing some fields within the RRC payload such as <span id="textcolor83"><span 
+class="ptmbi8t-">controlResourceSetId</span></span> to <span id="textcolor84"><span 
+class="ptmbi8t-">0x00</span></span>, <span id="textcolor85"><span 
+class="ptmbi8t-">pdsch-Config</span></span> to <span id="textcolor86"><span 
 class="ptmbi8t-">0x00</span>
 <span 
 class="ptmbi8t-">(release)</span></span>, amongst other fields as shown in Figure&#x00A0;<a 
