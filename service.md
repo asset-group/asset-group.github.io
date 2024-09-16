@@ -23,13 +23,17 @@ reviewers). Exceptions exist, such as letters (which are short) and journal
 revisions (especially, minor revisions).   
 </p>
 
+#### 2024 - Present
+
+<b>Editorial board:</b> Associate Editor of ACM Computing Surveys (CSUR). 
+
 #### 2017 - 2023
 
-Review board of IEEE Transactions on Software Engineering (TSE)
+Review board of IEEE Transactions on Software Engineering (TSE).
 
 #### 2022 - Present
 
-ACM Transactions on Software Engineering and Methodology (TOSEM): Board of Distinguished Reviewers
+ACM Transactions on Software Engineering and Methodology (TOSEM): Board of Distinguished Reviewers.
 
 #### 2024
 <p style="text-align:justify">
