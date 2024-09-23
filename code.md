@@ -34,6 +34,10 @@ with most of our research papers.
 
 ---
 
+###### U-Fuzz
+
+[This repository](https://github.com/asset-group/U-Fuzz) contains the code for [U-Fuzz](https://asset-group.github.io/disclosures/braktooth/) -- a generic wireless protocol fuzzer experimented with 5G NR, CoAP and ZigBee protocol implementations. See the paper [U-Fuzz: Stateful Fuzzing of IoT Protocols on COTS Devices](https://asset-group.github.io/papers/U-Fuzz.pdf) for more details. 
+
 ###### VitroBench (Software)
 
 [This repository](https://github.com/yeoant/VitroBench) contains the Proof-of-concept (PoC) code for sniffing, injection or interception, and fuzzing or attacks executed on the [VitroBench Test Platform](https://www.vitrobench.com). See the paper [VitroBench: Manipulating In-vehicle Networks and COTS ECUs on Your Bench](https://asset-group.github.io/papers/VitroBench.pdf) and the companion [VitroBench Website](https://www.vitrobench.com) for more details. 
