@@ -36,7 +36,7 @@ with most of our research papers.
 
 ###### U-Fuzz
 
-[This repository](https://github.com/asset-group/U-Fuzz) contains the code for [U-Fuzz](https://asset-group.github.io/disclosures/braktooth/) -- a generic wireless protocol fuzzer experimented with 5G NR, CoAP and ZigBee protocol implementations. See the paper [U-Fuzz: Stateful Fuzzing of IoT Protocols on COTS Devices](https://asset-group.github.io/papers/U-Fuzz.pdf) for more details. 
+[This repository](https://github.com/asset-group/U-Fuzz) contains the code for **U-Fuzz** -- a generic wireless protocol fuzzer experimented with 5G NR, CoAP and ZigBee protocol implementations. See the paper [U-Fuzz: Stateful Fuzzing of IoT Protocols on COTS Devices](https://asset-group.github.io/papers/U-Fuzz.pdf) for more details. 
 
 ###### VitroBench (Software)
 
