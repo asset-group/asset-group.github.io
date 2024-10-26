@@ -35,6 +35,11 @@ Review board of IEEE Transactions on Software Engineering (TSE).
 
 ACM Transactions on Software Engineering and Methodology (TOSEM): Board of Distinguished Reviewers.
 
+#### 2025
+<p style="text-align:justify">
+<i>Program Co-Chair</i>: 23rd ACM-IEEE International Symposium on Formal Methods and Models for System Design (MEMOCODE) 2025.
+</p>
+
 #### 2024
 <p style="text-align:justify">
 <i>Program Chair</i>: 10th ACM Cyber-Physical System Security Workshop (CPSS) 2024.
