@@ -99,7 +99,7 @@ for details.
 [KonTest](https://github.com/sparkssss/KonTest) is a consistency testing framework for large language models. See the paper in EMNLP 2024 Findings [Knowledge-based Consistency Testing of Large Language Models](https://asset-group.github.io/papers/KBCon.pdf) for more details.
 
 ###### DistroFair
-[DistroFair](https://github.com/sparkssss/DistroFair) is a fairness formalization and testing framework, based on out-of-distribution (OOD) data, for object detection systems. See the paper in JSS 2024 [Distribution-aware Fairness Test Generation](https://asset-group.github.io/papers/ImgFairMain.pdf) for more details.
+[DistroFair](https://github.com/sparkssss/DistroFair) is a fairness formalization and testing framework, based on out-of-distribution (OOD) test data generation, for object detection systems. See the paper in JSS 2024 [Distribution-aware Fairness Test Generation](https://asset-group.github.io/papers/ImgFairMain.pdf) for more details.
 
 ###### AequeVox
 [AequeVox](https://github.com/sparkssss/AequeVox) is a fairness formalization and testing framework for speech recognition systems. See the paper in FASE 2022 [AequeVox: Automated Fairness Testing of Speech Recognition Systems](https://arxiv.org/abs/2110.09843) for more details.
