@@ -36,6 +36,18 @@ Amazon and Airbnb.
 <h3>Representative Publications:</h3>
 
 <p style="text-align:justify">
+<a href="https://asset-group.github.io/papers/KBCon.pdf">Knowledge-based Consistency Testing of Large Language Models</a><br>
+Sai Sathiesh Rajan, Ezekiel Soremekun, and Sudipta Chattopadhyay<br>
+The 2024 Conference on Empirical Methods in Natural Language Processing (EMNLP) Findings, 2024.
+</p>
+
+
+<p style="text-align:justify">
+<a href="https://asset-group.github.io/papers/ImgFairMain.pdf">Distribution-aware Fairness Test Generation</a><br>
+Journal of Systems and Software (JSS), 2024. Presented at 39th IEEE/ACM International Conference on Automated Software Engineering (ASE 2024).
+</p>
+
+<p style="text-align:justify">
 <a href="https://asset-group.github.io/papers/AEGIS.pdf">Towards Backdoor Attacks and Defense in Robust Machine Learning Models</a><br>
 Ezekiel Soremekun, Sakshi Udeshi, and Sudipta Chattopadhyay<br>
 Elsevier Journal of Computers and Security, 2023
