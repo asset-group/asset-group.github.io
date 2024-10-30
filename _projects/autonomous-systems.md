@@ -44,6 +44,7 @@ The 2024 Conference on Empirical Methods in Natural Language Processing (EMNLP) 
 
 <p style="text-align:justify">
 <a href="https://asset-group.github.io/papers/ImgFairMain.pdf">Distribution-aware Fairness Test Generation</a><br>
+Sai Sathiesh Rajan, Ezekiel Soremekun, Yves Le Traon, and Sudipta Chattopadhyay<br>
 Journal of Systems and Software (JSS), 2024. Presented at 39th IEEE/ACM International Conference on Automated Software Engineering (ASE 2024).
 </p>
 
