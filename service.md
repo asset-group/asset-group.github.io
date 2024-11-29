@@ -38,6 +38,8 @@ ACM Transactions on Software Engineering and Methodology (TOSEM): Board of Disti
 #### 2025
 <p style="text-align:justify">
 <i>Program Co-Chair</i>: 23rd ACM-IEEE International Symposium on Formal Methods and Models for System Design (MEMOCODE) 2025.
+<br>
+<i>Technical Program Committee (TPC)</i>: ECRTS 2025. 
 </p>
 
 #### 2024
