@@ -34,6 +34,14 @@ with most of our research papers.
 
 ---
 
+###### AirBugCatcher
+
+[This repository](https://github.com/asset-group/air-bug-catcher) contains the code for **AirBugCatcher** -- a generic wireless bug reproduction tool evaluated on a variety of wireless protocols such as 5G NR, Bluetooth and Wi-Fi. See the paper [AirBugCatcher: Automated Wireless Reproduction of IoT Bugs](https://asset-group.github.io/papers/airbugcatcher.pdf) for more details. 
+
+###### VaktBLE
+
+[This repository](https://github.com/asset-group/vakt-ble-defender/) contains the code for **VaktBLE** -- a friendly man-in-the-middle bridge to actively prevent link-layer attacks on BLE peripherals. See the paper [VaktBLE: A Benevolent Man-in-the-middle Bridge to Guard against Malevolent BLE Connections](https://asset-group.github.io/papers/vaktble.pdf) for more details. 
+
 ###### U-Fuzz
 
 [This repository](https://github.com/asset-group/U-Fuzz) contains the code for **U-Fuzz** -- a generic wireless protocol fuzzer experimented with 5G NR, CoAP and ZigBee protocol implementations. See the paper [U-Fuzz: Stateful Fuzzing of IoT Protocols on COTS Devices](https://asset-group.github.io/papers/U-Fuzz.pdf) for more details. 
