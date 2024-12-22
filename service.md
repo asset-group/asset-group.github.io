@@ -29,7 +29,7 @@ revisions (especially, minor revisions).
 
 #### 2017 - 2023
 
-Review board of IEEE Transactions on Software Engineering (TSE).
+<b>Review board</b> of IEEE Transactions on Software Engineering (TSE).
 
 #### 2022 - Present
 
