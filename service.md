@@ -39,7 +39,9 @@ ACM Transactions on Software Engineering and Methodology (TOSEM): Board of Disti
 <p style="text-align:justify">
 <i>Program Co-Chair</i>: 23rd ACM-IEEE International Symposium on Formal Methods and Models for System Design (MEMOCODE) 2025.
 <br>
-<i>Technical Program Committee (TPC)</i>: ECRTS 2025. 
+<i>Finance Chair</i>: 31st IEEE International Conference on Embedded and Real-Time Computing Systems and Application (RTCSA) 2025. 
+<br>
+<i>Technical Program Committee (TPC)</i>: EMSOFT 2025, ECRTS 2025. 
 </p>
 
 #### 2024
