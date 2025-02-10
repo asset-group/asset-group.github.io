@@ -32,6 +32,13 @@ of our conceptual framework for a variety of complex systems such as 5G and beyo
 
 <h3>Representative Publications:</h3>
 
+<p style="text-align:justify">
+<a href="https://asset-group.github.io/papers/SCOPES_ontology.pdf">
+A Smart City Infrastructure Ontology for Threats, Cybercrime, and Digital Forensic Investigation</a><br>
+Yee Ching Tok, Davis Yang Zheng, and Sudipta Chattopadhyay<br>
+Elsevier Forensic Science International: Digital Investigation (FSIDIIN), 2025
+</p>
+
 
 <p style="text-align:justify">
 <a href="https://asset-group.github.io/papers/SmartCityThreatModelCyberCrime.pdf">
