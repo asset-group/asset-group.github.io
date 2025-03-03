@@ -10,7 +10,7 @@ people:
   - mayank
   - davis
   - louisa
-	- yustynn
+  - yustynn
 
 layout: project
 last-updated: 2023-03-09
