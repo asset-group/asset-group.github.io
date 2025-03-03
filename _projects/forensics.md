@@ -1,22 +1,23 @@
 ---
-title: (IoT) Cybercrime and Forensics
+title: Human Factors in Security and Forensics
 
 description: |
  <p style="text-align:justify">
- Design methodologies for systematic (IoT) Cybercrime investigations and Forensics.
+ Design methodologies for systematic (IoT) User risk assessment, Cybercrime investigations and Forensics.
  </p>
 people:
   - yeeching
   - mayank
   - davis
   - louisa
+	- yustynn
 
 layout: project
 last-updated: 2023-03-09
 ---
 <p style="text-align:justify">
-Emerging technologies such as IoT and smart city infrastructure (SCI) entice adversaries 
-and cybercriminals to execute cyber-attacks and commit criminal acts on these modern
+Emerging technologies such as IoT and smart city infrastructure (SCI) entice 
+adversaries and cybercriminals to execute cyber-attacks and commit criminal acts on these modern
 infrastructures. Given the borderless nature of cyber attacks, varying levels of understanding 
 of emerging systems (such as SCI and IoT) and ongoing investigation workloads, law enforcement 
 agencies and investigators are hard-pressed to respond to these kinds of cybercrime. In this 
@@ -27,10 +28,19 @@ and was shown to significantly accelerate IoT forensic investigation. We have ma
 contributions to develop an abstract, yet systematic framework for forensic analysis that 
 cover all SCI systems at an appropriate level of abstraction. Such framework was developed 
 from the foundations of threat modeling in SCI systems. Our current work focuses on instantiation 
-of our conceptual framework for a variety of complex systems such as 5G and beyond. 
-
+of our conceptual framework for a variety of complex systems such as 5G and beyond. Apart from 
+the forensic angle, we are investigating the user perception of software risks in critical domain. 
+Among others, we are investigating the risks (that are due to intended features) to end users in 
+using smart contract and how to automatically identify and highlight such risks to them.  
 
 <h3>Representative Publications:</h3>
+
+<p style="text-align:justify">
+<a href="https://asset-group.github.io/papers/tether_survey.pdf">
+Understanding End-User Perception of Transfer Risks in Smart Contracts</a><br>
+Yustynn Panicker, Ezekiel Soremekun, Sudipta Chattopadhyay, and Sun Sumei<br>
+2025 Conference on Human Factors in Computing Systems (CHI), 2025.
+</p>
 
 <p style="text-align:justify">
 <a href="https://asset-group.github.io/papers/SCOPES_ontology.pdf">
