@@ -6,7 +6,6 @@ icon: newspaper-o
 date: 2023-12-08
 ---
 <p style="text-align:justify">
-<font color="red"><b>NEW:</b></font>
 Today we released <a href="https://www.5ghoul.com">5Ghoul</a> -- a family of 5G implementation 
 vulnerabilities (10 CVEs) that affect 5G cellular baseband modems from major vendors i.e., Qualcomm 
 and MediaTek. We demonstrate concrete exploitation of 5Ghoul vulnerabilities to continuously 
