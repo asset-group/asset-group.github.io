@@ -6,7 +6,6 @@ icon: newspaper-o
 date: 2021-11-08
 ---
 <p style="text-align:justify">
-<font color="red"><b>NEW:</b></font>
 Cybersecurity and Infrastructure Security Agency (CISA), part of the <a href="https://www.dhs.gov/">Department of Homeland Security</a>, encourages 
 manufacturers, vendors, and developers to review <a href="https://www.braktooth.com">BrakTooth</a> vulnerabilities and patch or find workarounds to 
 counter BrakTooth flaws. See the <a href="https://us-cert.cisa.gov/ncas/current-activity/2021/11/04/braktooth-proof-concept-tool-demonstrates-bluetooth">official CISA announcement</a> 

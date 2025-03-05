@@ -6,7 +6,6 @@ icon: newspaper-o
 date: 2021-06-30
 ---
 <p style="text-align:justify">
-<font color="red"><b>NEW:</b></font>
 ASSET group will release 16 new security vulnerabilities (20+ CVEs) on 
 <font color="blue"><b>31st August 2021</b></font> (currently undisclosed 
 due to confidentiality). The vulnerabilities can be exploited to cause 

@@ -6,7 +6,6 @@ icon: newspaper-o
 date: 2021-08-31
 ---
 <p style="text-align:justify">
-<font color="red"><b>NEW:</b></font>
 Today we released <a href="https://www.braktooth.com">BrakTooth</a> -- a family of 16 new security
 vulnerabilities (20+ CVEs) in commercial Bluetooth classic (BR/EDR) stacks that range from
 denial of service (DoS) via firmware crashes and deadlocks in commodity hardware to arbitrary

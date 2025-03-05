@@ -6,7 +6,6 @@ icon: newspaper-o
 date: 2019-11-01
 ---
 <p style="text-align:justify">
-<font color="red"><b>NEW:</b></font>
 <a href="https://sites.google.com/view/wangc">Chundong Wang</a> from our group will join 
 as a tenure-track Assistant Professor at the 
 <a href="http://www.shanghaitech.edu.cn/eng/">ShanghaiTech University</a> from early 2020. 

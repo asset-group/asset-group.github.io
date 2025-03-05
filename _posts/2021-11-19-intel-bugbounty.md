@@ -6,7 +6,6 @@ icon: newspaper-o
 date: 2021-11-19
 ---
 <p style="text-align:justify">
-<font color="red"><b>NEW:</b></font>
 <a href="https://matheus-garbelini.github.io/">Matheus E. Garbelini</a>, PhD student in our group, wins 
 <a href="https://www.intel.com/content/www/us/en/security-center/bug-bounty-program.html">Intel Bug Bounty Award</a> 
 to enable discovering two Intel AX200 attacks under the <a href="https://www.braktooth.com">BrakTooth</a> family. 

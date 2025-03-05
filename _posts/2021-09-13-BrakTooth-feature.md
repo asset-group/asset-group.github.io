@@ -6,7 +6,6 @@ icon: newspaper-o
 date: 2021-09-13
 ---
 <p style="text-align:justify">
-<font color="red"><b>NEW:</b></font>
 <a href="https://www.braktooth.com">BrakTooth</a> featured in 
 <a href="https://www.wired.com/story/braktooth-bluetooth-whatsapp-fine-omg-cable">WIRED</a>, 
 <a href="https://sea.pcmag.com/security/45801/braktooth-vulnerabilities-affect-countless-bluetooth-devices">PCMag Magazine</a>, 
