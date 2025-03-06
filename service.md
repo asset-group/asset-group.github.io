@@ -23,9 +23,11 @@ reviewers). Exceptions exist, such as letters (which are short) and journal
 revisions (especially, minor revisions).   
 </p>
 
-#### 2024 - Present
+#### Editorial Board
 
-<b>Editorial board:</b> Associate Editor of ACM Computing Surveys (CSUR). 
+<b>2025 - present:</b> Associate Editor of IEEE Transactions on Software Engineering (TSE). 
+<br>
+<b>2024 - present:</b> Associate Editor of ACM Computing Surveys (CSUR). 
 
 #### 2017 - 2023
 
@@ -41,7 +43,7 @@ ACM Transactions on Software Engineering and Methodology (TOSEM): Board of Disti
 <br>
 <i>Finance Chair</i>: 31st IEEE International Conference on Embedded and Real-Time Computing Systems and Application (RTCSA) 2025. 
 <br>
-<i>Technical Program Committee (TPC)</i>: EMSOFT 2025, ECRTS 2025. 
+<i>Technical Program Committee (TPC)</i>: EMSOFT 2025, ASE 2025, ECRTS 2025. 
 </p>
 
 #### 2024
