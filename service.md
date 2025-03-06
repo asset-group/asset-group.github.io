@@ -29,13 +29,11 @@ revisions (especially, minor revisions).
 <br>
 <b>2024 - present:</b> Associate Editor of ACM Computing Surveys (CSUR). 
 
-#### 2017 - 2023
+#### Review Board 2017 - 2023
 
-<b>Review board</b> of IEEE Transactions on Software Engineering (TSE).
-
-#### 2022 - Present
-
-ACM Transactions on Software Engineering and Methodology (TOSEM): Board of Distinguished Reviewers.
+<b>2017 - 2023:</b> Review Board of IEEE Transactions on Software Engineering (TSE).
+<br>
+<b>2022 - Present:</b> Board of Distinguished Reviewers of ACM Transactions on Software Engineering and Methodology (TOSEM).
 
 #### 2025
 <p style="text-align:justify">
