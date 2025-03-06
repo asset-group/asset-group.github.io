@@ -29,7 +29,7 @@ revisions (especially, minor revisions).
 <br>
 <b>2024 - present:</b> Associate Editor of ACM Computing Surveys (CSUR). 
 
-#### Review Board 2017 - 2023
+#### Review Board
 
 <b>2017 - 2023:</b> Review Board of IEEE Transactions on Software Engineering (TSE).
 <br>
