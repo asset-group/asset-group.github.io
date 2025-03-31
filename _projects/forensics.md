@@ -7,7 +7,6 @@ description: |
  </p>
 people:
   - yeeching
-  - mayank
   - davis
   - louisa
   - yustynn
