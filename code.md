@@ -46,6 +46,10 @@ with most of our research papers.
 
 [This repository](https://github.com/asset-group/U-Fuzz) contains the code for **U-Fuzz** -- a generic wireless protocol fuzzer experimented with 5G NR, CoAP and ZigBee protocol implementations. See the paper [U-Fuzz: Stateful Fuzzing of IoT Protocols on COTS Devices](https://asset-group.github.io/papers/U-Fuzz.pdf) for more details. 
 
+###### 5Ghoul
+
+[This repository](https://github.com/asset-group/5ghoul-5g-nr-attacks) contains the code for **5Ghoul** -- an over-the-air fuzzer to test the security of arbitrary 5G UE devices down to the data link layer. See the paper [Unleashing Chaos on 5G Edge Devices via Stateful Multi-layer Fuzzing](https://asset-group.github.io/papers/5Ghoul.pdf) for more details. 
+
 ###### VitroBench (Software)
 
 [This repository](https://github.com/yeoant/VitroBench) contains the Proof-of-concept (PoC) code for sniffing, injection or interception, and fuzzing or attacks executed on the [VitroBench Test Platform](https://www.vitrobench.com). See the paper [VitroBench: Manipulating In-vehicle Networks and COTS ECUs on Your Bench](https://asset-group.github.io/papers/VitroBench.pdf) and the companion [VitroBench Website](https://www.vitrobench.com) for more details. 
