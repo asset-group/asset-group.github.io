@@ -43,7 +43,7 @@ revisions (especially, minor revisions).
 <br>
 <i>Finance Chair</i>: 31st IEEE International Conference on Embedded and Real-Time Computing Systems and Application (RTCSA) 2025. 
 <br>
-<i>Technical Program Committee (TPC)</i>: AsiaCCS 2026 (Round 1), EMSOFT 2025, ASE 2025, ECRTS 2025. 
+<i>Technical Program Committee (TPC)</i>: USENIX Security 2026, AsiaCCS 2026 (Round 1), EMSOFT 2025, ASE 2025, ECRTS 2025. 
 </p>
 
 #### 2024
