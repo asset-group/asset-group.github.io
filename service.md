@@ -37,13 +37,13 @@ revisions (especially, minor revisions).
 
 #### 2025
 <p style="text-align:justify">
-<i>Program Co-Chair</i>: 23rd ACM-IEEE International Symposium on Formal Methods and Models for System Design (MEMOCODE) 2025.
+<b><i>Program Co-Chair</i></b>: 23rd ACM-IEEE International Symposium on Formal Methods and Models for System Design (MEMOCODE) 2025.
 <br>
-<i>Track Co-Chair</i>: Track Software Architectures, Compilers, and Tool Chains in 43rd IEEE International Conference on Computer Design (ICCD) 2025.
+<b><i>Track Co-Chair</i></b>: Track Software Architectures, Compilers, and Tool Chains in 43rd IEEE International Conference on Computer Design (ICCD) 2025.
 <br>
-<i>Finance Chair</i>: 31st IEEE International Conference on Embedded and Real-Time Computing Systems and Application (RTCSA) 2025. 
+<b><i>Finance Chair</i></b>: 31st IEEE International Conference on Embedded and Real-Time Computing Systems and Application (RTCSA) 2025. 
 <br>
-<i>Technical Program Committee (TPC)</i>: USENIX Security 2026, AsiaCCS 2026 (Round 1), EMSOFT 2025, ASE 2025, ECRTS 2025. 
+<b><i>Technical Program Committee (TPC)</i></b>: USENIX Security 2026, AsiaCCS 2026 (Round 1), EMSOFT 2025, ASE 2025, ECRTS 2025. 
 </p>
 
 #### 2024
