@@ -12,803 +12,880 @@
 </head>
 
 <body>
-<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons" rel="stylesheet"
-      type="text/css">
-<link href="https://cdn.jsdelivr.net/npm/@mdi/font@^3.0.0/css/materialdesignicons.min.css" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/animate.css@^3.5.2/animate.min.css" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/quasar@1.15.23/dist/quasar.min.css">
-<script src="https://cdn.jsdelivr.net/npm/vue@^2.0.0/dist/vue.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/quasar@1.15.23/dist/quasar.umd.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons" rel="stylesheet"
+        type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@^3.0.0/css/materialdesignicons.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/animate.css@^3.5.2/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/quasar@1.15.23/dist/quasar.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@^2.0.0/dist/vue.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/quasar@1.15.23/dist/quasar.umd.min.js"></script>
 
-<div id="q-app" style="height: 100%">
-    <div class="q-pa-md row items-start justify-center q-gutter-md">
+    <div id="q-app" style="height: 100%">
+        <div class="q-pa-md row items-start q-gutter-md">
 
-<q-card class="my-card bg-grey-1 items-start">
-            <q-img
-                    src="/disclosures/5ghoul/logo-small.png"
-                    height="140px"
-                    ratio="1"
-                    basic>
-                <div class="absolute-bottom text-h6">
-                    5Ghoul
-                </div>
-            </q-img>
+            <q-card class="my-card bg-grey-1 items-start">
+                <q-img src="/disclosures/sni5gect/logo_sni5gect.png" basic>
+                    <div class="absolute-bottom text-h6" >
+                        Sni5Gect
+                    </div>
+                </q-img>
 
-            <q-card-section>
-                5Ghoul is family of implementation-level 5G DoS vulnerabilities affecting Qualcomm and MediaTek mobile platforms.
-                Year of discovery: <font color="red"><b>2023</b></font>
-            </q-card-section>
+                <q-card-section class="text-justify">
+                    A framework designed to sniff unencrypted messages between gNB and UE, and inject downlink messages at specific states of 5G NR communication.
+                    <br>Year of release: <font
+                        color="red"><b>2025</b></font>
+                </q-card-section>
 
-            <div style="padding-bottom: 64px;"></div>
+                <div style="padding-bottom: 42px;"></div>
 
-            <q-list>
-                <q-item clickable>
-                    <q-item-section>
-                        <q-btn push color="primary" icon="info" label="See details"
-                        @click="window.open('/disclosures/5ghoul/','_parent');"/>
-                    </q-item-section>
-                </q-item>
-            </q-list>
-
-            <q-separator></q-separator>
-
-            <q-btn-dropdown
-            flat
-            class="full-width"
-            color="primary"
-            >
-
-                <template v-slot:label>
-                    <q-chip class="full-width">
-                        <q-avatar color="red" text-color="white">12</q-avatar>
-                        CVEs (Click to expand)
-                    </q-chip>
-                </template>
-
-                <q-list bordered>
-
+                <q-list>
                     <q-item clickable>
-                        <q-item-section avatar>
-                            <q-icon color="primary" name="open_in_new"/>
-                        </q-item-section>
                         <q-item-section>
-                            <q-item-label>
-                                <a href="https://nvd.nist.gov/vuln/detail/CVE-2023-33042" target="_blank">CVE-2023-33042</a>
-                            </q-item-label>
-                        </q-item-section>
-                    </q-item>
-
-                    <q-item clickable>
-                        <q-item-section avatar>
-                            <q-icon color="primary" name="open_in_new"/>
-                        </q-item-section>
-                        <q-item-section>
-                            <q-item-label>
-                                <a href="https://nvd.nist.gov/vuln/detail/CVE-2023-33043" target="_blank">CVE-2023-33043</a>
-                            </q-item-label>
-                        </q-item-section>
-                    </q-item>
-
-                    <q-item clickable>
-                        <q-item-section avatar>
-                            <q-icon color="primary" name="open_in_new"/>
-                        </q-item-section>
-                        <q-item-section>
-                            <q-item-label>
-                                <a href="https://nvd.nist.gov/vuln/detail/CVE-2023-33044" target="_blank">CVE-2023-33044</a>
-                            </q-item-label>
-                        </q-item-section>
-                    </q-item>
-
-
-                    <q-item clickable>
-                        <q-item-section avatar>
-                            <q-icon color="primary" name="open_in_new"/>
-                        </q-item-section>
-                        <q-item-section>
-                            <q-item-label>
-                                <a href="https://nvd.nist.gov/vuln/detail/CVE-2023-32842" target="_blank">CVE-2023-32842</a>
-                            </q-item-label>
-                        </q-item-section>
-                    </q-item>
-
-                    <q-item clickable>
-                        <q-item-section avatar>
-                            <q-icon color="primary" name="open_in_new"/>
-                        </q-item-section>
-                        <q-item-section>
-                            <q-item-label>
-                                <a href="https://nvd.nist.gov/vuln/detail/CVE-2023-32844" target="_blank">CVE-2023-32844</a>
-                            </q-item-label>
-                        </q-item-section>
-                    </q-item>
-
-                    <q-item clickable>
-                        <q-item-section avatar>
-                            <q-icon color="primary" name="open_in_new"/>
-                        </q-item-section>
-                        <q-item-section>
-                            <q-item-label>
-                                <a href="https://nvd.nist.gov/vuln/detail/CVE-2023-20702" target="_blank">CVE-2023-20702</a>
-                            </q-item-label>
-                        </q-item-section>
-                    </q-item>
-
-                    <q-item clickable>
-                        <q-item-section avatar>
-                            <q-icon color="primary" name="open_in_new"/>
-                        </q-item-section>
-                        <q-item-section>
-                            <q-item-label>
-                                <a href="https://nvd.nist.gov/vuln/detail/CVE-2023-32846" target="_blank">CVE-2023-32846</a>
-                            </q-item-label>
-                        </q-item-section>
-                    </q-item>
-
-                    <q-item clickable>
-                        <q-item-section avatar>
-                            <q-icon color="primary" name="open_in_new"/>
-                        </q-item-section>
-                        <q-item-section>
-                            <q-item-label>
-                                <a href="https://nvd.nist.gov/vuln/detail/CVE-2023-32841" target="_blank">CVE-2023-32841</a>
-                            </q-item-label>
-                        </q-item-section>
-                    </q-item>
-
-                    <q-item clickable>
-                        <q-item-section avatar>
-                            <q-icon color="primary" name="open_in_new"/>
-                        </q-item-section>
-                        <q-item-section>
-                            <q-item-label>
-                                <a href="https://nvd.nist.gov/vuln/detail/CVE-2023-32843" target="_blank">CVE-2023-32843</a>
-                            </q-item-label>
-                        </q-item-section>
-                    </q-item>
-
-                    <q-item clickable>
-                        <q-item-section avatar>
-                            <q-icon color="primary" name="open_in_new"/>
-                        </q-item-section>
-                        <q-item-section>
-                            <q-item-label>
-                                <a href="https://nvd.nist.gov/vuln/detail/CVE-2023-32845" target="_blank">CVE-2023-32845</a>
-                            </q-item-label>
-                        </q-item-section>
-                    </q-item>
-
-
-                    <q-item clickable>
-                        <q-item-section avatar>
-                            <q-icon color="primary" name="open_in_new"/>
-                        </q-item-section>
-                        <q-item-section>
-                            <q-item-label>
-                                <a href="https://nvd.nist.gov/vuln/detail/CVE-2024-20003" target="_blank">CVE-2024-20003</a>
-                            </q-item-label>
-                        </q-item-section>
-                    </q-item>
-
-                    <q-item clickable>
-                        <q-item-section avatar>
-                            <q-icon color="primary" name="open_in_new"/>
-                        </q-item-section>
-                        <q-item-section>
-                            <q-item-label>
-                                <a href="https://nvd.nist.gov/vuln/detail/CVE-2024-20004" target="_blank">CVE-2024-20004</a>
-                            </q-item-label>
-                        </q-item-section>
-                    </q-item>
-
-                </q-list>
-
-            </q-btn-dropdown>
-
-        </q-card>
-
-        <q-card class="my-card bg-grey-1 items-start">
-            <q-img
-                    src="/disclosures/braktooth/braktooth_logo.png"
-                    height="140px"
-                    ratio="1"
-                    basic
-            >
-                <div class="absolute-bottom text-h6">
-                    BrakTooth
-                </div>
-            </q-img>
-
-            <q-card-section class="text-justify">
-                Bluetooth Classic (BR/EDR) Attacks against commodity hardware from multiple Bluetooth vendors. Year of discovery: <font
-                    color="red"><b>2021</b></font>
-            </q-card-section>
-
-            <div style="padding-bottom: 85px;"></div>
-
-            <q-list>
-                <q-item clickable>
-                    <q-item-section>
-                        <q-btn push color="primary" icon="info" label="See details"
-                               @click="window.open('/disclosures/braktooth/','_parent');"/>
-                    </q-item-section>
-                </q-item>
-            </q-list>
-
-            <q-separator></q-separator>
-
-            <q-btn-dropdown
-            flat
-            class="full-width"
-            color="primary"
-            >
-
-                <template v-slot:label>
-                    <q-chip class="full-width">
-                        <q-avatar color="red" text-color="white">25+</q-avatar>
-                        CVEs (Click to expand)
-                    </q-chip>
-                </template>
-
-                <q-list bordered>
-
-                    <q-item clickable>
-                        <q-item-section avatar>
-                            <q-icon color="primary" name="open_in_new"/>
-                        </q-item-section>
-                        <q-item-section>
-                            <q-item-label>
-                                <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28139" target="_blank">CVE-2021-28139</a>
-                            </q-item-label>
-                        </q-item-section>
-                    </q-item>
-
-                    <q-item clickable>
-                        <q-item-section avatar>
-                            <q-icon color="primary" name="open_in_new"/>
-                        </q-item-section>
-                        <q-item-section>
-                            <q-item-label>
-                                <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-34144" target="_blank">CVE-2021-34144</a>
-                            </q-item-label>
-                        </q-item-section>
-                    </q-item>
-
-                    <q-item clickable>
-                        <q-item-section avatar>
-                            <q-icon color="primary" name="open_in_new"/>
-                        </q-item-section>
-                        <q-item-section>
-                            <q-item-label>
-                                <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28136" target="_blank">CVE-2021-28136</a>
-                            </q-item-label>
-                        </q-item-section>
-                    </q-item>
-
-                    <q-item clickable>
-                        <q-item-section avatar>
-                            <q-icon color="primary" name="open_in_new"/>
-                        </q-item-section>
-                        <q-item-section>
-                            <q-item-label>
-                                <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28135" target="_blank">CVE-2021-28135</a>
-                            </q-item-label>
-                        </q-item-section>
-                    </q-item>
-
-                    <q-item clickable>
-                        <q-item-section avatar>
-                            <q-icon color="primary" name="open_in_new"/>
-                        </q-item-section>
-                        <q-item-section>
-                            <q-item-label>
-                                <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28155" target="_blank">CVE-2021-28155</a>
-                            </q-item-label>
-                        </q-item-section>
-                    </q-item>
-
-                    <q-item clickable>
-                        <q-item-section avatar>
-                            <q-icon color="primary" name="open_in_new"/>
-                        </q-item-section>
-                        <q-item-section>
-                            <q-item-label>
-                                <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-31717" target="_blank">CVE-2021-31717</a>
-                            </q-item-label>
-                        </q-item-section>
-                    </q-item>
-
-                    <q-item clickable>
-                        <q-item-section avatar>
-                            <q-icon color="primary" name="open_in_new"/>
-                        </q-item-section>
-                        <q-item-section>
-                            <q-item-label>
-                                <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-31609" target="_blank">CVE-2021-31609</a>
-                            </q-item-label>
-                        </q-item-section>
-                    </q-item>
-
-                    <q-item clickable>
-                        <q-item-section avatar>
-                            <q-icon color="primary" name="open_in_new"/>
-                        </q-item-section>
-                        <q-item-section>
-                            <q-item-label>
-                                <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-31612" target="_blank">CVE-2021-31612</a>
-                            </q-item-label>
-                        </q-item-section>
-                    </q-item>
-
-                    <q-item clickable>
-                        <q-item-section avatar>
-                            <q-icon color="primary" name="open_in_new"/>
-                        </q-item-section>
-                        <q-item-section>
-                            <q-item-label>
-                                <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-34150" target="_blank">CVE-2021-34150</a>
-                            </q-item-label>
-                        </q-item-section>
-                    </q-item>
-
-                    <q-item clickable>
-                        <q-item-section avatar>
-                            <q-icon color="primary" name="open_in_new"/>
-                        </q-item-section>
-                        <q-item-section>
-                            <q-item-label>
-                                <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-31613" target="_blank">CVE-2021-31613</a>
-                            </q-item-label>
-                        </q-item-section>
-                    </q-item>
-
-                    <q-item clickable>
-                        <q-item-section avatar>
-                            <q-icon color="primary" name="open_in_new"/>
-                        </q-item-section>
-                        <q-item-section>
-                            <q-item-label>
-                                <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-31611" target="_blank">CVE-2021-31611</a>
-                            </q-item-label>
-                        </q-item-section>
-                    </q-item>
-
-                    <q-item clickable>
-                        <q-item-section avatar>
-                            <q-icon color="primary" name="open_in_new"/>
-                        </q-item-section>
-                        <q-item-section>
-                            <q-item-label>
-                                <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-31785" target="_blank">CVE-2021-31785</a>
-                            </q-item-label>
-                        </q-item-section>
-                    </q-item>
-
-                    <q-item clickable>
-                        <q-item-section avatar>
-                            <q-icon color="primary" name="open_in_new"/>
-                        </q-item-section>
-                        <q-item-section>
-                            <q-item-label>
-                                <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-31786" target="_blank">CVE-2021-31786</a>
-                            </q-item-label>
-                        </q-item-section>
-                    </q-item>
-
-                    <q-item clickable>
-                        <q-item-section avatar>
-                            <q-icon color="primary" name="open_in_new"/>
-                        </q-item-section>
-                        <q-item-section>
-                            <q-item-label>
-                                <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-31610" target="_blank">CVE-2021-31610</a>
-                            </q-item-label>
-                        </q-item-section>
-                    </q-item>
-
-                    <q-item clickable>
-                        <q-item-section avatar>
-                            <q-icon color="primary" name="open_in_new"/>
-                        </q-item-section>
-                        <q-item-section>
-                            <q-item-label>
-                                <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-34149" target="_blank">CVE-2021-34149</a>
-                            </q-item-label>
-                        </q-item-section>
-                    </q-item>
-
-                    <q-item clickable>
-                        <q-item-section avatar>
-                            <q-icon color="primary" name="open_in_new"/>
-                        </q-item-section>
-                        <q-item-section>
-                            <q-item-label>
-                                <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-34146" target="_blank">CVE-2021-34146</a>
-                            </q-item-label>
-                        </q-item-section>
-                    </q-item>
-
-                    <q-item clickable>
-                        <q-item-section avatar>
-                            <q-icon color="primary" name="open_in_new"/>
-                        </q-item-section>
-                        <q-item-section>
-                            <q-item-label>
-                                <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-34143" target="_blank">CVE-2021-34143</a>
-                            </q-item-label>
-                        </q-item-section>
-                    </q-item>
-
-                    <q-item clickable>
-                        <q-item-section avatar>
-                            <q-icon color="primary" name="open_in_new"/>
-                        </q-item-section>
-                        <q-item-section>
-                            <q-item-label>
-                                <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-34145" target="_blank">CVE-2021-34145</a>
-                            </q-item-label>
-                        </q-item-section>
-                    </q-item>
-
-                    <q-item clickable>
-                        <q-item-section avatar>
-                            <q-icon color="primary" name="open_in_new"/>
-                        </q-item-section>
-                        <q-item-section>
-                            <q-item-label>
-                                <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-34148" target="_blank">CVE-2021-34148</a>
-                            </q-item-label>
-                        </q-item-section>
-                    </q-item>
-
-                    <q-item clickable>
-                        <q-item-section avatar>
-                            <q-icon color="primary" name="open_in_new"/>
-                        </q-item-section>
-                        <q-item-section>
-                            <q-item-label>
-                                <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-34147" target="_blank">CVE-2021-34147</a>
-                            </q-item-label>
+                            <q-btn push color="primary" icon="info" label="See Details"
+                                @click="window.open('https://asset-group.github.io/Sni5Gect-5GNR-sniffing-and-exploitation/', '_parent');" />
                         </q-item-section>
                     </q-item>
                 </q-list>
 
-            </q-btn-dropdown>
+                <q-separator></q-separator>
 
-        </q-card>
+                <q-btn-dropdown flat class="full-width" color="primary">
 
-        <q-card class="my-card bg-grey-1">
-            <q-img
-                    src="/disclosures/sweyntooth/sweintooth_card.svg"
-                    basic
-            >
-                <div class="absolute-bottom text-h6">
-                    SweynTooth
-                </div>
-            </q-img>
+                    <template v-slot:label>
+                        <q-chip class="full-width">
+                            <q-avatar color="red" text-color="white">1</q-avatar>
+                            CVD (Click to expand)
+                        </q-chip>
+                    </template>
 
-            <q-card-section>
-                <font color="red"><b>17 vulnerabilities</b></font>
-                were found on the Bluetooth Low Energy (BLE) software
-                development kits of major system-on-a-chip
-                vendors, exposing insecurities on many BLE "Smart Things"
-                already in the market. Year of discovery: <font color="red"><b>2019-2020</b></font>
-            </q-card-section>
+                    <q-list bordered>
 
+                        <q-item clickable>
+                            <q-item-section avatar>
+                                <q-icon color="primary" name="open_in_new" />
+                            </q-item-section>
+                            <q-item-section>
+                                <q-item-label>
+                                    <a href="https://www.gsma.com/solutions-and-impact/technologies/security/gsma-mobile-security-research-acknowledgements/#:~:text=2024-,Acknowledgements,-2023%20Acknowledgements"
+                                        target="_blank">CVD-0096</a>
+                                </q-item-label>
+                            </q-item-section>
+                        </q-item>
+                    </q-list>
 
-            <q-list>
-                <q-item clickable>
-                    <q-item-section>
-                        <q-btn push color="primary" icon="info" label="See details"
-                               @click="window.open('/disclosures/sweyntooth/','_parent');"/>
-                    </q-item-section>
-                </q-item>
-            </q-list>
+                </q-btn-dropdown>
 
-            <q-separator></q-separator>
+            </q-card>
 
-            <q-btn-dropdown
-            flat
-            class="full-width"
-            color="primary"
-            >
-                <template v-slot:label>
-                    <q-chip class="full-width">
-                        <q-avatar color="red" text-color="white">17</q-avatar>
-                        CVEs (Click to expand)
-                    </q-chip>
-                </template>
-                <q-list bordered>
+            <q-card class="my-card bg-grey-1 items-start text-justify">
+                <q-img src="/disclosures/5ghoul/logo-small.png" height="140px" ratio="1" basic>
+                    <div class="absolute-bottom text-h6">
+                        5Ghoul
+                    </div>
+                </q-img>
 
+                <q-card-section>
+                    5Ghoul is family of implementation-level 5G DoS vulnerabilities affecting Qualcomm and MediaTek
+                    mobile platforms.
+                    Year of discovery: <font color="red"><b>2023</b></font>
+                </q-card-section>
+
+                <div style="padding-bottom: 64px;"></div>
+
+                <q-list>
                     <q-item clickable>
-                        <q-item-section avatar>
-                            <q-icon color="primary" name="open_in_new"/>
-                        </q-item-section>
                         <q-item-section>
-                            <q-item-label>
-                                <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-16336" target="_blank">CVE-2019-16336</a>
-                            </q-item-label>
-                        </q-item-section>
-                    </q-item>
-
-                    <q-item clickable>
-                        <q-item-section avatar>
-                            <q-icon color="primary" name="open_in_new"/>
-                        </q-item-section>
-                        <q-item-section>
-                            <q-item-label>
-                                <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-17060" target="_blank">CVE-2019-17060</a>
-                            </q-item-label>
-                        </q-item-section>
-                    </q-item>
-
-                    <q-item clickable>
-                        <q-item-section avatar>
-                            <q-icon color="primary" name="open_in_new"/>
-                        </q-item-section>
-                        <q-item-section>
-                            <q-item-label>
-                                <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-17061" target="_blank">CVE-2019-17061</a>
-                            </q-item-label>
-                        </q-item-section>
-                    </q-item>
-
-                    <q-item clickable>
-                        <q-item-section avatar>
-                            <q-icon color="primary" name="open_in_new"/>
-                        </q-item-section>
-                        <q-item-section>
-                            <q-item-label>
-                                <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-17517" target="_blank">CVE-2019-17517</a>
-                            </q-item-label>
-                        </q-item-section>
-                    </q-item>
-
-                    <q-item clickable>
-                        <q-item-section avatar>
-                            <q-icon color="primary" name="open_in_new"/>
-                        </q-item-section>
-                        <q-item-section>
-                            <q-item-label>
-                                <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-17518" target="_blank">CVE-2019-17518</a>
-                            </q-item-label>
-                        </q-item-section>
-                    </q-item>
-
-                    <q-item clickable>
-                        <q-item-section avatar>
-                            <q-icon color="primary" name="open_in_new"/>
-                        </q-item-section>
-                        <q-item-section>
-                            <q-item-label>
-                                <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-17519" target="_blank">CVE-2019-17519</a>
-                            </q-item-label>
-                        </q-item-section>
-                    </q-item>
-
-                    <q-item clickable>
-                        <q-item-section avatar>
-                            <q-icon color="primary" name="open_in_new"/>
-                        </q-item-section>
-                        <q-item-section>
-                            <q-item-label>
-                                <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-17520" target="_blank">CVE-2019-17520</a>
-                            </q-item-label>
-                        </q-item-section>
-                    </q-item>
-
-                    <q-item clickable>
-                        <q-item-section avatar>
-                            <q-icon color="primary" name="open_in_new"/>
-                        </q-item-section>
-                        <q-item-section>
-                            <q-item-label>
-                                <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-19192" target="_blank">CVE-2019-19192</a>
-                            </q-item-label>
-                        </q-item-section>
-                    </q-item>
-
-                    <q-item clickable>
-                        <q-item-section avatar>
-                            <q-icon color="primary" name="open_in_new"/>
-                        </q-item-section>
-                        <q-item-section>
-                            <q-item-label>
-                                <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-19193" target="_blank">CVE-2019-19193</a>
-                            </q-item-label>
-                        </q-item-section>
-                    </q-item>
-
-                    <q-item clickable>
-                        <q-item-section avatar>
-                            <q-icon color="primary" name="open_in_new"/>
-                        </q-item-section>
-                        <q-item-section>
-                            <q-item-label>
-                                <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-19194" target="_blank">CVE-2019-19194</a>
-                            </q-item-label>
-                        </q-item-section>
-                    </q-item>
-
-                    <q-item clickable>
-                        <q-item-section avatar>
-                            <q-icon color="primary" name="open_in_new"/>
-                        </q-item-section>
-                        <q-item-section>
-                            <q-item-label>
-                                <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-19195" target="_blank">CVE-2019-19195</a>
-                            </q-item-label>
-                        </q-item-section>
-                    </q-item>
-
-                    <q-item clickable>
-                        <q-item-section avatar>
-                            <q-icon color="primary" name="open_in_new"/>
-                        </q-item-section>
-                        <q-item-section>
-                            <q-item-label>
-                                <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-19196" target="_blank">CVE-2019-19196</a>
-                            </q-item-label>
-                        </q-item-section>
-                    </q-item>
-
-                    <q-item clickable>
-                        <q-item-section avatar>
-                            <q-icon color="primary" name="open_in_new"/>
-                        </q-item-section>
-                        <q-item-section>
-                            <q-item-label>
-                                <a href="https://zephyrprojectsec.atlassian.net/browse/ZEPSEC-75" target="_blank">CVE-2020-10061</a>
-                            </q-item-label>
-                        </q-item-section>
-                    </q-item>
-
-                    <q-item clickable>
-                        <q-item-section avatar>
-                            <q-icon color="primary" name="open_in_new"/>
-                        </q-item-section>
-                        <q-item-section>
-                            <q-item-label>
-                                <a href="https://zephyrprojectsec.atlassian.net/browse/ZEPSEC-81" target="_blank">CVE-2020-10069</a>
-                            </q-item-label>
-                        </q-item-section>
-                    </q-item>
-
-                    <q-item clickable>
-                        <q-item-section avatar>
-                            <q-icon color="primary" name="open_in_new"/>
-                        </q-item-section>
-                        <q-item-section>
-                            <q-item-label>
-                                <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-13593" target="_blank">CVE-2020-13593</a>
-                            </q-item-label>
-                        </q-item-section>
-                    </q-item>
-
-                    <q-item clickable>
-                        <q-item-section avatar>
-                            <q-icon color="primary" name="open_in_new"/>
-                        </q-item-section>
-                        <q-item-section>
-                            <q-item-label>
-                                <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-13594" target="_blank">CVE-2020-13594</a>
-                            </q-item-label>
-                        </q-item-section>
-                    </q-item>
-
-                    <q-item clickable>
-                        <q-item-section avatar>
-                            <q-icon color="primary" name="open_in_new"/>
-                        </q-item-section>
-                        <q-item-section>
-                            <q-item-label>
-                                <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-13595" target="_blank">CVE-2020-13595</a>
-                            </q-item-label>
-                        </q-item-section>
-                    </q-item>
-
-                </q-list>
-            </q-btn-dropdown>
-        </q-card>
-
-        <q-card class="my-card bg-grey-1 items-start">
-            <q-img
-                    src="/disclosures/espressif/espressif_devices.png"
-                    basic
-            >
-                <div class="absolute-bottom text-h6">
-                    ESP32/ESP8266 Wi-Fi
-                </div>
-            </q-img>
-
-            <q-card-section>
-                Wi-Fi attacks against the popular Espressif ESP32/ESP8266 IoT devices. Year of discovery: <font
-                    color="red"><b>2019</b></font>
-            </q-card-section>
-
-            <div style="padding-bottom: 105px;"></div>
-
-            <q-list>
-                <q-item clickable>
-                    <q-item-section>
-                        <q-btn push color="primary" icon="info" label="See details"
-                               @click="window.open('https://github.com/Matheus-Garbelini/esp32_esp8266_attacks', '_parent');"/>
-                    </q-item-section>
-                </q-item>
-            </q-list>
-
-            <q-separator></q-separator>
-
-            <q-btn-dropdown
-            flat
-            class="full-width"
-            color="primary"
-            >
-
-                <template v-slot:label>
-                    <q-chip class="full-width">
-                        <q-avatar color="red" text-color="white">3</q-avatar>
-                        CVEs (Click to expand)
-                    </q-chip>
-                </template>
-
-                <q-list bordered>
-
-                    <q-item clickable>
-                        <q-item-section avatar>
-                            <q-icon color="primary" name="open_in_new"/>
-                        </q-item-section>
-                        <q-item-section>
-                            <q-item-label>
-                                <a href="https://nvd.nist.gov/vuln/detail/CVE-2019-12586" target="_blank">CVE-2019-12586</a>
-                            </q-item-label>
-                        </q-item-section>
-                    </q-item>
-
-                    <q-item clickable>
-                        <q-item-section avatar>
-                            <q-icon color="primary" name="open_in_new"/>
-                        </q-item-section>
-                        <q-item-section>
-                            <q-item-label>
-                                <a href="https://nvd.nist.gov/vuln/detail/CVE-2019-12587" target="_blank">CVE-2019-12587</a>
-                            </q-item-label>
-                        </q-item-section>
-                    </q-item>
-
-                    <q-item clickable>
-                        <q-item-section avatar>
-                            <q-icon color="primary" name="open_in_new"/>
-                        </q-item-section>
-                        <q-item-section>
-                            <q-item-label>
-                                <a href="https://nvd.nist.gov/vuln/detail/CVE-2019-12588" target="_blank">CVE-2019-12588</a>
-                            </q-item-label>
+                            <q-btn push color="primary" icon="info" label="See details"
+                                @click="window.open('/disclosures/5ghoul/','_parent');" />
                         </q-item-section>
                     </q-item>
                 </q-list>
 
-            </q-btn-dropdown>
+                <q-separator></q-separator>
 
-        </q-card>
+                <q-btn-dropdown flat class="full-width" color="primary">
 
+                    <template v-slot:label>
+                        <q-chip class="full-width">
+                            <q-avatar color="red" text-color="white">12</q-avatar>
+                            CVEs (Click to expand)
+                        </q-chip>
+                    </template>
+
+                    <q-list bordered>
+
+                        <q-item clickable>
+                            <q-item-section avatar>
+                                <q-icon color="primary" name="open_in_new" />
+                            </q-item-section>
+                            <q-item-section>
+                                <q-item-label>
+                                    <a href="https://nvd.nist.gov/vuln/detail/CVE-2023-33042"
+                                        target="_blank">CVE-2023-33042</a>
+                                </q-item-label>
+                            </q-item-section>
+                        </q-item>
+
+                        <q-item clickable>
+                            <q-item-section avatar>
+                                <q-icon color="primary" name="open_in_new" />
+                            </q-item-section>
+                            <q-item-section>
+                                <q-item-label>
+                                    <a href="https://nvd.nist.gov/vuln/detail/CVE-2023-33043"
+                                        target="_blank">CVE-2023-33043</a>
+                                </q-item-label>
+                            </q-item-section>
+                        </q-item>
+
+                        <q-item clickable>
+                            <q-item-section avatar>
+                                <q-icon color="primary" name="open_in_new" />
+                            </q-item-section>
+                            <q-item-section>
+                                <q-item-label>
+                                    <a href="https://nvd.nist.gov/vuln/detail/CVE-2023-33044"
+                                        target="_blank">CVE-2023-33044</a>
+                                </q-item-label>
+                            </q-item-section>
+                        </q-item>
+
+
+                        <q-item clickable>
+                            <q-item-section avatar>
+                                <q-icon color="primary" name="open_in_new" />
+                            </q-item-section>
+                            <q-item-section>
+                                <q-item-label>
+                                    <a href="https://nvd.nist.gov/vuln/detail/CVE-2023-32842"
+                                        target="_blank">CVE-2023-32842</a>
+                                </q-item-label>
+                            </q-item-section>
+                        </q-item>
+
+                        <q-item clickable>
+                            <q-item-section avatar>
+                                <q-icon color="primary" name="open_in_new" />
+                            </q-item-section>
+                            <q-item-section>
+                                <q-item-label>
+                                    <a href="https://nvd.nist.gov/vuln/detail/CVE-2023-32844"
+                                        target="_blank">CVE-2023-32844</a>
+                                </q-item-label>
+                            </q-item-section>
+                        </q-item>
+
+                        <q-item clickable>
+                            <q-item-section avatar>
+                                <q-icon color="primary" name="open_in_new" />
+                            </q-item-section>
+                            <q-item-section>
+                                <q-item-label>
+                                    <a href="https://nvd.nist.gov/vuln/detail/CVE-2023-20702"
+                                        target="_blank">CVE-2023-20702</a>
+                                </q-item-label>
+                            </q-item-section>
+                        </q-item>
+
+                        <q-item clickable>
+                            <q-item-section avatar>
+                                <q-icon color="primary" name="open_in_new" />
+                            </q-item-section>
+                            <q-item-section>
+                                <q-item-label>
+                                    <a href="https://nvd.nist.gov/vuln/detail/CVE-2023-32846"
+                                        target="_blank">CVE-2023-32846</a>
+                                </q-item-label>
+                            </q-item-section>
+                        </q-item>
+
+                        <q-item clickable>
+                            <q-item-section avatar>
+                                <q-icon color="primary" name="open_in_new" />
+                            </q-item-section>
+                            <q-item-section>
+                                <q-item-label>
+                                    <a href="https://nvd.nist.gov/vuln/detail/CVE-2023-32841"
+                                        target="_blank">CVE-2023-32841</a>
+                                </q-item-label>
+                            </q-item-section>
+                        </q-item>
+
+                        <q-item clickable>
+                            <q-item-section avatar>
+                                <q-icon color="primary" name="open_in_new" />
+                            </q-item-section>
+                            <q-item-section>
+                                <q-item-label>
+                                    <a href="https://nvd.nist.gov/vuln/detail/CVE-2023-32843"
+                                        target="_blank">CVE-2023-32843</a>
+                                </q-item-label>
+                            </q-item-section>
+                        </q-item>
+
+                        <q-item clickable>
+                            <q-item-section avatar>
+                                <q-icon color="primary" name="open_in_new" />
+                            </q-item-section>
+                            <q-item-section>
+                                <q-item-label>
+                                    <a href="https://nvd.nist.gov/vuln/detail/CVE-2023-32845"
+                                        target="_blank">CVE-2023-32845</a>
+                                </q-item-label>
+                            </q-item-section>
+                        </q-item>
+
+
+                        <q-item clickable>
+                            <q-item-section avatar>
+                                <q-icon color="primary" name="open_in_new" />
+                            </q-item-section>
+                            <q-item-section>
+                                <q-item-label>
+                                    <a href="https://nvd.nist.gov/vuln/detail/CVE-2024-20003"
+                                        target="_blank">CVE-2024-20003</a>
+                                </q-item-label>
+                            </q-item-section>
+                        </q-item>
+
+                        <q-item clickable>
+                            <q-item-section avatar>
+                                <q-icon color="primary" name="open_in_new" />
+                            </q-item-section>
+                            <q-item-section>
+                                <q-item-label>
+                                    <a href="https://nvd.nist.gov/vuln/detail/CVE-2024-20004"
+                                        target="_blank">CVE-2024-20004</a>
+                                </q-item-label>
+                            </q-item-section>
+                        </q-item>
+
+                    </q-list>
+
+                </q-btn-dropdown>
+
+            </q-card>
+
+            <q-card class="my-card bg-grey-1 items-start">
+                <q-img src="/disclosures/braktooth/braktooth_logo.png" height="140px" ratio="1" basic>
+                    <div class="absolute-bottom text-h6">
+                        BrakTooth
+                    </div>
+                </q-img>
+
+                <q-card-section class="text-justify">
+                    Bluetooth Classic (BR/EDR) Attacks against commodity hardware from multiple Bluetooth vendors. Year
+                    of discovery: <font color="red"><b>2021</b></font>
+                </q-card-section>
+
+                <div style="padding-bottom: 85px;"></div>
+
+                <q-list>
+                    <q-item clickable>
+                        <q-item-section>
+                            <q-btn push color="primary" icon="info" label="See details"
+                                @click="window.open('/disclosures/braktooth/','_parent');" />
+                        </q-item-section>
+                    </q-item>
+                </q-list>
+
+                <q-separator></q-separator>
+
+                <q-btn-dropdown flat class="full-width" color="primary">
+
+                    <template v-slot:label>
+                        <q-chip class="full-width">
+                            <q-avatar color="red" text-color="white">25+</q-avatar>
+                            CVEs (Click to expand)
+                        </q-chip>
+                    </template>
+
+                    <q-list bordered>
+
+                        <q-item clickable>
+                            <q-item-section avatar>
+                                <q-icon color="primary" name="open_in_new" />
+                            </q-item-section>
+                            <q-item-section>
+                                <q-item-label>
+                                    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28139"
+                                        target="_blank">CVE-2021-28139</a>
+                                </q-item-label>
+                            </q-item-section>
+                        </q-item>
+
+                        <q-item clickable>
+                            <q-item-section avatar>
+                                <q-icon color="primary" name="open_in_new" />
+                            </q-item-section>
+                            <q-item-section>
+                                <q-item-label>
+                                    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-34144"
+                                        target="_blank">CVE-2021-34144</a>
+                                </q-item-label>
+                            </q-item-section>
+                        </q-item>
+
+                        <q-item clickable>
+                            <q-item-section avatar>
+                                <q-icon color="primary" name="open_in_new" />
+                            </q-item-section>
+                            <q-item-section>
+                                <q-item-label>
+                                    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28136"
+                                        target="_blank">CVE-2021-28136</a>
+                                </q-item-label>
+                            </q-item-section>
+                        </q-item>
+
+                        <q-item clickable>
+                            <q-item-section avatar>
+                                <q-icon color="primary" name="open_in_new" />
+                            </q-item-section>
+                            <q-item-section>
+                                <q-item-label>
+                                    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28135"
+                                        target="_blank">CVE-2021-28135</a>
+                                </q-item-label>
+                            </q-item-section>
+                        </q-item>
+
+                        <q-item clickable>
+                            <q-item-section avatar>
+                                <q-icon color="primary" name="open_in_new" />
+                            </q-item-section>
+                            <q-item-section>
+                                <q-item-label>
+                                    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28155"
+                                        target="_blank">CVE-2021-28155</a>
+                                </q-item-label>
+                            </q-item-section>
+                        </q-item>
+
+                        <q-item clickable>
+                            <q-item-section avatar>
+                                <q-icon color="primary" name="open_in_new" />
+                            </q-item-section>
+                            <q-item-section>
+                                <q-item-label>
+                                    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-31717"
+                                        target="_blank">CVE-2021-31717</a>
+                                </q-item-label>
+                            </q-item-section>
+                        </q-item>
+
+                        <q-item clickable>
+                            <q-item-section avatar>
+                                <q-icon color="primary" name="open_in_new" />
+                            </q-item-section>
+                            <q-item-section>
+                                <q-item-label>
+                                    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-31609"
+                                        target="_blank">CVE-2021-31609</a>
+                                </q-item-label>
+                            </q-item-section>
+                        </q-item>
+
+                        <q-item clickable>
+                            <q-item-section avatar>
+                                <q-icon color="primary" name="open_in_new" />
+                            </q-item-section>
+                            <q-item-section>
+                                <q-item-label>
+                                    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-31612"
+                                        target="_blank">CVE-2021-31612</a>
+                                </q-item-label>
+                            </q-item-section>
+                        </q-item>
+
+                        <q-item clickable>
+                            <q-item-section avatar>
+                                <q-icon color="primary" name="open_in_new" />
+                            </q-item-section>
+                            <q-item-section>
+                                <q-item-label>
+                                    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-34150"
+                                        target="_blank">CVE-2021-34150</a>
+                                </q-item-label>
+                            </q-item-section>
+                        </q-item>
+
+                        <q-item clickable>
+                            <q-item-section avatar>
+                                <q-icon color="primary" name="open_in_new" />
+                            </q-item-section>
+                            <q-item-section>
+                                <q-item-label>
+                                    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-31613"
+                                        target="_blank">CVE-2021-31613</a>
+                                </q-item-label>
+                            </q-item-section>
+                        </q-item>
+
+                        <q-item clickable>
+                            <q-item-section avatar>
+                                <q-icon color="primary" name="open_in_new" />
+                            </q-item-section>
+                            <q-item-section>
+                                <q-item-label>
+                                    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-31611"
+                                        target="_blank">CVE-2021-31611</a>
+                                </q-item-label>
+                            </q-item-section>
+                        </q-item>
+
+                        <q-item clickable>
+                            <q-item-section avatar>
+                                <q-icon color="primary" name="open_in_new" />
+                            </q-item-section>
+                            <q-item-section>
+                                <q-item-label>
+                                    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-31785"
+                                        target="_blank">CVE-2021-31785</a>
+                                </q-item-label>
+                            </q-item-section>
+                        </q-item>
+
+                        <q-item clickable>
+                            <q-item-section avatar>
+                                <q-icon color="primary" name="open_in_new" />
+                            </q-item-section>
+                            <q-item-section>
+                                <q-item-label>
+                                    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-31786"
+                                        target="_blank">CVE-2021-31786</a>
+                                </q-item-label>
+                            </q-item-section>
+                        </q-item>
+
+                        <q-item clickable>
+                            <q-item-section avatar>
+                                <q-icon color="primary" name="open_in_new" />
+                            </q-item-section>
+                            <q-item-section>
+                                <q-item-label>
+                                    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-31610"
+                                        target="_blank">CVE-2021-31610</a>
+                                </q-item-label>
+                            </q-item-section>
+                        </q-item>
+
+                        <q-item clickable>
+                            <q-item-section avatar>
+                                <q-icon color="primary" name="open_in_new" />
+                            </q-item-section>
+                            <q-item-section>
+                                <q-item-label>
+                                    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-34149"
+                                        target="_blank">CVE-2021-34149</a>
+                                </q-item-label>
+                            </q-item-section>
+                        </q-item>
+
+                        <q-item clickable>
+                            <q-item-section avatar>
+                                <q-icon color="primary" name="open_in_new" />
+                            </q-item-section>
+                            <q-item-section>
+                                <q-item-label>
+                                    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-34146"
+                                        target="_blank">CVE-2021-34146</a>
+                                </q-item-label>
+                            </q-item-section>
+                        </q-item>
+
+                        <q-item clickable>
+                            <q-item-section avatar>
+                                <q-icon color="primary" name="open_in_new" />
+                            </q-item-section>
+                            <q-item-section>
+                                <q-item-label>
+                                    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-34143"
+                                        target="_blank">CVE-2021-34143</a>
+                                </q-item-label>
+                            </q-item-section>
+                        </q-item>
+
+                        <q-item clickable>
+                            <q-item-section avatar>
+                                <q-icon color="primary" name="open_in_new" />
+                            </q-item-section>
+                            <q-item-section>
+                                <q-item-label>
+                                    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-34145"
+                                        target="_blank">CVE-2021-34145</a>
+                                </q-item-label>
+                            </q-item-section>
+                        </q-item>
+
+                        <q-item clickable>
+                            <q-item-section avatar>
+                                <q-icon color="primary" name="open_in_new" />
+                            </q-item-section>
+                            <q-item-section>
+                                <q-item-label>
+                                    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-34148"
+                                        target="_blank">CVE-2021-34148</a>
+                                </q-item-label>
+                            </q-item-section>
+                        </q-item>
+
+                        <q-item clickable>
+                            <q-item-section avatar>
+                                <q-icon color="primary" name="open_in_new" />
+                            </q-item-section>
+                            <q-item-section>
+                                <q-item-label>
+                                    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-34147"
+                                        target="_blank">CVE-2021-34147</a>
+                                </q-item-label>
+                            </q-item-section>
+                        </q-item>
+                    </q-list>
+
+                </q-btn-dropdown>
+
+            </q-card>
+
+            <q-card class="my-card bg-grey-1 text-justify">
+                <q-img src="/disclosures/sweyntooth/sweintooth_card.svg" basic>
+                    <div class="absolute-bottom text-h6">
+                        SweynTooth
+                    </div>
+                </q-img>
+
+                <q-card-section>
+                    <font color="red"><b>17 vulnerabilities</b></font>
+                    were found on the Bluetooth Low Energy (BLE) software
+                    development kits of major system-on-a-chip
+                    vendors, exposing insecurities on many BLE "Smart Things"
+                    already in the market. Year of discovery: <font color="red"><b>2019-2020</b></font>
+                </q-card-section>
+
+                <div style="padding-bottom: 20px;"></div>
+                
+                <q-list>
+                    <q-item clickable>
+                        <q-item-section>
+                            <q-btn push color="primary" icon="info" label="See details"
+                                @click="window.open('/disclosures/sweyntooth/','_parent');" />
+                        </q-item-section>
+                    </q-item>
+                </q-list>
+
+                <q-separator></q-separator>
+
+                <q-btn-dropdown flat class="full-width" color="primary">
+                    <template v-slot:label>
+                        <q-chip class="full-width">
+                            <q-avatar color="red" text-color="white">17</q-avatar>
+                            CVEs (Click to expand)
+                        </q-chip>
+                    </template>
+                    <q-list bordered>
+
+                        <q-item clickable>
+                            <q-item-section avatar>
+                                <q-icon color="primary" name="open_in_new" />
+                            </q-item-section>
+                            <q-item-section>
+                                <q-item-label>
+                                    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-16336"
+                                        target="_blank">CVE-2019-16336</a>
+                                </q-item-label>
+                            </q-item-section>
+                        </q-item>
+
+                        <q-item clickable>
+                            <q-item-section avatar>
+                                <q-icon color="primary" name="open_in_new" />
+                            </q-item-section>
+                            <q-item-section>
+                                <q-item-label>
+                                    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-17060"
+                                        target="_blank">CVE-2019-17060</a>
+                                </q-item-label>
+                            </q-item-section>
+                        </q-item>
+
+                        <q-item clickable>
+                            <q-item-section avatar>
+                                <q-icon color="primary" name="open_in_new" />
+                            </q-item-section>
+                            <q-item-section>
+                                <q-item-label>
+                                    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-17061"
+                                        target="_blank">CVE-2019-17061</a>
+                                </q-item-label>
+                            </q-item-section>
+                        </q-item>
+
+                        <q-item clickable>
+                            <q-item-section avatar>
+                                <q-icon color="primary" name="open_in_new" />
+                            </q-item-section>
+                            <q-item-section>
+                                <q-item-label>
+                                    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-17517"
+                                        target="_blank">CVE-2019-17517</a>
+                                </q-item-label>
+                            </q-item-section>
+                        </q-item>
+
+                        <q-item clickable>
+                            <q-item-section avatar>
+                                <q-icon color="primary" name="open_in_new" />
+                            </q-item-section>
+                            <q-item-section>
+                                <q-item-label>
+                                    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-17518"
+                                        target="_blank">CVE-2019-17518</a>
+                                </q-item-label>
+                            </q-item-section>
+                        </q-item>
+
+                        <q-item clickable>
+                            <q-item-section avatar>
+                                <q-icon color="primary" name="open_in_new" />
+                            </q-item-section>
+                            <q-item-section>
+                                <q-item-label>
+                                    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-17519"
+                                        target="_blank">CVE-2019-17519</a>
+                                </q-item-label>
+                            </q-item-section>
+                        </q-item>
+
+                        <q-item clickable>
+                            <q-item-section avatar>
+                                <q-icon color="primary" name="open_in_new" />
+                            </q-item-section>
+                            <q-item-section>
+                                <q-item-label>
+                                    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-17520"
+                                        target="_blank">CVE-2019-17520</a>
+                                </q-item-label>
+                            </q-item-section>
+                        </q-item>
+
+                        <q-item clickable>
+                            <q-item-section avatar>
+                                <q-icon color="primary" name="open_in_new" />
+                            </q-item-section>
+                            <q-item-section>
+                                <q-item-label>
+                                    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-19192"
+                                        target="_blank">CVE-2019-19192</a>
+                                </q-item-label>
+                            </q-item-section>
+                        </q-item>
+
+                        <q-item clickable>
+                            <q-item-section avatar>
+                                <q-icon color="primary" name="open_in_new" />
+                            </q-item-section>
+                            <q-item-section>
+                                <q-item-label>
+                                    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-19193"
+                                        target="_blank">CVE-2019-19193</a>
+                                </q-item-label>
+                            </q-item-section>
+                        </q-item>
+
+                        <q-item clickable>
+                            <q-item-section avatar>
+                                <q-icon color="primary" name="open_in_new" />
+                            </q-item-section>
+                            <q-item-section>
+                                <q-item-label>
+                                    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-19194"
+                                        target="_blank">CVE-2019-19194</a>
+                                </q-item-label>
+                            </q-item-section>
+                        </q-item>
+
+                        <q-item clickable>
+                            <q-item-section avatar>
+                                <q-icon color="primary" name="open_in_new" />
+                            </q-item-section>
+                            <q-item-section>
+                                <q-item-label>
+                                    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-19195"
+                                        target="_blank">CVE-2019-19195</a>
+                                </q-item-label>
+                            </q-item-section>
+                        </q-item>
+
+                        <q-item clickable>
+                            <q-item-section avatar>
+                                <q-icon color="primary" name="open_in_new" />
+                            </q-item-section>
+                            <q-item-section>
+                                <q-item-label>
+                                    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-19196"
+                                        target="_blank">CVE-2019-19196</a>
+                                </q-item-label>
+                            </q-item-section>
+                        </q-item>
+
+                        <q-item clickable>
+                            <q-item-section avatar>
+                                <q-icon color="primary" name="open_in_new" />
+                            </q-item-section>
+                            <q-item-section>
+                                <q-item-label>
+                                    <a href="https://zephyrprojectsec.atlassian.net/browse/ZEPSEC-75"
+                                        target="_blank">CVE-2020-10061</a>
+                                </q-item-label>
+                            </q-item-section>
+                        </q-item>
+
+                        <q-item clickable>
+                            <q-item-section avatar>
+                                <q-icon color="primary" name="open_in_new" />
+                            </q-item-section>
+                            <q-item-section>
+                                <q-item-label>
+                                    <a href="https://zephyrprojectsec.atlassian.net/browse/ZEPSEC-81"
+                                        target="_blank">CVE-2020-10069</a>
+                                </q-item-label>
+                            </q-item-section>
+                        </q-item>
+
+                        <q-item clickable>
+                            <q-item-section avatar>
+                                <q-icon color="primary" name="open_in_new" />
+                            </q-item-section>
+                            <q-item-section>
+                                <q-item-label>
+                                    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-13593"
+                                        target="_blank">CVE-2020-13593</a>
+                                </q-item-label>
+                            </q-item-section>
+                        </q-item>
+
+                        <q-item clickable>
+                            <q-item-section avatar>
+                                <q-icon color="primary" name="open_in_new" />
+                            </q-item-section>
+                            <q-item-section>
+                                <q-item-label>
+                                    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-13594"
+                                        target="_blank">CVE-2020-13594</a>
+                                </q-item-label>
+                            </q-item-section>
+                        </q-item>
+
+                        <q-item clickable>
+                            <q-item-section avatar>
+                                <q-icon color="primary" name="open_in_new" />
+                            </q-item-section>
+                            <q-item-section>
+                                <q-item-label>
+                                    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-13595"
+                                        target="_blank">CVE-2020-13595</a>
+                                </q-item-label>
+                            </q-item-section>
+                        </q-item>
+
+                    </q-list>
+                </q-btn-dropdown>
+            </q-card>
+
+            <q-card class="my-card bg-grey-1 items-start">
+                <q-img src="/disclosures/espressif/espressif_devices.png" basic>
+                    <div class="absolute-bottom text-h6">
+                        ESP32/ESP8266 Wi-Fi
+                    </div>
+                </q-img>
+
+                <q-card-section>
+                    Wi-Fi attacks against the popular Espressif ESP32/ESP8266 IoT devices. Year of discovery: <font
+                        color="red"><b>2019</b></font>
+                </q-card-section>
+
+                <div style="padding-bottom: 105px;"></div>
+
+                <q-list>
+                    <q-item clickable>
+                        <q-item-section>
+                            <q-btn push color="primary" icon="info" label="See details"
+                                @click="window.open('https://github.com/Matheus-Garbelini/esp32_esp8266_attacks', '_parent');" />
+                        </q-item-section>
+                    </q-item>
+                </q-list>
+
+                <q-separator></q-separator>
+
+                <q-btn-dropdown flat class="full-width" color="primary">
+
+                    <template v-slot:label>
+                        <q-chip class="full-width">
+                            <q-avatar color="red" text-color="white">3</q-avatar>
+                            CVEs (Click to expand)
+                        </q-chip>
+                    </template>
+
+                    <q-list bordered>
+
+                        <q-item clickable>
+                            <q-item-section avatar>
+                                <q-icon color="primary" name="open_in_new" />
+                            </q-item-section>
+                            <q-item-section>
+                                <q-item-label>
+                                    <a href="https://nvd.nist.gov/vuln/detail/CVE-2019-12586"
+                                        target="_blank">CVE-2019-12586</a>
+                                </q-item-label>
+                            </q-item-section>
+                        </q-item>
+
+                        <q-item clickable>
+                            <q-item-section avatar>
+                                <q-icon color="primary" name="open_in_new" />
+                            </q-item-section>
+                            <q-item-section>
+                                <q-item-label>
+                                    <a href="https://nvd.nist.gov/vuln/detail/CVE-2019-12587"
+                                        target="_blank">CVE-2019-12587</a>
+                                </q-item-label>
+                            </q-item-section>
+                        </q-item>
+
+                        <q-item clickable>
+                            <q-item-section avatar>
+                                <q-icon color="primary" name="open_in_new" />
+                            </q-item-section>
+                            <q-item-section>
+                                <q-item-label>
+                                    <a href="https://nvd.nist.gov/vuln/detail/CVE-2019-12588"
+                                        target="_blank">CVE-2019-12588</a>
+                                </q-item-label>
+                            </q-item-section>
+                        </q-item>
+                    </q-list>
+
+                </q-btn-dropdown>
+
+            </q-card>
+
+        </div>
     </div>
-</div>
 
-<script>
-    new Vue({
-        el: '#q-app',
-        data: function () {
-            return {}
-        },
-        methods: {},
-        beforeMount() {
+    <script>
+        new Vue({
+            el: '#q-app',
+            data: function () {
+                return {}
+            },
+            methods: {},
+            beforeMount() {
 
-        },
-        mounted() {
+            },
+            mounted() {
 
-        }
+            }
 
-    })
-</script>
-</body> 
+        })
+    </script>
+</body>
