@@ -1,5 +1,5 @@
 ---
-layout: default_disclosure
+layout: default
 title: VitroBench
 img: VitroBench_logo.png
 img_size: 200px
