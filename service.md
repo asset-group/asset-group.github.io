@@ -13,14 +13,6 @@ engineering and software security. <font color="blue"><b>I review all papers mys
 i.e., I read all the papers I get for review and I write reviews myself. Of course, time 
 to time, I seek opinions about a paper from another ASSET group member when 
 I feel that the person is more expert than myself for the topic targeted in the paper.  
-<br>
-There is one catch. In recent times, I have received invitations from several 
-(well known) journals that request me to 
-complete review within seven (7) days (No!!! these are not journal revisions and 
-these are not short papers). I decline all invitations that request me to submit 
-reviews in <b>less than two weeks</b> (YES!!!, I do suggest alternate 
-reviewers). Exceptions exist, such as letters (which are short) and journal 
-revisions (especially, minor revisions).   
 </p>
 
 #### Editorial Board
