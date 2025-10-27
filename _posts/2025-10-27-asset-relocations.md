@@ -3,7 +3,7 @@ title: ASSET Group Relocation
 layout: post
 shortnews: true
 icon: newspaper-o
-date: 2025-10-27
+date: 2025-10-26
 ---
 <p style="text-align:justify">
 <font color="red"><b>NEW:</b></font>
