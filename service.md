@@ -27,6 +27,10 @@ I feel that the person is more expert than myself for the topic targeted in the 
 <br>
 <b>2022 - Present:</b> Board of Distinguished Reviewers of ACM Transactions on Software Engineering and Methodology (TOSEM).
 
+#### 2026
+<b><i>Technical Program Committee (TPC)</i></b>: ICST 2026.
+
+
 #### 2025
 <p style="text-align:justify">
 <b><i>Program Co-Chair</i></b>: 23rd ACM-IEEE International Symposium on Formal Methods and Models for System Design (MEMOCODE) 2025.
