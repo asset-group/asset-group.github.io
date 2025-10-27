@@ -34,6 +34,10 @@ with most of our research papers.
 
 ---
 
+###### Sni5Gect
+
+[This repository](https://github.com/asset-group/Sni5Gect-5GNR-sniffing-and-exploitation) contains the code for **Sni5Gect** -- a 5G NR sniffing and injection tool supporting DCI Sniffing, MAC-NR Downlink/Uplink message sniffing and MAC-NR Downlink message injection. See the paper [SNI5GECT: A Practical Approach to Inject aNRchy into 5G NR](https://asset-group.github.io/papers/SNI5GECT.pdf) for more details. 
+
 ###### AirBugCatcher
 
 [This repository](https://github.com/asset-group/air-bug-catcher) contains the code for **AirBugCatcher** -- a generic wireless bug reproduction tool evaluated on a variety of wireless protocols such as 5G NR, Bluetooth and Wi-Fi. See the paper [AirBugCatcher: Automated Wireless Reproduction of IoT Bugs](https://asset-group.github.io/papers/airbugcatcher.pdf) for more details. 
