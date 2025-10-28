@@ -8,7 +8,7 @@ date: 2025-10-27
 <p style="text-align:justify">
 <font color="red"><b>New:</b></font>
 We are looking for a few strong candidates (PhD students, research assistants and post-doctoral fellows) to join our 
-group at the <a href="https://www.ntu.edu.sg/temasek-labs/research-focus/research-areas/center-for-communication-and-signal-processing">Center for Communication and Signal Processing (NTU)</a> or at the 
+group in the <a href="https://www.ntu.edu.sg/temasek-labs/research-focus/research-areas/center-for-communication-and-signal-processing">Center for Communication and Signal Processing (NTU)</a> or in the 
 the <a href="https://sse.umkc.edu">School of Science and Engineering</a> at the 
 <a href="https://umkc.edu">University of Missouri--Kansas City (UMKC)</a>. 
 At present, PhD student positions are exclusively for UMKC. All interested candidates 
