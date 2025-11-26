@@ -28,7 +28,7 @@ I feel that the person is more expert than myself for the topic targeted in the 
 <b>2022 - Present:</b> Board of Distinguished Reviewers of ACM Transactions on Software Engineering and Methodology (TOSEM).
 
 #### 2026
-<b><i>Technical Program Committee (TPC)</i></b>: ICST 2026.
+<b><i>Technical Program Committee (TPC)</i></b>: ICST 2026, USENIX Security 2026 (Round 2), EMSOFT 2026.
 
 
 #### 2025
@@ -39,7 +39,7 @@ I feel that the person is more expert than myself for the topic targeted in the 
 <br>
 <b><i>Finance Chair</i></b>: 31st IEEE International Conference on Embedded and Real-Time Computing Systems and Application (RTCSA) 2025. 
 <br>
-<b><i>Technical Program Committee (TPC)</i></b>: USENIX Security 2026, AsiaCCS 2026 (Round 1), EMSOFT 2025, ASE 2025, ECRTS 2025. 
+<b><i>Technical Program Committee (TPC)</i></b>: USENIX Security 2026 (Round 1), AsiaCCS 2026 (Round 1), EMSOFT 2025, ASE 2025, ECRTS 2025. 
 </p>
 
 #### 2024
