@@ -28,8 +28,11 @@ I feel that the person is more expert than myself for the topic targeted in the 
 <b>2022 - Present:</b> Board of Distinguished Reviewers of ACM Transactions on Software Engineering and Methodology (TOSEM).
 
 #### 2026
+<p style="text-align:justify">
+<b><i>Program Co-Chair</i></b>: 8th International Workshop on Artificial Intelligence and Industrial IoT Security (AIoTS 2026).
+<br>
 <b><i>Technical Program Committee (TPC)</i></b>: ICST 2026, USENIX Security 2026 (Round 2), EMSOFT 2026.
-
+</p>
 
 #### 2025
 <p style="text-align:justify">
