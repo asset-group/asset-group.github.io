@@ -36,16 +36,22 @@ Amazon and Airbnb.
 <h3>Representative Publications:</h3>
 
 <p style="text-align:justify">
+<a href="https://asset-group.github.io/papers/FreqRank.pdf">Localizing Malicious Outputs from CodeLLM</a><br>
+Mayukh Borana, Junyi Liang, Sai Sathiesh Rajan, and Sudipta Chattopadhyay<br>
+The 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP) Findings, 2025
+</p>
+
+<p style="text-align:justify">
 <a href="https://asset-group.github.io/papers/KBCon.pdf">Knowledge-based Consistency Testing of Large Language Models</a><br>
 Sai Sathiesh Rajan, Ezekiel Soremekun, and Sudipta Chattopadhyay<br>
-The 2024 Conference on Empirical Methods in Natural Language Processing (EMNLP) Findings, 2024.
+The 2024 Conference on Empirical Methods in Natural Language Processing (EMNLP) Findings, 2024
 </p>
 
 
 <p style="text-align:justify">
 <a href="https://asset-group.github.io/papers/ImgFairMain.pdf">Distribution-aware Fairness Test Generation</a><br>
 Sai Sathiesh Rajan, Ezekiel Soremekun, Yves Le Traon, and Sudipta Chattopadhyay<br>
-Journal of Systems and Software (JSS), 2024. Presented at 39th IEEE/ACM International Conference on Automated Software Engineering (ASE 2024).
+Journal of Systems and Software (JSS), 2024. Presented at 39th IEEE/ACM International Conference on Automated Software Engineering (ASE 2024)
 </p>
 
 <p style="text-align:justify">
