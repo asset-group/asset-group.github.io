@@ -17,8 +17,8 @@ layout: project
 last-updated: 2023-03-10
 ---
 <p style="text-align:justify">
-In this project, we investigate systematic and automated security testing 
-of (Wireless) Communication Protocols. Our work in this area has uncovered critical 
+In this project, we investigate systematic and automated security testing, exploitation and 
+debugging of (Wireless) Communication Protocols. Our work in this area has uncovered critical 
 security vulnerabilities such as <a href="https://asset-group.github.io/disclosures/sweyntooth/">SweynTooth</a> 
 and <a href="https://www.braktooth.com">BrakTooth</a>, among others. Additionally, 
 our security testing tool has been translated by <a href="https://www.keysight.com/">Keysight Technologies</a> 
@@ -42,11 +42,29 @@ worldwide.
 
 <h3>Representative Publications:</h3>
 
+<p style="text-align:justify">
+<a href="https://asset-group.github.io/papers/SNI5GECT.pdf">SNI5GECT: A Practical Approach to Inject aNRchy into 5G NR</a><br>
+Shijie Luo, Matheus E. Garbelini, Sudipta Chattopadhyay, and Jianying Zhou<br>
+34th USENIX Security Symposium, 2025
+</p>
 
 <p style="text-align:justify">
-<a href="https://asset-group.github.io/papers/AutoFuzz4G5G.pdf">Towards Automated Fuzzing of 4G/5G Protocol Implementations Over the Air</a><br>
-Matheus E. Garbelini, Zewen Shang, Sudipta Chattopadhyay, Sumei Sun, and Ernest Kurniawan<br>
-IEEE Global Communications Conference (GLOBECOM), 2022
+<a href="https://asset-group.github.io/papers/5Ghoul.pdf">5GHOUL: Unleashing Chaos on 5G Edge Devices via Stateful Multi-layer Fuzzing</a><br>
+Matheus E. Garbelini, Zewen Shang, Shijie Luo, Sudipta Chattopadhyay, Sumei Sun, and Ernest Kurniawan<br>
+IEEE Transactions on Dependable and Secure Computing (TDSC), 2025
+</p>
+
+<p style="text-align:justify">
+<a href="https://asset-group.github.io/papers/U-Fuzz.pdf">U-Fuzz: Stateful Fuzzing of IoT Protocols on COTS Devices</a><br>
+Zewen Shang, Matheus E. Garbelini, and Sudipta Chattopadhyay<br>
+17th IEEE International Conference on Software Testing, Verification and Validation (ICST), 2024
+</p>
+
+
+<p style="text-align:justify">
+<a  href="https://asset-group.github.io/papers/vaktble.pdf">VaktBLE: A Benevolent Man-in-the-middle Bridge to Guard against Malevolent BLE Connections</a><br>
+Geovani Benita, Leonardo Sestrem, Matheus E. Garbelini, Sudipta Chattopadhyay, Sumei Sun, and Ernest Kurniawan<br>
+40th Annual Computer Security Applications Conference (ACSAC), 2024
 </p>
 
 <p style="text-align:justify">
