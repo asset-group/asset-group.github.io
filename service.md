@@ -31,7 +31,7 @@ I feel that the person is more expert than myself for the topic targeted in the 
 <p style="text-align:justify">
 <b><i>Program Co-Chair</i></b>: 8th International Workshop on Artificial Intelligence and Industrial IoT Security (AIoTS 2026).
 <br>
-<b><i>Technical Program Committee (TPC)</i></b>: ESORICS 2026, ICST 2026, USENIX Security 2026 (Round 2), AsiaCCS 2026 (Round 2), EMSOFT 2026.
+<b><i>Technical Program Committee (TPC)</i></b>: ESORICS 2026, ASE 2026, ICST 2026, USENIX Security 2026 (Round 2), AsiaCCS 2026 (Round 2), EMSOFT 2026.
 </p>
 
 #### 2025
