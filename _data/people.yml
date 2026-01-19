@@ -30,6 +30,7 @@ sumei:
     bio: "Head of the Communications and Networks Department (I2R, A*STAR)"
 
 #Post Docs/Researchers
+
 matheus:
     display_name: "Matheus Eduardo Garbelini"
     webpage: "https://matheus-garbelini.github.io/home/"
@@ -44,21 +45,16 @@ yeeching:
     image: /img/people/Tok_Yee_Ching.jpg
     bio: "Research Fellow (PhD, SUTD)"
 
-davis:
-    display_name: "Davis Zheng"
-    webpage: "https://sg.linkedin.com/in/davis-zhengyang"
+sakshi:
+    display_name: "Sakshi Udeshi"
+    webpage: "http://sakshiudeshi.github.io"
     role: postdoc
-    image: /img/people/Davis.jpeg
-    bio: "Visiting Researcher (Pursuing BE (Cybersecurity), SIT)"
+    image: /img/people/Sakshi_Udeshi.jpg
+    bio: "Research Fellow (PhD, SUTD)"
 
-mayukh:
-    display_name: "Mayukh Borana"
-    webpage: "https://sg.linkedin.com/in/mayukh-borana-99523112a"
-    role: postdoc
-    image: /img/people/mayukh.jpeg
-    bio: "Research Assistant (MSSD, SUTD)"
 
 #Grad Students 
+
 shijie:
     display_name: "Luo Shijie"
     role: grad
@@ -95,20 +91,7 @@ louisa:
     bio: "PhD Student (co-supervision)"
     year: "2025 (Sept) - "
 
-yustynn:
-    display_name: "Yustynn Panicker"
-    role: grad
-    image: /img/people/Yustynn_Panicker.png
-    bio: "PhD Student (BEng, SUTD) and A*STAR ACIS Scholar)"
-    year: "2022 (Jan) - "
 
-zewen:
-    display_name: "Shang Zewen"
-    webpage: "https://www.linkedin.com/in/zewen-shang-559549168"
-    role: grad
-    image: /img/people/Zewen.jpg
-    bio: "PhD Student (BEng, SUTD)"
-    year: "2022 (Jan) - "
 
 
 #Urop
@@ -119,6 +102,33 @@ You:
     bio: "Student at SUTD"
 
 #Alumni
+
+yustynn:
+    display_name: "Yustynn Panicker"
+    role: grad
+    image: /img/people/Yustynn_Panicker.png
+    bio: "PhD Student, SUTD"
+
+zewen:
+    display_name: "Shang Zewen"
+    webpage: "https://www.linkedin.com/in/zewen-shang-559549168"
+    role: grad
+    image: /img/people/Zewen.jpg
+    bio: "PhD Student, SUTD"
+
+mayukh:
+    display_name: "Mayukh Borana"
+    webpage: "https://sg.linkedin.com/in/mayukh-borana-99523112a"
+    role: postdoc
+    image: /img/people/mayukh.jpeg
+    bio: "Research Assistant, SUTD"
+
+davis:
+    display_name: "Davis Zheng"
+    webpage: "https://sg.linkedin.com/in/davis-zhengyang"
+    role: postdoc
+    image: /img/people/Davis.jpeg
+    bio: "Visiting Researcher, SUTD"
 
 sai:
     display_name: "Sai Sathiesh Rajan"
