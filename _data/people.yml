@@ -105,28 +105,28 @@ You:
 
 yustynn:
     display_name: "Yustynn Panicker"
-    role: grad
+    role: alum
     image: /img/people/Yustynn_Panicker.png
     bio: "PhD Student, SUTD"
 
 zewen:
     display_name: "Shang Zewen"
     webpage: "https://www.linkedin.com/in/zewen-shang-559549168"
-    role: grad
+    role: alum
     image: /img/people/Zewen.jpg
     bio: "PhD Student, SUTD"
 
 mayukh:
     display_name: "Mayukh Borana"
     webpage: "https://sg.linkedin.com/in/mayukh-borana-99523112a"
-    role: postdoc
+    role: alum
     image: /img/people/mayukh.jpeg
     bio: "Research Assistant, SUTD"
 
 davis:
     display_name: "Davis Zheng"
     webpage: "https://sg.linkedin.com/in/davis-zhengyang"
-    role: postdoc
+    role: alum
     image: /img/people/Davis.jpeg
     bio: "Visiting Researcher, SUTD"
 
