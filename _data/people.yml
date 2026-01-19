@@ -137,13 +137,6 @@ sai:
     image: /img/people/sai-rajan.jpg
     bio: "PhD Student (SUTD)"
 
-sakshi:
-    display_name: "Sakshi Udeshi"
-    webpage: "http://sakshiudeshi.github.io"
-    role: alum
-    image: /img/people/Sakshi_Udeshi.jpg
-    bio: "PhD Student (SUTD), First doctoral graduate from ASSET group"
-
 yifan:
     display_name: "Jia Yifan"
     webpage: "https://www.linkedin.com/in/jia-yifan-a704403b/"
