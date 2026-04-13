@@ -29,7 +29,7 @@ I feel that the person is more expert than myself for the topic targeted in the 
 
 #### 2027
 <p style="text-align:justify">
-<b><i>Technical Program Committee (TPC)</i></b>: ICSE 2027.
+<b><i>Technical Program Committee (TPC)</i></b>: ICSE 2027, AsiaCCS 2027.
 </p>
 
 #### 2026
