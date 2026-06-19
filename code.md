@@ -34,6 +34,11 @@ with most of our research papers.
 
 ---
 
+###### ORANClaw
+
+[This repository](https://asset-group.github.io/ORANClaw-E2-MitM-Fuzzing/) contains the code for **ORANClaw** -- a structure-aware, man-in-the-middle fuzzing framework that takes full control over the E2 interface between the NearRT-RIC and the gNB (E2 nodes). See the paper [ORANClaw: Shredding E2 Nodes in O-RAN via Structure-aware MiTM Fuzzing](https://asset-group.github.io/papers/ORANClaw.pdf) for more details. 
+
+
 ###### Sni5Gect
 
 [This repository](https://github.com/asset-group/Sni5Gect-5GNR-sniffing-and-exploitation) contains the code for **Sni5Gect** -- a 5G NR sniffing and injection tool supporting DCI Sniffing, MAC-NR Downlink/Uplink message sniffing and MAC-NR Downlink message injection. See the paper [SNI5GECT: A Practical Approach to Inject aNRchy into 5G NR](https://asset-group.github.io/papers/SNI5GECT.pdf) for more details. 
