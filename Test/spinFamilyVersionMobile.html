@@ -404,6 +404,20 @@
                 element.msRequestFullscreen();
             }
         });
+
+        // Hide button when entering fullscreen, show it again when exiting
+        function handleFullscreenChange() {
+            const isFullscreen = !!(
+                document.fullscreenElement ||
+                document.webkitFullscreenElement ||
+                document.msFullscreenElement
+            );
+            btn.style.display = isFullscreen ? 'none' : '';
+        }
+
+        document.addEventListener('fullscreenchange', handleFullscreenChange);
+        document.addEventListener('webkitfullscreenchange', handleFullscreenChange);
+        document.addEventListener('msfullscreenchange', handleFullscreenChange);
     </script>
 
 
