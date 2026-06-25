@@ -92,7 +92,7 @@
             cursor: not-allowed;
             transform: translate(-50%, -50%) scale(1);
         }
-
+        
         /* fullscreen button — bold & catchy */
         #fullscreen-btn {
             padding: 14px 32px;
@@ -244,7 +244,7 @@
 
         
 
- /* Container fixed to the bottom right corner */
+ 		  /* Container fixed to the bottom right corner */
         .upload-container {
             position: fixed;
             bottom: 20px;
@@ -339,7 +339,7 @@
             #spin-btn:disabled {
                 transform: translate(-50%, -50%) scale(1) !important;
             }
-
+            
             .arrow-svg {
                 width: min(9vw, 44px) !important;
                 height: auto !important;
@@ -468,14 +468,62 @@
 
     <!-- Floating Upload Button Wrapper -->
     <div class="upload-container">
-        <!-- The invisible native input -->
-        <input type="file" id="file-upload" class="native-file-input" />
-        
-        <!-- The stylized visible button linked via the "for" attribute -->
-        <label for="file-upload" class="custom-upload-btn">
-            📤 Upload Questions
-        </label>
+        <button id="start-btn" onclick="startGame()">🚀 START</button>
     </div>
+
+    <style>
+        #start-btn {
+            padding: 18px 40px;
+            font-size: 1.4rem;
+            font-weight: 900;
+            letter-spacing: 2.5px;
+            text-transform: uppercase;
+            background: linear-gradient(135deg, #ff416c 0%, #ff4b2b 100%);
+            color: #fff;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            box-shadow:
+                0 8px 24px rgba(255, 65, 108, 0.55),
+                0 0 0 0 rgba(255, 75, 43, 0.5);
+            animation: pulse-start 1.8s ease-in-out infinite;
+            transition: transform 0.15s ease, box-shadow 0.15s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        #start-btn::after {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -60%;
+            width: 40%;
+            height: 200%;
+            background: rgba(255,255,255,0.25);
+            transform: skewX(-20deg);
+            animation: sheen 2.4s ease-in-out infinite;
+        }
+        @keyframes sheen {
+            0%   { left: -60%; }
+            50%  { left: 130%; }
+            100% { left: 130%; }
+        }
+        @keyframes pulse-start {
+            0%   { box-shadow: 0 8px 24px rgba(255,65,108,0.55), 0 0 0 0   rgba(255,75,43,0.5); }
+            60%  { box-shadow: 0 8px 24px rgba(255,65,108,0.55), 0 0 0 18px rgba(255,75,43,0);   }
+            100% { box-shadow: 0 8px 24px rgba(255,65,108,0.55), 0 0 0 0   rgba(255,75,43,0);    }
+        }
+        #start-btn:hover {
+            background: linear-gradient(135deg, #ff6b6b 0%, #ff416c 100%);
+            transform: translateY(-3px) scale(1.06);
+            animation: none;
+            box-shadow: 0 12px 32px rgba(255,65,108,0.65);
+        }
+        #start-btn:active {
+            transform: translateY(1px) scale(0.97);
+            box-shadow: 0 4px 12px rgba(255,65,108,0.4);
+            animation: none;
+        }
+    </style>
 
     <script>
 
@@ -565,33 +613,31 @@
 
 		  // Advanced Experimentation
         // 2. Define the target const array
-        const myQuestionArray = [];
+        let myQuestionArray = [];
 		  let ansLinesArray = [];
 
         // 3. Listen for file selection
-        document.getElementById('file-upload').addEventListener('change', function(event) {
-            	 const file = event.target.files[0];
-            	 if (!file) return;
-
-            	 // 4. Initialize FileReader to read the text file
-            	 const reader = new FileReader();
-
-            	 reader.onload = function(e) {
-                const textContent = e.target.result;
-                
-                // 5. Split content by newlines and push into the const array
-                const lines = textContent.split('\n');
-                
-                // Clear old data if choosing a new file, then populate
-                myQuestionArray.length = 0; 
-                myQuestionArray.push(...lines);
-								
-					 if (myQuestionArray[myQuestionArray.length - 1] == '') {
-					 	myQuestionArray.pop();
-					 }
-
-                // 6. Verify and display the result
-                console.log("Your const array contents:", myQuestionArray);
+        function startGame() {
+					 
+					 const queURL = 'https://asset-group.github.io/Test/question_bank.txt';
+					 
+					 fetch(queURL)
+							.then(response => {
+                    			if (!response.ok) {
+                        		throw new Error('Network response was not ok: ' + response.statusText);
+                    			}
+                    			return response.text();
+                		})
+                		.then(data => {
+								myQuestionArray = data.split(/\r?\n/);
+								if (myQuestionArray[myQuestionArray.length - 1] == '') {
+									myQuestionArray.pop();
+							   }
+								console.log("Your const question content:", myQuestionArray);
+                		})
+                		.catch(error => {
+                    		console.error('Error fetching the file:', error);
+                		});
 
 					 // 7. Now read the answers
 					 const ansURL = 'https://asset-group.github.io/Test/answer_bank.txt';
@@ -613,11 +659,10 @@
                 		.catch(error => {
                     		console.error('Error fetching the file:', error);
                 		});
-            };
 
-            // Start reading the file as plain text
-            reader.readAsText(file);
-        });
+            			document.getElementById('start-btn').style.display = 'none';
+							
+          }
 		  
 		  // End of Advanced Experimentation
 
