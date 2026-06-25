@@ -1,0 +1,990 @@
+ Paris
+ Tokyo
+ Canberra
+ Ottawa
+ Brasilia
+ Berlin
+ Rome
+ Madrid
+ Beijing
+ Delhi
+ Moscow
+ Mexico City
+ Cairo
+ Buenos Aires
+ Pretoria
+ Nairobi
+ Abuja
+ Ankara
+ Riyadh
+ Seoul
+ Bangkok
+ Lisbon
+ Athens
+ Amsterdam
+ Stockholm
+ Oslo
+ Copenhagen
+ Helsinki
+ Warsaw
+ Kyiv
+ Bucharest
+ Budapest
+ Prague
+ Vienna
+ Bern
+ Brussels
+ Dublin
+ Wellington
+ Manila
+ Jakarta
+ Hanoi
+ Kuala Lumpur
+ Islamabad
+ Dhaka
+ Tehran
+ Baghdad
+ Jerusalem
+ Amman
+ Rabat
+ Algiers
+ Russia
+ Nile
+ Everest
+ Pacific
+ Arctic
+ Asia
+ Australia
+ Brazil
+ Algeria
+ Kilimanjaro
+ Amazon
+ Victoria
+ Superior
+ Baikal
+ Sahara
+ Vatican
+ Greenland
+ Havana
+ Lima
+ Santiago
+ Bogota
+ Caracas
+ Quito
+ Sucre
+ Asuncion
+ Montevideo
+ Panama City
+ Guatemala City
+ Tegucigalpa
+ Managua
+ San Jose
+ Kingston
+ Addis Ababa
+ Accra
+ Dodoma
+ Kampala
+ Harare
+ Maputo
+ Luanda
+ Yaounde
+ Yamoussoukro
+ Dakar
+ Tripoli
+ Tunis
+ Khartoum
+ Naypyidaw
+ Colombo
+ Kathmandu
+ Au
+ Ag
+ Fe
+ Na
+ K
+ O
+ H
+ C
+ N
+ Pb
+ Cu
+ Hg
+ Diamond
+ Mercury
+ Neptune
+ Eight
+ Jupiter
+ Mercury
+ Sun
+ CO2
+ Oxygen
+ Mitochondria
+ 206
+ 32
+ Skin
+ Femur
+ Stapes
+ Four
+ 100
+ Zero
+ 300000
+ Gravity
+ One
+ Six
+ Paleontology
+ Seismology
+ Astronomy
+ Biology
+ Physics
+ Chemistry
+ Meteorology
+ Geology
+ Oceanography
+ Psychology
+ Entomology
+ Ornithology
+ Botany
+ Mycology
+ Virology
+ Genetics
+ Nitrogen
+ Stratosphere
+ Nucleus
+ Protons
+ Negative
+ Positive
+ Ampere
+ Ohm
+ Newton
+ Joule
+ Watt
+ Hertz
+ Pascal
+ H2O
+ NaCl
+ C6H12O6
+ CO2
+ D
+ C
+ A
+ Hydrogen
+ Oxygen
+ 118
+ Hydrogen
+ Uranium
+ Evaporation
+ Condensation
+ Melting
+ Freezing
+ Sublimation
+ Kinetic
+ Potential
+ Kelvin
+ -273
+ Deoxyribonucleic acid
+ 23
+ O
+ AB
+ Eight minutes
+ Milky Way
+ Two
+ One
+ Ganymede
+ Storm
+ Ice
+ Meteor
+ Constellation
+ 1945
+ 1914
+ Washington
+ Curie
+ Bell
+ Wright
+ Edison
+ Gutenberg
+ da Vinci
+ Jefferson
+ Armstrong
+ 1969
+ Emperor
+ 1989
+ Lighthouse
+ Macedonian
+ Qin Shi Huang
+ 1912
+ 1889
+ Emperor
+ New Zealand
+ 1789
+ Thatcher
+ Albright
+ Columbus
+ Egyptians
+ Queen
+ Sputnik
+ 1957
+ Gagarin
+ 1215
+ Activist
+ 1963
+ President
+ Civil War
+ 1865
+ Leader
+ India
+ 1947
+ President
+ 27
+ 1990
+ Qin
+ Inca
+ Nicholas
+ 1917
+ Lenin
+ Little Boy
+ Hiroshima
+ 1945
+ 1991
+ Lenin
+ Nazi
+ Churchill
+ Roosevelt
+ Pompeii
+ 79
+ ENIAC
+ 1945
+ Berners-Lee
+ 1991
+ 2007
+ Jobs
+ Gates
+ Bezos
+ Zuckerberg
+ China
+ 1929
+ Crash
+ Marx
+ 1848
+ Fleming
+ 1928
+ 1347
+ Plague
+ da Gama
+ Magellan
+ Mongol
+ Genghis Khan
+ 1918
+ Assassination
+ Franz Ferdinand
+ 1889
+ 330
+ 1886
+ France
+ 1644
+ Bologna
+ 1776
+ Mao
+ 1949
+ Colosseum
+ Seven
+ Pyramids
+ Amundsen
+ 1911
+ Balboa
+ Cheetah
+ Elephant
+ Giraffe
+ Blue whale
+ Peregrine falcon
+ Ostrich
+ Hummingbird
+ Reticulated python
+ Inland taipan
+ Saltwater crocodile
+ Whale shark
+ Sailfish
+ Gorilla
+ Eight
+ Six
+ Ten
+ 22 months
+ Pride
+ Pack
+ School
+ Flock
+ Herd
+ Gaggle
+ Pod
+ Swarm
+ Murder
+ Parliament
+ Joey
+ Kitten
+ Puppy
+ Calf
+ Lamb
+ Fawn
+ Cub
+ Duckling
+ Tadpole
+ Caterpillar
+ 150 years
+ Bat
+ Platypus
+ Flamboyance
+ Bowhead whale
+ Kangaroo
+ Emu
+ Panda
+ Eagle
+ Peacock
+ Tiger
+ Kiwi
+ Silkworm
+ Bee
+ Dragonfly
+ Five
+ Eight
+ Giant squid
+ Five
+ Eight
+ Ten
+ Blue
+ Antarctica
+ Amur leopard
+ Emperor
+ Fairy
+ Arctic
+ Antarctica
+ Bamboo
+ Eucalyptus
+ Plants
+ Mob
+ Herd
+ Troop
+ Lizard
+ Mammal
+ Mammal
+ Mammal
+ Fish
+ Invertebrate
+ Echinoderm
+ Crustacean
+ Dart frog
+ Goliath frog
+ Three
+ Five
+ Cetology
+ Meat-eater
+ Plant-eater
+ Both
+ Nocturnal
+ Hibernator
+ Pouch mammal
+ Cetacean
+ 500
+ Sparrow
+ Bristlemouth
+ Polar bear
+ Sun bear
+ Moose
+ Etruscan shrew
+ 3 years
+ Four
+ Japan
+ Italy
+ Italy
+ China
+ Austria
+ Mexico
+ Ethiopia
+ China
+ Georgia
+ Russia
+ Mesopotamia
+ Avocado
+ Chickpeas
+ Soybeans
+ Wheat
+ Rice
+ Milk
+ Milk
+ Cream
+ Water
+ Tea
+ Tomato
+ Saffron
+ Pepper
+ Pork
+ Pine nut
+ Grape
+ Apple
+ Cabbage
+ Miso
+ Spain
+ Mexico
+ India
+ China
+ Austria
+ Greece
+ Switzerland
+ Middle East
+ Turkey
+ France
+ Cheese
+ Cheese
+ Cheese
+ Cheese
+ Cheese
+ Cheese
+ Cheese
+ Cheese
+ Turmeric
+ Capsaicin
+ Basil
+ Vanilla
+ Pepperoni
+ Nine
+ Four
+ Four
+ C
+ Calcium
+ Potassium
+ Fructose
+ Lactose
+ Unsaturated
+ Saturated
+ Carbon dioxide
+ Fermentation
+ Curdling
+ Fermentation
+ Thermometer
+ Brushing
+ Boiling briefly
+ Frying quickly
+ Grilling
+ Soaking
+ Thickening
+ Browning
+ China
+ Italy
+ France
+ Oats
+ Avocado
+ Tomato
+ Tomato
+ Beetroot
+ Germany
+ Vegetables
+ Fish
+ Prawns
+ Lettuce
+ Almond
+ Sugar
+ Sugar
+ Sugar
+ Egg white
+ Eggs
+ Eggs
+ Eggs
+ Three
+ Two
+ Eight
+ Eleven
+ Five
+ Six
+ Fifteen
+ Six
+ Eleven
+ Eleven
+ Nine
+ Four
+ Eighteen
+ Five
+ 42
+ 50 meters
+ 10 feet
+ 8 yards
+ Tennis
+ Golf
+ Hockey
+ Football
+ Baseball
+ Basketball
+ Hockey
+ Football
+ Baseball
+ Golf
+ Four
+ Wimbledon
+ USA
+ England
+ England
+ England
+ England
+ USA
+ England
+ Canada
+ Four years
+ Athens
+ 1896
+ Five
+ Five
+ Faster
+ Phelps
+ Athletics
+ 300
+ Ten
+ Ten
+ Ace
+ One under
+ Two under
+ One over
+ Zero
+ Forty
+ Serve
+ Miss
+ Uruguay
+ 1930
+ Brazil
+ Five
+ France
+ 3000 km
+ 372 km/h
+ UK
+ Hamilton
+ Hockey
+ Badminton
+ Badminton
+ Polo
+ Fencing
+ Gymnastics
+ Gymnastics
+ Gymnastics
+ Diving
+ Gymnastics
+ Dunk
+ Three goals
+ Three wickets
+ 100 runs
+ 200 runs
+ Out
+ Illegal
+ Extra
+ Extra
+ Penalty
+ Warning
+ Ejection
+ Spot kick
+ Seven
+ Spherical
+ Leather
+ Rubber
+ Isner-Mahut
+ Five
+ Japan
+ Japan
+ Korea
+ China
+ Black
+ Michelangelo
+ van Gogh
+ da Vinci
+ Munch
+ Vermeer
+ Picasso
+ Botticelli
+ Monet
+ Michelangelo
+ Rodin
+ Shakespeare
+ Shakespeare
+ Shakespeare
+ Shakespeare
+ Orwell
+ Orwell
+ Rowling
+ Tolkien
+ Tolkien
+ Austen
+ Austen
+ Shelley
+ Stoker
+ Doyle
+ Melville
+ Fitzgerald
+ Tolstoy
+ Dostoevsky
+ Cervantes
+ Hugo
+ Hugo
+ Dumas
+ Dickens
+ Dickens
+ Dickens
+ Twain
+ Twain
+ Carroll
+ Stevenson
+ Defoe
+ Swift
+ Chaucer
+ Homer
+ Homer
+ Dante
+ Beethoven
+ Tchaikovsky
+ Vivaldi
+ Mozart
+ Bizet
+ Verdi
+ Wagner
+ Ravel
+ Debussy
+ Beethoven
+ Elvis
+ Michael Jackson
+ Aretha Franklin
+ Queen
+ Eagles
+ Michael Jackson
+ Madonna
+ Michael Jackson
+ Nirvana
+ Led Zeppelin
+ Thriller
+ White Christmas
+ Six
+ Four
+ 88
+ Twelve
+ Soprano
+ Bass
+ Tempo
+ Dynamics
+ Loud
+ Soft
+ Fast
+ Slow
+ Philosopher's Stone
+ Seven
+ Hedwig
+ Hogwarts
+ Ron
+ Nine and Three Quarters
+ Gryffindor
+ Albus
+ Three
+ Mordor
+ Jackson
+ Lucas
+ Spielberg
+ Cameron
+ Coppola
+ Spielberg
+ Hitchcock
+ Kubrick
+ Coppola
+ 1977
+ 25
+ 144
+ 12
+ 8
+ 10
+ 7
+ 9
+ 1024
+ 256
+ 32
+ 3.14
+ Six
+ Five
+ Eight
+ Seven
+ Ten
+ Three
+ Four
+ 180
+ 360
+ 540
+ 720
+ 360
+ 90
+ 180
+ Pi r squared
+ 2 pi r
+ Half base times height
+ Length times width
+ Side cubed
+ 4/3 pi r cubed
+ 50
+ 150
+ 50
+ 16
+ 75
+ 0.25
+ 0.5
+ 0.75
+ 0.2
+ 0.4
+ Googol
+ 7
+ 2
+ No
+ Yes
+ Prime
+ 1 1 2 3 5
+ 13
+ 21
+ 10
+ 50
+ 100
+ 500
+ 1000
+ 5
+ 1
+ XL
+ XC
+ CD
+ 10
+ 100
+ 1000
+ 11
+ 111
+ 64
+ One
+ One
+ 120
+ 56
+ 81
+ 121
+ 169
+ 225
+ 400
+ 900
+ 1600
+ 2500
+ 3
+ 2
+ 5
+ 10
+ 2
+ 3
+ 1
+ 3
+ 6
+ 9
+ 12
+ 4
+ 3
+ 2
+ 10
+ 6
+ 12
+ Tetrahedron
+ Cuboid
+ Sphere
+ Tangent
+ Diameter
+ Radius
+ Circle
+ 366
+ 365
+ Seven
+ One
+ 52
+ 24
+ 60
+ 60
+ 3600
+ 86400
+ Seven
+ ROYGBIV
+ Blue
+ Purple
+ Orange
+ Green
+ Brown
+ Red blue yellow
+ Red green blue
+ 26
+ Five
+ Seven
+ Five
+ Mandarin
+ Mandarin
+ English
+ 193
+ France
+ Bangkok
+ Dollar
+ Pound
+ Yen
+ Yuan
+ Euro
+ Rupee
+ Dollar
+ Dollar
+ Real
+ Ruble
+ Peso
+ Franc
+ Won
+ 50
+ 13
+ States
+ Colonies
+ Five
+ Red
+ Six
+ Blue white red
+ Five
+ Continents
+ Globe
+ Education
+ Alliance
+ Children
+ Health
+ Finance
+ Production
+ America
+ Kingdom
+ Emirates
+ Union
+ Buckingham
+ White House
+ Elysee
+ Lok Kalyan Marg
+ Angkor Wat
+ St Peter's
+ Masjid al-Haram
+ Belz
+ Angkor Wat
+ Burj Khalifa
+ 828
+ UAE
+ Danyang-Kunshan
+ Gotthard
+ Hartsfield-Jackson
+ King Fahd
+ Denmark
+ Cross
+ Christianity
+ Islam
+ Hinduism
+ Portuguese
+ Spanish
+ Portuguese
+ Arabic
+ Wang
+ Mohammed
+ O positive
+ 71
+ 29
+ 3
+ 56.7
+ -89.2
+ 1945
+ New York
+ 776 BC
+ Four
+ 37
+ 72
+ 5
+ Kidney
+ Pancreas
+ Liver
+ Liver
+ Liver
+ Brain
+ Cerebellum
+ Myocardium
+ Trachea
+ Esophagus
+ 6 meters
+ 1.5 meters
+ Three
+ Two
+ Epidermis
+ Dermis
+ Fracture
+ Otitis
+ Infarction
+ Hypertension
+ Hypotension
+ Hemorrhage
+ Orthopedist
+ Cardiologist
+ Dermatologist
+ Ophthalmologist
+ Neurologist
+ Pediatrician
+ Dentist
+ D
+ Iron
+ A
+ Scurvy
+ Rickets
+ Goiter
+ Skin
+ Heart disease
+ Hypertension
+ Pollen
+ 24 hours
+ 2 liters
+ 8
+ 17
+ 2000
+ Body Mass Index
+ 18.5 to 24.9
+ Depression
+ Generalized anxiety
+ Endorphin
+ Melatonin
+ Growth hormone
+ Thyroid
+ Cortisol
+ Insulin
+ Estrogen
+ Testosterone
+ Acrophobia
+ Arachnophobia
+ Claustrophobia
+ Agoraphobia
+ Somnambulism
+ Enuresis
+ Alopecia
+ Halitosis
+ Stertor
+ Syncope
+ Medical ethics
+ Hippocrates
+ O negative
+ AB positive
+ Hemoglobin
+ Leukocytes
+ Erythrocytes
+ Thrombocytes
+ Plasma
+ Chromosomes
+ Protein synthesis
+ Nerve cell
+ Gap
+ 120 m/s
+ Sciatic
+ Neuron
+ Myalgia
+ Arthralgia
+ Gastralgia
+ Angina
+ Dorsalgia
+ Oncology
+ Neurology
+ Gastroenterology
+ Pulmonology
+ Rheumatology
+ Endocrinology
+ 20
+ 27
+ 26
+ 22
+ 33
