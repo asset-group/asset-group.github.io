@@ -202,11 +202,30 @@
             max-width: 500px;
             box-shadow: 0 0 20px rgba(0,0,0,0.5);
         }
+        
+		  .modal-answer-content {
+            background-color: #34495e;
+            padding: 40px;
+            border-radius: 15px;
+            text-align: center;
+            width: 80%;
+            max-width: 500px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.5);
+        }
 
         .modal-content h2 { color: #f1c40f; margin-top: 0; }
         .modal-content p { color: white; font-size: 1.3rem; margin: 20px 0; }
+        .modal-answer-content h2 { color: #f1c40f; margin-top: 0; }
+        .modal-answer-content p { color: white; font-size: 1.3rem; margin: 20px 0; }
 
         .close-btn {
+            background-color: #e74c3c;
+            padding: 10px 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+            box-shadow: 0 5px #c0392b;
+        }
+        .answer-close-btn {
             background-color: #e74c3c;
             padding: 10px 20px;
             margin-top: 20px;
@@ -332,10 +351,18 @@
                 padding: 24px 16px;
                 border-radius: 12px;
             }
+            .modal-answer-content {
+                width: 92%;
+                padding: 24px 16px;
+                border-radius: 12px;
+            }
 
             .modal-content h2 { font-size: 1.3rem; }
             .modal-content p { font-size: 1rem; margin: 14px 0; }
+            .modal-answer-content h2 { font-size: 1.3rem; }
+            .modal-answer-content p { font-size: 1rem; margin: 14px 0; }
             .close-btn { padding: 10px 18px; font-size: 0.95rem; }
+            .answer-close-btn { padding: 10px 18px; font-size: 0.95rem; }
         }
 
         @media (max-width: 390px) {
@@ -413,7 +440,16 @@
         <div class="modal-content">
             <h2>Question Time!</h2>
             <p id="modal-text"></p>
-            <button class="close-btn" onclick="closeModal()">Close & Answer</button>
+            <button class="close-btn" onclick="closeModal()">Check Answer</button>
+        </div>
+    </div>
+    
+    <!-- Modal for displaying answers -->
+	 <div id="answer-question-modal" class="modal">
+        <div class="modal-answer-content">
+            <h2>One Word Answer: </h2>
+            <p id="answer-modal-text"></p>
+            <button class="answer-close-btn" onclick="answerCloseModal()">Close</button>
         </div>
     </div>
 
@@ -443,6 +479,9 @@
             "What is the hardest natural substance on Earth?",
             "How many strings does a standard violin have?"
         ];
+
+		  // the index of the question to be displayed after a SPIN
+		  let questionIndex = 0;
 
         // Slices labeled simply on the wheel
         const wheelLabels = ["Question 1", "Question 2", "Question 3", "Question 4", "Question 5", "Question 6", "Question 7", "Question 8", "Question 9", "Question 10"];
@@ -514,6 +553,7 @@
 		  // Advanced Experimentation
         // 2. Define the target const array
         const myQuestionArray = [];
+		  let ansLinesArray = [];
 
         // 3. Listen for file selection
         document.getElementById('file-upload').addEventListener('change', function(event) {
@@ -532,33 +572,34 @@
                 // Clear old data if choosing a new file, then populate
                 myQuestionArray.length = 0; 
                 myQuestionArray.push(...lines);
+								
+					 if (myQuestionArray[myQuestionArray.length - 1] == '') {
+					 	myQuestionArray.pop();
+					 }
 
                 // 6. Verify and display the result
                 console.log("Your const array contents:", myQuestionArray);
 
 					 // 7. Now read the answers
-					 //const ansURL = 'https://asset-group.github.io/Test/question_bank.txt';
-					 const ansURL = 'question_bank.txt';
-					 try {
-							// fetch the answer file
-							const response =  fetch(ansURL);
-							if (!response.ok)
-							 throw new Error('HTTP error fetching answers! Status: ${response.status}');
-							
-							// extract text
-							const text = response.text();
-							
-							const ansLinesArray = text.split(/\r?\n/);
-							
-							if (ansLinesArray[ansLinesArray.length - 1] == '') {
-								ansLinesArray.pop();
-							}
-
-							//verify and display
-							console.log("Your const answer content:", ansLinesArray);
-					 } catch (error) {
-							console.error('Error reading the answer file', error);
-					 }	
+					 const ansURL = 'https://asset-group.github.io/Test/answer_bank.txt';
+					 
+					 fetch(ansURL)
+							.then(response => {
+                    			if (!response.ok) {
+                        		throw new Error('Network response was not ok: ' + response.statusText);
+                    			}
+                    			return response.text();
+                		})
+                		.then(data => {
+								ansLinesArray = data.split(/\r?\n/);
+								if (ansLinesArray[ansLinesArray.length - 1] == '') {
+									ansLinesArray.pop();
+							   }
+								console.log("Your const answer content:", ansLinesArray);
+                		})
+                		.catch(error => {
+                    		console.error('Error fetching the file:', error);
+                		});
             };
 
             // Start reading the file as plain text
@@ -704,11 +745,10 @@
             const winningIndex = Math.floor(normalizedDegrees / sliceAngle) % numSegments;
            
 				// get to the question indes (0 to myQuestionArray.length-1)
-				const blockLength = Math.ceil((myQuestionArray.length - 1)/ numSegments);
+				const blockLength = Math.ceil(myQuestionArray.length/ numSegments);
 				const blockIndex = Math.floor(Math.random() * blockLength);
-				const questionIndex = (Math.floor(blockLength * winningIndex) + blockIndex) % (myQuestionArray.length - 1); 
+				questionIndex = (Math.floor(blockLength * winningIndex) + blockIndex) % (myQuestionArray.length); 
  
-            //const questionText = questions[winningIndex];
             const questionText = myQuestionArray[questionIndex];
 
             // Show the modal and fire confetti
@@ -721,6 +761,13 @@
         // Close modal and re-enable spin button
         function closeModal() {
             document.getElementById('question-modal').style.display = 'none';
+            document.getElementById('answer-modal-text').innerText = ansLinesArray[questionIndex];
+            document.getElementById('answer-question-modal').style.display = 'flex';
+        }
+        
+		  // Close answer modal and re-enable spin button
+        function answerCloseModal() {
+            document.getElementById('answer-question-modal').style.display = 'none';
             document.getElementById('spin-btn').disabled = false;
         }
 
