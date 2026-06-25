@@ -1123,7 +1123,6 @@ What is the term for unaccompanied choral music?
 Who painted 'The Starry Night'?
 What is the highest female singing voice?
 Who sculpted 'David'?
-What is the term for a slow
 Who composed 'The Four Seasons'?
 What art movement did Salvador Dalí belong to?
 Who painted the Sistine Chapel ceiling?
@@ -1155,7 +1154,6 @@ What Hindu concept refers to the soul's journey through reincarnation?
 Who wrote 'Critique of Pure Reason'?
 What is the Islamic concept of fate called?
 Who founded Taoism?
-What philosophical concept means 'I think
 What is the Jewish day of atonement?
 Who wrote 'Being and Nothingness'?
 What is the Hindu concept of moral duty?
@@ -1204,7 +1202,6 @@ What is the programming concept of hiding data within objects?
 What is the name for a distributed ledger technology?
 Who co-founded Microsoft with Bill Gates?
 What is the term for a perfect score in bowling?
-In chess
 What country invented the game of chess?
 What is the term for a score of -1 in golf?
 How many players are on a polo team?
@@ -1213,9 +1210,7 @@ What is the highest possible break in snooker?
 In which sport is the term 'love' used for zero?
 What is the term for consecutive strikes in bowling?
 What country hosts the Wimbledon tennis tournament?
-In chess
 What sport uses a shuttlecock?
-In fencing
 What is the diameter of a basketball hoop in inches?
 What term means running at a comfortable pace?
 What chess piece can move in an L-shape?
@@ -1224,7 +1219,6 @@ What is the Japanese martial art using wooden swords called?
 What country invented table tennis?
 How many holes are in a standard round of golf?
 What is the term for a volleyball serve that cannot be returned?
-In cricket
 What sport uses a puck?
 What is the highest belt in martial arts?
 How many points is a bullseye worth in darts?

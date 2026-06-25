@@ -376,7 +376,7 @@
  Cetology
  Meat-eater
  Plant-eater
- Both
+ Plant/Meat-eater
  Nocturnal
  Hibernator
  Pouch mammal
@@ -1123,7 +1123,6 @@
  Van Gogh
  Soprano
  Michelangelo
- mournful piece of music?
  Vivaldi
  Surrealism
  Michelangelo
@@ -1155,7 +1154,6 @@
  Kant
  Qadar
  Laozi
- therefore I am'?
  Yom Kippur
  Sartre
  Dharma
@@ -1204,7 +1202,6 @@
  Blockchain
  Allen
  300
- what piece can only move diagonally?
  India
  Birdie
  Four
@@ -1213,9 +1210,7 @@
  Tennis
  Turkey
  England
- what is it called when a king is under attack?
  Badminton
- what is the name for a hit?
  18
  Jogging
  Knight
@@ -1224,7 +1219,6 @@
  England
  18
  Ace
- what is a score of zero called?
  Hockey
  Black
  50
