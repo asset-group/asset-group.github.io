@@ -258,17 +258,29 @@
         const btn = document.getElementById('fullscreen-btn');
 
         btn.addEventListener('click', () => {
-            // Target the root <html> element to make the entire page full screen
-            const element = document.documentElement; 
-
+            const element = document.documentElement;
             if (element.requestFullscreen) {
                 element.requestFullscreen();
-            } else if (element.webkitRequestFullscreen) { /* Safari support */
+            } else if (element.webkitRequestFullscreen) {
                 element.webkitRequestFullscreen();
-            } else if (element.msRequestFullscreen) { /* IE11 support */
+            } else if (element.msRequestFullscreen) {
                 element.msRequestFullscreen();
             }
         });
+
+        // Hide button when fullscreen is active, show it when exiting
+        function onFullscreenChange() {
+            const isFullscreen = !!(
+                document.fullscreenElement ||
+                document.webkitFullscreenElement ||
+                document.msFullscreenElement
+            );
+            btn.style.display = isFullscreen ? 'none' : '';
+        }
+
+        document.addEventListener('fullscreenchange', onFullscreenChange);
+        document.addEventListener('webkitfullscreenchange', onFullscreenChange);
+        document.addEventListener('msfullscreenchange', onFullscreenChange);
     </script>
 
 
@@ -400,6 +412,10 @@
             '#1abc9c','#e67e22','#ff6b9d','#00d2ff','#ffffff'
         ];
 
+		  // for fixed calculation of question to angle mapping
+		  let offset_angle = 18; //initial angle of the pivot
+		  let offset_slice = 8; //initial pivot at the question slice
+
         function launchConfetti() {
             // Resize canvas to viewport
             confettiCanvas.width  = window.innerWidth;
@@ -521,9 +537,25 @@
         function showResult(degrees) {
             const normalizedDegrees = 360 - (degrees % 360);
             const sliceAngle = 360 / numSegments;
-            
-            // Arrow is at the top (0 degrees). We figure out which slice falls in the 0-36 độ range.
-            const winningIndex = Math.floor(normalizedDegrees / sliceAngle) % numSegments;
+           
+
+				console.log("Degree rotated:", degrees);
+				console.log("Normalized Degree rotated:", normalizedDegrees);
+				console.log("SliceAngle:", sliceAngle);
+
+				//better calculation for fixed question to slice mapping
+				offset_total = (offset_angle + normalizedDegrees) % 360;
+				total_slice = offset_slice + Math.floor(offset_total / sliceAngle);
+				offset_angle = offset_total % sliceAngle;
+				offset_slice = (total_slice > 10) ? (total_slice - 10) : total_slice;
+				console.log("Offset Angle:", offset_angle);
+				console.log("Offset slice:", offset_slice);
+				 
+            // Arrow is at the top (0 degrees). We figure out which slice falls in the 0-360 range.
+            //const winningIndex = (Math.floor(normalizedDegrees / sliceAngle)) % numSegments;
+				const winningIndex = offset_slice - 1;
+
+				console.log("Question Index:", winningIndex);
             
             const questionText = questions[winningIndex];
 
