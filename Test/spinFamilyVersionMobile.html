@@ -517,13 +517,13 @@
 
         // 3. Listen for file selection
         document.getElementById('file-upload').addEventListener('change', function(event) {
-            const file = event.target.files[0];
-            if (!file) return;
+            	 const file = event.target.files[0];
+            	 if (!file) return;
 
-            // 4. Initialize FileReader to read the text file
-            const reader = new FileReader();
+            	 // 4. Initialize FileReader to read the text file
+            	 const reader = new FileReader();
 
-            reader.onload = function(e) {
+            	 reader.onload = function(e) {
                 const textContent = e.target.result;
                 
                 // 5. Split content by newlines and push into the const array
@@ -535,6 +535,30 @@
 
                 // 6. Verify and display the result
                 console.log("Your const array contents:", myQuestionArray);
+
+					 // 7. Now read the answers
+					 //const ansURL = 'https://asset-group.github.io/Test/question_bank.txt';
+					 const ansURL = 'question_bank.txt';
+					 try {
+							// fetch the answer file
+							const response =  fetch(ansURL);
+							if (!response.ok)
+							 throw new Error('HTTP error fetching answers! Status: ${response.status}');
+							
+							// extract text
+							const text = response.text();
+							
+							const ansLinesArray = text.split(/\r?\n/);
+							
+							if (ansLinesArray[ansLinesArray.length - 1] == '') {
+								ansLinesArray.pop();
+							}
+
+							//verify and display
+							console.log("Your const answer content:", ansLinesArray);
+					 } catch (error) {
+							console.error('Error reading the answer file', error);
+					 }	
             };
 
             // Start reading the file as plain text
