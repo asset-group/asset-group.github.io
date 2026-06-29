@@ -224,6 +224,34 @@
             border-radius: 5px;
             box-shadow: 0 5px #c0392b;
         }
+
+        /* ── Countdown timer ring ── */
+        #modal-timer-ring {
+            position: relative;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin: 14px auto 4px;
+        }
+        #timer-svg {
+            width: 72px;
+            height: 72px;
+        }
+        #timer-count {
+            position: absolute;
+            font-size: 1.5rem;
+            font-weight: 900;
+            color: #f1c40f;
+            text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+            line-height: 1;
+        }
+        /* urgent pulse when ≤ 3 seconds */
+        #modal-timer-ring.urgent #timer-arc { stroke: #e74c3c; }
+        #modal-timer-ring.urgent #timer-count { color: #e74c3c; animation: timer-pulse 0.6s ease-in-out infinite; }
+        @keyframes timer-pulse {
+            0%, 100% { transform: scale(1); }
+            50%       { transform: scale(1.18); }
+        }
         .answer-close-btn {
             background-color: #e74c3c;
             padding: 10px 20px;
@@ -453,6 +481,16 @@
         <div class="modal-content">
             <h2>Question Time!</h2>
             <p id="modal-text"></p>
+            <div id="modal-timer-ring">
+                <svg viewBox="0 0 60 60" id="timer-svg">
+                    <circle cx="30" cy="30" r="26" fill="none" stroke="#ecf0f1" stroke-width="5"/>
+                    <circle cx="30" cy="30" r="26" fill="none" stroke="#f1c40f" stroke-width="5"
+                            stroke-dasharray="163.36" stroke-dashoffset="0"
+                            stroke-linecap="round" id="timer-arc"
+                            transform="rotate(-90 30 30)"/>
+                </svg>
+                <span id="timer-count">10</span>
+            </div>
             <button class="close-btn" onclick="closeModal()">Check Answer</button>
         </div>
     </div>
@@ -813,11 +851,53 @@
             document.getElementById('modal-text').innerText = questionText;
             document.getElementById('question-modal').style.display = 'flex';
             launchConfetti();
+            startQuestionTimer();
 
         }
 
+        // ── 10-second countdown timer ─────────────────────────────────────────
+        let questionTimer = null;
+        const TIMER_DURATION = 10;           // seconds
+        const ARC_FULL = 2 * Math.PI * 26;  // circumference of r=26 circle ≈ 163.36
+
+        function startQuestionTimer() {
+            clearQuestionTimer();
+            let remaining = TIMER_DURATION;
+            const arc = document.getElementById('timer-arc');
+            const count = document.getElementById('timer-count');
+            const ring = document.getElementById('modal-timer-ring');
+
+            // reset visual state
+            ring.classList.remove('urgent');
+            count.textContent = remaining;
+            arc.style.strokeDashoffset = 0;
+
+            questionTimer = setInterval(() => {
+                remaining--;
+                count.textContent = remaining;
+                // shrink arc proportionally
+                arc.style.strokeDashoffset = ARC_FULL * (1 - remaining / TIMER_DURATION);
+
+                if (remaining <= 3) ring.classList.add('urgent');
+
+                if (remaining <= 0) {
+                    clearQuestionTimer();
+                    closeModal();   // auto-advance when time is up
+                }
+            }, 1000);
+        }
+
+        function clearQuestionTimer() {
+            if (questionTimer !== null) {
+                clearInterval(questionTimer);
+                questionTimer = null;
+            }
+        }
+        // ─────────────────────────────────────────────────────────────────────
+
         // Close modal and re-enable spin button
         function closeModal() {
+            clearQuestionTimer();
             document.getElementById('question-modal').style.display = 'none';
             document.getElementById('answer-modal-text').innerText = ansLinesArray[questionIndex];
             document.getElementById('answer-question-modal').style.display = 'flex';
