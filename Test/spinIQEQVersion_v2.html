@@ -309,6 +309,16 @@
                 element.msRequestFullscreen();
             }
         });
+
+        // Hide the button while in full screen, show it again on exit
+        function updateFullscreenBtnVisibility() {
+            const isFullscreen = document.fullscreenElement || document.webkitFullscreenElement || document.msFullscreenElement;
+            btn.style.display = isFullscreen ? 'none' : '';
+        }
+
+        document.addEventListener('fullscreenchange', updateFullscreenBtnVisibility);
+        document.addEventListener('webkitfullscreenchange', updateFullscreenBtnVisibility); /* Safari support */
+        document.addEventListener('MSFullscreenChange', updateFullscreenBtnVisibility); /* IE11 support */
     </script>
 
 
