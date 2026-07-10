@@ -22,6 +22,38 @@
 
     <div id="q-app" style="height: 100%">
         <div class="q-pa-md row items-start q-gutter-md">
+            <!-- Ghostcommit -->
+            <q-card class="my-card bg-grey-1 items-start">
+                <q-img src="/disclosures/ghostcommit/logo.jpeg" basic>
+                    <div class="absolute-bottom text-h6" >
+                        Ghostcommit
+                    </div>
+                </q-img>
+
+                <q-card-section class="text-justify">
+                    We put the exploit in a picture. The AI code reviewer never opened it. The instruction to steal your secret lives inside a PNG.
+                    <br>Year of release: <font color="red"><b>2026</b></font>
+                </q-card-section>
+
+                <div style="padding-bottom: 54px;"></div>
+
+                <q-list>
+                    <q-item clickable>
+                        <q-item-section>
+                            <q-btn push color="primary" icon="info" label="See Details"
+                                @click="window.open('https://asset-group.github.io/disclosures/ghostcommit', '_parent');" />
+                        </q-item-section>
+                    </q-item>
+                    <q-item clickable>
+                        <q-item-section>
+                            <q-btn push color="primary" icon="build" label="PoC"
+                                @click="window.open('https://github.com/asset-group/ghostcommit', '_parent');" />
+                        </q-item-section>
+                    </q-item>
+                </q-list>
+
+            </q-card>
+
 
             <q-card class="my-card bg-grey-1 items-start">
                 <q-img src="/disclosures/oranclaw/logo.png" basic>
