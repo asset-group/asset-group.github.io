@@ -38,13 +38,6 @@ matheus:
     bio: "Research Fellow (PhD, SUTD)"
     image: /img/people/Matheus_Eduardo.jpg
 
-yeeching:
-    display_name: "Tok Yee Ching"
-    webpage: "https://poppopretn.com"
-    role: postdoc
-    image: /img/people/Tok_Yee_Ching.jpg
-    bio: "Research Fellow (PhD, SUTD)"
-
 sakshi:
     display_name: "Sakshi Udeshi"
     webpage: "http://sakshiudeshi.github.io"
@@ -102,6 +95,13 @@ You:
     bio: "Student at SUTD"
 
 #Alumni
+
+yeeching:
+    display_name: "Tok Yee Ching"
+    webpage: "https://poppopretn.com"
+    role: alum
+    image: /img/people/Tok_Yee_Ching.jpg
+    bio: "PhD Student, Research Fellow (SUTD)"
 
 yustynn:
     display_name: "Yustynn Panicker"
