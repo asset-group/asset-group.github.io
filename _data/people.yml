@@ -76,23 +76,12 @@ geovani:
     bio: "PhD Student (MSE CS, UNAM)"
     year: "2023 (Sept) - "
 
-louisa:
-    display_name: "Louisa Nonis"
-    webpage: "https://www.linkedin.com/in/louisa-nonis/"
-    role: grad
-    image: /img/people/louisa_n.png
-    bio: "PhD Student (co-supervision)"
-    year: "2025 (Sept) - "
-
-
-
-
 #Urop
 
 You:
     display_name: "You"
     role: urop
-    bio: "Student at SUTD"
+    bio: "Student at UMKC"
 
 #Alumni
 
