@@ -8,7 +8,6 @@ description: |
 people:
   - ezekiel
   - sai
-  - mayukh
 
 layout: project
 last-updated: 2023-03-08

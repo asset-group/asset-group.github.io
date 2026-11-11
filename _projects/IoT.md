@@ -8,7 +8,6 @@ description: |
 people:
   - matheus
   - anthony
-  - zewen
   - geovani
   - shijie
   - guoqiang
@@ -19,9 +18,9 @@ last-updated: 2023-03-10
 <p style="text-align:justify">
 In this project, we investigate systematic and automated security testing, exploitation and 
 debugging of (Wireless) Communication Protocols. Our work in this area has uncovered critical 
-security vulnerabilities such as <a href="https://asset-group.github.io/disclosures/sweyntooth/">SweynTooth</a> 
-and <a href="https://www.braktooth.com">BrakTooth</a>, among others. Additionally, 
-our security testing tool has been translated by <a href="https://www.keysight.com/">Keysight Technologies</a> 
+security vulnerabilities such as <a href="https://asset-group.github.io/disclosures/sweyntooth/">SweynTooth</a>, 
+<a href="https://www.braktooth.com">BrakTooth</a>, and <a href="https://www.5ghoul.com">5Ghoul</a>, among others. 
+Additionally, our security testing tool has been translated by <a href="https://www.keysight.com/">Keysight Technologies</a> 
 into <a href="https://www.keysight.com/us/en/cmp/2021/iot-security.html">Keysight IoT Security Assesssment Software</a>. 
 Our research in this topic was featured in 
 <a href="https://www.wired.com/story/bluetooth-flaws-ble-internet-of-things-pacemakers">WIRED (1)</a>, 
@@ -43,9 +42,9 @@ worldwide.
 <h3>Representative Publications:</h3>
 
 <p style="text-align:justify">
-<a href="https://asset-group.github.io/papers/SNI5GECT.pdf">SNI5GECT: A Practical Approach to Inject aNRchy into 5G NR</a><br>
-Shijie Luo, Matheus E. Garbelini, Sudipta Chattopadhyay, and Jianying Zhou<br>
-34th USENIX Security Symposium, 2025
+<a href="https://asset-group.github.io/papers/ORANClaw.pdf">ORANClaw: Shredding E2 Nodes in O-RAN via Structure-aware MiTM Fuzzing</a><br>
+Geovani Benita, Matheus E. Garbelini, Sudipta Chattopadhyay, and Jianying Zhou<br>
+19th ACM Conference on Security and Privacy in Wireless and Mobile Networks (WiSec), 2026.
 </p>
 
 <p style="text-align:justify">
